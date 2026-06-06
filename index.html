@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Inventory Dashboard</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.44.0/tabler-icons.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#f5f5f3;color:#1a1a18;font-size:14px}
+  .container{max-width:1200px;margin:0 auto;padding:24px 20px}
+  .header{display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:24px;flex-wrap:wrap;gap:10px}
+  h1{font-size:20px;font-weight:500;margin-bottom:4px}
+  .subtitle{font-size:13px;color:#888780}
+  .update-badge{display:flex;align-items:center;gap:6px;font-size:12px;color:#888780;background:#fff;border:0.5px solid #e0dfd8;border-radius:20px;padding:5px 12px;white-space:nowrap}
+  .dot{width:7px;height:7px;border-radius:50%;background:#50a14f;flex-shrink:0}
+  .tabs{display:flex;gap:4px;margin-bottom:24px;border-bottom:1px solid #e0dfd8}
+  .tab{padding:8px 16px;font-size:13px;cursor:pointer;border-bottom:2px solid transparent;color:#888780;background:none;border-top:none;border-left:none;border-right:none;font-family:inherit}
+  .tab.active{color:#1a1a18;border-bottom-color:#1a1a18;font-weight:500}
+  .tab:hover:not(.active){color:#444441}
+  .panel{display:none}.panel.active{display:block}
+  .metric-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin-bottom:24px}
+  .metric{background:#fff;border-radius:10px;padding:14px 16px;border:0.5px solid #e0dfd8}
+  .metric-label{font-size:12px;color:#888780;margin-bottom:6px;display:flex;align-items:center;gap:6px}
+  .metric-value{font-size:24px;font-weight:500}.metric-sub{font-size:12px;color:#888780;margin-top:2px}
+  .metric-value.red{color:#c23b3b}.metric-value.amber{color:#a05e0c}.metric-value.green{color:#3b6d11}
+  .card{background:#fff;border-radius:10px;border:0.5px solid #e0dfd8;padding:16px;margin-bottom:16px}
+  .card-title{font-size:12px;font-weight:500;color:#888780;margin-bottom:14px;text-transform:uppercase;letter-spacing:.5px}
+  .chart-wrap{position:relative}
+  table{width:100%;border-collapse:collapse;font-size:13px}
+  th{text-align:left;font-weight:500;font-size:11px;color:#888780;text-transform:uppercase;letter-spacing:.4px;padding:6px 10px;border-bottom:1px solid #e0dfd8}
+  td{padding:9px 10px;border-bottom:.5px solid #f0efe8;vertical-align:middle}
+  tr:last-child td{border-bottom:none}tr:hover td{background:#fafaf8}
+  .badge{display:inline-block;font-size:11px;padding:2px 8px;border-radius:4px;font-weight:500}
+  .badge-red{background:#fcebeb;color:#a32d2d}.badge-amber{background:#faeeda;color:#854f0b}.badge-green{background:#eaf3de;color:#3b6d11}.badge-gray{background:#f1efe8;color:#5f5e5a}
+  .progress-wrap{display:flex;align-items:center;gap:8px}
+  .progress-bar-bg{flex:1;height:4px;background:#e0dfd8;border-radius:2px;overflow:hidden}
+  .progress-bar-fill{height:100%;border-radius:2px}
+  .search-row{display:flex;gap:10px;margin-bottom:16px}
+  .search-row input,.search-row select{padding:7px 12px;border:.5px solid #d3d1c7;border-radius:8px;font-size:13px;font-family:inherit;background:#fff;color:#1a1a18;outline:none}
+  .search-row input{flex:1}.search-row input:focus,.search-row select:focus{border-color:#888780}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px}
+  @media(max-width:640px){.grid2{grid-template-columns:1fr}}
+  .alert-row{display:flex;align-items:flex-start;gap:10px;padding:10px 0;border-bottom:.5px solid #f0efe8}
+  .alert-row:last-child{border-bottom:none}
+  .alert-icon{width:28px;height:28px;border-radius:6px;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:13px}
+  .alert-icon.red{background:#fcebeb;color:#a32d2d}.alert-icon.amber{background:#faeeda;color:#854f0b}
+  .alert-body{flex:1}.alert-name{font-weight:500;font-size:13px}.alert-meta{font-size:12px;color:#888780;margin-top:2px}
+  .category-row{display:flex;align-items:center;gap:10px;padding:7px 0}
+  .category-name{width:180px;font-size:13px;flex-shrink:0}
+  .category-bar-bg{flex:1;height:8px;background:#f0efe8;border-radius:4px;overflow:hidden}
+  .category-bar-fill{height:100%;border-radius:4px;background:#534AB7}
+  .category-val{font-size:13px;font-weight:500;width:80px;text-align:right}
+  .top-item{display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:.5px solid #f0efe8}
+  .top-item:last-child{border-bottom:none}
+  .top-rank{font-size:12px;color:#888780;width:20px;flex-shrink:0}
+  .top-info{flex:1}.top-name{font-size:13px;font-weight:500}.top-cat{font-size:11px;color:#888780}
+  .top-out{font-size:14px;font-weight:500;text-align:right}.top-rate{font-size:11px;color:#888780;text-align:right}
+  .loading{display:flex;flex-direction:column;align-items:center;justify-content:center;height:300px;gap:12px;color:#888780}
+  .spinner{width:32px;height:32px;border:2px solid #e0dfd8;border-top-color:#534AB7;border-radius:50%;animation:spin .8s linear infinite}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  .error-banner{background:#fcebeb;border:0.5px solid #f5c0c0;border-radius:8px;padding:14px 16px;color:#a32d2d;font-size:13px;margin-bottom:20px}
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="header">
+    <div>
+      <h1>📦 Inventory Dashboard</h1>
+      <p class="subtitle" id="subtitle">Loading data…</p>
+    </div>
+    <div class="update-badge">
+      <div class="dot" id="status-dot" style="background:#d4b896"></div>
+      <span id="update-time">Fetching…</span>
+    </div>
+  </div>
+
+  <div id="error-banner" class="error-banner" style="display:none"></div>
+
+  <div id="loading" class="loading">
+    <div class="spinner"></div>
+    <span>Loading live data…</span>
+  </div>
+
+  <div id="app" style="display:none">
+    <div class="tabs">
+      <button class="tab active" onclick="showPanel('overview',this)">Overview</button>
+      <button class="tab" onclick="showPanel('stockout',this)">Stock alerts</button>
+      <button class="tab" onclick="showPanel('items',this)">All items</button>
+      <button class="tab" onclick="showPanel('categories',this)">Categories</button>
+    </div>
+
+    <div id="panel-overview" class="panel active">
+      <div class="metric-grid" id="metrics"></div>
+      <div class="grid2">
+        <div class="card"><div class="card-title">Top 10 items by units sold</div><div id="top-items-list"></div></div>
+        <div class="card"><div class="card-title">Sales by category</div><div id="cat-bars"></div></div>
+      </div>
+      <div class="card">
+        <div class="card-title">Category breakdown — units sold</div>
+        <div class="chart-wrap" style="height:260px"><canvas id="catChart"></canvas></div>
+      </div>
+    </div>
+
+    <div id="panel-stockout" class="panel">
+      <div class="metric-grid" id="alert-metrics"></div>
+      <div class="card">
+        <div class="card-title" style="color:#a32d2d">⚠ Critical — order immediately</div>
+        <div id="critical-alerts"></div>
+      </div>
+      <div class="card">
+        <div class="card-title" style="color:#854f0b">⏱ Warning — order within 2 weeks</div>
+        <div id="warning-alerts"></div>
+      </div>
+      <div class="card">
+        <div class="card-title">Days of stock remaining — critical items</div>
+        <div class="chart-wrap" id="runway-wrap" style="height:320px"><canvas id="runwayChart"></canvas></div>
+      </div>
+    </div>
+
+    <div id="panel-items" class="panel">
+      <div class="search-row">
+        <input type="text" id="search-input" placeholder="Search by name or code…" oninput="filterTable()">
+        <select id="filter-status" onchange="filterTable()">
+          <option value="">All statuses</option>
+          <option value="red">Critical (&lt;7d)</option>
+          <option value="amber">Warning (7–30d)</option>
+          <option value="green">Healthy (&gt;30d)</option>
+        </select>
+        <select id="filter-cat" onchange="filterTable()"></select>
+      </div>
+      <div class="card" style="padding:0;overflow:hidden">
+        <table>
+          <thead>
+            <tr>
+              <th>Product</th><th>Category</th>
+              <th style="text-align:right">Units sold</th>
+              <th style="text-align:right">Daily rate</th>
+              <th style="text-align:right">Stock</th>
+              <th style="text-align:right">Days left</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody id="items-body"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div id="panel-categories" class="panel">
+      <div class="card">
+        <div class="card-title">Units sold per category</div>
+        <div class="chart-wrap" id="cat-horiz-wrap" style="height:440px"><canvas id="catHorizChart"></canvas></div>
+      </div>
+      <div class="card">
+        <div class="card-title">Category breakdown</div>
+        <table>
+          <thead><tr><th>Category</th><th style="text-align:right">Units sold</th><th style="text-align:right">% of total</th><th>Bar</th></tr></thead>
+          <tbody id="cat-table-body"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+// ── CONFIG: update this to your GitHub username and repo ──
+const DATA_URL = 'https://YOUR_GITHUB_USERNAME.github.io/inventory-dashboard/data.json';
+// ─────────────────────────────────────────────────────────
+
+let D = null; // global data
+let charts = {};
+
+function getStatus(days) {
+  if (days <= 7)  return 'red';
+  if (days <= 30) return 'amber';
+  return 'green';
+}
+function statusLabel(days) {
+  if (days <= 0)  return 'Out of stock';
+  if (days < 7)   return 'Critical';
+  if (days <= 30) return 'Warning';
+  return 'Healthy';
+}
+function badgeClass(s) {
+  return s === 'red' ? 'badge-red' : s === 'amber' ? 'badge-amber' : 'badge-green';
+}
+function fmt(n) { return n == null ? '—' : n.toLocaleString(); }
+
+async function loadData() {
+  try {
+    const resp = await fetch(DATA_URL + '?t=' + Date.now());
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    D = await resp.json();
+    document.getElementById('loading').style.display = 'none';
+    document.getElementById('app').style.display = 'block';
+    document.getElementById('status-dot').style.background = '#50a14f';
+    const updated = new Date(D.meta.updatedAt);
+    document.getElementById('update-time').textContent = 'Updated ' + updated.toLocaleDateString('en-IN', {day:'numeric',month:'short'}) + ' ' + updated.toLocaleTimeString('en-IN',{hour:'2-digit',minute:'2-digit'});
+    document.getElementById('subtitle').textContent = `${D.meta.startDate} – ${D.meta.endDate}  ·  ${D.meta.periodDays} days  ·  ${D.meta.totalSkus} SKUs`;
+    render();
+  } catch(e) {
+    document.getElementById('loading').style.display = 'none';
+    document.getElementById('error-banner').style.display = 'block';
+    document.getElementById('error-banner').textContent = '⚠ Could not load data: ' + e.message + '. Make sure the Apps Script has run at least once and the data.json file exists in your GitHub repo.';
+    document.getElementById('status-dot').style.background = '#e24b4a';
+    document.getElementById('update-time').textContent = 'Data unavailable';
+  }
+}
+
+function render() {
+  renderMetrics();
+  renderAlertMetrics();
+  renderTopItems();
+  renderCatBars();
+  renderAlerts();
+  renderItemsTable(D.items);
+  renderCatTable();
+  populateCatFilter();
+  renderCharts();
+}
+
+function renderMetrics() {
+  document.getElementById('metrics').innerHTML = `
+    <div class="metric"><div class="metric-label">📦 Total units sold</div><div class="metric-value">${fmt(D.meta.totalUnitsOut)}</div><div class="metric-sub">over ${D.meta.periodDays} days</div></div>
+    <div class="metric"><div class="metric-label">📈 Daily avg out</div><div class="metric-value">${fmt(Math.round(D.meta.totalUnitsOut / D.meta.periodDays))}</div><div class="metric-sub">units / day</div></div>
+    <div class="metric"><div class="metric-label">🔴 Critical items</div><div class="metric-value red">${D.meta.criticalCount}</div><div class="metric-sub">out of stock / &lt;7 days</div></div>
+    <div class="metric"><div class="metric-label">🟡 Warning items</div><div class="metric-value amber">${D.meta.warningCount}</div><div class="metric-sub">7–30 days remaining</div></div>
+    <div class="metric"><div class="metric-label">🗂 SKUs tracked</div><div class="metric-value">${D.meta.totalSkus}</div><div class="metric-sub">active products</div></div>`;
+}
+
+function renderAlertMetrics() {
+  const outNow   = D.items.filter(i => i.daysLeft <= 0 && i.totalOut > 0).length;
+  const lt7      = D.items.filter(i => i.daysLeft > 0 && i.daysLeft <= 7 && i.totalOut > 0).length;
+  const healthy  = D.items.filter(i => i.daysLeft > 30).length;
+  document.getElementById('alert-metrics').innerHTML = `
+    <div class="metric"><div class="metric-label">🚨 Out of stock now</div><div class="metric-value red">${outNow}</div></div>
+    <div class="metric"><div class="metric-label">⚡ Stock out &lt;7 days</div><div class="metric-value red">${lt7}</div></div>
+    <div class="metric"><div class="metric-label">⏱ Out in 7–30 days</div><div class="metric-value amber">${D.meta.warningCount}</div></div>
+    <div class="metric"><div class="metric-label">✅ Healthy (&gt;30d)</div><div class="metric-value green">${healthy}</div></div>`;
+}
+
+function renderTopItems() {
+  const top = D.items.slice(0, 10);
+  document.getElementById('top-items-list').innerHTML = top.map((it, i) => `
+    <div class="top-item">
+      <span class="top-rank">${i+1}</span>
+      <div class="top-info">
+        <div class="top-name">${it.name.replace(/ \(.*?\)/,'')}</div>
+        <div class="top-cat">${it.cat}</div>
+      </div>
+      <div>
+        <div class="top-out">${fmt(it.totalOut)}</div>
+        <div class="top-rate">${it.dailyRate}/day</div>
+      </div>
+    </div>`).join('');
+}
+
+function renderCatBars() {
+  const top = D.categories.slice(0, 8);
+  const maxVal = top[0]?.totalOut || 1;
+  document.getElementById('cat-bars').innerHTML = top.map(c => `
+    <div class="category-row">
+      <div class="category-name">${c.name}</div>
+      <div class="category-bar-bg"><div class="category-bar-fill" style="width:${Math.round(c.totalOut/maxVal*100)}%"></div></div>
+      <div class="category-val">${fmt(c.totalOut)}</div>
+    </div>`).join('');
+}
+
+function renderAlerts() {
+  const critical = D.items.filter(i => i.daysLeft <= 7 && i.totalOut > 0).sort((a,b) => a.daysLeft - b.daysLeft);
+  const warning  = D.items.filter(i => i.daysLeft > 7 && i.daysLeft <= 30 && i.totalOut > 0).sort((a,b) => a.daysLeft - b.daysLeft);
+
+  document.getElementById('critical-alerts').innerHTML = critical.length ? critical.map(it => `
+    <div class="alert-row">
+      <div class="alert-icon red"><i class="ti ti-alert-triangle"></i></div>
+      <div class="alert-body">
+        <div class="alert-name">${it.name}</div>
+        <div class="alert-meta">${it.cat} · ${it.loc} · <strong>${it.currentStock <= 0 ? 'OUT OF STOCK' : fmt(it.currentStock) + ' units left'}</strong> · ${it.dailyRate}/day · suggest ordering <strong>${fmt(it.reorderQty)}</strong> units</div>
+      </div>
+      <span class="badge badge-red">${it.daysLeft <= 0 ? 'OUT' : it.daysLeft + 'd'}</span>
+    </div>`).join('') : '<p style="color:#888780;padding:12px 0;font-size:13px">✅ No critical items right now.</p>';
+
+  document.getElementById('warning-alerts').innerHTML = warning.length ? warning.map(it => `
+    <div class="alert-row">
+      <div class="alert-icon amber"><i class="ti ti-clock"></i></div>
+      <div class="alert-body">
+        <div class="alert-name">${it.name}</div>
+        <div class="alert-meta">${it.cat} · ${it.loc} · ${fmt(it.currentStock)} units left · ${it.dailyRate}/day · suggest ordering <strong>${fmt(it.reorderQty)}</strong> units</div>
+      </div>
+      <span class="badge badge-amber">${it.daysLeft}d left</span>
+    </div>`).join('') : '<p style="color:#888780;padding:12px 0;font-size:13px">✅ No warning items right now.</p>';
+}
+
+function renderItemsTable(data) {
+  document.getElementById('items-body').innerHTML = data.map(it => {
+    const s = getStatus(it.daysLeft);
+    const pct = Math.min(100, Math.max(0, Math.round(it.daysLeft / 90 * 100)));
+    const bar = s === 'red' ? '#e24b4a' : s === 'amber' ? '#ef9f27' : '#639922';
+    return `<tr>
+      <td style="max-width:220px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${it.name}">${it.name}</td>
+      <td>${it.cat}</td>
+      <td style="text-align:right;font-weight:500">${fmt(it.totalOut)}</td>
+      <td style="text-align:right">${it.dailyRate}/d</td>
+      <td style="text-align:right">${fmt(it.currentStock)}</td>
+      <td>
+        <div class="progress-wrap">
+          <div class="progress-bar-bg"><div class="progress-bar-fill" style="width:${pct}%;background:${bar}"></div></div>
+          <span style="font-weight:500;color:${bar};min-width:36px;text-align:right">${it.daysLeft <= 0 ? 'OUT' : it.daysLeft + 'd'}</span>
+        </div>
+      </td>
+      <td><span class="badge ${badgeClass(s)}">${statusLabel(it.daysLeft)}</span></td>
+    </tr>`;
+  }).join('');
+}
+
+function populateCatFilter() {
+  const sel = document.getElementById('filter-cat');
+  sel.innerHTML = '<option value="">All categories</option>';
+  D.categories.forEach(c => {
+    const o = document.createElement('option');
+    o.value = c.name; o.textContent = c.name;
+    sel.appendChild(o);
+  });
+}
+
+function filterTable() {
+  const q  = document.getElementById('search-input').value.toLowerCase();
+  const st = document.getElementById('filter-status').value;
+  const ct = document.getElementById('filter-cat').value;
+  renderItemsTable(D.items.filter(it => {
+    if (q  && !it.name.toLowerCase().includes(q)) return false;
+    if (ct && it.cat !== ct) return false;
+    if (st && getStatus(it.daysLeft) !== st) return false;
+    return true;
+  }));
+}
+
+function renderCatTable() {
+  const total = D.categories.reduce((s,c) => s + c.totalOut, 0);
+  const max   = D.categories[0]?.totalOut || 1;
+  document.getElementById('cat-table-body').innerHTML = D.categories.map(c => `
+    <tr>
+      <td><strong>${c.name}</strong></td>
+      <td style="text-align:right">${fmt(c.totalOut)}</td>
+      <td style="text-align:right">${(c.totalOut/total*100).toFixed(1)}%</td>
+      <td><div class="progress-bar-bg" style="height:6px"><div class="progress-bar-fill" style="width:${Math.round(c.totalOut/max*100)}%;background:#534AB7"></div></div></td>
+    </tr>`).join('');
+}
+
+function renderCharts() {
+  Object.values(charts).forEach(c => c.destroy());
+  charts = {};
+
+  const top8 = D.categories.slice(0,8);
+  charts.cat = new Chart(document.getElementById('catChart'), {
+    type: 'bar',
+    data: { labels: top8.map(c => c.name), datasets: [{ label: 'Units sold', data: top8.map(c => c.totalOut), backgroundColor: '#534AB7', borderRadius: 4 }] },
+    options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { y: { grid: { color: '#f0efe8' }, ticks: { callback: v => v.toLocaleString() } }, x: { grid: { display: false }, ticks: { font: { size: 11 } } } } }
+  });
+
+  const ri = D.items.filter(i => i.daysLeft <= 30 && i.totalOut > 50).sort((a,b) => a.daysLeft - b.daysLeft).slice(0,14);
+  const rH = Math.max(320, ri.length * 36 + 60);
+  document.getElementById('runway-wrap').style.height = rH + 'px';
+  charts.runway = new Chart(document.getElementById('runwayChart'), {
+    type: 'bar',
+    data: {
+      labels: ri.map(i => i.name.replace(/ \(.*?\)/,'').substring(0,32)),
+      datasets: [{ label: 'Days left', data: ri.map(i => Math.max(0, i.daysLeft)), backgroundColor: ri.map(i => i.daysLeft <= 7 ? '#e24b4a' : '#ef9f27'), borderRadius: 3 }]
+    },
+    options: { indexAxis: 'y', responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { x: { max: 32, grid: { color: '#f0efe8' }, ticks: { callback: v => v + 'd' } }, y: { grid: { display: false }, ticks: { font: { size: 11 } } } } }
+  });
+
+  const cH = Math.max(400, D.categories.length * 28 + 60);
+  document.getElementById('cat-horiz-wrap').style.height = cH + 'px';
+  charts.catH = new Chart(document.getElementById('catHorizChart'), {
+    type: 'bar',
+    data: { labels: D.categories.map(c => c.name), datasets: [{ data: D.categories.map(c => c.totalOut), backgroundColor: '#534AB7', borderRadius: 3 }] },
+    options: { indexAxis: 'y', responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { x: { grid: { color: '#f0efe8' }, ticks: { callback: v => v.toLocaleString() } }, y: { grid: { display: false }, ticks: { font: { size: 11 } } } } }
+  });
+}
+
+function showPanel(id, btn) {
+  document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.getElementById('panel-' + id).classList.add('active');
+  btn.classList.add('active');
+}
+
+loadData();
+</script>
+</body>
+</html>
