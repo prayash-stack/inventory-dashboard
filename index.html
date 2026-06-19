@@ -61,6 +61,22 @@
   .spinner{width:32px;height:32px;border:2px solid #e0dfd8;border-top-color:#534AB7;border-radius:50%;animation:spin .8s linear infinite}
   @keyframes spin{to{transform:rotate(360deg)}}
   .error-banner{background:#fcebeb;border:0.5px solid #f5c0c0;border-radius:8px;padding:14px 16px;color:#a32d2d;font-size:13px;margin-bottom:20px}
+  .btn{display:inline-flex;align-items:center;gap:6px;padding:7px 14px;border:.5px solid #d3d1c7;border-radius:8px;font-size:13px;font-family:inherit;background:#fff;color:#1a1a18;cursor:pointer;white-space:nowrap;transition:background .15s}
+  .btn:hover{background:#faf9f6;border-color:#888780}
+  .btn-primary{background:#534AB7;color:#fff;border-color:#534AB7}.btn-primary:hover{background:#453d9e;border-color:#453d9e}
+  th.sortable{cursor:pointer;user-select:none;white-space:nowrap}
+  th.sortable:hover{color:#534AB7}
+  th .sort-arrow{display:inline-block;width:10px;opacity:.45;font-size:9px}
+  th.sorted .sort-arrow{opacity:1;color:#534AB7}
+  .badge-neg{background:#f3e8fc;color:#6b21a8}
+  .cat-head{cursor:pointer;user-select:none}
+  .cat-head:hover td{background:#faf9f6}
+  .cat-caret{display:inline-block;width:14px;color:#888780;transition:transform .15s}
+  .cat-head.open .cat-caret{transform:rotate(90deg)}
+  .subrow td{background:#fafaf8;font-size:12.5px;padding-top:6px;padding-bottom:6px}
+  .subrow .sub-name{padding-left:24px;color:#444441}
+  .panel-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:16px;flex-wrap:wrap}
+  .panel-head .title{font-size:14px;font-weight:500}.panel-head .sub{font-size:12px;color:#888780}
 </style>
 </head>
 <body>
@@ -89,6 +105,7 @@
       <button class="tab active" onclick="showPanel('overview',this)">Overview</button>
       <button class="tab" onclick="showPanel('stockout',this)">Stock alerts</button>
       <button class="tab" onclick="showPanel('items',this)">All items</button>
+      <button class="tab" onclick="showPanel('reorder',this)">Reorder</button>
       <button class="tab" onclick="showPanel('categories',this)">Categories</button>
     </div>
 
@@ -114,6 +131,16 @@
         <div class="card-title" style="color:#854f0b">⏱ Warning — order within 2 weeks</div>
         <div id="warning-alerts"></div>
       </div>
+      <div class="card" id="negative-card" style="display:none">
+        <div class="panel-head">
+          <div>
+            <div class="card-title" style="color:#6b21a8;margin-bottom:2px">⊖ Negative stock — data check needed</div>
+            <span class="sub">Recorded stock is below zero (likely oversold or an entry error). Audit these before reordering.</span>
+          </div>
+          <button class="btn" onclick="exportNegative()"><i class="ti ti-download"></i> Export CSV</button>
+        </div>
+        <div id="negative-alerts" style="margin-top:12px"></div>
+      </div>
       <div class="card">
         <div class="card-title">Days of stock remaining — critical items</div>
         <div class="chart-wrap" id="runway-wrap" style="height:320px"><canvas id="runwayChart"></canvas></div>
@@ -125,25 +152,62 @@
         <input type="text" id="search-input" placeholder="Search by name or code…" oninput="filterTable()">
         <select id="filter-status" onchange="filterTable()">
           <option value="">All statuses</option>
+          <option value="negative">Negative stock</option>
           <option value="red">Critical (&lt;7d)</option>
           <option value="amber">Warning (7–30d)</option>
           <option value="green">Healthy (&gt;30d)</option>
         </select>
         <select id="filter-cat" onchange="filterTable()"></select>
+        <button class="btn" onclick="exportItems()"><i class="ti ti-download"></i> Export CSV</button>
+      </div>
+      <p class="sub" id="items-count" style="font-size:12px;color:#888780;margin-bottom:8px"></p>
+      <div class="card" style="padding:0;overflow:hidden">
+        <table>
+          <thead>
+            <tr>
+              <th class="sortable" onclick="setSort('name')" data-key="name">Product <span class="sort-arrow"></span></th>
+              <th class="sortable" onclick="setSort('cat')" data-key="cat">Category <span class="sort-arrow"></span></th>
+              <th class="sortable" style="text-align:right" onclick="setSort('totalOut')" data-key="totalOut">Units sold <span class="sort-arrow"></span></th>
+              <th class="sortable" style="text-align:right" onclick="setSort('dailyRate')" data-key="dailyRate">Daily rate <span class="sort-arrow"></span></th>
+              <th class="sortable" style="text-align:right" onclick="setSort('currentStock')" data-key="currentStock">Stock <span class="sort-arrow"></span></th>
+              <th class="sortable" style="text-align:right" onclick="setSort('daysLeft')" data-key="daysLeft">Days left <span class="sort-arrow"></span></th>
+              <th class="sortable" onclick="setSort('daysLeft')" data-key="status">Status <span class="sort-arrow"></span></th>
+            </tr>
+          </thead>
+          <tbody id="items-body"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div id="panel-reorder" class="panel">
+      <div class="metric-grid" id="reorder-metrics"></div>
+      <div class="panel-head">
+        <div>
+          <span class="title">Suggested purchase order</span>
+          <span class="sub" id="reorder-sub"></span>
+        </div>
+        <div style="display:flex;gap:8px;align-items:center">
+          <select id="reorder-window" onchange="renderReorder()">
+            <option value="7">Out within 7 days</option>
+            <option value="30" selected>Out within 30 days</option>
+            <option value="90">Out within 90 days</option>
+            <option value="all">All items with usage</option>
+          </select>
+          <button class="btn btn-primary" onclick="exportReorder()"><i class="ti ti-download"></i> Download PO</button>
+        </div>
       </div>
       <div class="card" style="padding:0;overflow:hidden">
         <table>
           <thead>
             <tr>
-              <th>Product</th><th>Category</th>
-              <th style="text-align:right">Units sold</th>
-              <th style="text-align:right">Daily rate</th>
+              <th>Product</th><th>Category</th><th>Location</th>
               <th style="text-align:right">Stock</th>
+              <th style="text-align:right">Daily rate</th>
               <th style="text-align:right">Days left</th>
-              <th>Status</th>
+              <th style="text-align:right">Suggested order</th>
             </tr>
           </thead>
-          <tbody id="items-body"></tbody>
+          <tbody id="reorder-body"></tbody>
         </table>
       </div>
     </div>
@@ -154,9 +218,9 @@
         <div class="chart-wrap" id="cat-horiz-wrap" style="height:440px"><canvas id="catHorizChart"></canvas></div>
       </div>
       <div class="card">
-        <div class="card-title">Category breakdown</div>
+        <div class="card-title">Category breakdown — click a row to see its products</div>
         <table>
-          <thead><tr><th>Category</th><th style="text-align:right">Units sold</th><th style="text-align:right">% of total</th><th>Bar</th></tr></thead>
+          <thead><tr><th>Category</th><th style="text-align:right">SKUs</th><th style="text-align:right">Units sold</th><th style="text-align:right">% of total</th><th>Bar</th></tr></thead>
           <tbody id="cat-table-body"></tbody>
         </table>
       </div>
@@ -188,6 +252,50 @@ function badgeClass(s) {
 }
 function fmt(n) { return n == null ? '—' : n.toLocaleString(); }
 
+// ── sorting state for the All Items table ──
+let itemSort = { key: 'totalOut', dir: 'desc' };
+
+function getFilteredItems() {
+  const q  = document.getElementById('search-input').value.toLowerCase();
+  const st = document.getElementById('filter-status').value;
+  const ct = document.getElementById('filter-cat').value;
+  let rows = D.items.filter(it => {
+    if (q  && !it.name.toLowerCase().includes(q)) return false;
+    if (ct && it.cat !== ct) return false;
+    if (st === 'negative') { if (it.currentStock >= 0) return false; }
+    else if (st && getStatus(it.daysLeft) !== st) return false;
+    return true;
+  });
+  const { key, dir } = itemSort;
+  const mul = dir === 'asc' ? 1 : -1;
+  rows.sort((a, b) => {
+    let va = a[key], vb = b[key];
+    if (typeof va === 'string') return va.localeCompare(vb) * mul;
+    return (va - vb) * mul;
+  });
+  return rows;
+}
+
+// ── CSV download helper ──
+function downloadCSV(filename, headers, rows) {
+  const esc = v => {
+    const s = v == null ? '' : String(v);
+    return /[",\n]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s;
+  };
+  const csv = [headers.map(esc).join(',')]
+    .concat(rows.map(r => r.map(esc).join(',')))
+    .join('\n');
+  const blob = new Blob(['﻿' + csv], { type: 'text/csv;charset=utf-8;' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(a.href);
+}
+function dateStamp() { return new Date().toISOString().split('T')[0]; }
+
 async function loadData() {
   try {
     const resp = await fetch(DATA_URL + '?t=' + Date.now());
@@ -215,9 +323,11 @@ function render() {
   renderTopItems();
   renderCatBars();
   renderAlerts();
-  renderItemsTable(D.items);
-  renderCatTable();
+  renderNegativeStock();
   populateCatFilter();
+  filterTable();
+  renderReorder();
+  renderCatTable();
   renderCharts();
 }
 
@@ -293,6 +403,32 @@ function renderAlerts() {
     </div>`).join('') : '<p style="color:#888780;padding:12px 0;font-size:13px">✅ No warning items right now.</p>';
 }
 
+function negativeItems() {
+  return D.items.filter(i => i.currentStock < 0).sort((a, b) => a.currentStock - b.currentStock);
+}
+
+function renderNegativeStock() {
+  const neg = negativeItems();
+  const card = document.getElementById('negative-card');
+  if (!neg.length) { card.style.display = 'none'; return; }
+  card.style.display = 'block';
+  document.getElementById('negative-alerts').innerHTML = neg.map(it => `
+    <div class="alert-row">
+      <div class="alert-icon" style="background:#f3e8fc;color:#6b21a8"><i class="ti ti-minus"></i></div>
+      <div class="alert-body">
+        <div class="alert-name">${it.name}</div>
+        <div class="alert-meta">${it.cat} · ${it.loc} · in ${fmt(it.totalIn)} / out ${fmt(it.totalOut)} · <strong>${fmt(it.currentStock)}</strong> recorded</div>
+      </div>
+      <span class="badge badge-neg">${fmt(it.currentStock)}</span>
+    </div>`).join('');
+}
+
+function exportNegative() {
+  downloadCSV(`negative_stock_${dateStamp()}.csv`,
+    ['Product','Category','Location','Total In','Total Out','Current Stock'],
+    negativeItems().map(it => [it.name, it.cat, it.loc, it.totalIn, it.totalOut, it.currentStock]));
+}
+
 function renderItemsTable(data) {
   document.getElementById('items-body').innerHTML = data.map(it => {
     const s = getStatus(it.daysLeft);
@@ -310,9 +446,52 @@ function renderItemsTable(data) {
           <span style="font-weight:500;color:${bar};min-width:36px;text-align:right">${it.daysLeft <= 0 ? 'OUT' : it.daysLeft + 'd'}</span>
         </div>
       </td>
-      <td><span class="badge ${badgeClass(s)}">${statusLabel(it.daysLeft)}</span></td>
+      <td>${it.currentStock < 0
+        ? '<span class="badge badge-neg">Negative</span>'
+        : `<span class="badge ${badgeClass(s)}">${statusLabel(it.daysLeft)}</span>`}</td>
     </tr>`;
   }).join('');
+}
+
+function reorderList() {
+  const win = document.getElementById('reorder-window').value;
+  const max = win === 'all' ? Infinity : parseInt(win, 10);
+  return D.items
+    .filter(it => it.totalOut > 0 && it.reorderQty > 0 && it.daysLeft <= max)
+    .sort((a, b) => a.daysLeft - b.daysLeft);
+}
+
+function renderReorder() {
+  const list = reorderList();
+  const win  = document.getElementById('reorder-window').value;
+  const totalUnits = list.reduce((s, i) => s + i.reorderQty, 0);
+  const urgent = list.filter(i => i.daysLeft <= 7).length;
+
+  document.getElementById('reorder-metrics').innerHTML = `
+    <div class="metric"><div class="metric-label">🧾 Items to order</div><div class="metric-value">${list.length}</div></div>
+    <div class="metric"><div class="metric-label">📦 Total units suggested</div><div class="metric-value">${fmt(totalUnits)}</div></div>
+    <div class="metric"><div class="metric-label">🔴 Urgent (&lt;7 days)</div><div class="metric-value red">${urgent}</div></div>`;
+
+  document.getElementById('reorder-sub').textContent =
+    ` — ${list.length} SKUs, ${fmt(totalUnits)} units (45-day cover)`;
+
+  document.getElementById('reorder-body').innerHTML = list.length ? list.map(it => {
+    const s = getStatus(it.daysLeft), bar = s === 'red' ? '#e24b4a' : s === 'amber' ? '#ef9f27' : '#639922';
+    return `<tr>
+      <td style="max-width:240px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${it.name}">${it.name}</td>
+      <td>${it.cat}</td><td>${it.loc}</td>
+      <td style="text-align:right">${fmt(it.currentStock)}</td>
+      <td style="text-align:right">${it.dailyRate}/d</td>
+      <td style="text-align:right;color:${bar};font-weight:500">${it.daysLeft <= 0 ? 'OUT' : it.daysLeft + 'd'}</td>
+      <td style="text-align:right;font-weight:500">${fmt(it.reorderQty)} ${it.unit}</td>
+    </tr>`;
+  }).join('') : '<tr><td colspan="7" style="text-align:center;color:#888780;padding:20px">✅ Nothing to reorder in this window.</td></tr>';
+}
+
+function exportReorder() {
+  downloadCSV(`reorder_PO_${dateStamp()}.csv`,
+    ['Product','Category','Location','Current Stock','Daily Rate','Days Left','Suggested Order Qty','Unit'],
+    reorderList().map(it => [it.name, it.cat, it.loc, it.currentStock, it.dailyRate, it.daysLeft, it.reorderQty, it.unit]));
 }
 
 function populateCatFilter() {
@@ -326,27 +505,85 @@ function populateCatFilter() {
 }
 
 function filterTable() {
-  const q  = document.getElementById('search-input').value.toLowerCase();
-  const st = document.getElementById('filter-status').value;
-  const ct = document.getElementById('filter-cat').value;
-  renderItemsTable(D.items.filter(it => {
-    if (q  && !it.name.toLowerCase().includes(q)) return false;
-    if (ct && it.cat !== ct) return false;
-    if (st && getStatus(it.daysLeft) !== st) return false;
-    return true;
-  }));
+  const rows = getFilteredItems();
+  renderItemsTable(rows);
+  updateSortArrows();
+  document.getElementById('items-count').textContent =
+    `${rows.length} of ${D.items.length} items` +
+    (itemSort.key ? ` · sorted by ${itemSort.key} (${itemSort.dir})` : '');
+}
+
+function setSort(key) {
+  if (itemSort.key === key) {
+    itemSort.dir = itemSort.dir === 'asc' ? 'desc' : 'asc';
+  } else {
+    itemSort.key = key;
+    // text columns default A→Z, numeric columns default high→low
+    itemSort.dir = (key === 'name' || key === 'cat') ? 'asc' : 'desc';
+  }
+  filterTable();
+}
+
+function updateSortArrows() {
+  document.querySelectorAll('#panel-items th.sortable').forEach(th => {
+    const key = th.dataset.key === 'status' ? 'daysLeft' : th.dataset.key;
+    const arrow = th.querySelector('.sort-arrow');
+    if (key === itemSort.key) {
+      th.classList.add('sorted');
+      arrow.textContent = itemSort.dir === 'asc' ? '▲' : '▼';
+    } else {
+      th.classList.remove('sorted');
+      arrow.textContent = '↕';
+    }
+  });
+}
+
+function exportItems() {
+  const rows = getFilteredItems();
+  downloadCSV(`inventory_items_${dateStamp()}.csv`,
+    ['Product','Category','Location','Unit','Total In','Total Out','Current Stock','Daily Rate','Monthly Rate','Days Left','Suggested Reorder','Status'],
+    rows.map(it => [it.name, it.cat, it.loc, it.unit, it.totalIn, it.totalOut, it.currentStock, it.dailyRate, it.monthlyRate, it.daysLeft, it.reorderQty, statusLabel(it.daysLeft)]));
+}
+
+function productsByCat(cat) {
+  return D.items.filter(i => i.cat === cat).sort((a, b) => b.totalOut - a.totalOut);
 }
 
 function renderCatTable() {
   const total = D.categories.reduce((s,c) => s + c.totalOut, 0);
   const max   = D.categories[0]?.totalOut || 1;
-  document.getElementById('cat-table-body').innerHTML = D.categories.map(c => `
-    <tr>
-      <td><strong>${c.name}</strong></td>
+  document.getElementById('cat-table-body').innerHTML = D.categories.map((c, i) => {
+    const prods = productsByCat(c.name);
+    const subRows = prods.map(it => {
+      const s = getStatus(it.daysLeft), bar = s === 'red' ? '#e24b4a' : s === 'amber' ? '#ef9f27' : '#639922';
+      return `<tr class="subrow">
+        <td class="sub-name">${it.name}</td>
+        <td style="text-align:right">${fmt(it.totalOut)} out</td>
+        <td style="text-align:right">${fmt(it.currentStock)} in stock</td>
+        <td style="text-align:right;color:${bar};font-weight:500">${it.daysLeft <= 0 ? 'OUT' : it.daysLeft + 'd left'}</td>
+        <td><span class="badge ${badgeClass(s)}">${statusLabel(it.daysLeft)}</span></td>
+      </tr>`;
+    }).join('');
+    return `
+    <tr class="cat-head" id="cathead-${i}" onclick="toggleCat(${i})">
+      <td><span class="cat-caret">▶</span> <strong>${c.name}</strong></td>
+      <td style="text-align:right">${prods.length}</td>
       <td style="text-align:right">${fmt(c.totalOut)}</td>
       <td style="text-align:right">${(c.totalOut/total*100).toFixed(1)}%</td>
       <td><div class="progress-bar-bg" style="height:6px"><div class="progress-bar-fill" style="width:${Math.round(c.totalOut/max*100)}%;background:#534AB7"></div></div></td>
-    </tr>`).join('');
+    </tr>
+    <tr id="catsub-${i}" style="display:none"><td colspan="5" style="padding:0">
+      <table style="margin:0"><tbody>${subRows}</tbody></table>
+    </td></tr>`;
+  }).join('');
+}
+
+function toggleCat(i) {
+  const head = document.getElementById('cathead-' + i);
+  const sub  = document.getElementById('catsub-' + i);
+  const open = sub.style.display === 'none';
+  sub.style.display = open ? 'table-row' : 'none';
+  head.classList.toggle('open', open);
 }
 
 function renderCharts() {
