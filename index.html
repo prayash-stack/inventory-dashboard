@@ -273,6 +273,10 @@ const GH = { owner: 'prayash-stack', repo: 'inventory-dashboard', branch: 'main'
 // instant the Apps Script pushes), and fall back to the Pages URL if raw is unreachable.
 const RAW_URL  = `https://raw.githubusercontent.com/${GH.owner}/${GH.repo}/${GH.branch}/${GH.file}`;
 const DATA_URL = `https://${GH.owner}.github.io/${GH.repo}/${GH.file}`;
+// Paste your Apps Script Web App URL (ending in /exec) here to make Refresh rebuild
+// straight from the Google Sheet on demand. Leave '' to just re-fetch the latest
+// already-published data.json.
+const REBUILD_URL = '';
 // ─────────────────────────────────────────────────────────
 
 async function fetchLatest() {
@@ -369,8 +373,23 @@ function applyLoadedData(period) {
   applyPeriod(period);
 }
 
-// Re-fetch the latest published data.json without a full page reload.
-// (data.json itself is republished when the Apps Script runs — daily trigger or manual.)
+// Poll the raw file until meta.updatedAt changes (sheet → data.json takes a few seconds).
+async function pollForNewData(prevUpdated, timeoutMs) {
+  const start = Date.now();
+  while (Date.now() - start < timeoutMs) {
+    await new Promise(r => setTimeout(r, 2500));
+    try {
+      const d = await fetchLatest();
+      if (d && d.meta && d.meta.updatedAt !== prevUpdated) return d;
+    } catch (e) { /* keep polling */ }
+  }
+  return null;
+}
+
+// Refresh:
+//  • If REBUILD_URL is set → trigger a server-side rebuild from the sheet, then poll
+//    the raw file until the new data.json appears.
+//  • Otherwise → just re-fetch the latest already-published data.
 async function refreshData() {
   const btn = document.getElementById('refresh-btn');
   const restore = btn.innerHTML;
@@ -379,6 +398,22 @@ async function refreshData() {
   document.getElementById('status-dot').style.background = '#d4b896';
   const prevUpdated = RAW && RAW.meta ? RAW.meta.updatedAt : null;
   try {
+    if (REBUILD_URL) {
+      // 1) fire the rebuild (response is opaque cross-origin — we infer success by polling)
+      btn.innerHTML = '<i class="ti ti-loader-2 spin-icon"></i> Rebuilding…';
+      try { await fetch(REBUILD_URL + (REBUILD_URL.includes('?') ? '&' : '?') + 'cb=' + Date.now(), { mode: 'no-cors' }); } catch (e) {}
+      // 2) wait for the fresh data.json to land
+      btn.innerHTML = '<i class="ti ti-loader-2 spin-icon"></i> Fetching…';
+      const fresh = await pollForNewData(prevUpdated, 35000);
+      if (fresh) {
+        RAW = fresh;
+        applyLoadedData(currentPeriod);
+        document.getElementById('error-banner').style.display = 'none';
+        flashBtn(btn, '<i class="ti ti-check"></i> Updated', restore);
+        return;
+      }
+      // timed out → fall through to a plain re-fetch so the user still gets latest
+    }
     RAW = await fetchLatest();
     applyLoadedData(currentPeriod);          // keep the active window + tab
     document.getElementById('error-banner').style.display = 'none';

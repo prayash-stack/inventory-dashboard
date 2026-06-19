@@ -31,6 +31,32 @@ function pushDataToGitHub() {
 }
 
 
+// ── Web App endpoint: lets the dashboard's "Refresh" button rebuild on demand ──
+// Deploy:  Apps Script editor → Deploy → New deployment → select type "Web app",
+//          Execute as: Me,  Who has access: Anyone.
+//          Copy the /exec URL it gives you into REBUILD_URL in index.html.
+function doGet(e) {
+  const cache = CacheService.getScriptCache();
+  if (cache.get('rebuilding')) {
+    // Throttle: ignore repeat triggers within 20s so the button can't spam rebuilds.
+    return jsonOut({ ok: true, throttled: true, note: 'A rebuild already ran in the last 20s' });
+  }
+  cache.put('rebuilding', '1', 20);
+  try {
+    const data = buildDashboardData();
+    uploadToGitHub(JSON.stringify(data, null, 2));
+    return jsonOut({ ok: true, updatedAt: data.meta.updatedAt, totalSkus: data.meta.totalSkus });
+  } catch (err) {
+    return jsonOut({ ok: false, error: String((err && err.message) || err) });
+  }
+}
+
+function jsonOut(obj) {
+  return ContentService.createTextOutput(JSON.stringify(obj))
+    .setMimeType(ContentService.MimeType.JSON);
+}
+
+
 function buildDashboardData() {
   const ss = SpreadsheetApp.openById(CONFIG.SHEET_ID);
 
