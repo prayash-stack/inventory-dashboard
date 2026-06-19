@@ -68,6 +68,12 @@
   .spin-icon{display:inline-block;animation:spin .8s linear infinite}
   .health-card-head{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:10px}
   .tab .tab-badge{display:inline-block;min-width:16px;padding:0 5px;margin-left:4px;font-size:10px;line-height:15px;text-align:center;border-radius:8px;background:#fcebeb;color:#a32d2d;font-weight:600}
+  .health-section-title{display:flex;align-items:center;gap:8px;font-size:11px;font-weight:600;color:#5f5e5a;text-transform:uppercase;letter-spacing:.5px;margin:20px 2px 10px}
+  .health-section-title:first-child{margin-top:2px}
+  .dot-sev{width:8px;height:8px;border-radius:50%;display:inline-block;flex-shrink:0}
+  .dot-sev.red{background:#c23b3b}.dot-sev.amber{background:#a05e0c}.dot-sev.gray{background:#9b9890}
+  .link-btn{background:none;border:none;color:#534AB7;font-size:12.5px;font-family:inherit;cursor:pointer;padding:6px 0 2px;font-weight:500}
+  .link-btn:hover{text-decoration:underline}
   th.sortable{cursor:pointer;user-select:none;white-space:nowrap}
   th.sortable:hover{color:#534AB7}
   th .sort-arrow{display:inline-block;width:10px;opacity:.45;font-size:9px}
@@ -260,9 +266,27 @@
 </div>
 
 <script>
-// ── CONFIG: update this to your GitHub username and repo ──
-const DATA_URL = 'https://prayash-stack.github.io/inventory-dashboard/data.json';
+// ── CONFIG: your GitHub repo ──
+const GH = { owner: 'prayash-stack', repo: 'inventory-dashboard', branch: 'main', file: 'data.json' };
+// GitHub Pages caches data.json for ~10 min and ignores ?query busting, so a plain
+// re-fetch can return stale data. We read the RAW committed file first (updates the
+// instant the Apps Script pushes), and fall back to the Pages URL if raw is unreachable.
+const RAW_URL  = `https://raw.githubusercontent.com/${GH.owner}/${GH.repo}/${GH.branch}/${GH.file}`;
+const DATA_URL = `https://${GH.owner}.github.io/${GH.repo}/${GH.file}`;
 // ─────────────────────────────────────────────────────────
+
+async function fetchLatest() {
+  const bust = 'cb=' + Date.now();
+  let lastErr;
+  for (const base of [RAW_URL, DATA_URL]) {
+    try {
+      const r = await fetch(base + (base.includes('?') ? '&' : '?') + bust, { cache: 'no-store' });
+      if (r.ok) return await r.json();
+      lastErr = new Error('HTTP ' + r.status);
+    } catch (e) { lastErr = e; }
+  }
+  throw lastErr || new Error('fetch failed');
+}
 
 let RAW = null;          // raw loaded data (all-time, with per-item .periods)
 let D = null;            // current view (may be a windowed projection of RAW)
@@ -353,13 +377,15 @@ async function refreshData() {
   btn.disabled = true;
   btn.innerHTML = '<i class="ti ti-loader-2 spin-icon"></i> Refreshing…';
   document.getElementById('status-dot').style.background = '#d4b896';
+  const prevUpdated = RAW && RAW.meta ? RAW.meta.updatedAt : null;
   try {
-    const resp = await fetch(DATA_URL + '?t=' + Date.now(), { cache: 'no-store' });
-    if (!resp.ok) throw new Error('HTTP ' + resp.status);
-    RAW = await resp.json();
+    RAW = await fetchLatest();
     applyLoadedData(currentPeriod);          // keep the active window + tab
     document.getElementById('error-banner').style.display = 'none';
-    flashBtn(btn, '<i class="ti ti-check"></i> Updated', restore);
+    const changed = RAW.meta.updatedAt !== prevUpdated;
+    flashBtn(btn, changed
+      ? '<i class="ti ti-check"></i> Updated'
+      : '<i class="ti ti-check"></i> Up to date', restore);
   } catch (e) {
     document.getElementById('status-dot').style.background = '#e24b4a';
     flashBtn(btn, '<i class="ti ti-alert-triangle"></i> Failed', restore);
@@ -372,9 +398,7 @@ function flashBtn(btn, msg, restore) {
 
 async function loadData() {
   try {
-    const resp = await fetch(DATA_URL + '?t=' + Date.now());
-    if (!resp.ok) throw new Error('HTTP ' + resp.status);
-    RAW = await resp.json();
+    RAW = await fetchLatest();
     document.getElementById('loading').style.display = 'none';
     document.getElementById('app').style.display = 'block';
     applyLoadedData('all');
@@ -748,6 +772,35 @@ function getHealthChecks() {
   ];
 }
 
+let healthExpanded = new Set();
+const HEALTH_PREVIEW = 6;
+
+function healthCardHTML(c) {
+  const bcls  = c.sev==='red'?'badge-red':c.sev==='amber'?'badge-amber':'badge-gray';
+  const ic    = c.sev==='red'?'ti-alert-triangle':c.sev==='amber'?'ti-alert-circle':'ti-moon';
+  const icCol = c.sev==='red'?'#a32d2d':c.sev==='amber'?'#854f0b':'#5f5e5a';
+  const expanded = healthExpanded.has(c.key);
+  const visible  = expanded ? c.rows : c.rows.slice(0, HEALTH_PREVIEW);
+  const list = visible.map(i => `
+    <div class="alert-row">
+      <div class="alert-icon ${c.sev==='red'?'red':c.sev==='amber'?'amber':''}" style="${c.sev==='gray'?'background:#f1efe8;color:#5f5e5a':''}"><i class="ti ${ic}"></i></div>
+      <div class="alert-body"><div class="alert-name">${i.name}</div><div class="alert-meta">${i.cat} · ${i.loc} · ${c.detail(i)}</div></div>
+    </div>`).join('');
+  const toggle = c.rows.length > HEALTH_PREVIEW
+    ? `<button class="link-btn" onclick="toggleHealth('${c.key}')">${expanded ? 'Show less ▲' : 'See all ' + c.rows.length + ' ▾'}</button>` : '';
+  return `<div class="card">
+    <div class="health-card-head">
+      <div>
+        <div class="card-title" style="margin-bottom:3px;color:${icCol}">${c.title} <span class="badge ${bcls}">${c.rows.length}</span></div>
+        <div style="font-size:12px;color:#888780">${c.desc}</div>
+      </div>
+      <button class="btn" onclick="exportHealthCheck('${c.key}')"><i class="ti ti-download"></i> CSV</button>
+    </div>
+    <div>${list}</div>
+    ${toggle ? `<div>${toggle}</div>` : ''}
+  </div>`;
+}
+
 function renderHealth() {
   const checks = getHealthChecks();
   const sum = sev => checks.filter(c => c.sev === sev).reduce((s, c) => s + c.rows.length, 0);
@@ -769,34 +822,28 @@ function renderHealth() {
     ? ` — ${errors} issue${errors>1?'s':''} to review`
     : (info > 0 ? ' — no errors; watch-list below' : ' — all clean');
 
-  const cards = checks.map(c => {
-    if (!c.rows.length) return '';
-    const bcls  = c.sev==='red'?'badge-red':c.sev==='amber'?'badge-amber':'badge-gray';
-    const ic    = c.sev==='red'?'ti-alert-triangle':c.sev==='amber'?'ti-alert-circle':'ti-moon';
-    const icCol = c.sev==='red'?'#a32d2d':c.sev==='amber'?'#854f0b':'#5f5e5a';
-    const shown = c.rows.slice(0, 50);
-    const list = shown.map(i => `
-      <div class="alert-row">
-        <div class="alert-icon ${c.sev==='red'?'red':c.sev==='amber'?'amber':''}" style="${c.sev==='gray'?'background:#f1efe8;color:#5f5e5a':''}"><i class="ti ${ic}"></i></div>
-        <div class="alert-body"><div class="alert-name">${i.name}</div><div class="alert-meta">${i.cat} · ${i.loc} · ${c.detail(i)}</div></div>
-      </div>`).join('');
-    const more = c.rows.length > shown.length
-      ? `<p style="color:#888780;font-size:12px;padding:8px 2px 0">+${c.rows.length - shown.length} more — use Export CSV</p>` : '';
-    return `<div class="card">
-      <div class="health-card-head">
-        <div>
-          <div class="card-title" style="margin-bottom:3px;color:${icCol}">${c.title} <span class="badge ${bcls}">${c.rows.length}</span></div>
-          <div style="font-size:12px;color:#888780">${c.desc}</div>
-        </div>
-        <button class="btn" onclick="exportHealthCheck('${c.key}')"><i class="ti ti-download"></i> CSV</button>
-      </div>
-      <div>${list}${more}</div>
-    </div>`;
-  }).join('');
+  // Group the check cards under severity sections.
+  const groups = [
+    { sev:'red',   label:'Critical errors', total:red },
+    { sev:'amber', label:'Warnings',        total:amber },
+    { sev:'gray',  label:'Watch-list',      total:info },
+  ];
+  let html = '';
+  groups.forEach(g => {
+    const groupChecks = checks.filter(c => c.sev === g.sev && c.rows.length);
+    if (!groupChecks.length) return;
+    html += `<div class="health-section-title"><span class="dot-sev ${g.sev}"></span>${g.label} · ${g.total}</div>`;
+    html += groupChecks.map(healthCardHTML).join('');
+  });
 
   document.getElementById('health-cards').innerHTML = (errors + info) === 0
     ? '<div class="card"><p style="color:#3b6d11;padding:8px 0;font-size:13px">✅ No data inconsistencies found.</p></div>'
-    : cards;
+    : html;
+}
+
+function toggleHealth(key) {
+  if (healthExpanded.has(key)) healthExpanded.delete(key); else healthExpanded.add(key);
+  renderHealth();
 }
 
 function exportHealth() {
