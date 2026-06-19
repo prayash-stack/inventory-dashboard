@@ -64,6 +64,10 @@
   .btn{display:inline-flex;align-items:center;gap:6px;padding:7px 14px;border:.5px solid #d3d1c7;border-radius:8px;font-size:13px;font-family:inherit;background:#fff;color:#1a1a18;cursor:pointer;white-space:nowrap;transition:background .15s}
   .btn:hover{background:#faf9f6;border-color:#888780}
   .btn-primary{background:#534AB7;color:#fff;border-color:#534AB7}.btn-primary:hover{background:#453d9e;border-color:#453d9e}
+  .btn:disabled{opacity:.65;cursor:default}
+  .spin-icon{display:inline-block;animation:spin .8s linear infinite}
+  .health-card-head{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:10px}
+  .tab .tab-badge{display:inline-block;min-width:16px;padding:0 5px;margin-left:4px;font-size:10px;line-height:15px;text-align:center;border-radius:8px;background:#fcebeb;color:#a32d2d;font-weight:600}
   th.sortable{cursor:pointer;user-select:none;white-space:nowrap}
   th.sortable:hover{color:#534AB7}
   th .sort-arrow{display:inline-block;width:10px;opacity:.45;font-size:9px}
@@ -87,9 +91,12 @@
       <h1>📦 Inventory Dashboard</h1>
       <p class="subtitle" id="subtitle">Loading data…</p>
     </div>
-    <div class="update-badge">
-      <div class="dot" id="status-dot" style="background:#d4b896"></div>
-      <span id="update-time">Fetching…</span>
+    <div style="display:flex;align-items:center;gap:10px">
+      <button class="btn" id="refresh-btn" onclick="refreshData()" title="Re-fetch the latest published data"><i class="ti ti-refresh"></i> Refresh</button>
+      <div class="update-badge">
+        <div class="dot" id="status-dot" style="background:#d4b896"></div>
+        <span id="update-time">Fetching…</span>
+      </div>
     </div>
   </div>
 
@@ -107,6 +114,7 @@
       <button class="tab" onclick="showPanel('items',this)">All items</button>
       <button class="tab" onclick="showPanel('reorder',this)">Reorder</button>
       <button class="tab" onclick="showPanel('categories',this)">Categories</button>
+      <button class="tab" onclick="showPanel('health',this)">Data health<span class="tab-badge" id="health-count" style="display:none"></span></button>
     </div>
 
     <div id="period-bar" style="display:none;justify-content:flex-end;align-items:center;gap:8px;margin:-10px 0 18px">
@@ -236,6 +244,18 @@
         </table>
       </div>
     </div>
+
+    <div id="panel-health" class="panel">
+      <div class="metric-grid" id="health-metrics"></div>
+      <div class="panel-head">
+        <div>
+          <span class="title">Data inconsistencies</span>
+          <span class="sub" id="health-sub"></span>
+        </div>
+        <button class="btn" onclick="exportHealth()"><i class="ti ti-download"></i> Export all issues</button>
+      </div>
+      <div id="health-cards"></div>
+    </div>
   </div>
 </div>
 
@@ -309,6 +329,47 @@ function downloadCSV(filename, headers, rows) {
 }
 function dateStamp() { return new Date().toISOString().split('T')[0]; }
 
+// Shared post-fetch wiring used by both the initial load and the Refresh button.
+function applyLoadedData(period) {
+  document.getElementById('status-dot').style.background = '#50a14f';
+  const updated = new Date(RAW.meta.updatedAt);
+  document.getElementById('update-time').textContent = 'Updated ' +
+    updated.toLocaleDateString('en-IN', {day:'numeric',month:'short'}) + ' ' +
+    updated.toLocaleTimeString('en-IN', {hour:'2-digit',minute:'2-digit'});
+  // Enable the usage-window selector only if the data carries per-period figures.
+  if (RAW.items.length && RAW.items[0].periods) {
+    document.getElementById('period-bar').style.display = 'flex';
+    const allOpt = document.querySelector('#period-select option[value="all"]');
+    if (allOpt) allOpt.textContent = `All time (${RAW.meta.periodDays} days)`;
+  }
+  applyPeriod(period);
+}
+
+// Re-fetch the latest published data.json without a full page reload.
+// (data.json itself is republished when the Apps Script runs — daily trigger or manual.)
+async function refreshData() {
+  const btn = document.getElementById('refresh-btn');
+  const restore = btn.innerHTML;
+  btn.disabled = true;
+  btn.innerHTML = '<i class="ti ti-loader-2 spin-icon"></i> Refreshing…';
+  document.getElementById('status-dot').style.background = '#d4b896';
+  try {
+    const resp = await fetch(DATA_URL + '?t=' + Date.now(), { cache: 'no-store' });
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    RAW = await resp.json();
+    applyLoadedData(currentPeriod);          // keep the active window + tab
+    document.getElementById('error-banner').style.display = 'none';
+    flashBtn(btn, '<i class="ti ti-check"></i> Updated', restore);
+  } catch (e) {
+    document.getElementById('status-dot').style.background = '#e24b4a';
+    flashBtn(btn, '<i class="ti ti-alert-triangle"></i> Failed', restore);
+  }
+}
+function flashBtn(btn, msg, restore) {
+  btn.innerHTML = msg;
+  setTimeout(() => { btn.disabled = false; btn.innerHTML = restore; }, 1600);
+}
+
 async function loadData() {
   try {
     const resp = await fetch(DATA_URL + '?t=' + Date.now());
@@ -316,16 +377,7 @@ async function loadData() {
     RAW = await resp.json();
     document.getElementById('loading').style.display = 'none';
     document.getElementById('app').style.display = 'block';
-    document.getElementById('status-dot').style.background = '#50a14f';
-    const updated = new Date(RAW.meta.updatedAt);
-    document.getElementById('update-time').textContent = 'Updated ' + updated.toLocaleDateString('en-IN', {day:'numeric',month:'short'}) + ' ' + updated.toLocaleTimeString('en-IN',{hour:'2-digit',minute:'2-digit'});
-    // Enable the usage-window selector only if the data carries per-period figures.
-    if (RAW.items.length && RAW.items[0].periods) {
-      document.getElementById('period-bar').style.display = 'flex';
-      const allOpt = document.querySelector('#period-select option[value="all"]');
-      if (allOpt) allOpt.textContent = `All time (${RAW.meta.periodDays} days)`;
-    }
-    applyPeriod('all');
+    applyLoadedData('all');
   } catch(e) {
     document.getElementById('loading').style.display = 'none';
     document.getElementById('error-banner').style.display = 'block';
@@ -387,6 +439,7 @@ function render() {
   filterTable();
   renderReorder();
   renderCatTable();
+  renderHealth();
   renderCharts();
 }
 
@@ -643,6 +696,123 @@ function toggleCat(i) {
   const open = sub.style.display === 'none';
   sub.style.display = open ? 'table-row' : 'none';
   head.classList.toggle('open', open);
+}
+
+// ── Data-health checks: recomputed on every render, so they refresh with the data ──
+function skuCodeOf(name) {
+  const m = String(name || '').match(/\(([^)]+)\)\s*$/);
+  return m ? m[1].trim().toUpperCase() : null;
+}
+
+function getHealthChecks() {
+  const items = (RAW && RAW.items) || [];
+  const rnd = n => Math.round(n);
+
+  // duplicate SKU codes (one code on >1 distinct product)
+  const byCode = {};
+  items.forEach(i => { const c = skuCodeOf(i.name); if (c) (byCode[c] = byCode[c] || []).push(i); });
+  const dupItems = [];
+  Object.values(byCode).forEach(arr => {
+    if (new Set(arr.map(x => x.name.toLowerCase())).size > 1) dupItems.push(...arr);
+  });
+
+  return [
+    { key:'negstock', sev:'red', title:'Negative stock',
+      desc:'Recorded stock is below zero — oversold, or an inflow was never logged.',
+      rows: items.filter(i => i.currentStock < 0),
+      detail: i => `stock ${fmt(i.currentStock)} · in ${fmt(i.totalIn)} / out ${fmt(i.totalOut)}` },
+    { key:'balance', sev:'red', title:'Stock balance mismatch',
+      desc:'Current stock ≠ Total In − Total Out — the running balance disagrees with the In/Out columns.',
+      rows: items.filter(i => rnd(i.currentStock) !== rnd(i.totalIn - i.totalOut)),
+      detail: i => `stock ${fmt(i.currentStock)} vs in−out ${fmt(i.totalIn - i.totalOut)}` },
+    { key:'dupcode', sev:'amber', title:'Duplicate SKU code',
+      desc:'One code is shared by more than one product — breaks per-SKU tracking in the log.',
+      rows: dupItems,
+      detail: i => `code ${skuCodeOf(i.name)}` },
+    { key:'nocode', sev:'amber', title:'Missing SKU code',
+      desc:'Name has no “(CODE)”, so it can’t be matched reliably across the IN/OUT log.',
+      rows: items.filter(i => !skuCodeOf(i.name)),
+      detail: () => 'no code in product name' },
+    { key:'nounit', sev:'amber', title:'Missing unit',
+      desc:'No unit of measure recorded.',
+      rows: items.filter(i => !i.unit || !String(i.unit).trim()),
+      detail: () => '—' },
+    { key:'noloc', sev:'amber', title:'Missing location',
+      desc:'No location recorded.',
+      rows: items.filter(i => !i.loc || !String(i.loc).trim()),
+      detail: () => '—' },
+    { key:'dead', sev:'gray', title:'Dead stock — no sales in period',
+      desc:'Stock on hand but zero units sold across the whole period (capital tied up).',
+      rows: items.filter(i => i.currentStock > 0 && i.totalOut === 0),
+      detail: i => `${fmt(i.currentStock)} ${i.unit} on hand` },
+  ];
+}
+
+function renderHealth() {
+  const checks = getHealthChecks();
+  const sum = sev => checks.filter(c => c.sev === sev).reduce((s, c) => s + c.rows.length, 0);
+  const red = sum('red'), amber = sum('amber'), info = sum('gray');
+  const errors = red + amber;
+  const deadUnits = checks.find(c => c.key === 'dead').rows.reduce((s, i) => s + i.currentStock, 0);
+  const checked = (RAW && RAW.items) ? RAW.items.length : 0;
+
+  const tb = document.getElementById('health-count');
+  if (errors > 0) { tb.style.display = 'inline-block'; tb.textContent = errors; } else tb.style.display = 'none';
+
+  document.getElementById('health-metrics').innerHTML = `
+    <div class="metric"><div class="metric-label">🔴 Critical errors</div><div class="metric-value ${red?'red':''}">${red}</div><div class="metric-sub">negative stock / balance</div></div>
+    <div class="metric"><div class="metric-label">🟡 Warnings</div><div class="metric-value ${amber?'amber':''}">${amber}</div><div class="metric-sub">codes & missing fields</div></div>
+    <div class="metric"><div class="metric-label">💤 Dead-stock SKUs</div><div class="metric-value">${info}</div><div class="metric-sub">${fmt(deadUnits)} units on hand</div></div>
+    <div class="metric"><div class="metric-label">✅ Items checked</div><div class="metric-value">${fmt(checked)}</div><div class="metric-sub">on last refresh</div></div>`;
+
+  document.getElementById('health-sub').textContent = errors > 0
+    ? ` — ${errors} issue${errors>1?'s':''} to review`
+    : (info > 0 ? ' — no errors; watch-list below' : ' — all clean');
+
+  const cards = checks.map(c => {
+    if (!c.rows.length) return '';
+    const bcls  = c.sev==='red'?'badge-red':c.sev==='amber'?'badge-amber':'badge-gray';
+    const ic    = c.sev==='red'?'ti-alert-triangle':c.sev==='amber'?'ti-alert-circle':'ti-moon';
+    const icCol = c.sev==='red'?'#a32d2d':c.sev==='amber'?'#854f0b':'#5f5e5a';
+    const shown = c.rows.slice(0, 50);
+    const list = shown.map(i => `
+      <div class="alert-row">
+        <div class="alert-icon ${c.sev==='red'?'red':c.sev==='amber'?'amber':''}" style="${c.sev==='gray'?'background:#f1efe8;color:#5f5e5a':''}"><i class="ti ${ic}"></i></div>
+        <div class="alert-body"><div class="alert-name">${i.name}</div><div class="alert-meta">${i.cat} · ${i.loc} · ${c.detail(i)}</div></div>
+      </div>`).join('');
+    const more = c.rows.length > shown.length
+      ? `<p style="color:#888780;font-size:12px;padding:8px 2px 0">+${c.rows.length - shown.length} more — use Export CSV</p>` : '';
+    return `<div class="card">
+      <div class="health-card-head">
+        <div>
+          <div class="card-title" style="margin-bottom:3px;color:${icCol}">${c.title} <span class="badge ${bcls}">${c.rows.length}</span></div>
+          <div style="font-size:12px;color:#888780">${c.desc}</div>
+        </div>
+        <button class="btn" onclick="exportHealthCheck('${c.key}')"><i class="ti ti-download"></i> CSV</button>
+      </div>
+      <div>${list}${more}</div>
+    </div>`;
+  }).join('');
+
+  document.getElementById('health-cards').innerHTML = (errors + info) === 0
+    ? '<div class="card"><p style="color:#3b6d11;padding:8px 0;font-size:13px">✅ No data inconsistencies found.</p></div>'
+    : cards;
+}
+
+function exportHealth() {
+  const checks = getHealthChecks();
+  const rows = [];
+  checks.forEach(c => c.rows.forEach(i =>
+    rows.push([c.title, c.sev, i.name, i.cat, i.loc, i.currentStock, i.totalIn, i.totalOut, c.detail(i)])));
+  downloadCSV(`data_issues_${dateStamp()}.csv`,
+    ['Issue','Severity','Product','Category','Location','Current Stock','Total In','Total Out','Detail'], rows);
+}
+
+function exportHealthCheck(key) {
+  const c = getHealthChecks().find(x => x.key === key); if (!c) return;
+  downloadCSV(`data_${key}_${dateStamp()}.csv`,
+    ['Product','Category','Location','Current Stock','Total In','Total Out','Detail'],
+    c.rows.map(i => [i.name, i.cat, i.loc, i.currentStock, i.totalIn, i.totalOut, c.detail(i)]));
 }
 
 function renderCharts() {
