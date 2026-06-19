@@ -1,13 +1,13 @@
 {
   "meta": {
-    "updatedAt": "2026-06-19T03:27:11.154Z",
-    "periodDays": 79,
+    "updatedAt": "2026-06-19T19:05:58.534Z",
+    "periodDays": 80,
     "startDate": "2026-03-31",
     "endDate": "2026-06-19",
-    "totalSkus": 519,
-    "totalUnitsOut": 236285,
-    "criticalCount": 61,
-    "warningCount": 26
+    "totalSkus": 516,
+    "totalUnitsOut": 238901,
+    "criticalCount": 63,
+    "warningCount": 30
   },
   "items": [
     {
@@ -16,12 +16,12 @@
       "loc": "Jhilmil",
       "unit": "Pcs",
       "totalIn": 35100,
-      "totalOut": 19200,
-      "currentStock": 15900,
-      "dailyRate": 243,
-      "monthlyRate": 7291,
-      "daysLeft": 65,
-      "reorderQty": 10937
+      "totalOut": 19600,
+      "currentStock": 15500,
+      "dailyRate": 245,
+      "monthlyRate": 7350,
+      "daysLeft": 63,
+      "reorderQty": 11025
     },
     {
       "name": "Chamois Big Plain (CC004)",
@@ -29,12 +29,12 @@
       "loc": "Jhilmil",
       "unit": "Pcs",
       "totalIn": 24200,
-      "totalOut": 19000,
-      "currentStock": 5200,
-      "dailyRate": 240.5,
-      "monthlyRate": 7215,
-      "daysLeft": 22,
-      "reorderQty": 10823
+      "totalOut": 19400,
+      "currentStock": 4800,
+      "dailyRate": 242.5,
+      "monthlyRate": 7275,
+      "daysLeft": 20,
+      "reorderQty": 10913
     },
     {
       "name": "Touch Up Paint Black (PNT013)",
@@ -44,10 +44,10 @@
       "totalIn": 17016,
       "totalOut": 8748,
       "currentStock": 8268,
-      "dailyRate": 110.7,
-      "monthlyRate": 3322,
-      "daysLeft": 75,
-      "reorderQty": 4983
+      "dailyRate": 109.3,
+      "monthlyRate": 3281,
+      "daysLeft": 76,
+      "reorderQty": 4921
     },
     {
       "name": "Blind Spot Mirror 057 (BSM006)",
@@ -57,10 +57,10 @@
       "totalIn": 8700,
       "totalOut": 7700,
       "currentStock": 1000,
-      "dailyRate": 97.5,
-      "monthlyRate": 2924,
+      "dailyRate": 96.3,
+      "monthlyRate": 2888,
       "daysLeft": 10,
-      "reorderQty": 4386
+      "reorderQty": 4331
     },
     {
       "name": "Touch Up Paint Black Matt (PNT014)",
@@ -68,12 +68,12 @@
       "loc": "Vivek Vihar",
       "unit": "Pcs",
       "totalIn": 11676,
-      "totalOut": 6792,
-      "currentStock": 4884,
-      "dailyRate": 86,
-      "monthlyRate": 2579,
-      "daysLeft": 57,
-      "reorderQty": 3869
+      "totalOut": 6888,
+      "currentStock": 4788,
+      "dailyRate": 86.1,
+      "monthlyRate": 2583,
+      "daysLeft": 56,
+      "reorderQty": 3874
     },
     {
       "name": "Gear Cover Silicon (GK001)",
@@ -83,10 +83,10 @@
       "totalIn": 11470,
       "totalOut": 6450,
       "currentStock": 5020,
-      "dailyRate": 81.6,
-      "monthlyRate": 2449,
-      "daysLeft": 61,
-      "reorderQty": 3674
+      "dailyRate": 80.6,
+      "monthlyRate": 2419,
+      "daysLeft": 62,
+      "reorderQty": 3628
     },
     {
       "name": "Duster Touch Up Taiwan (DST004)",
@@ -96,10 +96,10 @@
       "totalIn": 7980,
       "totalOut": 5400,
       "currentStock": 2580,
-      "dailyRate": 68.4,
-      "monthlyRate": 2051,
+      "dailyRate": 67.5,
+      "monthlyRate": 2025,
       "daysLeft": 38,
-      "reorderQty": 3076
+      "reorderQty": 3038
     },
     {
       "name": "Blind Spot Mirror 062 (BSM007)",
@@ -109,10 +109,10 @@
       "totalIn": 5200,
       "totalOut": 5100,
       "currentStock": 100,
-      "dailyRate": 64.6,
-      "monthlyRate": 1937,
+      "dailyRate": 63.8,
+      "monthlyRate": 1913,
       "daysLeft": 2,
-      "reorderQty": 2905
+      "reorderQty": 2869
     },
     {
       "name": "Seat Belt Stopper Blister (OTH062)",
@@ -122,10 +122,10 @@
       "totalIn": 5756,
       "totalOut": 4556,
       "currentStock": 1200,
-      "dailyRate": 57.7,
-      "monthlyRate": 1730,
+      "dailyRate": 57,
+      "monthlyRate": 1709,
       "daysLeft": 21,
-      "reorderQty": 2595
+      "reorderQty": 2563
     },
     {
       "name": "Steering Knob 2251 3R (SK003)",
@@ -133,12 +133,12 @@
       "loc": "Jhilmil",
       "unit": "Pcs",
       "totalIn": 6660,
-      "totalOut": 4200,
-      "currentStock": 2460,
-      "dailyRate": 53.2,
-      "monthlyRate": 1595,
-      "daysLeft": 46,
-      "reorderQty": 2392
+      "totalOut": 4440,
+      "currentStock": 2220,
+      "dailyRate": 55.5,
+      "monthlyRate": 1665,
+      "daysLeft": 40,
+      "reorderQty": 2498
     },
     {
       "name": "Solar Helicoptor Black Box Big (SOL032)",
@@ -148,10 +148,10 @@
       "totalIn": 4000,
       "totalOut": 3920,
       "currentStock": 80,
-      "dailyRate": 49.6,
-      "monthlyRate": 1489,
+      "dailyRate": 49,
+      "monthlyRate": 1470,
       "daysLeft": 2,
-      "reorderQty": 2233
+      "reorderQty": 2205
     },
     {
       "name": "Chamois Big Dotted (CC003)",
@@ -161,10 +161,10 @@
       "totalIn": 5100,
       "totalOut": 3900,
       "currentStock": 1200,
-      "dailyRate": 49.4,
-      "monthlyRate": 1481,
-      "daysLeft": 24,
-      "reorderQty": 2222
+      "dailyRate": 48.8,
+      "monthlyRate": 1463,
+      "daysLeft": 25,
+      "reorderQty": 2194
     },
     {
       "name": "Door Guard 3R 2165 (DG006)",
@@ -174,10 +174,10 @@
       "totalIn": 5100,
       "totalOut": 3640,
       "currentStock": 1460,
-      "dailyRate": 46.1,
-      "monthlyRate": 1382,
+      "dailyRate": 45.5,
+      "monthlyRate": 1365,
       "daysLeft": 32,
-      "reorderQty": 2073
+      "reorderQty": 2048
     },
     {
       "name": "Bumper Clip Small (OTH017)",
@@ -187,10 +187,10 @@
       "totalIn": 4000,
       "totalOut": 3600,
       "currentStock": 400,
-      "dailyRate": 45.6,
-      "monthlyRate": 1367,
+      "dailyRate": 45,
+      "monthlyRate": 1350,
       "daysLeft": 9,
-      "reorderQty": 2051
+      "reorderQty": 2025
     },
     {
       "name": "Blind Spot Mirror 3R 027 (BSM012)",
@@ -200,10 +200,10 @@
       "totalIn": 4200,
       "totalOut": 3500,
       "currentStock": 700,
-      "dailyRate": 44.3,
-      "monthlyRate": 1329,
+      "dailyRate": 43.8,
+      "monthlyRate": 1313,
       "daysLeft": 16,
-      "reorderQty": 1994
+      "reorderQty": 1969
     },
     {
       "name": "Blind Spot Mirror 3R 028 (BSM013)",
@@ -213,10 +213,10 @@
       "totalIn": 4400,
       "totalOut": 3500,
       "currentStock": 900,
-      "dailyRate": 44.3,
-      "monthlyRate": 1329,
-      "daysLeft": 20,
-      "reorderQty": 1994
+      "dailyRate": 43.8,
+      "monthlyRate": 1313,
+      "daysLeft": 21,
+      "reorderQty": 1969
     },
     {
       "name": "Door Guard Ipop China (DG010)",
@@ -226,10 +226,10 @@
       "totalIn": 14140,
       "totalOut": 3200,
       "currentStock": 10940,
-      "dailyRate": 40.5,
-      "monthlyRate": 1215,
-      "daysLeft": 270,
-      "reorderQty": 1823
+      "dailyRate": 40,
+      "monthlyRate": 1200,
+      "daysLeft": 274,
+      "reorderQty": 1800
     },
     {
       "name": "Blind Spot Mirror 054 (BSM021)",
@@ -239,10 +239,23 @@
       "totalIn": 2700,
       "totalOut": 2700,
       "currentStock": 0,
-      "dailyRate": 34.2,
-      "monthlyRate": 1025,
+      "dailyRate": 33.8,
+      "monthlyRate": 1013,
       "daysLeft": 0,
-      "reorderQty": 1538
+      "reorderQty": 1519
+    },
+    {
+      "name": "Touch Up Multipurpose (CP002)",
+      "cat": "Car Polish",
+      "loc": "Vivek Vihar",
+      "unit": "Pcs",
+      "totalIn": 4596,
+      "totalOut": 2652,
+      "currentStock": 1944,
+      "dailyRate": 33.1,
+      "monthlyRate": 995,
+      "daysLeft": 59,
+      "reorderQty": 1492
     },
     {
       "name": "Door Guard 3R 2164 (DG005)",
@@ -252,23 +265,10 @@
       "totalIn": 5500,
       "totalOut": 2600,
       "currentStock": 2900,
-      "dailyRate": 32.9,
-      "monthlyRate": 987,
-      "daysLeft": 88,
-      "reorderQty": 1481
-    },
-    {
-      "name": "Touch Up Multipurpose (CP002)",
-      "cat": "Car Polish",
-      "loc": "Vivek Vihar",
-      "unit": "Pcs",
-      "totalIn": 4596,
-      "totalOut": 2556,
-      "currentStock": 2040,
-      "dailyRate": 32.4,
-      "monthlyRate": 971,
-      "daysLeft": 63,
-      "reorderQty": 1456
+      "dailyRate": 32.5,
+      "monthlyRate": 975,
+      "daysLeft": 89,
+      "reorderQty": 1463
     },
     {
       "name": "12MM CLEAR TAPE (TP009)",
@@ -278,10 +278,10 @@
       "totalIn": 2400,
       "totalOut": 2400,
       "currentStock": 0,
-      "dailyRate": 30.4,
-      "monthlyRate": 911,
+      "dailyRate": 30,
+      "monthlyRate": 900,
       "daysLeft": 0,
-      "reorderQty": 1367
+      "reorderQty": 1350
     },
     {
       "name": "Solar Flag India (SOL031)",
@@ -291,10 +291,23 @@
       "totalIn": 2300,
       "totalOut": 2250,
       "currentStock": 50,
-      "dailyRate": 28.5,
-      "monthlyRate": 854,
+      "dailyRate": 28.1,
+      "monthlyRate": 844,
       "daysLeft": 2,
-      "reorderQty": 1282
+      "reorderQty": 1266
+    },
+    {
+      "name": "Anti Fog Combo (OTH069)",
+      "cat": "Other",
+      "loc": "Jhilmil",
+      "unit": "Pcs",
+      "totalIn": 2500,
+      "totalOut": 2210,
+      "currentStock": 290,
+      "dailyRate": 27.6,
+      "monthlyRate": 829,
+      "daysLeft": 10,
+      "reorderQty": 1243
     },
     {
       "name": "Chamois Big 3D (CC002)",
@@ -304,10 +317,10 @@
       "totalIn": 6300,
       "totalOut": 2200,
       "currentStock": 4100,
-      "dailyRate": 27.8,
-      "monthlyRate": 835,
-      "daysLeft": 147,
-      "reorderQty": 1253
+      "dailyRate": 27.5,
+      "monthlyRate": 825,
+      "daysLeft": 149,
+      "reorderQty": 1238
     },
     {
       "name": "Non-Slip Mat Big (DM001)",
@@ -315,25 +328,12 @@
       "loc": "Jhilmil",
       "unit": "Pcs",
       "totalIn": 5384,
-      "totalOut": 2150,
-      "currentStock": 3234,
-      "dailyRate": 27.2,
-      "monthlyRate": 816,
-      "daysLeft": 119,
-      "reorderQty": 1225
-    },
-    {
-      "name": "Anti Fog Combo (OTH069)",
-      "cat": "Other",
-      "loc": "Jhilmil",
-      "unit": "Pcs",
-      "totalIn": 2500,
-      "totalOut": 2110,
-      "currentStock": 390,
-      "dailyRate": 26.7,
-      "monthlyRate": 801,
-      "daysLeft": 15,
-      "reorderQty": 1202
+      "totalOut": 2200,
+      "currentStock": 3184,
+      "dailyRate": 27.5,
+      "monthlyRate": 825,
+      "daysLeft": 116,
+      "reorderQty": 1238
     },
     {
       "name": "Micro Fiber Cloth D/C 40*40 600 GSM (MC006)",
@@ -343,10 +343,23 @@
       "totalIn": 3546,
       "totalOut": 2000,
       "currentStock": 1546,
-      "dailyRate": 25.3,
-      "monthlyRate": 759,
-      "daysLeft": 61,
-      "reorderQty": 1139
+      "dailyRate": 25,
+      "monthlyRate": 750,
+      "daysLeft": 62,
+      "reorderQty": 1125
+    },
+    {
+      "name": "Touchup Paint White (PNT028)",
+      "cat": "Paint",
+      "loc": "Vivek Vihar",
+      "unit": "Pcs",
+      "totalIn": 7092,
+      "totalOut": 1980,
+      "currentStock": 5112,
+      "dailyRate": 24.8,
+      "monthlyRate": 743,
+      "daysLeft": 207,
+      "reorderQty": 1114
     },
     {
       "name": "Door Guard 3R 2170 (DG007)",
@@ -356,10 +369,10 @@
       "totalIn": 6890,
       "totalOut": 1900,
       "currentStock": 4990,
-      "dailyRate": 24.1,
-      "monthlyRate": 722,
-      "daysLeft": 207,
-      "reorderQty": 1082
+      "dailyRate": 23.8,
+      "monthlyRate": 713,
+      "daysLeft": 210,
+      "reorderQty": 1069
     },
     {
       "name": "Wiper Show Yi-53 (WS004)",
@@ -369,10 +382,10 @@
       "totalIn": 1900,
       "totalOut": 1900,
       "currentStock": 0,
-      "dailyRate": 24.1,
-      "monthlyRate": 722,
+      "dailyRate": 23.8,
+      "monthlyRate": 713,
       "daysLeft": 0,
-      "reorderQty": 1082
+      "reorderQty": 1069
     },
     {
       "name": "Touch Up Tyre Cleaner (CP003)",
@@ -382,10 +395,23 @@
       "totalIn": 3504,
       "totalOut": 1824,
       "currentStock": 1680,
-      "dailyRate": 23.1,
-      "monthlyRate": 693,
-      "daysLeft": 73,
-      "reorderQty": 1039
+      "dailyRate": 22.8,
+      "monthlyRate": 684,
+      "daysLeft": 74,
+      "reorderQty": 1026
+    },
+    {
+      "name": "Touchup Paint Red (PNT024)",
+      "cat": "Paint",
+      "loc": "Vivek Vihar",
+      "unit": "Pcs",
+      "totalIn": 1128,
+      "totalOut": 1704,
+      "currentStock": -576,
+      "dailyRate": 21.3,
+      "monthlyRate": 639,
+      "daysLeft": -27,
+      "reorderQty": 959
     },
     {
       "name": "D/Side Tape 12MMx10 Mtr Stick All (TP004)",
@@ -395,36 +421,10 @@
       "totalIn": 3760,
       "totalOut": 1704,
       "currentStock": 2056,
-      "dailyRate": 21.6,
-      "monthlyRate": 647,
-      "daysLeft": 95,
-      "reorderQty": 971
-    },
-    {
-      "name": "Touchup Paint White (PNT028)",
-      "cat": "Paint",
-      "loc": "Vivek Vihar",
-      "unit": "Pcs",
-      "totalIn": 7092,
-      "totalOut": 1692,
-      "currentStock": 5400,
-      "dailyRate": 21.4,
-      "monthlyRate": 643,
-      "daysLeft": 252,
-      "reorderQty": 964
-    },
-    {
-      "name": "Touchup Paint Red (PNT024)",
-      "cat": "Paint",
-      "loc": "Vivek Vihar",
-      "unit": "Pcs",
-      "totalIn": 1128,
-      "totalOut": 1644,
-      "currentStock": -516,
-      "dailyRate": 20.8,
-      "monthlyRate": 624,
-      "daysLeft": -25,
-      "reorderQty": 936
+      "dailyRate": 21.3,
+      "monthlyRate": 639,
+      "daysLeft": 97,
+      "reorderQty": 959
     },
     {
       "name": "Bumper Clip Big (OTH018)",
@@ -434,10 +434,10 @@
       "totalIn": 2849,
       "totalOut": 1600,
       "currentStock": 1249,
-      "dailyRate": 20.3,
-      "monthlyRate": 608,
+      "dailyRate": 20,
+      "monthlyRate": 600,
       "daysLeft": 62,
-      "reorderQty": 911
+      "reorderQty": 900
     },
     {
       "name": "Antenna Shark Fin Hybrid Painted (ANT005)",
@@ -447,10 +447,10 @@
       "totalIn": 2411,
       "totalOut": 1575,
       "currentStock": 836,
-      "dailyRate": 19.9,
-      "monthlyRate": 598,
+      "dailyRate": 19.7,
+      "monthlyRate": 591,
       "daysLeft": 42,
-      "reorderQty": 897
+      "reorderQty": 886
     },
     {
       "name": "Door Edge Guard Heavy (DG001)",
@@ -460,10 +460,10 @@
       "totalIn": 7590,
       "totalOut": 1510,
       "currentStock": 6080,
-      "dailyRate": 19.1,
-      "monthlyRate": 573,
-      "daysLeft": 318,
-      "reorderQty": 860
+      "dailyRate": 18.9,
+      "monthlyRate": 566,
+      "daysLeft": 322,
+      "reorderQty": 849
     },
     {
       "name": "Non-Slip Mate Check Type (DM005)",
@@ -473,10 +473,10 @@
       "totalIn": 3387,
       "totalOut": 1503,
       "currentStock": 1884,
-      "dailyRate": 19,
-      "monthlyRate": 571,
-      "daysLeft": 99,
-      "reorderQty": 856
+      "dailyRate": 18.8,
+      "monthlyRate": 564,
+      "daysLeft": 100,
+      "reorderQty": 845
     },
     {
       "name": "Wiper Show Yi-15 (WS002)",
@@ -486,10 +486,10 @@
       "totalIn": 1900,
       "totalOut": 1500,
       "currentStock": 400,
-      "dailyRate": 19,
-      "monthlyRate": 570,
+      "dailyRate": 18.8,
+      "monthlyRate": 563,
       "daysLeft": 21,
-      "reorderQty": 854
+      "reorderQty": 844
     },
     {
       "name": "Steering Cover Creation Box Pack (SC004)",
@@ -499,10 +499,23 @@
       "totalIn": 4005,
       "totalOut": 1405,
       "currentStock": 2600,
-      "dailyRate": 17.8,
-      "monthlyRate": 534,
-      "daysLeft": 146,
-      "reorderQty": 800
+      "dailyRate": 17.6,
+      "monthlyRate": 527,
+      "daysLeft": 148,
+      "reorderQty": 790
+    },
+    {
+      "name": "Touchup Paint Silver (PNT026)",
+      "cat": "Paint",
+      "loc": "Vivek Vihar",
+      "unit": "Pcs",
+      "totalIn": 4920,
+      "totalOut": 1368,
+      "currentStock": 3552,
+      "dailyRate": 17.1,
+      "monthlyRate": 513,
+      "daysLeft": 208,
+      "reorderQty": 770
     },
     {
       "name": "Car Charger 3.4 Amp. (CGR001)",
@@ -512,23 +525,10 @@
       "totalIn": 5850,
       "totalOut": 1340,
       "currentStock": 4510,
-      "dailyRate": 17,
-      "monthlyRate": 509,
-      "daysLeft": 266,
-      "reorderQty": 763
-    },
-    {
-      "name": "Touchup Paint Silver (PNT026)",
-      "cat": "Paint",
-      "loc": "Vivek Vihar",
-      "unit": "Pcs",
-      "totalIn": 4920,
-      "totalOut": 1320,
-      "currentStock": 3600,
-      "dailyRate": 16.7,
-      "monthlyRate": 501,
-      "daysLeft": 215,
-      "reorderQty": 752
+      "dailyRate": 16.8,
+      "monthlyRate": 503,
+      "daysLeft": 269,
+      "reorderQty": 754
     },
     {
       "name": "Steering Knob Ipop In Box Local (SK007)",
@@ -538,10 +538,10 @@
       "totalIn": 1488,
       "totalOut": 1302,
       "currentStock": 186,
-      "dailyRate": 16.5,
-      "monthlyRate": 494,
+      "dailyRate": 16.3,
+      "monthlyRate": 488,
       "daysLeft": 11,
-      "reorderQty": 742
+      "reorderQty": 732
     },
     {
       "name": "Blind Spot Mirror 065 (BSM008)",
@@ -551,10 +551,10 @@
       "totalIn": 2000,
       "totalOut": 1300,
       "currentStock": 700,
-      "dailyRate": 16.5,
-      "monthlyRate": 494,
+      "dailyRate": 16.3,
+      "monthlyRate": 488,
       "daysLeft": 43,
-      "reorderQty": 741
+      "reorderQty": 731
     },
     {
       "name": "Lighter Socket Holder (CL003)",
@@ -564,10 +564,10 @@
       "totalIn": 2350,
       "totalOut": 1300,
       "currentStock": 1050,
-      "dailyRate": 16.5,
-      "monthlyRate": 494,
-      "daysLeft": 64,
-      "reorderQty": 741
+      "dailyRate": 16.3,
+      "monthlyRate": 488,
+      "daysLeft": 65,
+      "reorderQty": 731
     },
     {
       "name": "Nano Tape K5D Sticker Roll (TP006)",
@@ -577,10 +577,10 @@
       "totalIn": 1742,
       "totalOut": 1296,
       "currentStock": 446,
-      "dailyRate": 16.4,
-      "monthlyRate": 492,
-      "daysLeft": 27,
-      "reorderQty": 738
+      "dailyRate": 16.2,
+      "monthlyRate": 486,
+      "daysLeft": 28,
+      "reorderQty": 729
     },
     {
       "name": "Door Guard Cautro Executive Step (DG034)",
@@ -590,10 +590,10 @@
       "totalIn": 1980,
       "totalOut": 1260,
       "currentStock": 720,
-      "dailyRate": 15.9,
-      "monthlyRate": 478,
-      "daysLeft": 45,
-      "reorderQty": 718
+      "dailyRate": 15.8,
+      "monthlyRate": 473,
+      "daysLeft": 46,
+      "reorderQty": 709
     },
     {
       "name": "Door Knob (OTH059)",
@@ -603,10 +603,10 @@
       "totalIn": 250,
       "totalOut": 1250,
       "currentStock": -1000,
-      "dailyRate": 15.8,
-      "monthlyRate": 475,
-      "daysLeft": -63,
-      "reorderQty": 712
+      "dailyRate": 15.6,
+      "monthlyRate": 469,
+      "daysLeft": -64,
+      "reorderQty": 703
     },
     {
       "name": "Touch Up Vinyl & Leather Polish (CP004)",
@@ -616,10 +616,10 @@
       "totalIn": 1840,
       "totalOut": 1120,
       "currentStock": 720,
-      "dailyRate": 14.2,
-      "monthlyRate": 425,
+      "dailyRate": 14,
+      "monthlyRate": 420,
       "daysLeft": 51,
-      "reorderQty": 638
+      "reorderQty": 630
     },
     {
       "name": "Show Antenna Eagle (SA006)",
@@ -629,10 +629,10 @@
       "totalIn": 3200,
       "totalOut": 1100,
       "currentStock": 2100,
-      "dailyRate": 13.9,
-      "monthlyRate": 418,
-      "daysLeft": 151,
-      "reorderQty": 627
+      "dailyRate": 13.8,
+      "monthlyRate": 413,
+      "daysLeft": 153,
+      "reorderQty": 619
     },
     {
       "name": "Door Guard Cartalk Leather Beige (DG032)",
@@ -642,10 +642,10 @@
       "totalIn": 3200,
       "totalOut": 1080,
       "currentStock": 2120,
-      "dailyRate": 13.7,
-      "monthlyRate": 410,
-      "daysLeft": 155,
-      "reorderQty": 615
+      "dailyRate": 13.5,
+      "monthlyRate": 405,
+      "daysLeft": 157,
+      "reorderQty": 608
     },
     {
       "name": "Door Guard Cautro Executive Double Cushion (DG035)",
@@ -655,10 +655,10 @@
       "totalIn": 1980,
       "totalOut": 1080,
       "currentStock": 900,
-      "dailyRate": 13.7,
-      "monthlyRate": 410,
-      "daysLeft": 66,
-      "reorderQty": 615
+      "dailyRate": 13.5,
+      "monthlyRate": 405,
+      "daysLeft": 67,
+      "reorderQty": 608
     },
     {
       "name": "Saugwender (OTH012)",
@@ -668,10 +668,23 @@
       "totalIn": 5577,
       "totalOut": 1050,
       "currentStock": 4527,
-      "dailyRate": 13.3,
-      "monthlyRate": 399,
-      "daysLeft": 341,
-      "reorderQty": 598
+      "dailyRate": 13.1,
+      "monthlyRate": 394,
+      "daysLeft": 345,
+      "reorderQty": 591
+    },
+    {
+      "name": "Antifog Sticker (AS001)",
+      "cat": "Antifog Sticker",
+      "loc": "Jhilmil",
+      "unit": "SET",
+      "totalIn": 2100,
+      "totalOut": 1000,
+      "currentStock": 1100,
+      "dailyRate": 12.5,
+      "monthlyRate": 375,
+      "daysLeft": 88,
+      "reorderQty": 563
     },
     {
       "name": "Blind Spot Mirror 020 ( BSM018)",
@@ -681,10 +694,10 @@
       "totalIn": 1800,
       "totalOut": 1000,
       "currentStock": 800,
-      "dailyRate": 12.7,
-      "monthlyRate": 380,
-      "daysLeft": 63,
-      "reorderQty": 570
+      "dailyRate": 12.5,
+      "monthlyRate": 375,
+      "daysLeft": 64,
+      "reorderQty": 563
     },
     {
       "name": "Eagle Emblem (EMB001)",
@@ -694,10 +707,10 @@
       "totalIn": 1500,
       "totalOut": 1000,
       "currentStock": 500,
-      "dailyRate": 12.7,
-      "monthlyRate": 380,
+      "dailyRate": 12.5,
+      "monthlyRate": 375,
       "daysLeft": 40,
-      "reorderQty": 570
+      "reorderQty": 563
     },
     {
       "name": "Door Close Button (OTH080)",
@@ -707,10 +720,10 @@
       "totalIn": 1000,
       "totalOut": 1000,
       "currentStock": 0,
-      "dailyRate": 12.7,
-      "monthlyRate": 380,
+      "dailyRate": 12.5,
+      "monthlyRate": 375,
       "daysLeft": 0,
-      "reorderQty": 570
+      "reorderQty": 563
     },
     {
       "name": "Steering Cover Double Color Creation (SC008)",
@@ -720,10 +733,10 @@
       "totalIn": 3000,
       "totalOut": 1000,
       "currentStock": 2000,
-      "dailyRate": 12.7,
-      "monthlyRate": 380,
-      "daysLeft": 158,
-      "reorderQty": 570
+      "dailyRate": 12.5,
+      "monthlyRate": 375,
+      "daysLeft": 160,
+      "reorderQty": 563
     },
     {
       "name": "Solar Eagle New (SOL055)",
@@ -733,10 +746,10 @@
       "totalIn": 1000,
       "totalOut": 1000,
       "currentStock": 0,
-      "dailyRate": 12.7,
-      "monthlyRate": 380,
+      "dailyRate": 12.5,
+      "monthlyRate": 375,
       "daysLeft": 0,
-      "reorderQty": 570
+      "reorderQty": 563
     },
     {
       "name": "Gear Knob Without LED 15 Cm (GK038)",
@@ -746,10 +759,10 @@
       "totalIn": 1000,
       "totalOut": 969,
       "currentStock": 31,
-      "dailyRate": 12.3,
-      "monthlyRate": 368,
+      "dailyRate": 12.1,
+      "monthlyRate": 363,
       "daysLeft": 3,
-      "reorderQty": 552
+      "reorderQty": 545
     },
     {
       "name": "Rear View Mirror 3R 339 (RVM005)",
@@ -759,23 +772,10 @@
       "totalIn": 1800,
       "totalOut": 920,
       "currentStock": 880,
-      "dailyRate": 11.6,
-      "monthlyRate": 349,
-      "daysLeft": 76,
-      "reorderQty": 524
-    },
-    {
-      "name": "Antifog Sticker (AS001)",
-      "cat": "Antifog Sticker",
-      "loc": "Jhilmil",
-      "unit": "SET",
-      "totalIn": 2100,
-      "totalOut": 900,
-      "currentStock": 1200,
-      "dailyRate": 11.4,
-      "monthlyRate": 342,
-      "daysLeft": 105,
-      "reorderQty": 513
+      "dailyRate": 11.5,
+      "monthlyRate": 345,
+      "daysLeft": 77,
+      "reorderQty": 518
     },
     {
       "name": "Door Guard No.1 Baseball (DG037)",
@@ -785,10 +785,10 @@
       "totalIn": 1620,
       "totalOut": 900,
       "currentStock": 720,
-      "dailyRate": 11.4,
-      "monthlyRate": 342,
-      "daysLeft": 63,
-      "reorderQty": 513
+      "dailyRate": 11.3,
+      "monthlyRate": 338,
+      "daysLeft": 64,
+      "reorderQty": 506
     },
     {
       "name": "Cartalk Door Guard New Black (DG040)",
@@ -798,10 +798,10 @@
       "totalIn": 1840,
       "totalOut": 900,
       "currentStock": 940,
-      "dailyRate": 11.4,
-      "monthlyRate": 342,
-      "daysLeft": 83,
-      "reorderQty": 513
+      "dailyRate": 11.3,
+      "monthlyRate": 338,
+      "daysLeft": 84,
+      "reorderQty": 506
     },
     {
       "name": "Gear Knob 10 Cm W/Out LED Mix Color (GK034)",
@@ -811,10 +811,10 @@
       "totalIn": 1155,
       "totalOut": 891,
       "currentStock": 264,
-      "dailyRate": 11.3,
-      "monthlyRate": 338,
-      "daysLeft": 23,
-      "reorderQty": 508
+      "dailyRate": 11.1,
+      "monthlyRate": 334,
+      "daysLeft": 24,
+      "reorderQty": 501
     },
     {
       "name": "Beading 12MM (BD006)",
@@ -822,12 +822,12 @@
       "loc": "Jhilmil",
       "unit": "ROLL",
       "totalIn": 1375,
-      "totalOut": 860,
-      "currentStock": 515,
-      "dailyRate": 10.9,
-      "monthlyRate": 327,
-      "daysLeft": 47,
-      "reorderQty": 490
+      "totalOut": 890,
+      "currentStock": 485,
+      "dailyRate": 11.1,
+      "monthlyRate": 334,
+      "daysLeft": 44,
+      "reorderQty": 501
     },
     {
       "name": "C/Lighter Stanley (CL001)",
@@ -837,10 +837,10 @@
       "totalIn": 2500,
       "totalOut": 850,
       "currentStock": 1650,
-      "dailyRate": 10.8,
-      "monthlyRate": 323,
-      "daysLeft": 153,
-      "reorderQty": 484
+      "dailyRate": 10.6,
+      "monthlyRate": 319,
+      "daysLeft": 155,
+      "reorderQty": 478
     },
     {
       "name": "Seat Belt Alarm Stopper Metal (OTH033)",
@@ -850,10 +850,10 @@
       "totalIn": 2450,
       "totalOut": 807,
       "currentStock": 1643,
-      "dailyRate": 10.2,
-      "monthlyRate": 306,
-      "daysLeft": 161,
-      "reorderQty": 460
+      "dailyRate": 10.1,
+      "monthlyRate": 303,
+      "daysLeft": 163,
+      "reorderQty": 454
     },
     {
       "name": "Door Guard 3R-2184 (DG038)",
@@ -863,10 +863,10 @@
       "totalIn": 3100,
       "totalOut": 800,
       "currentStock": 2300,
-      "dailyRate": 10.1,
-      "monthlyRate": 304,
-      "daysLeft": 227,
-      "reorderQty": 456
+      "dailyRate": 10,
+      "monthlyRate": 300,
+      "daysLeft": 230,
+      "reorderQty": 450
     },
     {
       "name": "Gloves 60GSM (GL003)",
@@ -876,10 +876,10 @@
       "totalIn": 800,
       "totalOut": 800,
       "currentStock": 0,
-      "dailyRate": 10.1,
-      "monthlyRate": 304,
+      "dailyRate": 10,
+      "monthlyRate": 300,
       "daysLeft": 0,
-      "reorderQty": 456
+      "reorderQty": 450
     },
     {
       "name": "Door Guard Cautro Executive Black (DG033)",
@@ -889,10 +889,10 @@
       "totalIn": 1800,
       "totalOut": 720,
       "currentStock": 1080,
-      "dailyRate": 9.1,
-      "monthlyRate": 273,
-      "daysLeft": 118,
-      "reorderQty": 410
+      "dailyRate": 9,
+      "monthlyRate": 270,
+      "daysLeft": 120,
+      "reorderQty": 405
     },
     {
       "name": "Ash Tray 068 (AT001)",
@@ -902,10 +902,10 @@
       "totalIn": 1000,
       "totalOut": 700,
       "currentStock": 300,
-      "dailyRate": 8.9,
-      "monthlyRate": 266,
+      "dailyRate": 8.8,
+      "monthlyRate": 263,
       "daysLeft": 34,
-      "reorderQty": 399
+      "reorderQty": 394
     },
     {
       "name": "Door Guard Gt Dynamic Type (DG029)",
@@ -915,10 +915,10 @@
       "totalIn": 1800,
       "totalOut": 700,
       "currentStock": 1100,
-      "dailyRate": 8.9,
-      "monthlyRate": 266,
-      "daysLeft": 124,
-      "reorderQty": 399
+      "dailyRate": 8.8,
+      "monthlyRate": 263,
+      "daysLeft": 126,
+      "reorderQty": 394
     },
     {
       "name": "Micro Fiber Cloth 40*60 300 GSM (MC011)",
@@ -928,10 +928,10 @@
       "totalIn": 3963,
       "totalOut": 700,
       "currentStock": 3263,
-      "dailyRate": 8.9,
-      "monthlyRate": 266,
-      "daysLeft": 368,
-      "reorderQty": 399
+      "dailyRate": 8.8,
+      "monthlyRate": 263,
+      "daysLeft": 373,
+      "reorderQty": 394
     },
     {
       "name": "Tow Hook (OTH021)",
@@ -941,10 +941,10 @@
       "totalIn": 2000,
       "totalOut": 700,
       "currentStock": 1300,
-      "dailyRate": 8.9,
-      "monthlyRate": 266,
-      "daysLeft": 147,
-      "reorderQty": 399
+      "dailyRate": 8.8,
+      "monthlyRate": 263,
+      "daysLeft": 149,
+      "reorderQty": 394
     },
     {
       "name": "Snoopy Mirror (VM002)",
@@ -954,10 +954,10 @@
       "totalIn": 1500,
       "totalOut": 700,
       "currentStock": 800,
-      "dailyRate": 8.9,
-      "monthlyRate": 266,
-      "daysLeft": 90,
-      "reorderQty": 399
+      "dailyRate": 8.8,
+      "monthlyRate": 263,
+      "daysLeft": 91,
+      "reorderQty": 394
     },
     {
       "name": "Touchup Paint Chrome (PNT017)",
@@ -967,10 +967,10 @@
       "totalIn": 2484,
       "totalOut": 648,
       "currentStock": 1836,
-      "dailyRate": 8.2,
-      "monthlyRate": 246,
-      "daysLeft": 224,
-      "reorderQty": 369
+      "dailyRate": 8.1,
+      "monthlyRate": 243,
+      "daysLeft": 227,
+      "reorderQty": 365
     },
     {
       "name": "Tissue Box Sunvisor (OTH050)",
@@ -978,12 +978,12 @@
       "loc": "Jhilmil",
       "unit": "Pcs",
       "totalIn": 1055,
-      "totalOut": 620,
-      "currentStock": 435,
-      "dailyRate": 7.8,
-      "monthlyRate": 235,
-      "daysLeft": 55,
-      "reorderQty": 353
+      "totalOut": 630,
+      "currentStock": 425,
+      "dailyRate": 7.9,
+      "monthlyRate": 236,
+      "daysLeft": 54,
+      "reorderQty": 354
     },
     {
       "name": "Ashtry Seramic (AT009)",
@@ -993,10 +993,10 @@
       "totalIn": 1000,
       "totalOut": 600,
       "currentStock": 400,
-      "dailyRate": 7.6,
-      "monthlyRate": 228,
+      "dailyRate": 7.5,
+      "monthlyRate": 225,
       "daysLeft": 53,
-      "reorderQty": 342
+      "reorderQty": 338
     },
     {
       "name": "Chamois Small Dotted (CC006)",
@@ -1006,10 +1006,10 @@
       "totalIn": 4000,
       "totalOut": 600,
       "currentStock": 3400,
-      "dailyRate": 7.6,
-      "monthlyRate": 228,
-      "daysLeft": 448,
-      "reorderQty": 342
+      "dailyRate": 7.5,
+      "monthlyRate": 225,
+      "daysLeft": 453,
+      "reorderQty": 338
     },
     {
       "name": "Force Mirror (RVM001)",
@@ -1019,10 +1019,10 @@
       "totalIn": 1416,
       "totalOut": 600,
       "currentStock": 816,
-      "dailyRate": 7.6,
-      "monthlyRate": 228,
-      "daysLeft": 107,
-      "reorderQty": 342
+      "dailyRate": 7.5,
+      "monthlyRate": 225,
+      "daysLeft": 109,
+      "reorderQty": 338
     },
     {
       "name": "Solar Moon Star (SOL024)",
@@ -1032,10 +1032,10 @@
       "totalIn": 600,
       "totalOut": 600,
       "currentStock": 0,
-      "dailyRate": 7.6,
-      "monthlyRate": 228,
+      "dailyRate": 7.5,
+      "monthlyRate": 225,
       "daysLeft": 0,
-      "reorderQty": 342
+      "reorderQty": 338
     },
     {
       "name": "Dbs 3N (CP001)",
@@ -1045,10 +1045,10 @@
       "totalIn": 6232,
       "totalOut": 576,
       "currentStock": 5656,
-      "dailyRate": 7.3,
-      "monthlyRate": 219,
-      "daysLeft": 776,
-      "reorderQty": 328
+      "dailyRate": 7.2,
+      "monthlyRate": 216,
+      "daysLeft": 786,
+      "reorderQty": 324
     },
     {
       "name": "Wheel Brush Band (DST005)",
@@ -1058,10 +1058,10 @@
       "totalIn": 550,
       "totalOut": 550,
       "currentStock": 0,
-      "dailyRate": 7,
-      "monthlyRate": 209,
+      "dailyRate": 6.9,
+      "monthlyRate": 206,
       "daysLeft": 0,
-      "reorderQty": 313
+      "reorderQty": 309
     },
     {
       "name": "Solar Perfume Bedmintan (SOL050)",
@@ -1071,10 +1071,10 @@
       "totalIn": 600,
       "totalOut": 550,
       "currentStock": 50,
-      "dailyRate": 7,
-      "monthlyRate": 209,
+      "dailyRate": 6.9,
+      "monthlyRate": 206,
       "daysLeft": 7,
-      "reorderQty": 313
+      "reorderQty": 309
     },
     {
       "name": "Door Guard Cartalk Leather Black (DG031)",
@@ -1085,9 +1085,9 @@
       "totalOut": 540,
       "currentStock": 140,
       "dailyRate": 6.8,
-      "monthlyRate": 205,
-      "daysLeft": 20,
-      "reorderQty": 308
+      "monthlyRate": 203,
+      "daysLeft": 21,
+      "reorderQty": 304
     },
     {
       "name": "Wheel Brush Straight (DST006)",
@@ -1098,9 +1098,9 @@
       "totalOut": 532,
       "currentStock": 260,
       "dailyRate": 6.7,
-      "monthlyRate": 202,
+      "monthlyRate": 200,
       "daysLeft": 39,
-      "reorderQty": 303
+      "reorderQty": 299
     },
     {
       "name": "Antenna Aluminnum (ANT006)",
@@ -1110,10 +1110,10 @@
       "totalIn": 524,
       "totalOut": 524,
       "currentStock": 0,
-      "dailyRate": 6.6,
-      "monthlyRate": 199,
+      "dailyRate": 6.5,
+      "monthlyRate": 197,
       "daysLeft": 0,
-      "reorderQty": 298
+      "reorderQty": 295
     },
     {
       "name": "Double Fan (OTH005)",
@@ -1123,10 +1123,10 @@
       "totalIn": 1380,
       "totalOut": 515,
       "currentStock": 865,
-      "dailyRate": 6.5,
-      "monthlyRate": 196,
-      "daysLeft": 133,
-      "reorderQty": 293
+      "dailyRate": 6.4,
+      "monthlyRate": 193,
+      "daysLeft": 134,
+      "reorderQty": 290
     },
     {
       "name": "Air Flow 5116 (AF001)",
@@ -1137,9 +1137,9 @@
       "totalOut": 500,
       "currentStock": 1155,
       "dailyRate": 6.3,
-      "monthlyRate": 190,
-      "daysLeft": 182,
-      "reorderQty": 285
+      "monthlyRate": 188,
+      "daysLeft": 185,
+      "reorderQty": 281
     },
     {
       "name": "Chamois Cloth Small 3D (CC005)",
@@ -1150,9 +1150,9 @@
       "totalOut": 500,
       "currentStock": 4900,
       "dailyRate": 6.3,
-      "monthlyRate": 190,
-      "daysLeft": 774,
-      "reorderQty": 285
+      "monthlyRate": 188,
+      "daysLeft": 784,
+      "reorderQty": 281
     },
     {
       "name": "Lighter Indica (CL002)",
@@ -1163,9 +1163,9 @@
       "totalOut": 500,
       "currentStock": -150,
       "dailyRate": 6.3,
-      "monthlyRate": 190,
+      "monthlyRate": 188,
       "daysLeft": -24,
-      "reorderQty": 285
+      "reorderQty": 281
     },
     {
       "name": "Dashboard Show Flag (DS004)",
@@ -1176,9 +1176,9 @@
       "totalOut": 500,
       "currentStock": 2500,
       "dailyRate": 6.3,
-      "monthlyRate": 190,
-      "daysLeft": 395,
-      "reorderQty": 285
+      "monthlyRate": 188,
+      "daysLeft": 400,
+      "reorderQty": 281
     },
     {
       "name": "Catch Guard Pvc Transparent (DG021)",
@@ -1189,9 +1189,9 @@
       "totalOut": 500,
       "currentStock": 490,
       "dailyRate": 6.3,
-      "monthlyRate": 190,
-      "daysLeft": 77,
-      "reorderQty": 285
+      "monthlyRate": 188,
+      "daysLeft": 78,
+      "reorderQty": 281
     },
     {
       "name": "Striker Plate Cover (OTH070)",
@@ -1202,9 +1202,9 @@
       "totalOut": 500,
       "currentStock": 808,
       "dailyRate": 6.3,
-      "monthlyRate": 190,
-      "daysLeft": 128,
-      "reorderQty": 285
+      "monthlyRate": 188,
+      "daysLeft": 129,
+      "reorderQty": 281
     },
     {
       "name": "Show Antenna Jaguar (SA015)",
@@ -1215,9 +1215,9 @@
       "totalOut": 500,
       "currentStock": 600,
       "dailyRate": 6.3,
-      "monthlyRate": 190,
-      "daysLeft": 95,
-      "reorderQty": 285
+      "monthlyRate": 188,
+      "daysLeft": 96,
+      "reorderQty": 281
     },
     {
       "name": "Wiper Show Yi-149 (WS001)",
@@ -1228,9 +1228,9 @@
       "totalOut": 500,
       "currentStock": 200,
       "dailyRate": 6.3,
-      "monthlyRate": 190,
+      "monthlyRate": 188,
       "daysLeft": 32,
-      "reorderQty": 285
+      "reorderQty": 281
     },
     {
       "name": "Perfume Eagle (PRF018)",
@@ -1240,10 +1240,23 @@
       "totalIn": 600,
       "totalOut": 490,
       "currentStock": 110,
-      "dailyRate": 6.2,
-      "monthlyRate": 186,
+      "dailyRate": 6.1,
+      "monthlyRate": 184,
       "daysLeft": 18,
-      "reorderQty": 279
+      "reorderQty": 276
+    },
+    {
+      "name": "Gear Knob Hockey Cp - 0533 (GK009)",
+      "cat": "Gear Knob",
+      "loc": "Jhilmil",
+      "unit": "Pcs",
+      "totalIn": 610,
+      "totalOut": 480,
+      "currentStock": 130,
+      "dailyRate": 6,
+      "monthlyRate": 180,
+      "daysLeft": 22,
+      "reorderQty": 270
     },
     {
       "name": "Steering Knob Nobleless (SK008)",
@@ -1253,10 +1266,10 @@
       "totalIn": 720,
       "totalOut": 480,
       "currentStock": 240,
-      "dailyRate": 6.1,
-      "monthlyRate": 182,
+      "dailyRate": 6,
+      "monthlyRate": 180,
       "daysLeft": 40,
-      "reorderQty": 273
+      "reorderQty": 270
     },
     {
       "name": "12MM M3 TAPE (TP010)",
@@ -1266,23 +1279,10 @@
       "totalIn": 2400,
       "totalOut": 480,
       "currentStock": 1920,
-      "dailyRate": 6.1,
-      "monthlyRate": 182,
-      "daysLeft": 316,
-      "reorderQty": 273
-    },
-    {
-      "name": "Gear Knob Hockey Cp - 0533 (GK009)",
-      "cat": "Gear Knob",
-      "loc": "Jhilmil",
-      "unit": "Pcs",
-      "totalIn": 610,
-      "totalOut": 470,
-      "currentStock": 140,
-      "dailyRate": 5.9,
-      "monthlyRate": 178,
-      "daysLeft": 24,
-      "reorderQty": 268
+      "dailyRate": 6,
+      "monthlyRate": 180,
+      "daysLeft": 320,
+      "reorderQty": 270
     },
     {
       "name": "Solar Helicoptor Square Base (SOL010)",
@@ -1292,10 +1292,23 @@
       "totalIn": 727,
       "totalOut": 465,
       "currentStock": 262,
-      "dailyRate": 5.9,
-      "monthlyRate": 177,
+      "dailyRate": 5.8,
+      "monthlyRate": 174,
       "daysLeft": 45,
-      "reorderQty": 265
+      "reorderQty": 262
+    },
+    {
+      "name": "Paddle Kit Blister (OTH008)",
+      "cat": "Other",
+      "loc": "Jhilmil",
+      "unit": "Pcs",
+      "totalIn": 1000,
+      "totalOut": 460,
+      "currentStock": 540,
+      "dailyRate": 5.8,
+      "monthlyRate": 173,
+      "daysLeft": 94,
+      "reorderQty": 259
     },
     {
       "name": "Solar Military (SOL043)",
@@ -1305,10 +1318,10 @@
       "totalIn": 400,
       "totalOut": 455,
       "currentStock": -55,
-      "dailyRate": 5.8,
-      "monthlyRate": 173,
+      "dailyRate": 5.7,
+      "monthlyRate": 171,
       "daysLeft": -10,
-      "reorderQty": 259
+      "reorderQty": 256
     },
     {
       "name": "Dashboard Joker Big (DS005)",
@@ -1318,10 +1331,23 @@
       "totalIn": 900,
       "totalOut": 450,
       "currentStock": 450,
-      "dailyRate": 5.7,
-      "monthlyRate": 171,
-      "daysLeft": 79,
-      "reorderQty": 256
+      "dailyRate": 5.6,
+      "monthlyRate": 169,
+      "daysLeft": 80,
+      "reorderQty": 253
+    },
+    {
+      "name": "Tissue Box (OTH057)",
+      "cat": "Other",
+      "loc": "Jhilmil",
+      "unit": "Pcs",
+      "totalIn": 600,
+      "totalOut": 450,
+      "currentStock": 150,
+      "dailyRate": 5.6,
+      "monthlyRate": 169,
+      "daysLeft": 27,
+      "reorderQty": 253
     },
     {
       "name": "Mini Brush Dabbi (DST015)",
@@ -1332,9 +1358,9 @@
       "totalOut": 445,
       "currentStock": 2555,
       "dailyRate": 5.6,
-      "monthlyRate": 169,
-      "daysLeft": 454,
-      "reorderQty": 253
+      "monthlyRate": 167,
+      "daysLeft": 459,
+      "reorderQty": 250
     },
     {
       "name": "Rear View Mirror 3R 331 (RVM003)",
@@ -1344,10 +1370,10 @@
       "totalIn": 800,
       "totalOut": 440,
       "currentStock": 360,
-      "dailyRate": 5.6,
-      "monthlyRate": 167,
+      "dailyRate": 5.5,
+      "monthlyRate": 165,
       "daysLeft": 65,
-      "reorderQty": 251
+      "reorderQty": 248
     },
     {
       "name": "Solar Perfume Wheel (SOL008)",
@@ -1358,35 +1384,9 @@
       "totalOut": 438,
       "currentStock": 305,
       "dailyRate": 5.5,
-      "monthlyRate": 166,
-      "daysLeft": 55,
-      "reorderQty": 249
-    },
-    {
-      "name": "Paddle Kit Blister (OTH008)",
-      "cat": "Other",
-      "loc": "Jhilmil",
-      "unit": "Pcs",
-      "totalIn": 1000,
-      "totalOut": 430,
-      "currentStock": 570,
-      "dailyRate": 5.4,
-      "monthlyRate": 163,
-      "daysLeft": 105,
-      "reorderQty": 245
-    },
-    {
-      "name": "Tissue Box (OTH057)",
-      "cat": "Other",
-      "loc": "Jhilmil",
-      "unit": "Pcs",
-      "totalIn": 600,
-      "totalOut": 430,
-      "currentStock": 170,
-      "dailyRate": 5.4,
-      "monthlyRate": 163,
-      "daysLeft": 31,
-      "reorderQty": 245
+      "monthlyRate": 164,
+      "daysLeft": 56,
+      "reorderQty": 246
     },
     {
       "name": "Air Flow 368 (AF012)",
@@ -1396,10 +1396,10 @@
       "totalIn": 950,
       "totalOut": 400,
       "currentStock": 550,
-      "dailyRate": 5.1,
-      "monthlyRate": 152,
-      "daysLeft": 109,
-      "reorderQty": 228
+      "dailyRate": 5,
+      "monthlyRate": 150,
+      "daysLeft": 110,
+      "reorderQty": 225
     },
     {
       "name": "Ash Tray Square (AT005)",
@@ -1409,10 +1409,10 @@
       "totalIn": 1100,
       "totalOut": 400,
       "currentStock": 700,
-      "dailyRate": 5.1,
-      "monthlyRate": 152,
-      "daysLeft": 138,
-      "reorderQty": 228
+      "dailyRate": 5,
+      "monthlyRate": 150,
+      "daysLeft": 140,
+      "reorderQty": 225
     },
     {
       "name": "Ashtray X3 Bmw Type (AT008)",
@@ -1422,10 +1422,10 @@
       "totalIn": 400,
       "totalOut": 400,
       "currentStock": 0,
-      "dailyRate": 5.1,
-      "monthlyRate": 152,
+      "dailyRate": 5,
+      "monthlyRate": 150,
       "daysLeft": 0,
-      "reorderQty": 228
+      "reorderQty": 225
     },
     {
       "name": "Blind Spot Mirror 066 (BSM023)",
@@ -1435,10 +1435,10 @@
       "totalIn": 400,
       "totalOut": 400,
       "currentStock": 0,
-      "dailyRate": 5.1,
-      "monthlyRate": 152,
+      "dailyRate": 5,
+      "monthlyRate": 150,
       "daysLeft": 0,
-      "reorderQty": 228
+      "reorderQty": 225
     },
     {
       "name": "Hand Break Cover Heavy (GK036)",
@@ -1448,10 +1448,10 @@
       "totalIn": 900,
       "totalOut": 400,
       "currentStock": 500,
-      "dailyRate": 5.1,
-      "monthlyRate": 152,
-      "daysLeft": 99,
-      "reorderQty": 228
+      "dailyRate": 5,
+      "monthlyRate": 150,
+      "daysLeft": 100,
+      "reorderQty": 225
     },
     {
       "name": "Show Antenna 3R 116 (SA003)",
@@ -1461,10 +1461,10 @@
       "totalIn": 400,
       "totalOut": 400,
       "currentStock": 0,
-      "dailyRate": 5.1,
-      "monthlyRate": 152,
+      "dailyRate": 5,
+      "monthlyRate": 150,
       "daysLeft": 0,
-      "reorderQty": 228
+      "reorderQty": 225
     },
     {
       "name": "Door Guard Black Suit Korea (DG026)",
@@ -1474,10 +1474,10 @@
       "totalIn": 1728,
       "totalOut": 384,
       "currentStock": 1344,
-      "dailyRate": 4.9,
-      "monthlyRate": 146,
-      "daysLeft": 277,
-      "reorderQty": 219
+      "dailyRate": 4.8,
+      "monthlyRate": 144,
+      "daysLeft": 280,
+      "reorderQty": 216
     },
     {
       "name": "Foam Tape 12MM*8Mtr (TP007)",
@@ -1487,10 +1487,23 @@
       "totalIn": 7164,
       "totalOut": 376,
       "currentStock": 6788,
-      "dailyRate": 4.8,
-      "monthlyRate": 143,
-      "daysLeft": 1426,
-      "reorderQty": 214
+      "dailyRate": 4.7,
+      "monthlyRate": 141,
+      "daysLeft": 1444,
+      "reorderQty": 212
+    },
+    {
+      "name": "Armrest Pad With Glass Holder (OTH060)",
+      "cat": "Other",
+      "loc": "Jhilmil",
+      "unit": "Pcs",
+      "totalIn": 1000,
+      "totalOut": 375,
+      "currentStock": 625,
+      "dailyRate": 4.7,
+      "monthlyRate": 141,
+      "daysLeft": 133,
+      "reorderQty": 211
     },
     {
       "name": "Solar Double Wheels (SOL015)",
@@ -1500,10 +1513,10 @@
       "totalIn": 370,
       "totalOut": 370,
       "currentStock": 0,
-      "dailyRate": 4.7,
-      "monthlyRate": 141,
+      "dailyRate": 4.6,
+      "monthlyRate": 139,
       "daysLeft": 0,
-      "reorderQty": 211
+      "reorderQty": 208
     },
     {
       "name": "Steering Knob 2252 (SK036)",
@@ -1513,10 +1526,10 @@
       "totalIn": 420,
       "totalOut": 362,
       "currentStock": 58,
-      "dailyRate": 4.6,
-      "monthlyRate": 137,
+      "dailyRate": 4.5,
+      "monthlyRate": 136,
       "daysLeft": 13,
-      "reorderQty": 206
+      "reorderQty": 204
     },
     {
       "name": "Door Guard Gt Dynamic (DG009)",
@@ -1526,23 +1539,10 @@
       "totalIn": 1080,
       "totalOut": 360,
       "currentStock": 720,
-      "dailyRate": 4.6,
-      "monthlyRate": 137,
-      "daysLeft": 158,
-      "reorderQty": 205
-    },
-    {
-      "name": "Armrest Pad With Glass Holder (OTH060)",
-      "cat": "Other",
-      "loc": "Jhilmil",
-      "unit": "Pcs",
-      "totalIn": 1000,
-      "totalOut": 360,
-      "currentStock": 640,
-      "dailyRate": 4.6,
-      "monthlyRate": 137,
-      "daysLeft": 140,
-      "reorderQty": 205
+      "dailyRate": 4.5,
+      "monthlyRate": 135,
+      "daysLeft": 160,
+      "reorderQty": 203
     },
     {
       "name": "Touchup Paint Gold (PNT019)",
@@ -1552,10 +1552,23 @@
       "totalIn": 1440,
       "totalOut": 360,
       "currentStock": 1080,
-      "dailyRate": 4.6,
-      "monthlyRate": 137,
-      "daysLeft": 237,
-      "reorderQty": 205
+      "dailyRate": 4.5,
+      "monthlyRate": 135,
+      "daysLeft": 240,
+      "reorderQty": 203
+    },
+    {
+      "name": "Touchup Paint Lecquer (PNT021)",
+      "cat": "Paint",
+      "loc": "Vivek Vihar",
+      "unit": "Pcs",
+      "totalIn": 900,
+      "totalOut": 360,
+      "currentStock": 540,
+      "dailyRate": 4.5,
+      "monthlyRate": 135,
+      "daysLeft": 120,
+      "reorderQty": 203
     },
     {
       "name": "Colour Plus Paint Black (PNT038)",
@@ -1565,10 +1578,10 @@
       "totalIn": 2520,
       "totalOut": 348,
       "currentStock": 2172,
-      "dailyRate": 4.4,
-      "monthlyRate": 132,
-      "daysLeft": 493,
-      "reorderQty": 198
+      "dailyRate": 4.3,
+      "monthlyRate": 131,
+      "daysLeft": 499,
+      "reorderQty": 196
     },
     {
       "name": "Hanging Alloy Wheel (PRF026)",
@@ -1578,10 +1591,10 @@
       "totalIn": 2098,
       "totalOut": 346,
       "currentStock": 1752,
-      "dailyRate": 4.4,
-      "monthlyRate": 131,
-      "daysLeft": 400,
-      "reorderQty": 197
+      "dailyRate": 4.3,
+      "monthlyRate": 130,
+      "daysLeft": 405,
+      "reorderQty": 195
     },
     {
       "name": "Door Guard G-POP Korea (DG025)",
@@ -1591,10 +1604,10 @@
       "totalIn": 1512,
       "totalOut": 330,
       "currentStock": 1182,
-      "dailyRate": 4.2,
-      "monthlyRate": 125,
-      "daysLeft": 283,
-      "reorderQty": 188
+      "dailyRate": 4.1,
+      "monthlyRate": 124,
+      "daysLeft": 287,
+      "reorderQty": 186
     },
     {
       "name": "Door Guard Compact-K (DG008)",
@@ -1604,10 +1617,10 @@
       "totalIn": 1596,
       "totalOut": 320,
       "currentStock": 1276,
-      "dailyRate": 4.1,
-      "monthlyRate": 122,
-      "daysLeft": 315,
-      "reorderQty": 182
+      "dailyRate": 4,
+      "monthlyRate": 120,
+      "daysLeft": 319,
+      "reorderQty": 180
     },
     {
       "name": "Rear View Mirror 3R 333 (RVM004)",
@@ -1617,10 +1630,10 @@
       "totalIn": 370,
       "totalOut": 320,
       "currentStock": 50,
-      "dailyRate": 4.1,
-      "monthlyRate": 122,
-      "daysLeft": 12,
-      "reorderQty": 182
+      "dailyRate": 4,
+      "monthlyRate": 120,
+      "daysLeft": 13,
+      "reorderQty": 180
     },
     {
       "name": "Steering Knob Cartalk Black (SK020)",
@@ -1630,10 +1643,10 @@
       "totalIn": 430,
       "totalOut": 320,
       "currentStock": 110,
-      "dailyRate": 4.1,
-      "monthlyRate": 122,
-      "daysLeft": 27,
-      "reorderQty": 182
+      "dailyRate": 4,
+      "monthlyRate": 120,
+      "daysLeft": 28,
+      "reorderQty": 180
     },
     {
       "name": "Door Pocket Big (HLD002)",
@@ -1644,9 +1657,9 @@
       "totalOut": 319,
       "currentStock": 889,
       "dailyRate": 4,
-      "monthlyRate": 121,
-      "daysLeft": 220,
-      "reorderQty": 182
+      "monthlyRate": 120,
+      "daysLeft": 223,
+      "reorderQty": 179
     },
     {
       "name": "Steering Knob Genova New (SK005)",
@@ -1657,9 +1670,22 @@
       "totalOut": 316,
       "currentStock": 204,
       "dailyRate": 4,
-      "monthlyRate": 120,
-      "daysLeft": 51,
-      "reorderQty": 180
+      "monthlyRate": 119,
+      "daysLeft": 52,
+      "reorderQty": 178
+    },
+    {
+      "name": "Armrest Pad (OTH056)",
+      "cat": "Other",
+      "loc": "Jhilmil",
+      "unit": "Pcs",
+      "totalIn": 489,
+      "totalOut": 314,
+      "currentStock": 175,
+      "dailyRate": 3.9,
+      "monthlyRate": 118,
+      "daysLeft": 45,
+      "reorderQty": 177
     },
     {
       "name": "Fender Sticker Carbn (OD008)",
@@ -1670,22 +1696,9 @@
       "totalOut": 312,
       "currentStock": 697,
       "dailyRate": 3.9,
-      "monthlyRate": 118,
-      "daysLeft": 176,
-      "reorderQty": 178
-    },
-    {
-      "name": "Touchup Paint Lecquer (PNT021)",
-      "cat": "Paint",
-      "loc": "Vivek Vihar",
-      "unit": "Pcs",
-      "totalIn": 900,
-      "totalOut": 312,
-      "currentStock": 588,
-      "dailyRate": 3.9,
-      "monthlyRate": 118,
-      "daysLeft": 149,
-      "reorderQty": 178
+      "monthlyRate": 117,
+      "daysLeft": 179,
+      "reorderQty": 176
     },
     {
       "name": "Rear View Mirror Diamond 271/272 (RVM006)",
@@ -1696,22 +1709,9 @@
       "totalOut": 310,
       "currentStock": 120,
       "dailyRate": 3.9,
-      "monthlyRate": 118,
+      "monthlyRate": 116,
       "daysLeft": 31,
-      "reorderQty": 177
-    },
-    {
-      "name": "Armrest Pad (OTH056)",
-      "cat": "Other",
-      "loc": "Jhilmil",
-      "unit": "Pcs",
-      "totalIn": 489,
-      "totalOut": 309,
-      "currentStock": 180,
-      "dailyRate": 3.9,
-      "monthlyRate": 117,
-      "daysLeft": 46,
-      "reorderQty": 176
+      "reorderQty": 174
     },
     {
       "name": "32107 Creation (BD002)",
@@ -1722,9 +1722,9 @@
       "totalOut": 300,
       "currentStock": 4075,
       "dailyRate": 3.8,
-      "monthlyRate": 114,
-      "daysLeft": 1073,
-      "reorderQty": 171
+      "monthlyRate": 113,
+      "daysLeft": 1087,
+      "reorderQty": 169
     },
     {
       "name": "Whistle Med (CW002)",
@@ -1735,9 +1735,9 @@
       "totalOut": 300,
       "currentStock": 0,
       "dailyRate": 3.8,
-      "monthlyRate": 114,
+      "monthlyRate": 113,
       "daysLeft": 0,
-      "reorderQty": 171
+      "reorderQty": 169
     },
     {
       "name": "Door Guard 3R 2175 (DG020)",
@@ -1748,9 +1748,9 @@
       "totalOut": 300,
       "currentStock": 1500,
       "dailyRate": 3.8,
-      "monthlyRate": 114,
-      "daysLeft": 395,
-      "reorderQty": 171
+      "monthlyRate": 113,
+      "daysLeft": 400,
+      "reorderQty": 169
     },
     {
       "name": "Robot Diffuser (PRF032)",
@@ -1761,9 +1761,9 @@
       "totalOut": 300,
       "currentStock": 28,
       "dailyRate": 3.8,
-      "monthlyRate": 114,
+      "monthlyRate": 113,
       "daysLeft": 7,
-      "reorderQty": 171
+      "reorderQty": 169
     },
     {
       "name": "Show Antenna 2006 (SA002)",
@@ -1774,9 +1774,9 @@
       "totalOut": 300,
       "currentStock": 0,
       "dailyRate": 3.8,
-      "monthlyRate": 114,
+      "monthlyRate": 113,
       "daysLeft": 0,
-      "reorderQty": 171
+      "reorderQty": 169
     },
     {
       "name": "Solar Perfume Golf (SOL051)",
@@ -1787,9 +1787,9 @@
       "totalOut": 300,
       "currentStock": 0,
       "dailyRate": 3.8,
-      "monthlyRate": 114,
+      "monthlyRate": 113,
       "daysLeft": 0,
-      "reorderQty": 171
+      "reorderQty": 169
     },
     {
       "name": "Solar Perfume Tenish (SOL052)",
@@ -1800,9 +1800,9 @@
       "totalOut": 300,
       "currentStock": 0,
       "dailyRate": 3.8,
-      "monthlyRate": 114,
+      "monthlyRate": 113,
       "daysLeft": 0,
-      "reorderQty": 171
+      "reorderQty": 169
     },
     {
       "name": "Steering Knob A1 (SK009)",
@@ -1812,10 +1812,10 @@
       "totalIn": 380,
       "totalOut": 290,
       "currentStock": 90,
-      "dailyRate": 3.7,
-      "monthlyRate": 110,
+      "dailyRate": 3.6,
+      "monthlyRate": 109,
       "daysLeft": 25,
-      "reorderQty": 165
+      "reorderQty": 163
     },
     {
       "name": "Touchup Paint Cream White (PNT018)",
@@ -1826,9 +1826,9 @@
       "totalOut": 288,
       "currentStock": 360,
       "dailyRate": 3.6,
-      "monthlyRate": 109,
-      "daysLeft": 99,
-      "reorderQty": 164
+      "monthlyRate": 108,
+      "daysLeft": 100,
+      "reorderQty": 162
     },
     {
       "name": "Steering Grip Imported (SC005)",
@@ -1839,9 +1839,9 @@
       "totalOut": 288,
       "currentStock": 1744,
       "dailyRate": 3.6,
-      "monthlyRate": 109,
-      "daysLeft": 478,
-      "reorderQty": 164
+      "monthlyRate": 108,
+      "daysLeft": 484,
+      "reorderQty": 162
     },
     {
       "name": "Gear Knob Round Ring - 0537 (GK012)",
@@ -1852,9 +1852,9 @@
       "totalOut": 280,
       "currentStock": 200,
       "dailyRate": 3.5,
-      "monthlyRate": 106,
-      "daysLeft": 56,
-      "reorderQty": 159
+      "monthlyRate": 105,
+      "daysLeft": 57,
+      "reorderQty": 158
     },
     {
       "name": "Solar Tyre (SOL012)",
@@ -1865,9 +1865,9 @@
       "totalOut": 278,
       "currentStock": 1041,
       "dailyRate": 3.5,
-      "monthlyRate": 106,
-      "daysLeft": 296,
-      "reorderQty": 158
+      "monthlyRate": 104,
+      "daysLeft": 300,
+      "reorderQty": 156
     },
     {
       "name": "Blind Spot Mirror Hd 081 Chrome (BSM016)",
@@ -1878,9 +1878,22 @@
       "totalOut": 270,
       "currentStock": 286,
       "dailyRate": 3.4,
-      "monthlyRate": 103,
-      "daysLeft": 84,
-      "reorderQty": 154
+      "monthlyRate": 101,
+      "daysLeft": 85,
+      "reorderQty": 152
+    },
+    {
+      "name": "Rear View Mirror Broadway Mix (RVM015)",
+      "cat": "Rear View Mirror",
+      "loc": "Jhilmil",
+      "unit": "Pcs",
+      "totalIn": 1185,
+      "totalOut": 270,
+      "currentStock": 915,
+      "dailyRate": 3.4,
+      "monthlyRate": 101,
+      "daysLeft": 271,
+      "reorderQty": 152
     },
     {
       "name": "Door Guard 3R 2152 (DG004)",
@@ -1891,9 +1904,9 @@
       "totalOut": 260,
       "currentStock": 340,
       "dailyRate": 3.3,
-      "monthlyRate": 99,
-      "daysLeft": 103,
-      "reorderQty": 148
+      "monthlyRate": 98,
+      "daysLeft": 105,
+      "reorderQty": 146
     },
     {
       "name": "Foil Curtain Printed (OTH038)",
@@ -1904,9 +1917,9 @@
       "totalOut": 260,
       "currentStock": 600,
       "dailyRate": 3.3,
-      "monthlyRate": 99,
-      "daysLeft": 182,
-      "reorderQty": 148
+      "monthlyRate": 98,
+      "daysLeft": 185,
+      "reorderQty": 146
     },
     {
       "name": "32102 (14MM) (BD005)",
@@ -1916,10 +1929,10 @@
       "totalIn": 4300,
       "totalOut": 250,
       "currentStock": 4050,
-      "dailyRate": 3.2,
-      "monthlyRate": 95,
-      "daysLeft": 1280,
-      "reorderQty": 142
+      "dailyRate": 3.1,
+      "monthlyRate": 94,
+      "daysLeft": 1296,
+      "reorderQty": 141
     },
     {
       "name": "Seat Side Gap Filler (OTH040)",
@@ -1929,10 +1942,10 @@
       "totalIn": 1530,
       "totalOut": 249,
       "currentStock": 1281,
-      "dailyRate": 3.2,
-      "monthlyRate": 95,
-      "daysLeft": 406,
-      "reorderQty": 142
+      "dailyRate": 3.1,
+      "monthlyRate": 93,
+      "daysLeft": 412,
+      "reorderQty": 140
     },
     {
       "name": "Steering Hub (SK001)",
@@ -1943,9 +1956,9 @@
       "totalOut": 246,
       "currentStock": 184,
       "dailyRate": 3.1,
-      "monthlyRate": 93,
-      "daysLeft": 59,
-      "reorderQty": 140
+      "monthlyRate": 92,
+      "daysLeft": 60,
+      "reorderQty": 138
     },
     {
       "name": "Steering Knob Cartalk Beige (SK021)",
@@ -1956,22 +1969,22 @@
       "totalOut": 240,
       "currentStock": 630,
       "dailyRate": 3,
-      "monthlyRate": 91,
-      "daysLeft": 207,
-      "reorderQty": 137
+      "monthlyRate": 90,
+      "daysLeft": 210,
+      "reorderQty": 135
     },
     {
-      "name": "Rear View Mirror Broadway Mix (RVM015)",
-      "cat": "Rear View Mirror",
-      "loc": "Jhilmil",
+      "name": "Gear Cover Heavy (GK042)",
+      "cat": "Gear Knob",
+      "loc": "jhilmil",
       "unit": "Pcs",
-      "totalIn": 1185,
+      "totalIn": 550,
       "totalOut": 230,
-      "currentStock": 955,
+      "currentStock": 320,
       "dailyRate": 2.9,
-      "monthlyRate": 87,
-      "daysLeft": 328,
-      "reorderQty": 131
+      "monthlyRate": 86,
+      "daysLeft": 111,
+      "reorderQty": 129
     },
     {
       "name": "Steering Knob G-POP Mini Korea (SK019)",
@@ -1982,9 +1995,9 @@
       "totalOut": 230,
       "currentStock": 634,
       "dailyRate": 2.9,
-      "monthlyRate": 87,
-      "daysLeft": 218,
-      "reorderQty": 131
+      "monthlyRate": 86,
+      "daysLeft": 221,
+      "reorderQty": 129
     },
     {
       "name": "Airflow 712 Chrome (AF049)",
@@ -1995,9 +2008,9 @@
       "totalOut": 225,
       "currentStock": 279,
       "dailyRate": 2.8,
-      "monthlyRate": 85,
-      "daysLeft": 98,
-      "reorderQty": 128
+      "monthlyRate": 84,
+      "daysLeft": 99,
+      "reorderQty": 127
     },
     {
       "name": "Steering Knob G-POP Korea (SK018)",
@@ -2008,22 +2021,22 @@
       "totalOut": 224,
       "currentStock": 424,
       "dailyRate": 2.8,
-      "monthlyRate": 85,
-      "daysLeft": 150,
-      "reorderQty": 128
+      "monthlyRate": 84,
+      "daysLeft": 151,
+      "reorderQty": 126
     },
     {
-      "name": "Gear Cover Heavy (GK042)",
-      "cat": "Gear Knob",
-      "loc": "jhilmil",
+      "name": "Hanging Apple (PRF005)",
+      "cat": "Perfume",
+      "loc": "Jhilmil",
       "unit": "Pcs",
-      "totalIn": 550,
-      "totalOut": 220,
-      "currentStock": 330,
-      "dailyRate": 2.8,
-      "monthlyRate": 84,
-      "daysLeft": 118,
-      "reorderQty": 125
+      "totalIn": 1944,
+      "totalOut": 216,
+      "currentStock": 1728,
+      "dailyRate": 2.7,
+      "monthlyRate": 81,
+      "daysLeft": 640,
+      "reorderQty": 122
     },
     {
       "name": "Steering Knob Genova Sports (SK006)",
@@ -2033,10 +2046,10 @@
       "totalIn": 250,
       "totalOut": 204,
       "currentStock": 46,
-      "dailyRate": 2.6,
+      "dailyRate": 2.5,
       "monthlyRate": 77,
       "daysLeft": 18,
-      "reorderQty": 116
+      "reorderQty": 115
     },
     {
       "name": "Solar Big Ship (SOL016)",
@@ -2047,9 +2060,9 @@
       "totalOut": 201,
       "currentStock": 61,
       "dailyRate": 2.5,
-      "monthlyRate": 76,
+      "monthlyRate": 75,
       "daysLeft": 24,
-      "reorderQty": 114
+      "reorderQty": 113
     },
     {
       "name": "Blind Spot Mirror 056 (BSM005)",
@@ -2060,9 +2073,9 @@
       "totalOut": 200,
       "currentStock": 600,
       "dailyRate": 2.5,
-      "monthlyRate": 76,
-      "daysLeft": 237,
-      "reorderQty": 114
+      "monthlyRate": 75,
+      "daysLeft": 240,
+      "reorderQty": 113
     },
     {
       "name": "Blind Spot Mirror 204 (BSM026)",
@@ -2073,9 +2086,9 @@
       "totalOut": 200,
       "currentStock": 100,
       "dailyRate": 2.5,
-      "monthlyRate": 76,
+      "monthlyRate": 75,
       "daysLeft": 40,
-      "reorderQty": 114
+      "reorderQty": 113
     },
     {
       "name": "Door Guard 3R 2163 Chrome (DG017)",
@@ -2086,9 +2099,9 @@
       "totalOut": 200,
       "currentStock": 0,
       "dailyRate": 2.5,
-      "monthlyRate": 76,
+      "monthlyRate": 75,
       "daysLeft": 0,
-      "reorderQty": 114
+      "reorderQty": 113
     },
     {
       "name": "Door Guard 3R-2176 (DG022)",
@@ -2099,9 +2112,9 @@
       "totalOut": 200,
       "currentStock": 0,
       "dailyRate": 2.5,
-      "monthlyRate": 76,
+      "monthlyRate": 75,
       "daysLeft": 0,
-      "reorderQty": 114
+      "reorderQty": 113
     },
     {
       "name": "Door Guard 3R-2177 (DG023)",
@@ -2112,9 +2125,9 @@
       "totalOut": 200,
       "currentStock": 300,
       "dailyRate": 2.5,
-      "monthlyRate": 76,
-      "daysLeft": 118,
-      "reorderQty": 114
+      "monthlyRate": 75,
+      "daysLeft": 120,
+      "reorderQty": 113
     },
     {
       "name": "Mobile Holder A125 (HLD010)",
@@ -2125,9 +2138,9 @@
       "totalOut": 200,
       "currentStock": 0,
       "dailyRate": 2.5,
-      "monthlyRate": 76,
+      "monthlyRate": 75,
       "daysLeft": 0,
-      "reorderQty": 114
+      "reorderQty": 113
     },
     {
       "name": "Mobile Holder 145 (HLD013)",
@@ -2138,9 +2151,9 @@
       "totalOut": 200,
       "currentStock": 1300,
       "dailyRate": 2.5,
-      "monthlyRate": 76,
-      "daysLeft": 514,
-      "reorderQty": 114
+      "monthlyRate": 75,
+      "daysLeft": 520,
+      "reorderQty": 113
     },
     {
       "name": "Reflector 3R 2150 (OTH013)",
@@ -2151,9 +2164,9 @@
       "totalOut": 200,
       "currentStock": 600,
       "dailyRate": 2.5,
-      "monthlyRate": 76,
-      "daysLeft": 237,
-      "reorderQty": 114
+      "monthlyRate": 75,
+      "daysLeft": 240,
+      "reorderQty": 113
     },
     {
       "name": "Tow Belt Blister (OTH061)",
@@ -2164,9 +2177,9 @@
       "totalOut": 200,
       "currentStock": 900,
       "dailyRate": 2.5,
-      "monthlyRate": 76,
-      "daysLeft": 356,
-      "reorderQty": 114
+      "monthlyRate": 75,
+      "daysLeft": 360,
+      "reorderQty": 113
     },
     {
       "name": "Side Indicator With Light (OTH067)",
@@ -2177,9 +2190,9 @@
       "totalOut": 200,
       "currentStock": 0,
       "dailyRate": 2.5,
-      "monthlyRate": 76,
+      "monthlyRate": 75,
       "daysLeft": 0,
-      "reorderQty": 114
+      "reorderQty": 113
     },
     {
       "name": "Show Antenna Ks-30 (SA007)",
@@ -2190,9 +2203,9 @@
       "totalOut": 200,
       "currentStock": 0,
       "dailyRate": 2.5,
-      "monthlyRate": 76,
+      "monthlyRate": 75,
       "daysLeft": 0,
-      "reorderQty": 114
+      "reorderQty": 113
     },
     {
       "name": "Show Antenna Ss-10 (SA009)",
@@ -2203,9 +2216,9 @@
       "totalOut": 200,
       "currentStock": 0,
       "dailyRate": 2.5,
-      "monthlyRate": 76,
+      "monthlyRate": 75,
       "daysLeft": 0,
-      "reorderQty": 114
+      "reorderQty": 113
     },
     {
       "name": "Show Antenna Ss-10 Black (SA018)",
@@ -2216,9 +2229,9 @@
       "totalOut": 200,
       "currentStock": 1800,
       "dailyRate": 2.5,
-      "monthlyRate": 76,
-      "daysLeft": 711,
-      "reorderQty": 114
+      "monthlyRate": 75,
+      "daysLeft": 720,
+      "reorderQty": 113
     },
     {
       "name": "Steering Knob Mini Cartalk Beige (SK028)",
@@ -2229,9 +2242,35 @@
       "totalOut": 200,
       "currentStock": -70,
       "dailyRate": 2.5,
-      "monthlyRate": 76,
+      "monthlyRate": 75,
       "daysLeft": -28,
-      "reorderQty": 114
+      "reorderQty": 113
+    },
+    {
+      "name": "Streering Cover Creation Soft Box Pack (SC003)",
+      "cat": "Steering Cover",
+      "loc": "Jhilmil",
+      "unit": "Pcs",
+      "totalIn": 200,
+      "totalOut": 200,
+      "currentStock": 0,
+      "dailyRate": 2.5,
+      "monthlyRate": 75,
+      "daysLeft": 0,
+      "reorderQty": 113
+    },
+    {
+      "name": "Gear Knob Long 10 Cm LED (GK027)",
+      "cat": "Gear Knob",
+      "loc": "Jhilmil",
+      "unit": "Pcs",
+      "totalIn": 398,
+      "totalOut": 199,
+      "currentStock": 199,
+      "dailyRate": 2.5,
+      "monthlyRate": 75,
+      "daysLeft": 80,
+      "reorderQty": 112
     },
     {
       "name": "Steering Wheel D-Shape (SW003)",
@@ -2241,10 +2280,10 @@
       "totalIn": 356,
       "totalOut": 194,
       "currentStock": 162,
-      "dailyRate": 2.5,
-      "monthlyRate": 74,
-      "daysLeft": 66,
-      "reorderQty": 111
+      "dailyRate": 2.4,
+      "monthlyRate": 73,
+      "daysLeft": 67,
+      "reorderQty": 109
     },
     {
       "name": "One Click Start Switch Button Cover (OTH031)",
@@ -2255,9 +2294,9 @@
       "totalOut": 192,
       "currentStock": 1474,
       "dailyRate": 2.4,
-      "monthlyRate": 73,
-      "daysLeft": 606,
-      "reorderQty": 109
+      "monthlyRate": 72,
+      "daysLeft": 614,
+      "reorderQty": 108
     },
     {
       "name": "Colour Plus Paint White (PNT039)",
@@ -2268,9 +2307,9 @@
       "totalOut": 192,
       "currentStock": 804,
       "dailyRate": 2.4,
-      "monthlyRate": 73,
-      "daysLeft": 331,
-      "reorderQty": 109
+      "monthlyRate": 72,
+      "daysLeft": 335,
+      "reorderQty": 108
     },
     {
       "name": "Non-Slip Mate Small (DM009)",
@@ -2281,9 +2320,9 @@
       "totalOut": 190,
       "currentStock": 2961,
       "dailyRate": 2.4,
-      "monthlyRate": 72,
-      "daysLeft": 1231,
-      "reorderQty": 108
+      "monthlyRate": 71,
+      "daysLeft": 1247,
+      "reorderQty": 107
     },
     {
       "name": "Samurai Belt Rear (OD004)",
@@ -2294,9 +2333,9 @@
       "totalOut": 190,
       "currentStock": 60,
       "dailyRate": 2.4,
-      "monthlyRate": 72,
+      "monthlyRate": 71,
       "daysLeft": 25,
-      "reorderQty": 108
+      "reorderQty": 107
     },
     {
       "name": "Airflow Skirting Small (AF041)",
@@ -2306,10 +2345,10 @@
       "totalIn": 465,
       "totalOut": 186,
       "currentStock": 279,
-      "dailyRate": 2.4,
-      "monthlyRate": 71,
-      "daysLeft": 119,
-      "reorderQty": 106
+      "dailyRate": 2.3,
+      "monthlyRate": 70,
+      "daysLeft": 120,
+      "reorderQty": 105
     },
     {
       "name": "Airflow 4Pc Set Poly Pack (AF038)",
@@ -2321,8 +2360,8 @@
       "currentStock": 270,
       "dailyRate": 2.3,
       "monthlyRate": 68,
-      "daysLeft": 118,
-      "reorderQty": 103
+      "daysLeft": 120,
+      "reorderQty": 101
     },
     {
       "name": "Air Freshener Creation 180 (ARF003)",
@@ -2334,8 +2373,8 @@
       "currentStock": 630,
       "dailyRate": 2.3,
       "monthlyRate": 68,
-      "daysLeft": 277,
-      "reorderQty": 103
+      "daysLeft": 280,
+      "reorderQty": 101
     },
     {
       "name": "Door Guard Gt Racing (DG014)",
@@ -2347,8 +2386,8 @@
       "currentStock": 180,
       "dailyRate": 2.3,
       "monthlyRate": 68,
-      "daysLeft": 79,
-      "reorderQty": 103
+      "daysLeft": 80,
+      "reorderQty": 101
     },
     {
       "name": "Door Guard Exo Chrome (DG028)",
@@ -2360,8 +2399,8 @@
       "currentStock": 720,
       "dailyRate": 2.3,
       "monthlyRate": 68,
-      "daysLeft": 316,
-      "reorderQty": 103
+      "daysLeft": 320,
+      "reorderQty": 101
     },
     {
       "name": "Cartalk Door Guard New White (DG041)",
@@ -2374,7 +2413,7 @@
       "dailyRate": 2.3,
       "monthlyRate": 68,
       "daysLeft": 0,
-      "reorderQty": 103
+      "reorderQty": 101
     },
     {
       "name": "Door Pocket Small (HLD003)",
@@ -2386,8 +2425,8 @@
       "currentStock": 500,
       "dailyRate": 2.3,
       "monthlyRate": 68,
-      "daysLeft": 219,
-      "reorderQty": 103
+      "daysLeft": 222,
+      "reorderQty": 101
     },
     {
       "name": "Colour Plus Paint Red (PNT033)",
@@ -2399,8 +2438,8 @@
       "currentStock": 936,
       "dailyRate": 2.3,
       "monthlyRate": 68,
-      "daysLeft": 411,
-      "reorderQty": 103
+      "daysLeft": 416,
+      "reorderQty": 101
     },
     {
       "name": "Robot Difuser New (SOL049)",
@@ -2410,22 +2449,9 @@
       "totalIn": 448,
       "totalOut": 170,
       "currentStock": 278,
-      "dailyRate": 2.2,
-      "monthlyRate": 65,
-      "daysLeft": 129,
-      "reorderQty": 97
-    },
-    {
-      "name": "Gear Knob Long 10 Cm LED (GK027)",
-      "cat": "Gear Knob",
-      "loc": "Jhilmil",
-      "unit": "Pcs",
-      "totalIn": 398,
-      "totalOut": 169,
-      "currentStock": 229,
       "dailyRate": 2.1,
       "monthlyRate": 64,
-      "daysLeft": 107,
+      "daysLeft": 131,
       "reorderQty": 96
     },
     {
@@ -2437,9 +2463,9 @@
       "totalOut": 168,
       "currentStock": 288,
       "dailyRate": 2.1,
-      "monthlyRate": 64,
-      "daysLeft": 135,
-      "reorderQty": 96
+      "monthlyRate": 63,
+      "daysLeft": 137,
+      "reorderQty": 95
     },
     {
       "name": "Ash Tray Bmw Big (AT002)",
@@ -2449,10 +2475,10 @@
       "totalIn": 745,
       "totalOut": 164,
       "currentStock": 581,
-      "dailyRate": 2.1,
+      "dailyRate": 2,
       "monthlyRate": 62,
-      "daysLeft": 280,
-      "reorderQty": 93
+      "daysLeft": 283,
+      "reorderQty": 92
     },
     {
       "name": "Oil Brush (OIL001)",
@@ -2462,10 +2488,10 @@
       "totalIn": 896,
       "totalOut": 162,
       "currentStock": 734,
-      "dailyRate": 2.1,
-      "monthlyRate": 62,
-      "daysLeft": 358,
-      "reorderQty": 92
+      "dailyRate": 2,
+      "monthlyRate": 61,
+      "daysLeft": 362,
+      "reorderQty": 91
     },
     {
       "name": "Gear Knob Momo Cp - 0540 (GK013)",
@@ -2476,9 +2502,9 @@
       "totalOut": 160,
       "currentStock": 250,
       "dailyRate": 2,
-      "monthlyRate": 61,
-      "daysLeft": 123,
-      "reorderQty": 91
+      "monthlyRate": 60,
+      "daysLeft": 125,
+      "reorderQty": 90
     },
     {
       "name": "Seat Belt Pad (OTH046)",
@@ -2489,9 +2515,9 @@
       "totalOut": 160,
       "currentStock": 110,
       "dailyRate": 2,
-      "monthlyRate": 61,
-      "daysLeft": 54,
-      "reorderQty": 91
+      "monthlyRate": 60,
+      "daysLeft": 55,
+      "reorderQty": 90
     },
     {
       "name": "Diffuser Yi-146 (OD001)",
@@ -2502,9 +2528,9 @@
       "totalOut": 160,
       "currentStock": 400,
       "dailyRate": 2,
-      "monthlyRate": 61,
-      "daysLeft": 198,
-      "reorderQty": 91
+      "monthlyRate": 60,
+      "daysLeft": 200,
+      "reorderQty": 90
     },
     {
       "name": "Steering Knob Blacksuit (SK004)",
@@ -2515,9 +2541,9 @@
       "totalOut": 160,
       "currentStock": 680,
       "dailyRate": 2,
-      "monthlyRate": 61,
-      "daysLeft": 336,
-      "reorderQty": 91
+      "monthlyRate": 60,
+      "daysLeft": 340,
+      "reorderQty": 90
     },
     {
       "name": "Steering Knob Mini Cartalk Black (SK027)",
@@ -2528,9 +2554,9 @@
       "totalOut": 160,
       "currentStock": 0,
       "dailyRate": 2,
-      "monthlyRate": 61,
+      "monthlyRate": 60,
       "daysLeft": 0,
-      "reorderQty": 91
+      "reorderQty": 90
     },
     {
       "name": "Spider-Man (OD011)",
@@ -2541,22 +2567,9 @@
       "totalOut": 150,
       "currentStock": 50,
       "dailyRate": 1.9,
-      "monthlyRate": 57,
-      "daysLeft": 26,
-      "reorderQty": 85
-    },
-    {
-      "name": "Hanging Apple (PRF005)",
-      "cat": "Perfume",
-      "loc": "Jhilmil",
-      "unit": "Pcs",
-      "totalIn": 1944,
-      "totalOut": 144,
-      "currentStock": 1800,
-      "dailyRate": 1.8,
-      "monthlyRate": 55,
-      "daysLeft": 988,
-      "reorderQty": 82
+      "monthlyRate": 56,
+      "daysLeft": 27,
+      "reorderQty": 84
     },
     {
       "name": "Airflow 5111 Chrome (AF043)",
@@ -2568,8 +2581,8 @@
       "currentStock": 239,
       "dailyRate": 1.8,
       "monthlyRate": 53,
-      "daysLeft": 135,
-      "reorderQty": 80
+      "daysLeft": 137,
+      "reorderQty": 79
     },
     {
       "name": "Solar Perfume Horse Apple (SOL002)",
@@ -2581,8 +2594,8 @@
       "currentStock": 880,
       "dailyRate": 1.8,
       "monthlyRate": 53,
-      "daysLeft": 497,
-      "reorderQty": 80
+      "daysLeft": 503,
+      "reorderQty": 79
     },
     {
       "name": "Solar By Cycle (SOL021)",
@@ -2594,8 +2607,8 @@
       "currentStock": 340,
       "dailyRate": 1.8,
       "monthlyRate": 53,
-      "daysLeft": 192,
-      "reorderQty": 80
+      "daysLeft": 194,
+      "reorderQty": 79
     },
     {
       "name": "Steering Knob A2 (SK010)",
@@ -2608,7 +2621,7 @@
       "dailyRate": 1.8,
       "monthlyRate": 53,
       "daysLeft": 0,
-      "reorderQty": 80
+      "reorderQty": 79
     },
     {
       "name": "Steering Knob Cautro Sports Soccer Black (SK024)",
@@ -2620,8 +2633,8 @@
       "currentStock": 260,
       "dailyRate": 1.8,
       "monthlyRate": 53,
-      "daysLeft": 147,
-      "reorderQty": 80
+      "daysLeft": 149,
+      "reorderQty": 79
     },
     {
       "name": "Touchup Paint Med. Yellow (PNT023)",
@@ -2631,10 +2644,10 @@
       "totalIn": 720,
       "totalOut": 132,
       "currentStock": 588,
-      "dailyRate": 1.7,
+      "dailyRate": 1.6,
       "monthlyRate": 50,
-      "daysLeft": 352,
-      "reorderQty": 75
+      "daysLeft": 356,
+      "reorderQty": 74
     },
     {
       "name": "Gear Knob Momo Cut 0562 (GK005)",
@@ -2646,8 +2659,8 @@
       "currentStock": 450,
       "dailyRate": 1.6,
       "monthlyRate": 49,
-      "daysLeft": 273,
-      "reorderQty": 74
+      "daysLeft": 277,
+      "reorderQty": 73
     },
     {
       "name": "Perfume Tank (PRF016)",
@@ -2658,9 +2671,9 @@
       "totalOut": 128,
       "currentStock": 472,
       "dailyRate": 1.6,
-      "monthlyRate": 49,
-      "daysLeft": 291,
-      "reorderQty": 73
+      "monthlyRate": 48,
+      "daysLeft": 295,
+      "reorderQty": 72
     },
     {
       "name": "32107 (G) (BD001)",
@@ -2672,8 +2685,8 @@
       "currentStock": 1875,
       "dailyRate": 1.6,
       "monthlyRate": 47,
-      "daysLeft": 1185,
-      "reorderQty": 71
+      "daysLeft": 1200,
+      "reorderQty": 70
     },
     {
       "name": "Airflow 703 Chrome (AF047)",
@@ -2684,8 +2697,8 @@
       "totalOut": 120,
       "currentStock": 133,
       "dailyRate": 1.5,
-      "monthlyRate": 46,
-      "daysLeft": 88,
+      "monthlyRate": 45,
+      "daysLeft": 89,
       "reorderQty": 68
     },
     {
@@ -2697,8 +2710,8 @@
       "totalOut": 120,
       "currentStock": 123,
       "dailyRate": 1.5,
-      "monthlyRate": 46,
-      "daysLeft": 81,
+      "monthlyRate": 45,
+      "daysLeft": 82,
       "reorderQty": 68
     },
     {
@@ -2710,7 +2723,7 @@
       "totalOut": 120,
       "currentStock": 20,
       "dailyRate": 1.5,
-      "monthlyRate": 46,
+      "monthlyRate": 45,
       "daysLeft": 13,
       "reorderQty": 68
     },
@@ -2722,10 +2735,10 @@
       "totalIn": 316,
       "totalOut": 116,
       "currentStock": 200,
-      "dailyRate": 1.5,
+      "dailyRate": 1.4,
       "monthlyRate": 44,
-      "daysLeft": 136,
-      "reorderQty": 66
+      "daysLeft": 138,
+      "reorderQty": 65
     },
     {
       "name": "Solar Jet (SOL013)",
@@ -2735,10 +2748,10 @@
       "totalIn": 840,
       "totalOut": 115,
       "currentStock": 725,
-      "dailyRate": 1.5,
-      "monthlyRate": 44,
-      "daysLeft": 498,
-      "reorderQty": 66
+      "dailyRate": 1.4,
+      "monthlyRate": 43,
+      "daysLeft": 504,
+      "reorderQty": 65
     },
     {
       "name": "Footstep Pu Carbon (OTH029)",
@@ -2749,9 +2762,22 @@
       "totalOut": 112,
       "currentStock": 420,
       "dailyRate": 1.4,
-      "monthlyRate": 43,
-      "daysLeft": 296,
-      "reorderQty": 64
+      "monthlyRate": 42,
+      "daysLeft": 300,
+      "reorderQty": 63
+    },
+    {
+      "name": "Cleaning Brush 1609 (DST010)",
+      "cat": "Duster And Brush",
+      "loc": "Jhilmil",
+      "unit": "Pcs",
+      "totalIn": 355,
+      "totalOut": 106,
+      "currentStock": 249,
+      "dailyRate": 1.3,
+      "monthlyRate": 40,
+      "daysLeft": 188,
+      "reorderQty": 60
     },
     {
       "name": "Air Flow Xsl 001 (AF017)",
@@ -2763,8 +2789,8 @@
       "currentStock": 400,
       "dailyRate": 1.3,
       "monthlyRate": 38,
-      "daysLeft": 316,
-      "reorderQty": 57
+      "daysLeft": 320,
+      "reorderQty": 56
     },
     {
       "name": "Air Flow 910 (AF023)",
@@ -2776,8 +2802,8 @@
       "currentStock": -62,
       "dailyRate": 1.3,
       "monthlyRate": 38,
-      "daysLeft": -49,
-      "reorderQty": 57
+      "daysLeft": -50,
+      "reorderQty": 56
     },
     {
       "name": "Airflow Big Brown Box (AF037)",
@@ -2790,7 +2816,20 @@
       "dailyRate": 1.3,
       "monthlyRate": 38,
       "daysLeft": 32,
-      "reorderQty": 57
+      "reorderQty": 56
+    },
+    {
+      "name": "Blind Spot Mirror 3R-011 (BSM039)",
+      "cat": "Blind Spot Mirror",
+      "loc": "Jhilmil",
+      "unit": "Pcs",
+      "totalIn": 1000,
+      "totalOut": 100,
+      "currentStock": 900,
+      "dailyRate": 1.3,
+      "monthlyRate": 38,
+      "daysLeft": 720,
+      "reorderQty": 56
     },
     {
       "name": "Whistle Large (CW001)",
@@ -2803,7 +2842,7 @@
       "dailyRate": 1.3,
       "monthlyRate": 38,
       "daysLeft": 0,
-      "reorderQty": 57
+      "reorderQty": 56
     },
     {
       "name": "Car Charger 4.8 Amp. Heavy (CGR002)",
@@ -2815,8 +2854,21 @@
       "currentStock": 100,
       "dailyRate": 1.3,
       "monthlyRate": 38,
-      "daysLeft": 79,
-      "reorderQty": 57
+      "daysLeft": 80,
+      "reorderQty": 56
+    },
+    {
+      "name": "Grill Light (LGH010)",
+      "cat": "Light",
+      "loc": "Jhilmil",
+      "unit": "Pcs",
+      "totalIn": 100,
+      "totalOut": 100,
+      "currentStock": 0,
+      "dailyRate": 1.3,
+      "monthlyRate": 38,
+      "daysLeft": 0,
+      "reorderQty": 56
     },
     {
       "name": "Hood Light (LGH011)",
@@ -2828,8 +2880,8 @@
       "currentStock": 200,
       "dailyRate": 1.3,
       "monthlyRate": 38,
-      "daysLeft": 158,
-      "reorderQty": 57
+      "daysLeft": 160,
+      "reorderQty": 56
     },
     {
       "name": "Mobile Stand Magnet 022 (MS004)",
@@ -2841,8 +2893,8 @@
       "currentStock": 100,
       "dailyRate": 1.3,
       "monthlyRate": 38,
-      "daysLeft": 79,
-      "reorderQty": 57
+      "daysLeft": 80,
+      "reorderQty": 56
     },
     {
       "name": "Mobile Stand Magnet X-97 (MS005)",
@@ -2854,8 +2906,8 @@
       "currentStock": 400,
       "dailyRate": 1.3,
       "monthlyRate": 38,
-      "daysLeft": 316,
-      "reorderQty": 57
+      "daysLeft": 320,
+      "reorderQty": 56
     },
     {
       "name": "Mobile Stand Magnet X-68 (MS006)",
@@ -2867,8 +2919,8 @@
       "currentStock": -100,
       "dailyRate": 1.3,
       "monthlyRate": 38,
-      "daysLeft": -79,
-      "reorderQty": 57
+      "daysLeft": -80,
+      "reorderQty": 56
     },
     {
       "name": "Show Antenna 051 (SA001)",
@@ -2880,8 +2932,8 @@
       "currentStock": 300,
       "dailyRate": 1.3,
       "monthlyRate": 38,
-      "daysLeft": 237,
-      "reorderQty": 57
+      "daysLeft": 240,
+      "reorderQty": 56
     },
     {
       "name": "Show Antenna 5413 (SA004)",
@@ -2893,8 +2945,8 @@
       "currentStock": -100,
       "dailyRate": 1.3,
       "monthlyRate": 38,
-      "daysLeft": -79,
-      "reorderQty": 57
+      "daysLeft": -80,
+      "reorderQty": 56
     },
     {
       "name": "Show Antenna 2018 (SA014)",
@@ -2906,8 +2958,8 @@
       "currentStock": 900,
       "dailyRate": 1.3,
       "monthlyRate": 38,
-      "daysLeft": 711,
-      "reorderQty": 57
+      "daysLeft": 720,
+      "reorderQty": 56
     },
     {
       "name": "Steering Cover Round (SC001)",
@@ -2919,8 +2971,8 @@
       "currentStock": 152,
       "dailyRate": 1.3,
       "monthlyRate": 38,
-      "daysLeft": 120,
-      "reorderQty": 57
+      "daysLeft": 122,
+      "reorderQty": 56
     },
     {
       "name": "Steering Cover Poly Pack (SC011)",
@@ -2932,34 +2984,8 @@
       "currentStock": 3700,
       "dailyRate": 1.3,
       "monthlyRate": 38,
-      "daysLeft": 2923,
-      "reorderQty": 57
-    },
-    {
-      "name": "Streering Cover Creation Soft Box Pack (SC003)",
-      "cat": "Steering Cover",
-      "loc": "Jhilmil",
-      "unit": "Pcs",
-      "totalIn": 200,
-      "totalOut": 100,
-      "currentStock": 100,
-      "dailyRate": 1.3,
-      "monthlyRate": 38,
-      "daysLeft": 79,
-      "reorderQty": 57
-    },
-    {
-      "name": "Cleaning Brush 1609 (DST010)",
-      "cat": "Duster And Brush",
-      "loc": "Jhilmil",
-      "unit": "Pcs",
-      "totalIn": 355,
-      "totalOut": 96,
-      "currentStock": 259,
-      "dailyRate": 1.2,
-      "monthlyRate": 36,
-      "daysLeft": 213,
-      "reorderQty": 55
+      "daysLeft": 2960,
+      "reorderQty": 56
     },
     {
       "name": "Touch Up Paint Orange (PNT012)",
@@ -2971,8 +2997,8 @@
       "currentStock": 1416,
       "dailyRate": 1.2,
       "monthlyRate": 36,
-      "daysLeft": 1165,
-      "reorderQty": 55
+      "daysLeft": 1180,
+      "reorderQty": 54
     },
     {
       "name": "Touchup Paint Sky Blue (PNT027)",
@@ -2984,8 +3010,8 @@
       "currentStock": 696,
       "dailyRate": 1.2,
       "monthlyRate": 36,
-      "daysLeft": 573,
-      "reorderQty": 55
+      "daysLeft": 580,
+      "reorderQty": 54
     },
     {
       "name": "Touchup Paint S. Gray 7032 (PNT030)",
@@ -2997,8 +3023,8 @@
       "currentStock": 192,
       "dailyRate": 1.2,
       "monthlyRate": 36,
-      "daysLeft": 158,
-      "reorderQty": 55
+      "daysLeft": 160,
+      "reorderQty": 54
     },
     {
       "name": "Non-Slip Mate Ovel/Rectangle (DM006)",
@@ -3008,9 +3034,9 @@
       "totalIn": 1882,
       "totalOut": 92,
       "currentStock": 1790,
-      "dailyRate": 1.2,
+      "dailyRate": 1.1,
       "monthlyRate": 35,
-      "daysLeft": 1537,
+      "daysLeft": 1557,
       "reorderQty": 52
     },
     {
@@ -3021,9 +3047,9 @@
       "totalIn": 209,
       "totalOut": 92,
       "currentStock": 117,
-      "dailyRate": 1.2,
+      "dailyRate": 1.1,
       "monthlyRate": 35,
-      "daysLeft": 100,
+      "daysLeft": 102,
       "reorderQty": 52
     },
     {
@@ -3036,7 +3062,7 @@
       "currentStock": 200,
       "dailyRate": 1.1,
       "monthlyRate": 34,
-      "daysLeft": 176,
+      "daysLeft": 178,
       "reorderQty": 51
     },
     {
@@ -3049,7 +3075,7 @@
       "currentStock": 215,
       "dailyRate": 1.1,
       "monthlyRate": 34,
-      "daysLeft": 189,
+      "daysLeft": 191,
       "reorderQty": 51
     },
     {
@@ -3062,7 +3088,7 @@
       "currentStock": 100,
       "dailyRate": 1.1,
       "monthlyRate": 34,
-      "daysLeft": 88,
+      "daysLeft": 89,
       "reorderQty": 51
     },
     {
@@ -3076,6 +3102,19 @@
       "dailyRate": 1.1,
       "monthlyRate": 34,
       "daysLeft": 44,
+      "reorderQty": 51
+    },
+    {
+      "name": "Dining Tray (OTH051)",
+      "cat": "Other",
+      "loc": "Jhilmil",
+      "unit": "Pcs",
+      "totalIn": 356,
+      "totalOut": 90,
+      "currentStock": 266,
+      "dailyRate": 1.1,
+      "monthlyRate": 34,
+      "daysLeft": 236,
       "reorderQty": 51
     },
     {
@@ -3101,34 +3140,8 @@
       "currentStock": 730,
       "dailyRate": 1.1,
       "monthlyRate": 32,
-      "daysLeft": 678,
+      "daysLeft": 687,
       "reorderQty": 48
-    },
-    {
-      "name": "Dining Tray (OTH051)",
-      "cat": "Other",
-      "loc": "Jhilmil",
-      "unit": "Pcs",
-      "totalIn": 356,
-      "totalOut": 85,
-      "currentStock": 271,
-      "dailyRate": 1.1,
-      "monthlyRate": 32,
-      "daysLeft": 252,
-      "reorderQty": 48
-    },
-    {
-      "name": "Long Body Door Guard Black ( DG038)",
-      "cat": "Door Guard",
-      "loc": "Jhilmil",
-      "unit": "Pcs",
-      "totalIn": 520,
-      "totalOut": 80,
-      "currentStock": 440,
-      "dailyRate": 1,
-      "monthlyRate": 30,
-      "daysLeft": 434,
-      "reorderQty": 46
     },
     {
       "name": "Gear Knob Hockey No. - 0529 (GK010)",
@@ -3140,8 +3153,8 @@
       "currentStock": 940,
       "dailyRate": 1,
       "monthlyRate": 30,
-      "daysLeft": 928,
-      "reorderQty": 46
+      "daysLeft": 940,
+      "reorderQty": 45
     },
     {
       "name": "Sun Glass Cover (OTH072)",
@@ -3154,7 +3167,7 @@
       "dailyRate": 1,
       "monthlyRate": 30,
       "daysLeft": 30,
-      "reorderQty": 46
+      "reorderQty": 45
     },
     {
       "name": "Steering Knob Cautro Sports Soccer Grey (SK025)",
@@ -3167,7 +3180,7 @@
       "dailyRate": 1,
       "monthlyRate": 30,
       "daysLeft": 0,
-      "reorderQty": 46
+      "reorderQty": 45
     },
     {
       "name": "Steering Knob G-POP Prime Mini (SK032)",
@@ -3179,8 +3192,8 @@
       "currentStock": 240,
       "dailyRate": 1,
       "monthlyRate": 30,
-      "daysLeft": 237,
-      "reorderQty": 46
+      "daysLeft": 240,
+      "reorderQty": 45
     },
     {
       "name": "Animal Doll Big (OTH020)",
@@ -3192,8 +3205,8 @@
       "currentStock": 169,
       "dailyRate": 1,
       "monthlyRate": 29,
-      "daysLeft": 173,
-      "reorderQty": 44
+      "daysLeft": 176,
+      "reorderQty": 43
     },
     {
       "name": "Airflow Jumbo Hjx (AF052)",
@@ -3205,7 +3218,7 @@
       "currentStock": 105,
       "dailyRate": 0.9,
       "monthlyRate": 28,
-      "daysLeft": 112,
+      "daysLeft": 114,
       "reorderQty": 42
     },
     {
@@ -3218,7 +3231,7 @@
       "currentStock": 360,
       "dailyRate": 0.9,
       "monthlyRate": 27,
-      "daysLeft": 395,
+      "daysLeft": 400,
       "reorderQty": 41
     },
     {
@@ -3231,7 +3244,7 @@
       "currentStock": 132,
       "dailyRate": 0.9,
       "monthlyRate": 27,
-      "daysLeft": 145,
+      "daysLeft": 147,
       "reorderQty": 41
     },
     {
@@ -3244,8 +3257,21 @@
       "currentStock": 1140,
       "dailyRate": 0.9,
       "monthlyRate": 27,
-      "daysLeft": 1251,
+      "daysLeft": 1267,
       "reorderQty": 41
+    },
+    {
+      "name": "Head Rest Hook (OTH075)",
+      "cat": "Other",
+      "loc": "Jhilmil",
+      "unit": "Pcs",
+      "totalIn": 140,
+      "totalOut": 71,
+      "currentStock": 69,
+      "dailyRate": 0.9,
+      "monthlyRate": 27,
+      "daysLeft": 78,
+      "reorderQty": 40
     },
     {
       "name": "Solar Flower Money Plant (SOL035)",
@@ -3256,9 +3282,9 @@
       "totalOut": 70,
       "currentStock": 366,
       "dailyRate": 0.9,
-      "monthlyRate": 27,
-      "daysLeft": 413,
-      "reorderQty": 40
+      "monthlyRate": 26,
+      "daysLeft": 418,
+      "reorderQty": 39
     },
     {
       "name": "Steering Knob G-POP Prime Plus (SK031)",
@@ -3269,9 +3295,9 @@
       "totalOut": 70,
       "currentStock": 0,
       "dailyRate": 0.9,
-      "monthlyRate": 27,
+      "monthlyRate": 26,
       "daysLeft": 0,
-      "reorderQty": 40
+      "reorderQty": 39
     },
     {
       "name": "Ktp With Fan (SOL044)",
@@ -3296,8 +3322,8 @@
       "currentStock": 109,
       "dailyRate": 0.8,
       "monthlyRate": 25,
-      "daysLeft": 130,
-      "reorderQty": 38
+      "daysLeft": 132,
+      "reorderQty": 37
     },
     {
       "name": "Solar Dollar God Horse (SOL018)",
@@ -3308,8 +3334,8 @@
       "totalOut": 65,
       "currentStock": 219,
       "dailyRate": 0.8,
-      "monthlyRate": 25,
-      "daysLeft": 266,
+      "monthlyRate": 24,
+      "daysLeft": 270,
       "reorderQty": 37
     },
     {
@@ -3334,8 +3360,8 @@
       "totalOut": 62,
       "currentStock": 50,
       "dailyRate": 0.8,
-      "monthlyRate": 24,
-      "daysLeft": 64,
+      "monthlyRate": 23,
+      "daysLeft": 65,
       "reorderQty": 35
     },
     {
@@ -3349,20 +3375,7 @@
       "dailyRate": 0.8,
       "monthlyRate": 23,
       "daysLeft": 0,
-      "reorderQty": 35
-    },
-    {
-      "name": "Head Rest Hook (OTH075)",
-      "cat": "Other",
-      "loc": "Jhilmil",
-      "unit": "Pcs",
-      "totalIn": 140,
-      "totalOut": 61,
-      "currentStock": 79,
-      "dailyRate": 0.8,
-      "monthlyRate": 23,
-      "daysLeft": 102,
-      "reorderQty": 35
+      "reorderQty": 34
     },
     {
       "name": "Wheel Jaguar (SOL042)",
@@ -3374,8 +3387,8 @@
       "currentStock": 57,
       "dailyRate": 0.8,
       "monthlyRate": 23,
-      "daysLeft": 74,
-      "reorderQty": 35
+      "daysLeft": 75,
+      "reorderQty": 34
     },
     {
       "name": "Air Flow 703 Black (AF003)",
@@ -3400,7 +3413,7 @@
       "currentStock": 60,
       "dailyRate": 0.8,
       "monthlyRate": 23,
-      "daysLeft": 79,
+      "daysLeft": 80,
       "reorderQty": 34
     },
     {
@@ -3426,7 +3439,20 @@
       "currentStock": 80,
       "dailyRate": 0.8,
       "monthlyRate": 23,
-      "daysLeft": 105,
+      "daysLeft": 107,
+      "reorderQty": 34
+    },
+    {
+      "name": "Head Rest Hook ABS (OTH076)",
+      "cat": "Other",
+      "loc": "Jhilmil",
+      "unit": "Pcs",
+      "totalIn": 550,
+      "totalOut": 60,
+      "currentStock": 490,
+      "dailyRate": 0.8,
+      "monthlyRate": 23,
+      "daysLeft": 653,
       "reorderQty": 34
     },
     {
@@ -3439,7 +3465,7 @@
       "currentStock": 600,
       "dailyRate": 0.8,
       "monthlyRate": 23,
-      "daysLeft": 790,
+      "daysLeft": 800,
       "reorderQty": 34
     },
     {
@@ -3452,7 +3478,7 @@
       "currentStock": 1584,
       "dailyRate": 0.8,
       "monthlyRate": 23,
-      "daysLeft": 2086,
+      "daysLeft": 2112,
       "reorderQty": 34
     },
     {
@@ -3465,7 +3491,7 @@
       "currentStock": 1780,
       "dailyRate": 0.8,
       "monthlyRate": 23,
-      "daysLeft": 2344,
+      "daysLeft": 2373,
       "reorderQty": 34
     },
     {
@@ -3477,9 +3503,22 @@
       "totalOut": 57,
       "currentStock": -57,
       "dailyRate": 0.7,
-      "monthlyRate": 22,
-      "daysLeft": -79,
+      "monthlyRate": 21,
+      "daysLeft": -80,
       "reorderQty": 32
+    },
+    {
+      "name": "Hd-727 Air Scope (AF057)",
+      "cat": "Air Flow",
+      "loc": "Jhilmil",
+      "unit": "Pcs",
+      "totalIn": 160,
+      "totalOut": 54,
+      "currentStock": 106,
+      "dailyRate": 0.7,
+      "monthlyRate": 20,
+      "daysLeft": 157,
+      "reorderQty": 30
     },
     {
       "name": "Gear Knob Hammer (GK002)",
@@ -3490,9 +3529,9 @@
       "totalOut": 54,
       "currentStock": 271,
       "dailyRate": 0.7,
-      "monthlyRate": 21,
-      "daysLeft": 396,
-      "reorderQty": 31
+      "monthlyRate": 20,
+      "daysLeft": 401,
+      "reorderQty": 30
     },
     {
       "name": "LED Bar Light (LGH016)",
@@ -3517,8 +3556,8 @@
       "currentStock": 685,
       "dailyRate": 0.7,
       "monthlyRate": 20,
-      "daysLeft": 1041,
-      "reorderQty": 30
+      "daysLeft": 1054,
+      "reorderQty": 29
     },
     {
       "name": "Back Cushion (OTH003)",
@@ -3530,8 +3569,8 @@
       "currentStock": 235,
       "dailyRate": 0.7,
       "monthlyRate": 20,
-      "daysLeft": 357,
-      "reorderQty": 30
+      "daysLeft": 362,
+      "reorderQty": 29
     },
     {
       "name": "Door Edge Guard New (DG002)",
@@ -3543,7 +3582,7 @@
       "currentStock": 115,
       "dailyRate": 0.6,
       "monthlyRate": 19,
-      "daysLeft": 182,
+      "daysLeft": 184,
       "reorderQty": 28
     },
     {
@@ -3556,20 +3595,7 @@
       "currentStock": 50,
       "dailyRate": 0.6,
       "monthlyRate": 19,
-      "daysLeft": 79,
-      "reorderQty": 28
-    },
-    {
-      "name": "Grill Light (LGH010)",
-      "cat": "Light",
-      "loc": "Jhilmil",
-      "unit": "Pcs",
-      "totalIn": 100,
-      "totalOut": 50,
-      "currentStock": 50,
-      "dailyRate": 0.6,
-      "monthlyRate": 19,
-      "daysLeft": 79,
+      "daysLeft": 80,
       "reorderQty": 28
     },
     {
@@ -3582,33 +3608,7 @@
       "currentStock": 37,
       "dailyRate": 0.6,
       "monthlyRate": 19,
-      "daysLeft": 58,
-      "reorderQty": 28
-    },
-    {
-      "name": "Head Rest Hook ABS (OTH076)",
-      "cat": "Other",
-      "loc": "Jhilmil",
-      "unit": "Pcs",
-      "totalIn": 550,
-      "totalOut": 50,
-      "currentStock": 500,
-      "dailyRate": 0.6,
-      "monthlyRate": 19,
-      "daysLeft": 790,
-      "reorderQty": 28
-    },
-    {
-      "name": "Hd-727 Air Scope (AF057)",
-      "cat": "Air Flow",
-      "loc": "Jhilmil",
-      "unit": "Pcs",
-      "totalIn": 160,
-      "totalOut": 49,
-      "currentStock": 111,
-      "dailyRate": 0.6,
-      "monthlyRate": 19,
-      "daysLeft": 179,
+      "daysLeft": 59,
       "reorderQty": 28
     },
     {
@@ -3621,7 +3621,7 @@
       "currentStock": 540,
       "dailyRate": 0.6,
       "monthlyRate": 18,
-      "daysLeft": 889,
+      "daysLeft": 900,
       "reorderQty": 27
     },
     {
@@ -3634,8 +3634,8 @@
       "currentStock": 94,
       "dailyRate": 0.6,
       "monthlyRate": 18,
-      "daysLeft": 158,
-      "reorderQty": 27
+      "daysLeft": 160,
+      "reorderQty": 26
     },
     {
       "name": "Vanity Mirror Hd-087 (VM006)",
@@ -3647,8 +3647,8 @@
       "currentStock": 121,
       "dailyRate": 0.6,
       "monthlyRate": 17,
-      "daysLeft": 212,
-      "reorderQty": 26
+      "daysLeft": 215,
+      "reorderQty": 25
     },
     {
       "name": "Multi Tray (HLD007)",
@@ -3660,7 +3660,7 @@
       "currentStock": 151,
       "dailyRate": 0.6,
       "monthlyRate": 17,
-      "daysLeft": 271,
+      "daysLeft": 275,
       "reorderQty": 25
     },
     {
@@ -3673,7 +3673,7 @@
       "currentStock": 229,
       "dailyRate": 0.5,
       "monthlyRate": 16,
-      "daysLeft": 431,
+      "daysLeft": 436,
       "reorderQty": 24
     },
     {
@@ -3685,8 +3685,8 @@
       "totalOut": 41,
       "currentStock": 25,
       "dailyRate": 0.5,
-      "monthlyRate": 16,
-      "daysLeft": 48,
+      "monthlyRate": 15,
+      "daysLeft": 49,
       "reorderQty": 23
     },
     {
@@ -3699,7 +3699,7 @@
       "currentStock": 45,
       "dailyRate": 0.5,
       "monthlyRate": 15,
-      "daysLeft": 89,
+      "daysLeft": 90,
       "reorderQty": 23
     },
     {
@@ -3712,7 +3712,7 @@
       "currentStock": 60,
       "dailyRate": 0.5,
       "monthlyRate": 15,
-      "daysLeft": 118,
+      "daysLeft": 120,
       "reorderQty": 23
     },
     {
@@ -3725,7 +3725,20 @@
       "currentStock": 130,
       "dailyRate": 0.5,
       "monthlyRate": 15,
-      "daysLeft": 257,
+      "daysLeft": 260,
+      "reorderQty": 23
+    },
+    {
+      "name": "Silencer Show 6028 Hks (SS004)",
+      "cat": "Silencer Show",
+      "loc": "Jhilmil",
+      "unit": "Pcs",
+      "totalIn": 53,
+      "totalOut": 40,
+      "currentStock": 13,
+      "dailyRate": 0.5,
+      "monthlyRate": 15,
+      "daysLeft": 26,
       "reorderQty": 23
     },
     {
@@ -3738,7 +3751,7 @@
       "currentStock": 48,
       "dailyRate": 0.5,
       "monthlyRate": 15,
-      "daysLeft": 95,
+      "daysLeft": 96,
       "reorderQty": 23
     },
     {
@@ -3751,7 +3764,7 @@
       "currentStock": 140,
       "dailyRate": 0.5,
       "monthlyRate": 15,
-      "daysLeft": 277,
+      "daysLeft": 280,
       "reorderQty": 23
     },
     {
@@ -3764,8 +3777,8 @@
       "currentStock": 85,
       "dailyRate": 0.5,
       "monthlyRate": 14,
-      "daysLeft": 187,
-      "reorderQty": 21
+      "daysLeft": 189,
+      "reorderQty": 20
     },
     {
       "name": "Primer 1Ltr (PRM002)",
@@ -3777,8 +3790,8 @@
       "currentStock": 192,
       "dailyRate": 0.5,
       "monthlyRate": 14,
-      "daysLeft": 421,
-      "reorderQty": 21
+      "daysLeft": 427,
+      "reorderQty": 20
     },
     {
       "name": "Air Flow 717 Black (AF007)",
@@ -3790,7 +3803,20 @@
       "currentStock": 293,
       "dailyRate": 0.4,
       "monthlyRate": 13,
-      "daysLeft": 661,
+      "daysLeft": 670,
+      "reorderQty": 20
+    },
+    {
+      "name": "Silencer Show 6124 Hks (SS012)",
+      "cat": "Silencer Show",
+      "loc": "Jhilmil",
+      "unit": "Pcs",
+      "totalIn": 67,
+      "totalOut": 35,
+      "currentStock": 32,
+      "dailyRate": 0.4,
+      "monthlyRate": 13,
+      "daysLeft": 73,
       "reorderQty": 20
     },
     {
@@ -3816,7 +3842,7 @@
       "currentStock": 103,
       "dailyRate": 0.4,
       "monthlyRate": 13,
-      "daysLeft": 239,
+      "daysLeft": 242,
       "reorderQty": 19
     },
     {
@@ -3829,8 +3855,8 @@
       "currentStock": 252,
       "dailyRate": 0.4,
       "monthlyRate": 12,
-      "daysLeft": 642,
-      "reorderQty": 18
+      "daysLeft": 650,
+      "reorderQty": 17
     },
     {
       "name": "Steering Cover Creation Embossed Stitch New (SC009)",
@@ -3842,33 +3868,59 @@
       "currentStock": 89,
       "dailyRate": 0.4,
       "monthlyRate": 12,
-      "daysLeft": 227,
-      "reorderQty": 18
-    },
-    {
-      "name": "12MM Beading 18 (BD009)",
-      "cat": "Beading",
-      "loc": "Jhilmil",
-      "unit": "Pcs",
-      "totalIn": 0,
-      "totalOut": 30,
-      "currentStock": -30,
-      "dailyRate": 0.4,
-      "monthlyRate": 11,
-      "daysLeft": -79,
+      "daysLeft": 230,
       "reorderQty": 17
     },
     {
-      "name": "Silencer Show 6028 Hks (SS004)",
+      "name": "090 New Antenna (ANT012)",
+      "cat": "Antenna",
+      "loc": "Jhilmil",
+      "unit": "Pcs",
+      "totalIn": 80,
+      "totalOut": 30,
+      "currentStock": 50,
+      "dailyRate": 0.4,
+      "monthlyRate": 11,
+      "daysLeft": 133,
+      "reorderQty": 17
+    },
+    {
+      "name": "Gear Knob Triangle Cut (GK008)",
+      "cat": "Gear Knob",
+      "loc": "Jhilmil",
+      "unit": "Pcs",
+      "totalIn": 110,
+      "totalOut": 30,
+      "currentStock": 80,
+      "dailyRate": 0.4,
+      "monthlyRate": 11,
+      "daysLeft": 213,
+      "reorderQty": 17
+    },
+    {
+      "name": "Gear Knob Hockey Cp Wh Bx - 0533 (GK020)",
+      "cat": "Gear Knob",
+      "loc": "Jhilmil",
+      "unit": "Pcs",
+      "totalIn": 60,
+      "totalOut": 30,
+      "currentStock": 30,
+      "dailyRate": 0.4,
+      "monthlyRate": 11,
+      "daysLeft": 80,
+      "reorderQty": 17
+    },
+    {
+      "name": "Silencer Show 6045 Hks (SS015)",
       "cat": "Silencer Show",
       "loc": "Jhilmil",
       "unit": "Pcs",
-      "totalIn": 53,
+      "totalIn": 118,
       "totalOut": 30,
-      "currentStock": 23,
+      "currentStock": 88,
       "dailyRate": 0.4,
       "monthlyRate": 11,
-      "daysLeft": 61,
+      "daysLeft": 235,
       "reorderQty": 17
     },
     {
@@ -3881,7 +3933,7 @@
       "currentStock": 362,
       "dailyRate": 0.4,
       "monthlyRate": 11,
-      "daysLeft": 953,
+      "daysLeft": 965,
       "reorderQty": 17
     },
     {
@@ -3894,7 +3946,7 @@
       "currentStock": 325,
       "dailyRate": 0.4,
       "monthlyRate": 11,
-      "daysLeft": 856,
+      "daysLeft": 867,
       "reorderQty": 17
     },
     {
@@ -3921,7 +3973,46 @@
       "dailyRate": 0.4,
       "monthlyRate": 11,
       "daysLeft": 0,
-      "reorderQty": 17
+      "reorderQty": 16
+    },
+    {
+      "name": "Steering Knob Cartalk Wood Mini (SK035)",
+      "cat": "Steering Knob",
+      "loc": "Jhilmil",
+      "unit": "Pcs",
+      "totalIn": 120,
+      "totalOut": 29,
+      "currentStock": 91,
+      "dailyRate": 0.4,
+      "monthlyRate": 11,
+      "daysLeft": 251,
+      "reorderQty": 16
+    },
+    {
+      "name": "Silencer Show 6070 Hks (SS011)",
+      "cat": "Silencer Show",
+      "loc": "Jhilmil",
+      "unit": "Pcs",
+      "totalIn": 32,
+      "totalOut": 28,
+      "currentStock": 4,
+      "dailyRate": 0.3,
+      "monthlyRate": 11,
+      "daysLeft": 11,
+      "reorderQty": 16
+    },
+    {
+      "name": "Gear Knob Aircraft Flight (GK007)",
+      "cat": "Gear Knob",
+      "loc": "Jhilmil",
+      "unit": "Pcs",
+      "totalIn": 290,
+      "totalOut": 27,
+      "currentStock": 263,
+      "dailyRate": 0.3,
+      "monthlyRate": 10,
+      "daysLeft": 779,
+      "reorderQty": 15
     },
     {
       "name": "Buffer B (SB002)",
@@ -3933,7 +4024,7 @@
       "currentStock": 178,
       "dailyRate": 0.3,
       "monthlyRate": 10,
-      "daysLeft": 521,
+      "daysLeft": 527,
       "reorderQty": 15
     },
     {
@@ -3946,7 +4037,7 @@
       "currentStock": 430,
       "dailyRate": 0.3,
       "monthlyRate": 10,
-      "daysLeft": 1307,
+      "daysLeft": 1323,
       "reorderQty": 15
     },
     {
@@ -3959,7 +4050,7 @@
       "currentStock": 815,
       "dailyRate": 0.3,
       "monthlyRate": 9,
-      "daysLeft": 2575,
+      "daysLeft": 2608,
       "reorderQty": 14
     },
     {
@@ -3972,33 +4063,7 @@
       "currentStock": 100,
       "dailyRate": 0.3,
       "monthlyRate": 9,
-      "daysLeft": 316,
-      "reorderQty": 14
-    },
-    {
-      "name": "Silencer Show 6124 Hks (SS012)",
-      "cat": "Silencer Show",
-      "loc": "Jhilmil",
-      "unit": "Pcs",
-      "totalIn": 67,
-      "totalOut": 25,
-      "currentStock": 42,
-      "dailyRate": 0.3,
-      "monthlyRate": 9,
-      "daysLeft": 133,
-      "reorderQty": 14
-    },
-    {
-      "name": "Silencer Show 6045 Hks (SS015)",
-      "cat": "Silencer Show",
-      "loc": "Jhilmil",
-      "unit": "Pcs",
-      "totalIn": 118,
-      "totalOut": 25,
-      "currentStock": 93,
-      "dailyRate": 0.3,
-      "monthlyRate": 9,
-      "daysLeft": 294,
+      "daysLeft": 320,
       "reorderQty": 14
     },
     {
@@ -4024,7 +4089,7 @@
       "currentStock": 80,
       "dailyRate": 0.3,
       "monthlyRate": 9,
-      "daysLeft": 253,
+      "daysLeft": 256,
       "reorderQty": 14
     },
     {
@@ -4037,7 +4102,7 @@
       "currentStock": 225,
       "dailyRate": 0.3,
       "monthlyRate": 9,
-      "daysLeft": 711,
+      "daysLeft": 720,
       "reorderQty": 14
     },
     {
@@ -4050,7 +4115,7 @@
       "currentStock": 26,
       "dailyRate": 0.3,
       "monthlyRate": 9,
-      "daysLeft": 86,
+      "daysLeft": 87,
       "reorderQty": 14
     },
     {
@@ -4076,7 +4141,20 @@
       "currentStock": 384,
       "dailyRate": 0.3,
       "monthlyRate": 9,
-      "daysLeft": 1264,
+      "daysLeft": 1280,
+      "reorderQty": 14
+    },
+    {
+      "name": "Hanging Dice (PRF006)",
+      "cat": "Perfume",
+      "loc": "Jhilmil",
+      "unit": "Pcs",
+      "totalIn": 2728,
+      "totalOut": 24,
+      "currentStock": 2704,
+      "dailyRate": 0.3,
+      "monthlyRate": 9,
+      "daysLeft": 9013,
       "reorderQty": 14
     },
     {
@@ -4089,8 +4167,8 @@
       "currentStock": 124,
       "dailyRate": 0.3,
       "monthlyRate": 8,
-      "daysLeft": 445,
-      "reorderQty": 13
+      "daysLeft": 451,
+      "reorderQty": 12
     },
     {
       "name": "Big Air Flow Glossy (AF060)",
@@ -4102,7 +4180,7 @@
       "currentStock": 162,
       "dailyRate": 0.3,
       "monthlyRate": 8,
-      "daysLeft": 609,
+      "daysLeft": 617,
       "reorderQty": 12
     },
     {
@@ -4128,7 +4206,20 @@
       "currentStock": 36,
       "dailyRate": 0.3,
       "monthlyRate": 8,
-      "daysLeft": 142,
+      "daysLeft": 144,
+      "reorderQty": 11
+    },
+    {
+      "name": "Air Flow 712 Black (AF011)",
+      "cat": "Air Flow",
+      "loc": "Jhilmil",
+      "unit": "Pcs",
+      "totalIn": 41,
+      "totalOut": 20,
+      "currentStock": 21,
+      "dailyRate": 0.3,
+      "monthlyRate": 8,
+      "daysLeft": 84,
       "reorderQty": 11
     },
     {
@@ -4141,20 +4232,7 @@
       "currentStock": -10,
       "dailyRate": 0.3,
       "monthlyRate": 8,
-      "daysLeft": -39,
-      "reorderQty": 11
-    },
-    {
-      "name": "090 New Antenna (ANT012)",
-      "cat": "Antenna",
-      "loc": "Jhilmil",
-      "unit": "Pcs",
-      "totalIn": 80,
-      "totalOut": 20,
-      "currentStock": 60,
-      "dailyRate": 0.3,
-      "monthlyRate": 8,
-      "daysLeft": 237,
+      "daysLeft": -40,
       "reorderQty": 11
     },
     {
@@ -4167,20 +4245,7 @@
       "currentStock": 280,
       "dailyRate": 0.3,
       "monthlyRate": 8,
-      "daysLeft": 1106,
-      "reorderQty": 11
-    },
-    {
-      "name": "Gear Knob Triangle Cut (GK008)",
-      "cat": "Gear Knob",
-      "loc": "Jhilmil",
-      "unit": "Pcs",
-      "totalIn": 110,
-      "totalOut": 20,
-      "currentStock": 90,
-      "dailyRate": 0.3,
-      "monthlyRate": 8,
-      "daysLeft": 356,
+      "daysLeft": 1120,
       "reorderQty": 11
     },
     {
@@ -4193,7 +4258,7 @@
       "currentStock": 138,
       "dailyRate": 0.3,
       "monthlyRate": 8,
-      "daysLeft": 545,
+      "daysLeft": 552,
       "reorderQty": 11
     },
     {
@@ -4219,7 +4284,46 @@
       "currentStock": 1073,
       "dailyRate": 0.3,
       "monthlyRate": 8,
-      "daysLeft": 4238,
+      "daysLeft": 4292,
+      "reorderQty": 11
+    },
+    {
+      "name": "Silencer Show 6029 (SS005)",
+      "cat": "Silencer Show",
+      "loc": "Jhilmil",
+      "unit": "Pcs",
+      "totalIn": 68,
+      "totalOut": 20,
+      "currentStock": 48,
+      "dailyRate": 0.3,
+      "monthlyRate": 8,
+      "daysLeft": 192,
+      "reorderQty": 11
+    },
+    {
+      "name": "Silencer Show 6038 (SS006)",
+      "cat": "Silencer Show",
+      "loc": "Jhilmil",
+      "unit": "Pcs",
+      "totalIn": 68,
+      "totalOut": 20,
+      "currentStock": 48,
+      "dailyRate": 0.3,
+      "monthlyRate": 8,
+      "daysLeft": 192,
+      "reorderQty": 11
+    },
+    {
+      "name": "Silencer Show 6058 (SS009)",
+      "cat": "Silencer Show",
+      "loc": "Jhilmil",
+      "unit": "Pcs",
+      "totalIn": 23,
+      "totalOut": 20,
+      "currentStock": 3,
+      "dailyRate": 0.3,
+      "monthlyRate": 8,
+      "daysLeft": 12,
       "reorderQty": 11
     },
     {
@@ -4232,7 +4336,7 @@
       "currentStock": 625,
       "dailyRate": 0.3,
       "monthlyRate": 8,
-      "daysLeft": 2469,
+      "daysLeft": 2500,
       "reorderQty": 11
     },
     {
@@ -4245,7 +4349,7 @@
       "currentStock": 280,
       "dailyRate": 0.3,
       "monthlyRate": 8,
-      "daysLeft": 1106,
+      "daysLeft": 1120,
       "reorderQty": 11
     },
     {
@@ -4262,19 +4366,6 @@
       "reorderQty": 11
     },
     {
-      "name": "Silencer Show 6070 Hks (SS011)",
-      "cat": "Silencer Show",
-      "loc": "Jhilmil",
-      "unit": "Pcs",
-      "totalIn": 32,
-      "totalOut": 18,
-      "currentStock": 14,
-      "dailyRate": 0.2,
-      "monthlyRate": 7,
-      "daysLeft": 61,
-      "reorderQty": 10
-    },
-    {
       "name": "75Cm Skirting (AF056)",
       "cat": "Air Flow",
       "loc": "Jhilmil",
@@ -4284,7 +4375,7 @@
       "currentStock": 78,
       "dailyRate": 0.2,
       "monthlyRate": 6,
-      "daysLeft": 362,
+      "daysLeft": 367,
       "reorderQty": 10
     },
     {
@@ -4301,6 +4392,45 @@
       "reorderQty": 10
     },
     {
+      "name": "Air Flow 003 (AF028)",
+      "cat": "Air Flow",
+      "loc": "Jhilmil",
+      "unit": "Pcs",
+      "totalIn": 147,
+      "totalOut": 15,
+      "currentStock": 132,
+      "dailyRate": 0.2,
+      "monthlyRate": 6,
+      "daysLeft": 704,
+      "reorderQty": 8
+    },
+    {
+      "name": "Hd-728 Air Scope (AF058)",
+      "cat": "Air Flow",
+      "loc": "Jhilmil",
+      "unit": "Pcs",
+      "totalIn": 70,
+      "totalOut": 15,
+      "currentStock": 55,
+      "dailyRate": 0.2,
+      "monthlyRate": 6,
+      "daysLeft": 293,
+      "reorderQty": 8
+    },
+    {
+      "name": "Bonnet Mirror Imp. Chrome (BM007)",
+      "cat": "Bonnet Mirror",
+      "loc": "Jhilmil",
+      "unit": "Pcs",
+      "totalIn": 104,
+      "totalOut": 15,
+      "currentStock": 89,
+      "dailyRate": 0.2,
+      "monthlyRate": 6,
+      "daysLeft": 475,
+      "reorderQty": 8
+    },
+    {
       "name": "Solar Earth Rocket Robot (SOL026)",
       "cat": "Solar Perfume",
       "loc": "Jhilmil",
@@ -4310,8 +4440,8 @@
       "currentStock": 132,
       "dailyRate": 0.2,
       "monthlyRate": 6,
-      "daysLeft": 695,
-      "reorderQty": 9
+      "daysLeft": 704,
+      "reorderQty": 8
     },
     {
       "name": "Buffer D (SB004)",
@@ -4323,8 +4453,21 @@
       "currentStock": 39,
       "dailyRate": 0.2,
       "monthlyRate": 6,
-      "daysLeft": 205,
-      "reorderQty": 9
+      "daysLeft": 208,
+      "reorderQty": 8
+    },
+    {
+      "name": "Silencer Show 6155 Hks (SS013)",
+      "cat": "Silencer Show",
+      "loc": "Jhilmil",
+      "unit": "Pcs",
+      "totalIn": 14,
+      "totalOut": 14,
+      "currentStock": 0,
+      "dailyRate": 0.2,
+      "monthlyRate": 5,
+      "daysLeft": 0,
+      "reorderQty": 8
     },
     {
       "name": "Non-Slip Mate No. Plate With Holder B-58 (DM010)",
@@ -4334,7 +4477,7 @@
       "totalIn": 12,
       "totalOut": 12,
       "currentStock": 0,
-      "dailyRate": 0.2,
+      "dailyRate": 0.1,
       "monthlyRate": 5,
       "daysLeft": 0,
       "reorderQty": 7
@@ -4347,23 +4490,10 @@
       "totalIn": 156,
       "totalOut": 12,
       "currentStock": 144,
-      "dailyRate": 0.2,
-      "monthlyRate": 5,
-      "daysLeft": 948,
-      "reorderQty": 7
-    },
-    {
-      "name": "Air Flow 712 Black (AF011)",
-      "cat": "Air Flow",
-      "loc": "Jhilmil",
-      "unit": "Pcs",
-      "totalIn": 41,
-      "totalOut": 10,
-      "currentStock": 31,
       "dailyRate": 0.1,
-      "monthlyRate": 4,
-      "daysLeft": 245,
-      "reorderQty": 6
+      "monthlyRate": 5,
+      "daysLeft": 960,
+      "reorderQty": 7
     },
     {
       "name": "Airflow 2038 (AF036)",
@@ -4375,20 +4505,7 @@
       "currentStock": 110,
       "dailyRate": 0.1,
       "monthlyRate": 4,
-      "daysLeft": 869,
-      "reorderQty": 6
-    },
-    {
-      "name": "Hd-728 Air Scope (AF058)",
-      "cat": "Air Flow",
-      "loc": "Jhilmil",
-      "unit": "Pcs",
-      "totalIn": 70,
-      "totalOut": 10,
-      "currentStock": 60,
-      "dailyRate": 0.1,
-      "monthlyRate": 4,
-      "daysLeft": 474,
+      "daysLeft": 880,
       "reorderQty": 6
     },
     {
@@ -4401,7 +4518,7 @@
       "currentStock": 65,
       "dailyRate": 0.1,
       "monthlyRate": 4,
-      "daysLeft": 514,
+      "daysLeft": 520,
       "reorderQty": 6
     },
     {
@@ -4414,20 +4531,7 @@
       "currentStock": 55,
       "dailyRate": 0.1,
       "monthlyRate": 4,
-      "daysLeft": 434,
-      "reorderQty": 6
-    },
-    {
-      "name": "Bonnet Mirror Imp. Chrome (BM007)",
-      "cat": "Bonnet Mirror",
-      "loc": "Jhilmil",
-      "unit": "Pcs",
-      "totalIn": 104,
-      "totalOut": 10,
-      "currentStock": 94,
-      "dailyRate": 0.1,
-      "monthlyRate": 4,
-      "daysLeft": 743,
+      "daysLeft": 440,
       "reorderQty": 6
     },
     {
@@ -4440,7 +4544,7 @@
       "currentStock": 63,
       "dailyRate": 0.1,
       "monthlyRate": 4,
-      "daysLeft": 498,
+      "daysLeft": 504,
       "reorderQty": 6
     },
     {
@@ -4453,7 +4557,7 @@
       "currentStock": 10,
       "dailyRate": 0.1,
       "monthlyRate": 4,
-      "daysLeft": 79,
+      "daysLeft": 80,
       "reorderQty": 6
     },
     {
@@ -4466,7 +4570,7 @@
       "currentStock": 30,
       "dailyRate": 0.1,
       "monthlyRate": 4,
-      "daysLeft": 237,
+      "daysLeft": 240,
       "reorderQty": 6
     },
     {
@@ -4479,7 +4583,7 @@
       "currentStock": 215,
       "dailyRate": 0.1,
       "monthlyRate": 4,
-      "daysLeft": 1699,
+      "daysLeft": 1720,
       "reorderQty": 6
     },
     {
@@ -4492,7 +4596,7 @@
       "currentStock": 870,
       "dailyRate": 0.1,
       "monthlyRate": 4,
-      "daysLeft": 6873,
+      "daysLeft": 6960,
       "reorderQty": 6
     },
     {
@@ -4505,7 +4609,7 @@
       "currentStock": 120,
       "dailyRate": 0.1,
       "monthlyRate": 4,
-      "daysLeft": 948,
+      "daysLeft": 960,
       "reorderQty": 6
     },
     {
@@ -4518,7 +4622,7 @@
       "currentStock": 8,
       "dailyRate": 0.1,
       "monthlyRate": 4,
-      "daysLeft": 63,
+      "daysLeft": 64,
       "reorderQty": 6
     },
     {
@@ -4531,34 +4635,8 @@
       "currentStock": 46,
       "dailyRate": 0.1,
       "monthlyRate": 4,
-      "daysLeft": 363,
+      "daysLeft": 368,
       "reorderQty": 6
-    },
-    {
-      "name": "Steering Knob Modern",
-      "cat": "Steering Knob",
-      "loc": "A9",
-      "unit": "Pcs",
-      "totalIn": 80,
-      "totalOut": 10,
-      "currentStock": 70,
-      "dailyRate": 0.1,
-      "monthlyRate": 4,
-      "daysLeft": 553,
-      "reorderQty": 6
-    },
-    {
-      "name": "Steering Knob Cartalk Wood Mini (SK035)",
-      "cat": "Steering Knob",
-      "loc": "Jhilmil",
-      "unit": "Pcs",
-      "totalIn": 120,
-      "totalOut": 9,
-      "currentStock": 111,
-      "dailyRate": 0.1,
-      "monthlyRate": 3,
-      "daysLeft": 974,
-      "reorderQty": 5
     },
     {
       "name": "Gear Knob Air Craft Colorful (GK025)",
@@ -4583,21 +4661,8 @@
       "currentStock": 92,
       "dailyRate": 0.1,
       "monthlyRate": 3,
-      "daysLeft": 909,
+      "daysLeft": 920,
       "reorderQty": 5
-    },
-    {
-      "name": "Gear Knob Aircraft Flight (GK007)",
-      "cat": "Gear Knob",
-      "loc": "Jhilmil",
-      "unit": "Pcs",
-      "totalIn": 290,
-      "totalOut": 7,
-      "currentStock": 283,
-      "dailyRate": 0.1,
-      "monthlyRate": 3,
-      "daysLeft": 3194,
-      "reorderQty": 4
     },
     {
       "name": "Dashboard Show Panther (OTH043)",
@@ -4609,7 +4674,7 @@
       "currentStock": 17,
       "dailyRate": 0.1,
       "monthlyRate": 3,
-      "daysLeft": 192,
+      "daysLeft": 194,
       "reorderQty": 4
     },
     {
@@ -4622,20 +4687,7 @@
       "currentStock": 62,
       "dailyRate": 0.1,
       "monthlyRate": 2,
-      "daysLeft": 816,
-      "reorderQty": 3
-    },
-    {
-      "name": "Air Flow 003 (AF028)",
-      "cat": "Air Flow",
-      "loc": "Jhilmil",
-      "unit": "Pcs",
-      "totalIn": 147,
-      "totalOut": 5,
-      "currentStock": 142,
-      "dailyRate": 0.1,
-      "monthlyRate": 2,
-      "daysLeft": 2244,
+      "daysLeft": 827,
       "reorderQty": 3
     },
     {
@@ -4648,7 +4700,7 @@
       "currentStock": 109,
       "dailyRate": 0.1,
       "monthlyRate": 2,
-      "daysLeft": 1722,
+      "daysLeft": 1744,
       "reorderQty": 3
     },
     {
@@ -4661,7 +4713,7 @@
       "currentStock": 322,
       "dailyRate": 0.1,
       "monthlyRate": 2,
-      "daysLeft": 5088,
+      "daysLeft": 5152,
       "reorderQty": 3
     },
     {
@@ -4674,20 +4726,7 @@
       "currentStock": 101,
       "dailyRate": 0.1,
       "monthlyRate": 2,
-      "daysLeft": 1596,
-      "reorderQty": 3
-    },
-    {
-      "name": "Silencer Show 6155 Hks (SS013)",
-      "cat": "Silencer Show",
-      "loc": "Jhilmil",
-      "unit": "Pcs",
-      "totalIn": 14,
-      "totalOut": 5,
-      "currentStock": 9,
-      "dailyRate": 0.1,
-      "monthlyRate": 2,
-      "daysLeft": 142,
+      "daysLeft": 1616,
       "reorderQty": 3
     },
     {
@@ -4700,7 +4739,7 @@
       "currentStock": 16,
       "dailyRate": 0.1,
       "monthlyRate": 2,
-      "daysLeft": 253,
+      "daysLeft": 256,
       "reorderQty": 3
     },
     {
@@ -4713,7 +4752,7 @@
       "currentStock": 127,
       "dailyRate": 0,
       "monthlyRate": 1,
-      "daysLeft": 3344,
+      "daysLeft": 3387,
       "reorderQty": 2
     },
     {
@@ -4726,7 +4765,7 @@
       "currentStock": 2,
       "dailyRate": 0,
       "monthlyRate": 1,
-      "daysLeft": 79,
+      "daysLeft": 80,
       "reorderQty": 1
     },
     {
@@ -4739,7 +4778,7 @@
       "currentStock": 204,
       "dailyRate": 0,
       "monthlyRate": 1,
-      "daysLeft": 8058,
+      "daysLeft": 8160,
       "reorderQty": 1
     },
     {
@@ -5302,19 +5341,6 @@
       "reorderQty": 0
     },
     {
-      "name": "Blind Spot Mirror 3R-011 (BSM039)",
-      "cat": "Blind Spot Mirror",
-      "loc": "Jhilmil",
-      "unit": "Pcs",
-      "totalIn": 1000,
-      "totalOut": 0,
-      "currentStock": 1000,
-      "dailyRate": 0,
-      "monthlyRate": 0,
-      "daysLeft": 9999,
-      "reorderQty": 0
-    },
-    {
       "name": "088 Sub Mirror (BSM040)",
       "cat": "Blind Spot Mirror",
       "loc": "Jhilmil",
@@ -5608,19 +5634,6 @@
       "totalIn": 10,
       "totalOut": 0,
       "currentStock": 10,
-      "dailyRate": 0,
-      "monthlyRate": 0,
-      "daysLeft": 9999,
-      "reorderQty": 0
-    },
-    {
-      "name": "Gear Knob Hockey Cp Wh Bx - 0533 (GK020)",
-      "cat": "Gear Knob",
-      "loc": "Jhilmil",
-      "unit": "Pcs",
-      "totalIn": 60,
-      "totalOut": 0,
-      "currentStock": 60,
       "dailyRate": 0,
       "monthlyRate": 0,
       "daysLeft": 9999,
@@ -6251,19 +6264,6 @@
       "reorderQty": 0
     },
     {
-      "name": "Hanging Dice (PRF006)",
-      "cat": "Perfume",
-      "loc": "Jhilmil",
-      "unit": "Pcs",
-      "totalIn": 2728,
-      "totalOut": 0,
-      "currentStock": 2728,
-      "dailyRate": 0,
-      "monthlyRate": 0,
-      "daysLeft": 9999,
-      "reorderQty": 0
-    },
-    {
       "name": "Hanging Gloves (PRF008)",
       "cat": "Perfume",
       "loc": "Jhilmil",
@@ -6427,45 +6427,6 @@
       "totalIn": 9,
       "totalOut": 0,
       "currentStock": 9,
-      "dailyRate": 0,
-      "monthlyRate": 0,
-      "daysLeft": 9999,
-      "reorderQty": 0
-    },
-    {
-      "name": "Silencer Show 6029 (SS005)",
-      "cat": "Silencer Show",
-      "loc": "Jhilmil",
-      "unit": "Pcs",
-      "totalIn": 68,
-      "totalOut": 0,
-      "currentStock": 68,
-      "dailyRate": 0,
-      "monthlyRate": 0,
-      "daysLeft": 9999,
-      "reorderQty": 0
-    },
-    {
-      "name": "Silencer Show 6038 (SS006)",
-      "cat": "Silencer Show",
-      "loc": "Jhilmil",
-      "unit": "Pcs",
-      "totalIn": 68,
-      "totalOut": 0,
-      "currentStock": 68,
-      "dailyRate": 0,
-      "monthlyRate": 0,
-      "daysLeft": 9999,
-      "reorderQty": 0
-    },
-    {
-      "name": "Silencer Show 6058 (SS009)",
-      "cat": "Silencer Show",
-      "loc": "Jhilmil",
-      "unit": "Pcs",
-      "totalIn": 23,
-      "totalOut": 0,
-      "currentStock": 23,
       "dailyRate": 0,
       "monthlyRate": 0,
       "daysLeft": 9999,
@@ -6761,23 +6722,23 @@
   "categories": [
     {
       "name": "Chamois Cloth",
-      "totalOut": 45400
+      "totalOut": 46200
     },
     {
       "name": "Blind Spot Mirror",
-      "totalOut": 26210
+      "totalOut": 26310
     },
     {
       "name": "Door Guard",
-      "totalOut": 24554
+      "totalOut": 24474
     },
     {
       "name": "Paint",
-      "totalOut": 23328
+      "totalOut": 23868
     },
     {
       "name": "Other",
-      "totalOut": 22308
+      "totalOut": 22513
     },
     {
       "name": "Solar Perfume",
@@ -6785,15 +6746,15 @@
     },
     {
       "name": "Gear Knob",
-      "totalOut": 10875
+      "totalOut": 10985
     },
     {
       "name": "Steering Knob",
-      "totalOut": 9583
+      "totalOut": 9833
     },
     {
       "name": "Duster And Brush",
-      "totalOut": 7023
+      "totalOut": 7033
     },
     {
       "name": "Tape",
@@ -6801,11 +6762,11 @@
     },
     {
       "name": "Car Polish",
-      "totalOut": 6076
+      "totalOut": 6172
     },
     {
       "name": "Dashboard Mat",
-      "totalOut": 3991
+      "totalOut": 4041
     },
     {
       "name": "Wiper Show",
@@ -6817,19 +6778,19 @@
     },
     {
       "name": "Steering Cover",
-      "totalOut": 3049
+      "totalOut": 3149
     },
     {
       "name": "Rear View Mirror",
-      "totalOut": 2854
+      "totalOut": 2894
+    },
+    {
+      "name": "Air Flow",
+      "totalOut": 2725
     },
     {
       "name": "Microfiber Cloth",
       "totalOut": 2700
-    },
-    {
-      "name": "Air Flow",
-      "totalOut": 2695
     },
     {
       "name": "Cigarette Lighter",
@@ -6841,11 +6802,11 @@
     },
     {
       "name": "Antenna",
-      "totalOut": 2203
+      "totalOut": 2213
     },
     {
       "name": "Perfume",
-      "totalOut": 1636
+      "totalOut": 1732
     },
     {
       "name": "Beading",
@@ -6854,6 +6815,10 @@
     {
       "name": "Charger",
       "totalOut": 1440
+    },
+    {
+      "name": "Antifog Sticker",
+      "totalOut": 1000
     },
     {
       "name": "Emblem",
@@ -6866,10 +6831,6 @@
     {
       "name": "Holder",
       "totalOut": 989
-    },
-    {
-      "name": "Antifog Sticker",
-      "totalOut": 900
     },
     {
       "name": "Vanity Mirror",
@@ -6892,28 +6853,28 @@
       "totalOut": 300
     },
     {
+      "name": "Silencer Show",
+      "totalOut": 295
+    },
+    {
       "name": "Steering Wheel",
       "totalOut": 287
     },
     {
       "name": "Light",
-      "totalOut": 203
-    },
-    {
-      "name": "Silencer Show",
-      "totalOut": 191
+      "totalOut": 253
     },
     {
       "name": "Air Freshner",
       "totalOut": 180
     },
     {
-      "name": "Spring Buffer",
-      "totalOut": 108
+      "name": "Bonnet Mirror",
+      "totalOut": 111
     },
     {
-      "name": "Bonnet Mirror",
-      "totalOut": 106
+      "name": "Spring Buffer",
+      "totalOut": 108
     },
     {
       "name": "Bumper Protector",
