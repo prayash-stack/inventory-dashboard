@@ -109,6 +109,17 @@
       <button class="tab" onclick="showPanel('categories',this)">Categories</button>
     </div>
 
+    <div id="period-bar" style="display:none;justify-content:flex-end;align-items:center;gap:8px;margin:-10px 0 18px">
+      <span class="sub" style="font-size:12px;color:#888780">Usage window</span>
+      <select id="period-select" onchange="changePeriod(this.value)">
+        <option value="all">All time</option>
+        <option value="90">Last 90 days</option>
+        <option value="30">Last 30 days</option>
+        <option value="7">Last 7 days</option>
+      </select>
+      <span class="sub" id="period-note" style="font-size:12px;color:#888780"></span>
+    </div>
+
     <div id="panel-overview" class="panel active">
       <div class="metric-grid" id="metrics"></div>
       <div class="grid2">
@@ -233,7 +244,9 @@
 const DATA_URL = 'https://prayash-stack.github.io/inventory-dashboard/data.json';
 // ─────────────────────────────────────────────────────────
 
-let D = null; // global data
+let RAW = null;          // raw loaded data (all-time, with per-item .periods)
+let D = null;            // current view (may be a windowed projection of RAW)
+let currentPeriod = 'all';
 let charts = {};
 
 function getStatus(days) {
@@ -300,14 +313,19 @@ async function loadData() {
   try {
     const resp = await fetch(DATA_URL + '?t=' + Date.now());
     if (!resp.ok) throw new Error('HTTP ' + resp.status);
-    D = await resp.json();
+    RAW = await resp.json();
     document.getElementById('loading').style.display = 'none';
     document.getElementById('app').style.display = 'block';
     document.getElementById('status-dot').style.background = '#50a14f';
-    const updated = new Date(D.meta.updatedAt);
+    const updated = new Date(RAW.meta.updatedAt);
     document.getElementById('update-time').textContent = 'Updated ' + updated.toLocaleDateString('en-IN', {day:'numeric',month:'short'}) + ' ' + updated.toLocaleTimeString('en-IN',{hour:'2-digit',minute:'2-digit'});
-    document.getElementById('subtitle').textContent = `${D.meta.startDate} – ${D.meta.endDate}  ·  ${D.meta.periodDays} days  ·  ${D.meta.totalSkus} SKUs`;
-    render();
+    // Enable the usage-window selector only if the data carries per-period figures.
+    if (RAW.items.length && RAW.items[0].periods) {
+      document.getElementById('period-bar').style.display = 'flex';
+      const allOpt = document.querySelector('#period-select option[value="all"]');
+      if (allOpt) allOpt.textContent = `All time (${RAW.meta.periodDays} days)`;
+    }
+    applyPeriod('all');
   } catch(e) {
     document.getElementById('loading').style.display = 'none';
     document.getElementById('error-banner').style.display = 'block';
@@ -316,6 +334,47 @@ async function loadData() {
     document.getElementById('update-time').textContent = 'Data unavailable';
   }
 }
+
+// Project RAW onto a usage window ('all' = top-level all-time fields; '7'/'30'/'90' = item.periods[w]).
+function buildView(period) {
+  if (period === 'all' || !RAW.items.length || !RAW.items[0].periods) return RAW;
+  const days = parseInt(period, 10);
+  const blank = { totalOut:0, dailyRate:0, monthlyRate:0, daysLeft:9999, reorderQty:0 };
+  const items = RAW.items.map(it => {
+    const p = (it.periods && it.periods[period]) || blank;
+    return { ...it, totalOut:p.totalOut, dailyRate:p.dailyRate, monthlyRate:p.monthlyRate, daysLeft:p.daysLeft, reorderQty:p.reorderQty };
+  }).sort((a, b) => b.totalOut - a.totalOut);
+
+  const catTotals = {};
+  items.forEach(i => { catTotals[i.cat] = (catTotals[i.cat] || 0) + i.totalOut; });
+  const categories = Object.entries(catTotals)
+    .map(([name, totalOut]) => ({ name, totalOut })).sort((a, b) => b.totalOut - a.totalOut);
+
+  const start = new Date(RAW.meta.endDate); start.setDate(start.getDate() - days);
+  const meta = {
+    ...RAW.meta,
+    periodDays: days,
+    startDate: start.toISOString().split('T')[0],
+    endDate: RAW.meta.endDate,
+    totalUnitsOut: items.reduce((s, i) => s + i.totalOut, 0),
+    criticalCount: items.filter(i => i.daysLeft <= 7 && i.totalOut > 0).length,
+    warningCount:  items.filter(i => i.daysLeft > 7 && i.daysLeft <= 30 && i.totalOut > 0).length,
+  };
+  return { meta, items, categories };
+}
+
+function applyPeriod(period) {
+  currentPeriod = period;
+  const sel = document.getElementById('period-select');
+  if (sel && sel.value !== period) sel.value = period;
+  D = buildView(period);
+  document.getElementById('subtitle').textContent =
+    `${D.meta.startDate} – ${D.meta.endDate}  ·  ${D.meta.periodDays} days  ·  ${D.meta.totalSkus} SKUs`;
+  const note = document.getElementById('period-note');
+  if (note) note.textContent = period === 'all' ? '' : `rates from last ${period} days`;
+  render();
+}
+function changePeriod(p) { applyPeriod(p); }
 
 function render() {
   renderMetrics();

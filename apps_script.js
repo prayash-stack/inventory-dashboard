@@ -71,6 +71,57 @@ function buildDashboardData() {
   const today      = new Date();
   const periodDays = Math.max(1, Math.round((today - minDate) / (1000 * 60 * 60 * 24)));
 
+  // ── 2b. Per-window OUT quantities (powers the dashboard's "usage window" filter) ──
+  // IN/OUT sheet columns: A Products, B Location, C In/Out, D Quantity, E Units, F Date
+  const WINDOWS = [7, 30, 90];
+  const PROD_C = 0, TYPE_C = 2, QTY_C = 3; // dateCol (F) defined above
+
+  // SKU code = text in the trailing (...) of a name, e.g. "... (PNT013)" → "PNT013".
+  // The log has inconsistent name casing ("Touch Up" vs "Touch up"), so we key on the code.
+  const skuCode = (s) => {
+    const m = String(s || '').match(/\(([^)]+)\)\s*$/);
+    return m ? m[1].trim().toUpperCase() : null;
+  };
+  const norm = (s) => String(s || '').trim().toLowerCase();
+
+  // Codes used by more than one distinct product in the Stock sheet are data-entry dupes;
+  // for those we fall back to name matching so their windows don't get merged.
+  const codeOwners = {};
+  for (let r = 1; r < stockData.length; r++) {
+    const nm = stockData[r][nameCol] ? stockData[r][nameCol].toString().trim() : '';
+    if (!nm) continue;
+    const c = skuCode(nm);
+    if (!c) continue;
+    (codeOwners[c] = codeOwners[c] || {})[norm(nm)] = true;
+  }
+  const dupCodes = {};
+  Object.keys(codeOwners).forEach(c => { if (Object.keys(codeOwners[c]).length > 1) dupCodes[c] = true; });
+
+  // Aggregate OUT quantity by code and by name across the whole IN/OUT log.
+  const outByCode = {}, outByName = {};
+  const addWin = (map, key, ageDays, qty) => {
+    if (!map[key]) map[key] = { 7: 0, 30: 0, 90: 0 };
+    for (let i = 0; i < WINDOWS.length; i++) if (ageDays <= WINDOWS[i]) map[key][WINDOWS[i]] += qty;
+  };
+  for (let r = 1; r < inoutData.length; r++) {
+    const row = inoutData[r];
+    if ((row[TYPE_C] || '').toString().trim().toLowerCase() !== 'out') continue;
+    const rawD = row[dateCol];
+    if (!rawD) continue;
+    const d = rawD instanceof Date ? rawD : new Date(rawD);
+    if (isNaN(d.getTime())) continue;
+    const qty = parseFloat(row[QTY_C]) || 0;
+    const ageDays = (today - d) / (1000 * 60 * 60 * 24);
+    const c = skuCode(row[PROD_C]);
+    if (c) addWin(outByCode, c, ageDays, qty);
+    addWin(outByName, norm(row[PROD_C]), ageDays, qty);
+  }
+  const winFor = (name) => {
+    const c = skuCode(name);
+    if (c && !dupCodes[c] && outByCode[c]) return outByCode[c];
+    return outByName[norm(name)] || { 7: 0, 30: 0, 90: 0 };
+  };
+
   // ── 3. Build items array ──
   const items = [];
   const categoryTotals = {};
@@ -93,6 +144,21 @@ function buildDashboardData() {
     const monthlyRate = Math.round(outQty / (periodDays / 30));
     const reorderQty  = Math.round(dailyRate * 45); // 45-day supply
 
+    // Per-window figures: same stock, but rate/days-left/reorder from each window's OUT.
+    const win = winFor(name);
+    const periods = {};
+    WINDOWS.forEach(w => {
+      const o  = win[w] || 0;
+      const dr = o / w;
+      periods[w] = {
+        totalOut:    Math.round(o),
+        dailyRate:   parseFloat(dr.toFixed(1)),
+        monthlyRate: Math.round(o / (w / 30)),
+        daysLeft:    dr > 0 ? Math.max(-999, Math.round(stock / dr)) : 9999,
+        reorderQty:  Math.round(dr * 45),
+      };
+    });
+
     items.push({
       name, cat, loc, unit,
       totalIn:     Math.round(inQty),
@@ -102,6 +168,7 @@ function buildDashboardData() {
       monthlyRate,
       daysLeft:    Math.max(-999, daysLeft),
       reorderQty,
+      periods,
     });
 
     if (!categoryTotals[cat]) categoryTotals[cat] = 0;
@@ -130,6 +197,7 @@ function buildDashboardData() {
       totalUnitsOut,
       criticalCount,
       warningCount,
+      windows:     WINDOWS,
     },
     items,
     categories,
@@ -194,5 +262,8 @@ function testRun() {
   data.items.slice(0, 3).forEach((it, i) => {
     Logger.log(`  ${i+1}. ${it.name} — ${it.totalOut} out, ${it.daysLeft}d left`);
   });
+  const s = data.items[0];
+  Logger.log('Windows: ' + data.meta.windows.join('/') + 'd | top item OUT 7/30/90d: ' +
+    s.periods[7].totalOut + '/' + s.periods[30].totalOut + '/' + s.periods[90].totalOut);
   Logger.log('Categories: ' + data.categories.map(c => c.name + ':' + c.totalOut).join(', '));
 }
