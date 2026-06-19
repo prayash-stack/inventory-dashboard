@@ -273,6 +273,9 @@ const GH = { owner: 'prayash-stack', repo: 'inventory-dashboard', branch: 'main'
 // instant the Apps Script pushes), and fall back to the Pages URL if raw is unreachable.
 const RAW_URL  = `https://raw.githubusercontent.com/${GH.owner}/${GH.repo}/${GH.branch}/${GH.file}`;
 const DATA_URL = `https://${GH.owner}.github.io/${GH.repo}/${GH.file}`;
+// Contents API reads from git directly (no CDN), so it reflects a new commit instantly —
+// unlike Pages/raw, which serve a ~10-min cached copy and ignore ?cb busting.
+const API_URL  = `https://api.github.com/repos/${GH.owner}/${GH.repo}/contents/${GH.file}?ref=${GH.branch}`;
 // Paste your Apps Script Web App URL (ending in /exec) here to make Refresh rebuild
 // straight from the Google Sheet on demand. Leave '' to just re-fetch the latest
 // already-published data.json.
@@ -281,6 +284,12 @@ const REBUILD_URL = 'https://script.google.com/macros/s/AKfycbw74XvASqejAuYxzjPz
 
 async function fetchLatest() {
   const bust = 'cb=' + Date.now();
+  // 1) Contents API first — always reflects the latest commit (CORS-enabled, ~60 req/hr).
+  try {
+    const r = await fetch(API_URL + '&' + bust, { cache: 'no-store', headers: { Accept: 'application/vnd.github.raw' } });
+    if (r.ok) return await r.json();
+  } catch (e) { /* fall back */ }
+  // 2) raw, 3) Pages — used only if the API is unreachable or rate-limited (may be CDN-stale).
   let lastErr;
   for (const base of [RAW_URL, DATA_URL]) {
     try {
@@ -376,10 +385,12 @@ function applyLoadedData(period) {
 // Poll the raw file until meta.updatedAt changes (sheet → data.json takes a few seconds).
 async function pollForNewData(prevUpdated, timeoutMs) {
   const start = Date.now();
+  let first = true;
   while (Date.now() - start < timeoutMs) {
-    await new Promise(r => setTimeout(r, 2500));
+    if (!first) await new Promise(r => setTimeout(r, 2000));
+    first = false;
     try {
-      const d = await fetchLatest();
+      const d = await fetchLatest();             // API reflects the commit immediately
       if (d && d.meta && d.meta.updatedAt !== prevUpdated) return d;
     } catch (e) { /* keep polling */ }
   }
