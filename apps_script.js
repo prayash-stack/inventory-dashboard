@@ -76,6 +76,9 @@ function buildDashboardData() {
   const outCol     = col('Out');
   const stockCol   = col('Current Stock');
   const unitCol    = col('Unit');
+  // Optional unit-cost column (enables the inventory-value / money view). Add any of these
+  // headers to your Stock sheet to switch it on.
+  let   costCol    = col('Cost'); if (costCol < 0) costCol = col('Unit Cost'); if (costCol < 0) costCol = col('Price');
 
   // ── 2. Determine period from IN/OUT sheet ──
   const inoutSheet = ss.getSheetByName(CONFIG.INOUT_SHEET);
@@ -96,6 +99,7 @@ function buildDashboardData() {
 
   const today      = new Date();
   const periodDays = Math.max(1, Math.round((today - minDate) / (1000 * 60 * 60 * 24)));
+  const WEEKS      = Math.max(1, Math.ceil(periodDays / 7)); // for the consumption-trend chart
 
   // ── 2b. Per-window OUT quantities (powers the dashboard's "usage window" filter) ──
   // IN/OUT sheet columns: A Products, B Location, C In/Out, D Quantity, E Units, F Date
@@ -123,11 +127,17 @@ function buildDashboardData() {
   const dupCodes = {};
   Object.keys(codeOwners).forEach(c => { if (Object.keys(codeOwners[c]).length > 1) dupCodes[c] = true; });
 
-  // Aggregate OUT quantity by code and by name across the whole IN/OUT log.
-  const outByCode = {}, outByName = {};
+  // Aggregate OUT quantity by code and by name — per usage-window AND per week.
+  const DAY = 1000 * 60 * 60 * 24;
+  const outByCode = {}, outByName = {}, wkByCode = {}, wkByName = {};
+  const overallWeekly = new Array(WEEKS).fill(0);
   const addWin = (map, key, ageDays, qty) => {
     if (!map[key]) map[key] = { 7: 0, 30: 0, 90: 0 };
     for (let i = 0; i < WINDOWS.length; i++) if (ageDays <= WINDOWS[i]) map[key][WINDOWS[i]] += qty;
+  };
+  const addWk = (map, key, wi, qty) => {
+    if (!map[key]) map[key] = new Array(WEEKS).fill(0);
+    map[key][wi] += qty;
   };
   for (let r = 1; r < inoutData.length; r++) {
     const row = inoutData[r];
@@ -137,20 +147,30 @@ function buildDashboardData() {
     const d = rawD instanceof Date ? rawD : new Date(rawD);
     if (isNaN(d.getTime())) continue;
     const qty = parseFloat(row[QTY_C]) || 0;
-    const ageDays = (today - d) / (1000 * 60 * 60 * 24);
+    const ageDays = (today - d) / DAY;
+    let wi = Math.floor((d - minDate) / (7 * DAY));
+    if (wi < 0) wi = 0; if (wi >= WEEKS) wi = WEEKS - 1;
     const c = skuCode(row[PROD_C]);
-    if (c) addWin(outByCode, c, ageDays, qty);
+    if (c) { addWin(outByCode, c, ageDays, qty); addWk(wkByCode, c, wi, qty); }
     addWin(outByName, norm(row[PROD_C]), ageDays, qty);
+    addWk(wkByName, norm(row[PROD_C]), wi, qty);
+    overallWeekly[wi] += qty;
   }
   const winFor = (name) => {
     const c = skuCode(name);
     if (c && !dupCodes[c] && outByCode[c]) return outByCode[c];
     return outByName[norm(name)] || { 7: 0, 30: 0, 90: 0 };
   };
+  const wkFor = (name) => {
+    const c = skuCode(name);
+    if (c && !dupCodes[c] && wkByCode[c]) return wkByCode[c];
+    return wkByName[norm(name)] || new Array(WEEKS).fill(0);
+  };
 
   // ── 3. Build items array ──
   const items = [];
   const categoryTotals = {};
+  let totalStockValue = 0, deadStockValue = 0;
 
   for (let r = 1; r < stockData.length; r++) {
     const row = stockData[r];
@@ -185,7 +205,10 @@ function buildDashboardData() {
       };
     });
 
-    items.push({
+    const cost = costCol >= 0 ? (parseFloat(row[costCol]) || 0) : 0;
+    const stockValue = Math.round(cost * stock);
+
+    const item = {
       name, cat, loc, unit,
       totalIn:     Math.round(inQty),
       totalOut:    Math.round(outQty),
@@ -195,7 +218,15 @@ function buildDashboardData() {
       daysLeft:    Math.max(-999, daysLeft),
       reorderQty,
       periods,
-    });
+      trend:       wkFor(name).map(v => Math.round(v)), // units out per week
+    };
+    if (costCol >= 0) { item.cost = parseFloat(cost.toFixed(2)); item.stockValue = stockValue; }
+    items.push(item);
+
+    if (costCol >= 0) {
+      totalStockValue += stockValue;
+      if (stock > 0 && outQty === 0) deadStockValue += stockValue;
+    }
 
     if (!categoryTotals[cat]) categoryTotals[cat] = 0;
     categoryTotals[cat] += outQty;
@@ -213,6 +244,13 @@ function buildDashboardData() {
   const criticalCount = items.filter(i => i.daysLeft <= 7  && i.totalOut > 0).length;
   const warningCount  = items.filter(i => i.daysLeft > 7 && i.daysLeft <= 30 && i.totalOut > 0).length;
 
+  // Weekly buckets for the consumption-trend chart.
+  const weekly = [];
+  for (let i = 0; i < WEEKS; i++) {
+    const s = new Date(minDate.getTime() + i * 7 * DAY);
+    weekly.push({ start: s.toISOString().split('T')[0], totalOut: Math.round(overallWeekly[i]) });
+  }
+
   return {
     meta: {
       updatedAt:   new Date().toISOString(),
@@ -224,6 +262,11 @@ function buildDashboardData() {
       criticalCount,
       warningCount,
       windows:     WINDOWS,
+      weeks:       WEEKS,
+      weekly,
+      hasCost:         costCol >= 0,
+      totalStockValue: Math.round(totalStockValue),
+      deadStockValue:  Math.round(deadStockValue),
     },
     items,
     categories,

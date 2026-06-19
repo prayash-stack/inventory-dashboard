@@ -7,86 +7,109 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.44.0/tabler-icons.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
 <style>
+  :root{
+    --bg:#f5f5f7; --surface:#fff; --ink:#1d1d1f; --ink2:#6e6e73; --ink3:#9296a0;
+    --line:#e6e6eb; --line2:#f0f0f3; --accent:#5e5ce6; --accent-d:#4b49c4;
+    --red:#d70015; --amber:#b25000; --green:#1c7c33; --neg:#7c3aed;
+    --red-bg:#ffece9; --amber-bg:#fff2e0; --green-bg:#e7f6ec; --gray-bg:#eeeef1; --neg-bg:#f1ebfd;
+    --shadow:0 1px 2px rgba(0,0,0,.04), 0 6px 20px rgba(0,0,0,.05);
+    --radius:16px;
+  }
   *{box-sizing:border-box;margin:0;padding:0}
-  body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#f5f5f3;color:#1a1a18;font-size:14px}
-  .container{max-width:1200px;margin:0 auto;padding:24px 20px}
-  .header{display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:24px;flex-wrap:wrap;gap:10px}
-  h1{font-size:20px;font-weight:500;margin-bottom:4px}
-  .subtitle{font-size:13px;color:#888780}
-  .update-badge{display:flex;align-items:center;gap:6px;font-size:12px;color:#888780;background:#fff;border:0.5px solid #e0dfd8;border-radius:20px;padding:5px 12px;white-space:nowrap}
-  .dot{width:7px;height:7px;border-radius:50%;background:#50a14f;flex-shrink:0}
-  .tabs{display:flex;gap:4px;margin-bottom:24px;border-bottom:1px solid #e0dfd8}
-  .tab{padding:8px 16px;font-size:13px;cursor:pointer;border-bottom:2px solid transparent;color:#888780;background:none;border-top:none;border-left:none;border-right:none;font-family:inherit}
-  .tab.active{color:#1a1a18;border-bottom-color:#1a1a18;font-weight:500}
-  .tab:hover:not(.active){color:#444441}
-  .panel{display:none}.panel.active{display:block}
-  .metric-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin-bottom:24px}
-  .metric{background:#fff;border-radius:10px;padding:14px 16px;border:0.5px solid #e0dfd8}
-  .metric-label{font-size:12px;color:#888780;margin-bottom:6px;display:flex;align-items:center;gap:6px}
-  .metric-value{font-size:24px;font-weight:500}.metric-sub{font-size:12px;color:#888780;margin-top:2px}
-  .metric-value.red{color:#c23b3b}.metric-value.amber{color:#a05e0c}.metric-value.green{color:#3b6d11}
-  .card{background:#fff;border-radius:10px;border:0.5px solid #e0dfd8;padding:16px;margin-bottom:16px}
-  .card-title{font-size:12px;font-weight:500;color:#888780;margin-bottom:14px;text-transform:uppercase;letter-spacing:.5px}
+  body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',sans-serif;background:var(--bg);color:var(--ink);font-size:14px;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  .container{max-width:1180px;margin:0 auto;padding:0 22px 44px}
+  .header{position:sticky;top:0;z-index:30;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;
+    padding:16px 0 13px;margin-bottom:18px;background:rgba(245,245,247,.72);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid var(--line)}
+  h1{font-size:21px;font-weight:600;letter-spacing:-.02em;margin-bottom:2px}
+  .subtitle{font-size:13px;color:var(--ink3)}
+  .update-badge{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--ink2);background:var(--surface);border:1px solid var(--line);border-radius:980px;padding:5px 12px;white-space:nowrap;box-shadow:0 1px 2px rgba(0,0,0,.03)}
+  .dot{width:7px;height:7px;border-radius:50%;background:#34c759;flex-shrink:0}
+  .tabs{display:flex;gap:2px;width:max-content;max-width:100%;overflow-x:auto;background:#e9e9ee;border-radius:12px;padding:3px;margin-bottom:22px;scrollbar-width:none}
+  .tabs::-webkit-scrollbar{display:none}
+  .tab{padding:7px 15px;font-size:13px;font-weight:500;cursor:pointer;border-radius:9px;color:var(--ink2);background:none;border:none;font-family:inherit;white-space:nowrap;transition:color .15s,background .15s}
+  .tab.active{color:var(--ink);background:var(--surface);font-weight:600;box-shadow:0 1px 3px rgba(0,0,0,.1)}
+  .tab:hover:not(.active){color:var(--ink)}
+  .panel{display:none}.panel.active{display:block;animation:fade .25s ease}
+  @keyframes fade{from{opacity:0;transform:translateY(3px)}to{opacity:1;transform:none}}
+  .metric-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(165px,1fr));gap:14px;margin-bottom:22px}
+  .metric{background:var(--surface);border-radius:var(--radius);padding:16px 18px;box-shadow:var(--shadow)}
+  .metric-label{font-size:12px;color:var(--ink2);margin-bottom:8px;display:flex;align-items:center;gap:6px}
+  .metric-value{font-size:28px;font-weight:600;letter-spacing:-.02em;line-height:1.1}.metric-sub{font-size:12px;color:var(--ink3);margin-top:3px}
+  .metric-value.red{color:var(--red)}.metric-value.amber{color:var(--amber)}.metric-value.green{color:var(--green)}
+  .card{background:var(--surface);border-radius:var(--radius);padding:18px 20px;margin-bottom:16px;box-shadow:var(--shadow)}
+  .card-title{font-size:13px;font-weight:600;color:var(--ink);margin-bottom:14px;letter-spacing:-.01em}
   .chart-wrap{position:relative}
   table{width:100%;border-collapse:collapse;font-size:13px}
-  th{text-align:left;font-weight:500;font-size:11px;color:#888780;text-transform:uppercase;letter-spacing:.4px;padding:6px 10px;border-bottom:1px solid #e0dfd8}
-  td{padding:9px 10px;border-bottom:.5px solid #f0efe8;vertical-align:middle}
-  tr:last-child td{border-bottom:none}tr:hover td{background:#fafaf8}
-  .badge{display:inline-block;font-size:11px;padding:2px 8px;border-radius:4px;font-weight:500}
-  .badge-red{background:#fcebeb;color:#a32d2d}.badge-amber{background:#faeeda;color:#854f0b}.badge-green{background:#eaf3de;color:#3b6d11}.badge-gray{background:#f1efe8;color:#5f5e5a}
+  th{text-align:left;font-weight:600;font-size:11px;color:var(--ink3);text-transform:uppercase;letter-spacing:.04em;padding:9px 10px;border-bottom:1px solid var(--line)}
+  td{padding:11px 10px;border-bottom:1px solid var(--line2);vertical-align:middle}
+  tr:last-child td{border-bottom:none}tr:hover td{background:#fafafb}
+  .badge{display:inline-block;font-size:11px;padding:2px 9px;border-radius:6px;font-weight:600}
+  .badge-red{background:var(--red-bg);color:var(--red)}.badge-amber{background:var(--amber-bg);color:var(--amber)}.badge-green{background:var(--green-bg);color:var(--green)}.badge-gray{background:var(--gray-bg);color:var(--ink2)}
   .progress-wrap{display:flex;align-items:center;gap:8px}
-  .progress-bar-bg{flex:1;height:4px;background:#e0dfd8;border-radius:2px;overflow:hidden}
-  .progress-bar-fill{height:100%;border-radius:2px}
-  .search-row{display:flex;gap:10px;margin-bottom:16px}
-  .search-row input,.search-row select{padding:7px 12px;border:.5px solid #d3d1c7;border-radius:8px;font-size:13px;font-family:inherit;background:#fff;color:#1a1a18;outline:none}
-  .search-row input{flex:1}.search-row input:focus,.search-row select:focus{border-color:#888780}
+  .progress-bar-bg{flex:1;height:5px;background:var(--line);border-radius:3px;overflow:hidden}
+  .progress-bar-fill{height:100%;border-radius:3px}
+  .search-row{display:flex;gap:10px;margin-bottom:14px;flex-wrap:wrap}
+  .search-row input,.search-row select,#reorder-scope,#period-select{padding:8px 13px;border:1px solid var(--line);border-radius:10px;font-size:13px;font-family:inherit;background:var(--surface);color:var(--ink);outline:none;transition:border-color .15s,box-shadow .15s}
+  .search-row input{flex:1;min-width:180px}
+  .search-row input:focus,.search-row select:focus,#reorder-scope:focus,#period-select:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(94,92,230,.15)}
   .grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px}
-  @media(max-width:640px){.grid2{grid-template-columns:1fr}}
-  .alert-row{display:flex;align-items:flex-start;gap:10px;padding:10px 0;border-bottom:.5px solid #f0efe8}
+  @media(max-width:760px){.grid2{grid-template-columns:1fr}.container{padding:0 14px 40px}}
+  .alert-row{display:flex;align-items:flex-start;gap:11px;padding:11px 0;border-bottom:1px solid var(--line2)}
   .alert-row:last-child{border-bottom:none}
-  .alert-icon{width:28px;height:28px;border-radius:6px;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:13px}
-  .alert-icon.red{background:#fcebeb;color:#a32d2d}.alert-icon.amber{background:#faeeda;color:#854f0b}
-  .alert-body{flex:1}.alert-name{font-weight:500;font-size:13px}.alert-meta{font-size:12px;color:#888780;margin-top:2px}
-  .category-row{display:flex;align-items:center;gap:10px;padding:7px 0}
-  .category-name{width:180px;font-size:13px;flex-shrink:0}
-  .category-bar-bg{flex:1;height:8px;background:#f0efe8;border-radius:4px;overflow:hidden}
-  .category-bar-fill{height:100%;border-radius:4px;background:#534AB7}
-  .category-val{font-size:13px;font-weight:500;width:80px;text-align:right}
-  .top-item{display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:.5px solid #f0efe8}
+  .alert-icon{width:30px;height:30px;border-radius:9px;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:13px}
+  .alert-icon.red{background:var(--red-bg);color:var(--red)}.alert-icon.amber{background:var(--amber-bg);color:var(--amber)}
+  .alert-body{flex:1;min-width:0}.alert-name{font-weight:600;font-size:13px}.alert-meta{font-size:12px;color:var(--ink2);margin-top:2px}
+  .category-row{display:flex;align-items:center;gap:12px;padding:7px 0}
+  .category-name{width:180px;font-size:13px;flex-shrink:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .category-bar-bg{flex:1;height:8px;background:var(--line2);border-radius:4px;overflow:hidden}
+  .category-bar-fill{height:100%;border-radius:4px;background:var(--accent)}
+  .category-val{font-size:13px;font-weight:600;width:90px;text-align:right}
+  .top-item{display:flex;align-items:center;gap:12px;padding:9px 0;border-bottom:1px solid var(--line2)}
   .top-item:last-child{border-bottom:none}
-  .top-rank{font-size:12px;color:#888780;width:20px;flex-shrink:0}
-  .top-info{flex:1}.top-name{font-size:13px;font-weight:500}.top-cat{font-size:11px;color:#888780}
-  .top-out{font-size:14px;font-weight:500;text-align:right}.top-rate{font-size:11px;color:#888780;text-align:right}
-  .loading{display:flex;flex-direction:column;align-items:center;justify-content:center;height:300px;gap:12px;color:#888780}
-  .spinner{width:32px;height:32px;border:2px solid #e0dfd8;border-top-color:#534AB7;border-radius:50%;animation:spin .8s linear infinite}
+  .top-rank{font-size:12px;color:var(--ink3);width:20px;flex-shrink:0}
+  .top-info{flex:1;min-width:0}.top-name{font-size:13px;font-weight:600}.top-cat{font-size:11px;color:var(--ink3);margin-top:1px}
+  .top-out{font-size:14px;font-weight:600;text-align:right}.top-rate{font-size:11px;color:var(--ink3);text-align:right}
+  .loading{display:flex;flex-direction:column;align-items:center;justify-content:center;height:320px;gap:12px;color:var(--ink3)}
+  .spinner{width:32px;height:32px;border:2.5px solid var(--line);border-top-color:var(--accent);border-radius:50%;animation:spin .8s linear infinite}
   @keyframes spin{to{transform:rotate(360deg)}}
-  .error-banner{background:#fcebeb;border:0.5px solid #f5c0c0;border-radius:8px;padding:14px 16px;color:#a32d2d;font-size:13px;margin-bottom:20px}
-  .btn{display:inline-flex;align-items:center;gap:6px;padding:7px 14px;border:.5px solid #d3d1c7;border-radius:8px;font-size:13px;font-family:inherit;background:#fff;color:#1a1a18;cursor:pointer;white-space:nowrap;transition:background .15s}
-  .btn:hover{background:#faf9f6;border-color:#888780}
-  .btn-primary{background:#534AB7;color:#fff;border-color:#534AB7}.btn-primary:hover{background:#453d9e;border-color:#453d9e}
-  .btn:disabled{opacity:.65;cursor:default}
+  .error-banner{background:var(--red-bg);border:1px solid #f6c5bf;border-radius:12px;padding:14px 16px;color:var(--red);font-size:13px;margin-bottom:20px}
+  .btn{display:inline-flex;align-items:center;gap:6px;padding:7px 15px;border:1px solid var(--line);border-radius:980px;font-size:13px;font-weight:500;font-family:inherit;background:var(--surface);color:var(--ink);cursor:pointer;white-space:nowrap;transition:background .15s,border-color .15s,box-shadow .15s;box-shadow:0 1px 2px rgba(0,0,0,.03)}
+  .btn:hover{background:#fafafb;border-color:#d4d4da}
+  .btn-primary{background:var(--accent);color:#fff;border-color:var(--accent);box-shadow:0 1px 3px rgba(94,92,230,.3)}.btn-primary:hover{background:var(--accent-d);border-color:var(--accent-d)}
+  .btn:disabled{opacity:.6;cursor:default}
   .spin-icon{display:inline-block;animation:spin .8s linear infinite}
   .health-card-head{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:10px}
-  .tab .tab-badge{display:inline-block;min-width:16px;padding:0 5px;margin-left:4px;font-size:10px;line-height:15px;text-align:center;border-radius:8px;background:#fcebeb;color:#a32d2d;font-weight:600}
-  .health-section-title{display:flex;align-items:center;gap:8px;font-size:11px;font-weight:600;color:#5f5e5a;text-transform:uppercase;letter-spacing:.5px;margin:20px 2px 10px}
+  .tab .tab-badge{display:inline-block;min-width:16px;padding:0 5px;margin-left:5px;font-size:10px;line-height:15px;text-align:center;border-radius:8px;background:var(--red);color:#fff;font-weight:700}
+  .health-section-title{display:flex;align-items:center;gap:8px;font-size:11px;font-weight:700;color:var(--ink2);text-transform:uppercase;letter-spacing:.06em;margin:22px 2px 11px}
   .health-section-title:first-child{margin-top:2px}
   .dot-sev{width:8px;height:8px;border-radius:50%;display:inline-block;flex-shrink:0}
-  .dot-sev.red{background:#c23b3b}.dot-sev.amber{background:#a05e0c}.dot-sev.gray{background:#9b9890}
-  .link-btn{background:none;border:none;color:#534AB7;font-size:12.5px;font-family:inherit;cursor:pointer;padding:6px 0 2px;font-weight:500}
+  .dot-sev.red{background:var(--red)}.dot-sev.amber{background:var(--amber)}.dot-sev.gray{background:#a0a0a8}
+  .link-btn{background:none;border:none;color:var(--accent);font-size:12.5px;font-family:inherit;cursor:pointer;padding:6px 0 2px;font-weight:600}
   .link-btn:hover{text-decoration:underline}
   th.sortable{cursor:pointer;user-select:none;white-space:nowrap}
-  th.sortable:hover{color:#534AB7}
+  th.sortable:hover{color:var(--accent)}
   th .sort-arrow{display:inline-block;width:10px;opacity:.45;font-size:9px}
-  th.sorted .sort-arrow{opacity:1;color:#534AB7}
-  .badge-neg{background:#f3e8fc;color:#6b21a8}
+  th.sorted{color:var(--accent)}th.sorted .sort-arrow{opacity:1;color:var(--accent)}
+  .badge-neg{background:var(--neg-bg);color:var(--neg)}
   .cat-head{cursor:pointer;user-select:none}
-  .cat-head:hover td{background:#faf9f6}
-  .cat-caret{display:inline-block;width:14px;color:#888780;transition:transform .15s}
+  .cat-head:hover td{background:#fafafb}
+  .cat-caret{display:inline-block;width:14px;color:var(--ink3);transition:transform .15s}
   .cat-head.open .cat-caret{transform:rotate(90deg)}
-  .subrow td{background:#fafaf8;font-size:12.5px;padding-top:6px;padding-bottom:6px}
-  .subrow .sub-name{padding-left:24px;color:#444441}
+  .subrow td{background:#fafafb;font-size:12.5px;padding-top:7px;padding-bottom:7px}
+  .subrow .sub-name{padding-left:24px;color:var(--ink2)}
   .panel-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:16px;flex-wrap:wrap}
-  .panel-head .title{font-size:14px;font-weight:500}.panel-head .sub{font-size:12px;color:#888780}
+  .panel-head .title{font-size:15px;font-weight:600;letter-spacing:-.01em}.panel-head .sub{font-size:12px;color:var(--ink3)}
+  /* ABC analysis */
+  .abc-badge{display:inline-flex;align-items:center;justify-content:center;width:21px;height:21px;border-radius:6px;font-size:11px;font-weight:700;color:#fff}
+  .abc-A{background:var(--green)}.abc-B{background:var(--amber)}.abc-C{background:#a8a8b0}
+  .abc-row{display:flex;align-items:center;gap:13px;padding:10px 0;border-bottom:1px solid var(--line2)}.abc-row:last-child{border-bottom:none}
+  /* reorder controls */
+  .reorder-controls{display:flex;flex-wrap:wrap;align-items:center;gap:16px;background:var(--surface);border-radius:var(--radius);padding:14px 18px;margin-bottom:16px;box-shadow:var(--shadow)}
+  .rc-group{display:inline-flex;align-items:center;gap:7px}
+  .rc-label{font-size:12.5px;color:var(--ink2);font-weight:500}
+  .rc-input{width:56px;padding:6px 8px;border:1px solid var(--line);border-radius:8px;font-size:13px;font-family:inherit;text-align:center;background:var(--surface);color:var(--ink);outline:none}
+  .rc-input:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(94,92,230,.15)}
+  .rc-unit{font-size:12px;color:var(--ink3)}
 </style>
 </head>
 <body>
@@ -119,6 +142,7 @@
       <button class="tab" onclick="showPanel('stockout',this)">Stock alerts</button>
       <button class="tab" onclick="showPanel('items',this)">All items</button>
       <button class="tab" onclick="showPanel('reorder',this)">Reorder</button>
+      <button class="tab" onclick="showPanel('insights',this)">Insights</button>
       <button class="tab" onclick="showPanel('categories',this)">Categories</button>
       <button class="tab" onclick="showPanel('health',this)">Data health<span class="tab-badge" id="health-count" style="display:none"></span></button>
     </div>
@@ -136,6 +160,10 @@
 
     <div id="panel-overview" class="panel active">
       <div class="metric-grid" id="metrics"></div>
+      <div class="card" id="trend-card" style="display:none">
+        <div class="card-title">Consumption trend — units out per week</div>
+        <div class="chart-wrap" style="height:240px"><canvas id="trendChart"></canvas></div>
+      </div>
       <div class="grid2">
         <div class="card"><div class="card-title">Top 10 items by units sold</div><div id="top-items-list"></div></div>
         <div class="card"><div class="card-title">Sales by category</div><div id="cat-bars"></div></div>
@@ -192,8 +220,10 @@
             <tr>
               <th class="sortable" onclick="setSort('name')" data-key="name">Product <span class="sort-arrow"></span></th>
               <th class="sortable" onclick="setSort('cat')" data-key="cat">Category <span class="sort-arrow"></span></th>
+              <th title="ABC class by units sold">ABC</th>
               <th class="sortable" style="text-align:right" onclick="setSort('totalOut')" data-key="totalOut">Units sold <span class="sort-arrow"></span></th>
               <th class="sortable" style="text-align:right" onclick="setSort('dailyRate')" data-key="dailyRate">Daily rate <span class="sort-arrow"></span></th>
+              <th>Trend</th>
               <th class="sortable" style="text-align:right" onclick="setSort('currentStock')" data-key="currentStock">Stock <span class="sort-arrow"></span></th>
               <th class="sortable" style="text-align:right" onclick="setSort('daysLeft')" data-key="daysLeft">Days left <span class="sort-arrow"></span></th>
               <th class="sortable" onclick="setSort('daysLeft')" data-key="status">Status <span class="sort-arrow"></span></th>
@@ -206,16 +236,20 @@
 
     <div id="panel-reorder" class="panel">
       <div class="metric-grid" id="reorder-metrics"></div>
+      <div class="reorder-controls" id="reorder-controls">
+        <span class="rc-group"><span class="rc-label">Lead time</span><input type="number" id="rc-lead" class="rc-input" value="14" min="0" onchange="renderReorder()"><span class="rc-unit">days</span></span>
+        <span class="rc-group"><span class="rc-label">Safety stock</span><input type="number" id="rc-safety" class="rc-input" value="7" min="0" onchange="renderReorder()"><span class="rc-unit">days</span></span>
+        <span class="rc-group"><span class="rc-label">Order cover</span><input type="number" id="rc-cover" class="rc-input" value="45" min="1" onchange="renderReorder()"><span class="rc-unit">days</span></span>
+        <span class="sub" id="rc-explain" style="font-size:12px;color:#888780"></span>
+      </div>
       <div class="panel-head">
         <div>
           <span class="title">Suggested purchase order</span>
           <span class="sub" id="reorder-sub"></span>
         </div>
         <div style="display:flex;gap:8px;align-items:center">
-          <select id="reorder-window" onchange="renderReorder()">
-            <option value="7">Out within 7 days</option>
-            <option value="30" selected>Out within 30 days</option>
-            <option value="90">Out within 90 days</option>
+          <select id="reorder-scope" onchange="renderReorder()">
+            <option value="due" selected>Due for reorder</option>
             <option value="all">All items with usage</option>
           </select>
           <button class="btn btn-primary" onclick="exportReorder()"><i class="ti ti-download"></i> Download PO</button>
@@ -234,6 +268,38 @@
           </thead>
           <tbody id="reorder-body"></tbody>
         </table>
+      </div>
+    </div>
+
+    <div id="panel-insights" class="panel">
+      <div class="metric-grid" id="value-metrics"></div>
+      <div class="grid2">
+        <div class="card">
+          <div class="panel-head" style="margin-bottom:10px">
+            <div><span class="card-title" style="margin:0">ABC analysis</span></div>
+            <button class="btn" onclick="exportABC()"><i class="ti ti-download"></i> CSV</button>
+          </div>
+          <p class="sub" style="font-size:12px;color:#888780;margin:-4px 0 12px">The vital few vs the trivial many — by share of units sold.</p>
+          <div id="abc-summary"></div>
+        </div>
+        <div class="card">
+          <div class="card-title">Top items by stock value</div>
+          <div id="value-top"></div>
+        </div>
+      </div>
+      <div class="grid2">
+        <div class="card">
+          <div class="card-title" style="color:#3b6d11">↑ Fastest rising — last week vs period average</div>
+          <div id="movers-up"></div>
+        </div>
+        <div class="card">
+          <div class="card-title" style="color:#a32d2d">↓ Cooling down — last week vs period average</div>
+          <div id="movers-down"></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title">Stock value by category</div>
+        <div id="value-cats"></div>
       </div>
     </div>
 
@@ -258,7 +324,10 @@
           <span class="title">Data inconsistencies</span>
           <span class="sub" id="health-sub"></span>
         </div>
-        <button class="btn" onclick="exportHealth()"><i class="ti ti-download"></i> Export all issues</button>
+        <div style="display:flex;gap:8px">
+          <button class="btn btn-primary" onclick="exportCorrections()"><i class="ti ti-list-check"></i> Download corrections</button>
+          <button class="btn" onclick="exportHealth()"><i class="ti ti-download"></i> Export all issues</button>
+        </div>
       </div>
       <div id="health-cards"></div>
     </div>
@@ -499,6 +568,7 @@ function applyPeriod(period) {
 function changePeriod(p) { applyPeriod(p); }
 
 function render() {
+  abcData = computeABC(D.items);
   renderMetrics();
   renderAlertMetrics();
   renderTopItems();
@@ -508,6 +578,7 @@ function render() {
   populateCatFilter();
   filterTable();
   renderReorder();
+  renderInsights();
   renderCatTable();
   renderHealth();
   renderCharts();
@@ -519,7 +590,8 @@ function renderMetrics() {
     <div class="metric"><div class="metric-label">📈 Daily avg out</div><div class="metric-value">${fmt(Math.round(D.meta.totalUnitsOut / D.meta.periodDays))}</div><div class="metric-sub">units / day</div></div>
     <div class="metric"><div class="metric-label">🔴 Critical items</div><div class="metric-value red">${D.meta.criticalCount}</div><div class="metric-sub">out of stock / &lt;7 days</div></div>
     <div class="metric"><div class="metric-label">🟡 Warning items</div><div class="metric-value amber">${D.meta.warningCount}</div><div class="metric-sub">7–30 days remaining</div></div>
-    <div class="metric"><div class="metric-label">🗂 SKUs tracked</div><div class="metric-value">${D.meta.totalSkus}</div><div class="metric-sub">active products</div></div>`;
+    <div class="metric"><div class="metric-label">🗂 SKUs tracked</div><div class="metric-value">${D.meta.totalSkus}</div><div class="metric-sub">active products</div></div>
+    ${hasCost() ? `<div class="metric"><div class="metric-label">💰 Stock value</div><div class="metric-value">${money(RAW.meta.totalStockValue)}</div><div class="metric-sub">on hand now</div></div>` : ''}`;
 }
 
 function renderAlertMetrics() {
@@ -616,11 +688,14 @@ function renderItemsTable(data) {
     const s = getStatus(it.daysLeft);
     const pct = Math.min(100, Math.max(0, Math.round(it.daysLeft / 90 * 100)));
     const bar = s === 'red' ? '#e24b4a' : s === 'amber' ? '#ef9f27' : '#639922';
+    const tier = abcData.map[it.name] || 'C';
     return `<tr>
       <td style="max-width:220px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${it.name}">${it.name}</td>
       <td>${it.cat}</td>
+      <td><span class="abc-badge abc-${tier}">${tier}</span></td>
       <td style="text-align:right;font-weight:500">${fmt(it.totalOut)}</td>
       <td style="text-align:right">${it.dailyRate}/d</td>
+      <td>${sparklineSVG(it.trend, '#9a98c4')}</td>
       <td style="text-align:right">${fmt(it.currentStock)}</td>
       <td>
         <div class="progress-wrap">
@@ -635,27 +710,42 @@ function renderItemsTable(data) {
   }).join('');
 }
 
+function reorderParams() {
+  const g = id => { const el = document.getElementById(id); return Math.max(0, parseInt(el && el.value, 10) || 0); };
+  return { lead: g('rc-lead'), safety: g('rc-safety'), cover: Math.max(1, g('rc-cover')) };
+}
+
+// Order-up-to model: reorder when cover ≤ lead+safety; order enough to reach
+// (lead + safety + cover) days of stock.
 function reorderList() {
-  const win = document.getElementById('reorder-window').value;
-  const max = win === 'all' ? Infinity : parseInt(win, 10);
-  return D.items
-    .filter(it => it.totalOut > 0 && it.reorderQty > 0 && it.daysLeft <= max)
+  const { lead, safety, cover } = reorderParams();
+  const scope = document.getElementById('reorder-scope').value;
+  const trigger = lead + safety;
+  return D.items.filter(it => it.dailyRate > 0).map(it => {
+    const level = it.dailyRate * (lead + safety + cover);
+    const orderQty = Math.max(0, Math.round(level - it.currentStock));
+    return Object.assign({}, it, { orderQty, due: it.daysLeft <= trigger });
+  }).filter(it => scope === 'all' ? it.orderQty > 0 : (it.due && it.orderQty > 0))
     .sort((a, b) => a.daysLeft - b.daysLeft);
 }
 
 function renderReorder() {
+  const { lead, safety, cover } = reorderParams();
   const list = reorderList();
-  const win  = document.getElementById('reorder-window').value;
-  const totalUnits = list.reduce((s, i) => s + i.reorderQty, 0);
+  const totalUnits = list.reduce((s, i) => s + i.orderQty, 0);
   const urgent = list.filter(i => i.daysLeft <= 7).length;
+  const cost = hasCost() ? list.reduce((s, i) => s + (i.cost || 0) * i.orderQty, 0) : null;
+
+  document.getElementById('rc-explain').textContent =
+    `Reorder when cover ≤ ${lead + safety} days (lead + safety); top up to ${lead + safety + cover} days.`;
 
   document.getElementById('reorder-metrics').innerHTML = `
     <div class="metric"><div class="metric-label">🧾 Items to order</div><div class="metric-value">${list.length}</div></div>
-    <div class="metric"><div class="metric-label">📦 Total units suggested</div><div class="metric-value">${fmt(totalUnits)}</div></div>
-    <div class="metric"><div class="metric-label">🔴 Urgent (&lt;7 days)</div><div class="metric-value red">${urgent}</div></div>`;
+    <div class="metric"><div class="metric-label">📦 Total units</div><div class="metric-value">${fmt(totalUnits)}</div></div>
+    <div class="metric"><div class="metric-label">🔴 Urgent (&lt;7 days)</div><div class="metric-value red">${urgent}</div></div>
+    ${cost != null ? `<div class="metric"><div class="metric-label">💰 Est. PO cost</div><div class="metric-value">${money(cost)}</div></div>` : ''}`;
 
-  document.getElementById('reorder-sub').textContent =
-    ` — ${list.length} SKUs, ${fmt(totalUnits)} units (45-day cover)`;
+  document.getElementById('reorder-sub').textContent = ` — ${list.length} SKUs, ${fmt(totalUnits)} units`;
 
   document.getElementById('reorder-body').innerHTML = list.length ? list.map(it => {
     const s = getStatus(it.daysLeft), bar = s === 'red' ? '#e24b4a' : s === 'amber' ? '#ef9f27' : '#639922';
@@ -665,15 +755,20 @@ function renderReorder() {
       <td style="text-align:right">${fmt(it.currentStock)}</td>
       <td style="text-align:right">${it.dailyRate}/d</td>
       <td style="text-align:right;color:${bar};font-weight:500">${it.daysLeft <= 0 ? 'OUT' : it.daysLeft + 'd'}</td>
-      <td style="text-align:right;font-weight:500">${fmt(it.reorderQty)} ${it.unit}</td>
+      <td style="text-align:right;font-weight:500">${fmt(it.orderQty)} ${it.unit}</td>
     </tr>`;
-  }).join('') : '<tr><td colspan="7" style="text-align:center;color:#888780;padding:20px">✅ Nothing to reorder in this window.</td></tr>';
+  }).join('') : '<tr><td colspan="7" style="text-align:center;color:#888780;padding:20px">✅ Nothing due for reorder with these settings.</td></tr>';
 }
 
 function exportReorder() {
+  const cols = ['Product','Category','Location','Current Stock','Daily Rate','Days Left','Suggested Order Qty','Unit'];
+  const withCost = hasCost();
   downloadCSV(`reorder_PO_${dateStamp()}.csv`,
-    ['Product','Category','Location','Current Stock','Daily Rate','Days Left','Suggested Order Qty','Unit'],
-    reorderList().map(it => [it.name, it.cat, it.loc, it.currentStock, it.dailyRate, it.daysLeft, it.reorderQty, it.unit]));
+    withCost ? cols.concat(['Unit Cost','Line Cost']) : cols,
+    reorderList().map(it => {
+      const base = [it.name, it.cat, it.loc, it.currentStock, it.dailyRate, it.daysLeft, it.orderQty, it.unit];
+      return withCost ? base.concat([it.cost, Math.round((it.cost || 0) * it.orderQty)]) : base;
+    }));
 }
 
 function populateCatFilter() {
@@ -722,9 +817,10 @@ function updateSortArrows() {
 
 function exportItems() {
   const rows = getFilteredItems();
+  const wc = hasCost();
   downloadCSV(`inventory_items_${dateStamp()}.csv`,
-    ['Product','Category','Location','Unit','Total In','Total Out','Current Stock','Daily Rate','Monthly Rate','Days Left','Suggested Reorder','Status'],
-    rows.map(it => [it.name, it.cat, it.loc, it.unit, it.totalIn, it.totalOut, it.currentStock, it.dailyRate, it.monthlyRate, it.daysLeft, it.reorderQty, statusLabel(it.daysLeft)]));
+    ['Product','Category','ABC','Location','Unit','Total In','Total Out','Current Stock','Daily Rate','Monthly Rate','Days Left','Suggested Reorder','Status'].concat(wc ? ['Unit Cost','Stock Value'] : []),
+    rows.map(it => [it.name, it.cat, abcData.map[it.name] || 'C', it.loc, it.unit, it.totalIn, it.totalOut, it.currentStock, it.dailyRate, it.monthlyRate, it.daysLeft, it.reorderQty, statusLabel(it.daysLeft)].concat(wc ? [it.cost, it.stockValue] : [])));
 }
 
 function productsByCat(cat) {
@@ -752,7 +848,7 @@ function renderCatTable() {
       <td style="text-align:right">${prods.length}</td>
       <td style="text-align:right">${fmt(c.totalOut)}</td>
       <td style="text-align:right">${(c.totalOut/total*100).toFixed(1)}%</td>
-      <td><div class="progress-bar-bg" style="height:6px"><div class="progress-bar-fill" style="width:${Math.round(c.totalOut/max*100)}%;background:#534AB7"></div></div></td>
+      <td><div class="progress-bar-bg" style="height:6px"><div class="progress-bar-fill" style="width:${Math.round(c.totalOut/max*100)}%;background:#5e5ce6"></div></div></td>
     </tr>
     <tr id="catsub-${i}" style="display:none"><td colspan="5" style="padding:0">
       <table style="margin:0"><tbody>${subRows}</tbody></table>
@@ -908,14 +1004,154 @@ function exportHealthCheck(key) {
     c.rows.map(i => [i.name, i.cat, i.loc, i.currentStock, i.totalIn, i.totalOut, c.detail(i)]));
 }
 
+// Upstream data hygiene: export an actionable corrections list to fix in the sheet.
+function exportCorrections() {
+  const fixes = {
+    negstock: 'Audit physical stock; record the missing inflow or correct the count.',
+    dupcode:  'Give this product a unique SKU code — its code is shared with another item.',
+    nocode:   'Add a unique (CODE) to the product name.',
+    balance:  'Reconcile: Current Stock should equal Total In − Total Out.',
+    nounit:   'Set a unit of measure.',
+    noloc:    'Set a location.',
+  };
+  const rows = [];
+  getHealthChecks().forEach(c => {
+    if (!(c.key in fixes)) return;
+    c.rows.forEach(i => rows.push([c.title, i.name, i.cat, i.loc, i.currentStock, fixes[c.key]]));
+  });
+  downloadCSV(`data_corrections_${dateStamp()}.csv`,
+    ['Issue','Product','Category','Location','Current Stock','Suggested fix'], rows);
+}
+
+// ── shared helpers for the new analytics ──
+function money(n) { return '₹' + Math.round(n || 0).toLocaleString('en-IN'); }
+function hasCost() { return !!(RAW && RAW.meta && RAW.meta.hasCost); }
+function cleanName(n) { return String(n || '').replace(/\s*\([^)]*\)\s*$/, ''); }
+
+function sparklineSVG(arr, color) {
+  if (!arr || arr.length < 2) return '';
+  const w = 70, h = 20, max = Math.max(...arr, 1), min = Math.min(...arr, 0), rng = (max - min) || 1;
+  const x = i => (i / (arr.length - 1)) * (w - 2) + 1;
+  const y = v => h - 1 - ((v - min) / rng) * (h - 2);
+  const pts = arr.map((v, i) => x(i).toFixed(1) + ',' + y(v).toFixed(1)).join(' ');
+  const li = arr.length - 1;
+  return `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" style="vertical-align:middle">`
+    + `<polyline points="${pts}" fill="none" stroke="${color || '#5e5ce6'}" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>`
+    + `<circle cx="${x(li).toFixed(1)}" cy="${y(arr[li]).toFixed(1)}" r="1.7" fill="${color || '#5e5ce6'}"/></svg>`;
+}
+
+// ABC classification by share of units sold (Pareto): A=top 80%, B=next 15%, C=last 5%.
+let abcData = { map: {}, tiers: { A: [], B: [], C: [] }, total: 0 };
+function computeABC(items) {
+  const sorted = items.filter(i => i.totalOut > 0).sort((a, b) => b.totalOut - a.totalOut);
+  const total = sorted.reduce((s, i) => s + i.totalOut, 0) || 1;
+  const tiers = { A: [], B: [], C: [] }, map = {};
+  let cum = 0;
+  for (const it of sorted) {
+    cum += it.totalOut;
+    const pct = cum / total;
+    const tier = pct <= 0.80 ? 'A' : pct <= 0.95 ? 'B' : 'C';
+    map[it.name] = tier; tiers[tier].push(it);
+  }
+  items.forEach(i => { if (!(i.name in map)) { map[i.name] = 'C'; tiers.C.push(i); } });
+  return { map, tiers, total };
+}
+
+function renderInsights() {
+  // value metrics
+  const vm = document.getElementById('value-metrics');
+  if (hasCost()) {
+    const sold = RAW.items.reduce((s, i) => s + (i.cost || 0) * i.totalOut, 0);
+    vm.innerHTML = `
+      <div class="metric"><div class="metric-label">💰 Stock on hand</div><div class="metric-value">${money(RAW.meta.totalStockValue)}</div><div class="metric-sub">current inventory value</div></div>
+      <div class="metric"><div class="metric-label">🧊 Dead-stock capital</div><div class="metric-value red">${money(RAW.meta.deadStockValue)}</div><div class="metric-sub">value with zero sales</div></div>
+      <div class="metric"><div class="metric-label">📤 Shipped (period)</div><div class="metric-value">${money(sold)}</div><div class="metric-sub">cost of units sold</div></div>
+      <div class="metric"><div class="metric-label">🗂 SKUs</div><div class="metric-value">${fmt(RAW.items.length)}</div><div class="metric-sub">tracked products</div></div>`;
+  } else {
+    vm.innerHTML = `<div class="metric" style="grid-column:1/-1"><div class="metric-label">💰 Inventory value</div><div style="font-size:13px;color:#888780;margin-top:4px">Add a <strong>Cost</strong> column (unit cost) to your Stock sheet to unlock stock value, dead-stock capital, and value-based ranking.</div></div>`;
+  }
+
+  // ABC summary
+  const { tiers, total } = abcData;
+  const tierMeta = { A: ['#1c7c33', 'Vital few — tight control, never stock out'], B: ['#a05e0c', 'Important — review periodically'], C: ['#8a8780', 'Trivial many — automate / minimise'] };
+  document.getElementById('abc-summary').innerHTML = ['A','B','C'].map(t => {
+    const arr = tiers[t], units = arr.reduce((s, i) => s + i.totalOut, 0), share = total ? Math.round(units / total * 100) : 0;
+    return `<div class="abc-row">
+      <span class="abc-badge abc-${t}">${t}</span>
+      <div style="flex:1">
+        <div style="display:flex;justify-content:space-between;font-size:13px"><span><strong>${arr.length}</strong> SKUs · ${tierMeta[t][1]}</span><span style="font-weight:500">${share}%</span></div>
+        <div class="progress-bar-bg" style="height:6px;margin-top:5px"><div class="progress-bar-fill" style="width:${share}%;background:${tierMeta[t][0]}"></div></div>
+      </div></div>`;
+  }).join('') + `<p style="font-size:11.5px;color:#9b9890;margin-top:12px">A = top 80% of units sold · B = next 15% · C = last 5%.</p>`;
+
+  // top by value + value by category
+  if (hasCost()) {
+    const top = [...RAW.items].sort((a, b) => b.stockValue - a.stockValue).slice(0, 8);
+    document.getElementById('value-top').innerHTML = top.map(it => `
+      <div class="top-item"><div class="top-info"><div class="top-name">${cleanName(it.name)}</div><div class="top-cat">${fmt(it.currentStock)} ${it.unit} · ${it.cat}</div></div><div class="top-out">${money(it.stockValue)}</div></div>`).join('');
+    const cv = {}; RAW.items.forEach(i => cv[i.cat] = (cv[i.cat] || 0) + i.stockValue);
+    const cats = Object.entries(cv).map(([name, v]) => ({ name, v })).sort((a, b) => b.v - a.v).slice(0, 10);
+    const mx = cats[0] ? cats[0].v : 1;
+    document.getElementById('value-cats').innerHTML = cats.map(c => `
+      <div class="category-row"><div class="category-name">${c.name}</div><div class="category-bar-bg"><div class="category-bar-fill" style="width:${Math.round(c.v / mx * 100)}%"></div></div><div class="category-val">${money(c.v)}</div></div>`).join('');
+  } else {
+    document.getElementById('value-top').innerHTML = '<p style="font-size:12px;color:#888780;padding:8px 0">Add a Cost column to rank items by value.</p>';
+    document.getElementById('value-cats').innerHTML = '<p style="font-size:12px;color:#888780;padding:8px 0">Add a Cost column to see value by category.</p>';
+  }
+
+  renderMovers();
+}
+
+function renderMovers() {
+  const items = (RAW.items || []).filter(i => i.trend && i.trend.length >= 3 && i.totalOut > 0);
+  const scored = items.map(i => {
+    const last = i.trend[i.trend.length - 1];
+    const avg = i.trend.reduce((s, v) => s + v, 0) / i.trend.length;
+    return { it: i, last, avg, ratio: avg > 0 ? last / avg : 0 };
+  }).filter(s => s.avg >= 5);
+  const up = [...scored].sort((a, b) => b.ratio - a.ratio).slice(0, 6);
+  const down = [...scored].sort((a, b) => a.ratio - b.ratio).slice(0, 6);
+  const row = (s, dir) => {
+    const col = dir === 'up' ? '#1c7c33' : '#a32d2d', sign = dir === 'up' ? '+' : '';
+    return `<div class="top-item"><div class="top-info"><div class="top-name">${cleanName(s.it.name)} ${sparklineSVG(s.it.trend, col)}</div><div class="top-cat">${s.it.cat}</div></div>
+      <div style="text-align:right"><div class="top-out" style="color:${col}">${sign}${Math.round((s.ratio - 1) * 100)}%</div><div class="top-rate">${fmt(s.last)} last wk · avg ${fmt(Math.round(s.avg))}</div></div></div>`;
+  };
+  document.getElementById('movers-up').innerHTML = up.length ? up.map(s => row(s, 'up')).join('') : '<p style="font-size:12px;color:#888780;padding:8px 0">Trend data appears after the Apps Script update.</p>';
+  document.getElementById('movers-down').innerHTML = down.length ? down.map(s => row(s, 'down')).join('') : '<p style="font-size:12px;color:#888780;padding:8px 0">Trend data appears after the Apps Script update.</p>';
+}
+
+function exportABC() {
+  const map = abcData.map;
+  downloadCSV(`abc_analysis_${dateStamp()}.csv`,
+    ['Product','Category','ABC class','Units sold','Current stock','Stock value'],
+    [...D.items].sort((a, b) => b.totalOut - a.totalOut)
+      .map(i => [i.name, i.cat, map[i.name] || 'C', i.totalOut, i.currentStock, i.stockValue != null ? i.stockValue : '']));
+}
+
 function renderCharts() {
   Object.values(charts).forEach(c => c.destroy());
   charts = {};
 
+  // Consumption trend — units out per week (from the raw historical series)
+  const tc = document.getElementById('trend-card');
+  if (RAW.meta.weekly && RAW.meta.weekly.length > 1) {
+    tc.style.display = 'block';
+    charts.trend = new Chart(document.getElementById('trendChart'), {
+      type: 'line',
+      data: { labels: RAW.meta.weekly.map(w => w.start.slice(5)),
+        datasets: [{ label: 'Units out', data: RAW.meta.weekly.map(w => w.totalOut),
+          borderColor: '#5e5ce6', backgroundColor: 'rgba(94,92,230,0.10)', fill: true,
+          tension: 0.35, pointRadius: 2, pointHoverRadius: 4, borderWidth: 2 }] },
+      options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } },
+        scales: { y: { grid: { color: '#f0efe8' }, ticks: { callback: v => v.toLocaleString() } },
+                  x: { grid: { display: false }, ticks: { font: { size: 11 } } } } }
+    });
+  } else { tc.style.display = 'none'; }
+
   const top8 = D.categories.slice(0,8);
   charts.cat = new Chart(document.getElementById('catChart'), {
     type: 'bar',
-    data: { labels: top8.map(c => c.name), datasets: [{ label: 'Units sold', data: top8.map(c => c.totalOut), backgroundColor: '#534AB7', borderRadius: 4 }] },
+    data: { labels: top8.map(c => c.name), datasets: [{ label: 'Units sold', data: top8.map(c => c.totalOut), backgroundColor: '#5e5ce6', borderRadius: 4 }] },
     options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { y: { grid: { color: '#f0efe8' }, ticks: { callback: v => v.toLocaleString() } }, x: { grid: { display: false }, ticks: { font: { size: 11 } } } } }
   });
 
@@ -935,7 +1171,7 @@ function renderCharts() {
   document.getElementById('cat-horiz-wrap').style.height = cH + 'px';
   charts.catH = new Chart(document.getElementById('catHorizChart'), {
     type: 'bar',
-    data: { labels: D.categories.map(c => c.name), datasets: [{ data: D.categories.map(c => c.totalOut), backgroundColor: '#534AB7', borderRadius: 3 }] },
+    data: { labels: D.categories.map(c => c.name), datasets: [{ data: D.categories.map(c => c.totalOut), backgroundColor: '#5e5ce6', borderRadius: 3 }] },
     options: { indexAxis: 'y', responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { x: { grid: { color: '#f0efe8' }, ticks: { callback: v => v.toLocaleString() } }, y: { grid: { display: false }, ticks: { font: { size: 11 } } } } }
   });
 }
