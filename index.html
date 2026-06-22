@@ -164,6 +164,16 @@
         <div class="card-title">Consumption trend — units out per week</div>
         <div class="chart-wrap" style="height:240px"><canvas id="trendChart"></canvas></div>
       </div>
+      <div class="card" id="history-card" style="display:none">
+        <div class="panel-head">
+          <div>
+            <div class="card-title" style="margin-bottom:2px">15-month consumption history — units out per month</div>
+            <span class="sub" id="history-sub"></span>
+          </div>
+          <span class="sub" id="history-yoy" style="text-align:right"></span>
+        </div>
+        <div class="chart-wrap" style="height:260px"><canvas id="historyChart"></canvas></div>
+      </div>
       <div class="grid2">
         <div class="card"><div class="card-title">Top 10 items by units sold</div><div id="top-items-list"></div></div>
         <div class="card"><div class="card-title">Sales by category</div><div id="cat-bars"></div></div>
@@ -1147,6 +1157,38 @@ function renderCharts() {
                   x: { grid: { display: false }, ticks: { font: { size: 11 } } } } }
     });
   } else { tc.style.display = 'none'; }
+
+  // 15-month consumption history — units out per month (archive + live, seasonality view)
+  const hc = document.getElementById('history-card');
+  const M = RAW.meta.monthly;
+  if (RAW.meta.hasHistory && M && M.length > 1) {
+    hc.style.display = 'block';
+    const fmtMonth = k => { const [y,m]=k.split('-'); return ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][+m-1]+" '"+y.slice(2); };
+    // History months in grey, live months in indigo, so the join is obvious.
+    const barColors = M.map(m => m.isHistory ? '#c7c5bd' : '#5e5ce6');
+    charts.history = new Chart(document.getElementById('historyChart'), {
+      type: 'bar',
+      data: { labels: M.map(m => fmtMonth(m.month)),
+        datasets: [{ label: 'Units out', data: M.map(m => m.totalOut),
+          backgroundColor: barColors, borderRadius: 4, maxBarThickness: 34 }] },
+      options: { responsive: true, maintainAspectRatio: false,
+        plugins: { legend: { display: false },
+          tooltip: { callbacks: { afterLabel: c => M[c.dataIndex].isHistory ? '2025 archive (history)' : 'current sheet' } } },
+        scales: { y: { grid: { color: '#f0efe8' }, ticks: { callback: v => v.toLocaleString() } },
+                  x: { grid: { display: false }, ticks: { font: { size: 11 } } } } }
+    });
+    const histN = M.filter(m => m.isHistory).length;
+    document.getElementById('history-sub').textContent =
+      `${histN} months of 2025 archive (grey) + ${M.length - histN} live (indigo) · ${RAW.meta.archiveRows.toLocaleString()} archived transactions merged`;
+    // Year-over-year on the last complete month.
+    const li = M.length - 2, ai = li - 12;
+    const yoyEl = document.getElementById('history-yoy');
+    if (li >= 0 && ai >= 0 && M[ai].totalOut > 0) {
+      const cur = M[li].totalOut, prev = M[ai].totalOut, pct = Math.round((cur - prev) / prev * 100);
+      const up = pct >= 0;
+      yoyEl.innerHTML = `<b style="color:${up?'#1a7f4b':'#a32d2d'}">${up?'▲':'▼'} ${Math.abs(pct)}% YoY</b><br>${fmtMonth(M[li].month)}: ${cur.toLocaleString()} vs ${prev.toLocaleString()} a year ago`;
+    } else { yoyEl.textContent = ''; }
+  } else { hc.style.display = 'none'; }
 
   const top8 = D.categories.slice(0,8);
   charts.cat = new Chart(document.getElementById('catChart'), {
