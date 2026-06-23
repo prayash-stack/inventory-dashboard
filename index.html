@@ -77,6 +77,8 @@
   .btn:hover{background:#fafafb;border-color:#d4d4da}
   .btn-primary{background:var(--accent);color:#fff;border-color:var(--accent);box-shadow:0 1px 3px rgba(94,92,230,.3)}.btn-primary:hover{background:var(--accent-d);border-color:var(--accent-d)}
   .btn:disabled{opacity:.6;cursor:default}
+  .btn.toggle-off{background:#f3f2ee;color:#9a988f;border-color:#e6e4dc;box-shadow:none}
+  .btn.toggle-off:hover{background:#eeede8}
   .spin-icon{display:inline-block;animation:spin .8s linear infinite}
   .health-card-head{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:10px}
   .tab .tab-badge{display:inline-block;min-width:16px;padding:0 5px;margin-left:5px;font-size:10px;line-height:15px;text-align:center;border-radius:8px;background:var(--red);color:#fff;font-weight:700}
@@ -121,6 +123,7 @@
       <p class="subtitle" id="subtitle">Loading data…</p>
     </div>
     <div style="display:flex;align-items:center;gap:10px">
+      <button class="btn" id="history-toggle" onclick="toggleHistory()" style="display:none" title="Show or hide the 15-month consumption history"><i class="ti ti-history"></i> <span id="history-toggle-label">History: On</span></button>
       <button class="btn" id="refresh-btn" onclick="refreshData()" title="Re-fetch the latest published data"><i class="ti ti-refresh"></i> Refresh</button>
       <div class="update-badge">
         <div class="dot" id="status-dot" style="background:#d4b896"></div>
@@ -384,6 +387,25 @@ let RAW = null;          // raw loaded data (all-time, with per-item .periods)
 let D = null;            // current view (may be a windowed projection of RAW)
 let currentPeriod = 'all';
 let charts = {};
+let historyOn = localStorage.getItem('historyOn') !== '0'; // 15-month history view, default on
+
+function toggleHistory() {
+  historyOn = !historyOn;
+  localStorage.setItem('historyOn', historyOn ? '1' : '0');
+  applyHistoryToggle();
+}
+// Reflects the toggle on the button + the history card; safe to call anytime.
+function applyHistoryToggle() {
+  const has = !!(RAW && RAW.meta && RAW.meta.hasHistory && RAW.meta.monthly && RAW.meta.monthly.length > 1);
+  const btn = document.getElementById('history-toggle');
+  btn.style.display = has ? 'inline-flex' : 'none';   // no history → no button to toggle
+  btn.classList.toggle('toggle-off', !historyOn);
+  document.getElementById('history-toggle-label').textContent = 'History: ' + (historyOn ? 'On' : 'Off');
+  const hc = document.getElementById('history-card');
+  const show = has && historyOn;
+  if (hc) hc.style.display = show ? 'block' : 'none';
+  if (show && charts.history) charts.history.resize(); // fix sizing if it was built while hidden
+}
 
 function getStatus(days) {
   if (days <= 7)  return 'red';
@@ -1159,10 +1181,8 @@ function renderCharts() {
   } else { tc.style.display = 'none'; }
 
   // 15-month consumption history — units out per month (archive + live, seasonality view)
-  const hc = document.getElementById('history-card');
   const M = RAW.meta.monthly;
   if (RAW.meta.hasHistory && M && M.length > 1) {
-    hc.style.display = 'block';
     const fmtMonth = k => { const [y,m]=k.split('-'); return ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][+m-1]+" '"+y.slice(2); };
     // History months in grey, live months in indigo, so the join is obvious.
     const barColors = M.map(m => m.isHistory ? '#c7c5bd' : '#5e5ce6');
@@ -1188,7 +1208,8 @@ function renderCharts() {
       const up = pct >= 0;
       yoyEl.innerHTML = `<b style="color:${up?'#1a7f4b':'#a32d2d'}">${up?'▲':'▼'} ${Math.abs(pct)}% YoY</b><br>${fmtMonth(M[li].month)}: ${cur.toLocaleString()} vs ${prev.toLocaleString()} a year ago`;
     } else { yoyEl.textContent = ''; }
-  } else { hc.style.display = 'none'; }
+  }
+  applyHistoryToggle(); // show/hide the history card + button per the saved toggle
 
   const top8 = D.categories.slice(0,8);
   charts.cat = new Chart(document.getElementById('catChart'), {
