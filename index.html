@@ -79,6 +79,27 @@
   .btn:disabled{opacity:.6;cursor:default}
   .btn.toggle-off{background:#f3f2ee;color:#9a988f;border-color:#e6e4dc;box-shadow:none}
   .btn.toggle-off:hover{background:#eeede8}
+  /* forecast / growth / dead-stock + per-item modal */
+  .clickable{cursor:pointer}
+  .clickable:hover{color:var(--accent)}
+  .fc-callout{display:flex;flex-wrap:wrap;gap:18px;align-items:center;justify-content:space-between;background:linear-gradient(135deg,#eef0ff,#f6f1ff);border:1px solid #e0def5;border-radius:var(--radius);padding:18px 22px;margin-bottom:16px}
+  .fc-fnum{font-size:30px;font-weight:680;letter-spacing:-.5px;color:#3b38b8}
+  .fc-pill{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:600;padding:5px 11px;border-radius:980px}
+  .fc-pill.peak{background:#fde9d6;color:#9a4d0b}
+  .fc-pill.calm{background:#e3f2e0;color:#2f6d1f}
+  .grow-row{display:flex;align-items:center;gap:10px;padding:7px 0;border-bottom:1px solid #f2f1ea}
+  .grow-row:last-child{border-bottom:none}
+  .grow-pct{font-weight:650;min-width:62px;text-align:right;font-variant-numeric:tabular-nums}
+  .modal-overlay{position:fixed;inset:0;background:rgba(20,19,16,.45);backdrop-filter:blur(2px);z-index:80;display:none;align-items:center;justify-content:center;padding:20px}
+  .modal-overlay.open{display:flex}
+  .modal-card{background:var(--surface);border-radius:18px;max-width:680px;width:100%;max-height:88vh;overflow:auto;box-shadow:0 24px 60px rgba(0,0,0,.28);padding:22px 24px}
+  .modal-head{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:6px}
+  .modal-close{background:none;border:none;font-size:22px;line-height:1;color:#9a988f;cursor:pointer;padding:2px 6px}
+  .modal-close:hover{color:var(--ink)}
+  .modal-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:14px 0}
+  .modal-stat{background:#faf9f5;border-radius:10px;padding:10px 12px}
+  .modal-stat .l{font-size:11px;color:#888780}
+  .modal-stat .v{font-size:17px;font-weight:600;margin-top:2px}
   .spin-icon{display:inline-block;animation:spin .8s linear infinite}
   .health-card-head{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:10px}
   .tab .tab-badge{display:inline-block;min-width:16px;padding:0 5px;margin-left:5px;font-size:10px;line-height:15px;text-align:center;border-radius:8px;background:var(--red);color:#fff;font-weight:700}
@@ -145,6 +166,7 @@
       <button class="tab" onclick="showPanel('stockout',this)">Stock alerts</button>
       <button class="tab" onclick="showPanel('items',this)">All items</button>
       <button class="tab" onclick="showPanel('reorder',this)">Reorder</button>
+      <button class="tab" id="tab-forecast" onclick="showPanel('forecast',this)" style="display:none">Forecast</button>
       <button class="tab" onclick="showPanel('insights',this)">Insights</button>
       <button class="tab" onclick="showPanel('categories',this)">Categories</button>
       <button class="tab" onclick="showPanel('health',this)">Data health<span class="tab-badge" id="health-count" style="display:none"></span></button>
@@ -316,6 +338,54 @@
       </div>
     </div>
 
+    <div id="panel-forecast" class="panel">
+      <div id="fc-callout" class="fc-callout"></div>
+      <div class="card">
+        <div class="panel-head">
+          <div>
+            <div class="card-title" style="margin-bottom:2px">Seasonal reorder — buy ahead of demand</div>
+            <span class="sub" id="fc-reorder-sub" style="font-size:12px;color:#888780"></span>
+          </div>
+          <button class="btn btn-primary" onclick="exportSeasonalReorder()"><i class="ti ti-download"></i> Download list</button>
+        </div>
+        <div class="card" style="padding:0;overflow:hidden;box-shadow:none;border:1px solid var(--line)">
+          <table>
+            <thead><tr>
+              <th>Product</th><th>Category</th>
+              <th style="text-align:right">Stock</th>
+              <th style="text-align:right">Recent / mo</th>
+              <th style="text-align:right" title="Predicted units for next calendar month">Forecast next mo</th>
+              <th style="text-align:right" title="Order to cover ~6 weeks of forecast demand">Suggested order</th>
+              <th>Signal</th>
+            </tr></thead>
+            <tbody id="fc-reorder-body"></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="grid2">
+        <div class="card">
+          <div class="card-title" style="color:#1c7c33">📈 Fastest growing — year over year</div>
+          <p class="sub" style="font-size:12px;color:#888780;margin:-4px 0 8px" id="fc-grow-sub"></p>
+          <div id="fc-growth-up"></div>
+        </div>
+        <div class="card">
+          <div class="card-title" style="color:#a32d2d">📉 Declining — year over year</div>
+          <p class="sub" style="font-size:12px;color:#888780;margin:-4px 0 8px">Same month this year vs last year.</p>
+          <div id="fc-growth-down"></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="panel-head">
+          <div>
+            <div class="card-title" style="margin-bottom:2px">Discontinued / dead stock — sold before, silent now</div>
+            <span class="sub" style="font-size:12px;color:#888780">Sold steadily earlier but nothing in the last 3 months — discontinued lines or a sourcing gap.</span>
+          </div>
+          <button class="btn" onclick="exportDeadStock()"><i class="ti ti-download"></i> CSV</button>
+        </div>
+        <div id="fc-dead-body"></div>
+      </div>
+    </div>
+
     <div id="panel-categories" class="panel">
       <div class="card">
         <div class="card-title">Units sold per category</div>
@@ -344,6 +414,21 @@
       </div>
       <div id="health-cards"></div>
     </div>
+  </div>
+</div>
+
+<!-- Per-item 15-month history modal -->
+<div id="item-modal" class="modal-overlay" onclick="if(event.target===this)closeItem()">
+  <div class="modal-card">
+    <div class="modal-head">
+      <div>
+        <div class="card-title" id="im-name" style="margin-bottom:2px"></div>
+        <div class="sub" id="im-meta" style="font-size:12.5px;color:#888780"></div>
+      </div>
+      <button class="modal-close" onclick="closeItem()">×</button>
+    </div>
+    <div class="modal-stats" id="im-stats"></div>
+    <div class="chart-wrap" style="height:230px"><canvas id="im-chart"></canvas></div>
   </div>
 </div>
 
@@ -610,6 +695,7 @@ function render() {
   populateCatFilter();
   filterTable();
   renderReorder();
+  renderForecast();
   renderInsights();
   renderCatTable();
   renderHealth();
@@ -722,7 +808,7 @@ function renderItemsTable(data) {
     const bar = s === 'red' ? '#e24b4a' : s === 'amber' ? '#ef9f27' : '#639922';
     const tier = abcData.map[it.name] || 'C';
     return `<tr>
-      <td style="max-width:220px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${it.name}">${it.name}</td>
+      <td class="clickable" data-n="${attr(it.name)}" onclick="openItem(this.dataset.n)" style="max-width:220px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${attr(it.name)} — click for 15-month history">${it.name}</td>
       <td>${it.cat}</td>
       <td><span class="abc-badge abc-${tier}">${tier}</span></td>
       <td style="text-align:right;font-weight:500">${fmt(it.totalOut)}</td>
@@ -1238,6 +1324,206 @@ function renderCharts() {
     options: { indexAxis: 'y', responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { x: { grid: { color: '#f0efe8' }, ticks: { callback: v => v.toLocaleString() } }, y: { grid: { display: false }, ticks: { font: { size: 11 } } } } }
   });
 }
+
+// ─────────────────────────────────────────────────────────
+// HISTORY ANALYTICS — forecast, growth (YoY), dead stock, per-item modal.
+// All driven by item.monthlyOut[] + meta.months (the merged 15-month history).
+// ─────────────────────────────────────────────────────────
+const MON_ABBR = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+function fmtMon(k){ if(!k) return '—'; const [y,m]=k.split('-'); return MON_ABBR[+m-1]+" '"+y.slice(2); }
+function monthsArr(){ return (RAW && RAW.meta && RAW.meta.months) || []; }
+function histReady(){ return !!(RAW && RAW.meta && RAW.meta.hasHistory && Array.isArray(RAW.meta.months) && RAW.meta.months.length >= 4); }
+function attr(s){ return String(s==null?'':s).replace(/&/g,'&amp;').replace(/"/g,'&quot;'); }
+
+// Next-calendar-month demand forecast for a monthly series:
+// blends the same month a year ago (grown by the item's recent YoY) with the recent run-rate.
+function forecastSeries(a){
+  const n=a.length, cur=n-1, lastFull=n-2;
+  const r=[lastFull-2,lastFull-1,lastFull].filter(i=>i>=0);
+  const recent = r.length ? r.reduce((s,i)=>s+a[i],0)/r.length : 0;
+  const nextLY = cur+1-12;                       // next calendar month, one year back
+  let f = recent;
+  if(nextLY>=0 && a[nextLY]>0){
+    const prevR=r.map(i=>i-12).filter(i=>i>=0);
+    const recentSum=r.reduce((s,i)=>s+a[i],0);
+    const prevSum=prevR.reduce((s,i)=>s+a[i],0);
+    let g = prevSum>0 ? recentSum/prevSum : 1;
+    g = Math.max(0.4, Math.min(2.5, g));         // bound the growth so it can't explode
+    const seasonal = a[nextLY]*g;
+    f = 0.5*seasonal + 0.5*recent;
+  }
+  return { forecast: Math.max(0,Math.round(f)), recent: Math.round(recent), nextLY: nextLY>=0 ? a[nextLY] : null };
+}
+function nextMonthKey(){
+  const m=monthsArr(), last=m[m.length-1]||'2026-06';
+  let [y,mo]=last.split('-').map(Number); mo++; if(mo>12){mo=1;y++;}
+  return y+'-'+String(mo).padStart(2,'0');
+}
+// Seasonal index per calendar month (complete months only) — 1.0 = average month.
+function calMonthIndex(){
+  const m=(RAW.meta.monthly||[]).slice(0,-1);    // drop the partial current month
+  const byCal={}; m.forEach(x=>{const c=+x.month.split('-')[1];(byCal[c]=byCal[c]||[]).push(x.totalOut);});
+  const avgAll=m.length ? m.reduce((s,x)=>s+x.totalOut,0)/m.length : 1;
+  const idx={}; for(let c=1;c<=12;c++){const arr=byCal[c]||[];idx[c]=arr.length?(arr.reduce((s,v)=>s+v,0)/arr.length)/(avgAll||1):1;}
+  return idx;
+}
+
+function seasonalReorderList(){
+  if(!histReady()) return [];
+  return RAW.items.map(it=>{
+    if(!Array.isArray(it.monthlyOut)) return null;
+    const f=forecastSeries(it.monthlyOut);
+    const cover=Math.round(f.forecast*1.5);       // ~6 weeks of forecast demand
+    const order=Math.max(0, cover - it.currentStock);
+    const rising=f.recent>0 && f.forecast>=f.recent*1.25;
+    return Object.assign({}, it, { fForecast:f.forecast, fRecent:f.recent, fOrder:order, fRising:rising });
+  }).filter(x=>x && x.fForecast>0 && x.fOrder>0).sort((a,b)=>b.fOrder-a.fOrder);
+}
+function growthList(){
+  const out=[];
+  (RAW.items||[]).forEach(it=>{
+    const a=it.monthlyOut; if(!Array.isArray(a)) return;
+    const n=a.length, lf=n-2, ya=lf-12; if(lf<0||ya<0) return;
+    const cur=a[lf], prev=a[ya];
+    if(prev+cur < 100) return;                     // ignore tiny-volume noise
+    out.push({ it, cur, prev, pct:(cur-prev)/Math.max(prev,1) });
+  });
+  return out;
+}
+function deadStockList(){
+  const n=monthsArr().length;
+  const recentIdx=[n-3,n-2,n-1].filter(i=>i>=0);   // last 3 months incl. partial current
+  const months=monthsArr();
+  return (RAW.items||[]).map(it=>{
+    const a=it.monthlyOut; if(!Array.isArray(a)) return null;
+    const recent=recentIdx.reduce((s,i)=>s+a[i],0);
+    const hist=a.reduce((s,v)=>s+v,0)-recent;
+    if(recent>0 || hist<100) return null;          // must have sold before, nothing lately
+    let last=-1; for(let i=0;i<a.length;i++) if(a[i]>0) last=i;
+    return Object.assign({}, it, { histOut:Math.round(hist), lastActive:last>=0?months[last]:null });
+  }).filter(Boolean).sort((a,b)=>b.histOut-a.histOut);
+}
+
+function renderForecast(){
+  const tab=document.getElementById('tab-forecast');
+  if(!histReady()){ if(tab) tab.style.display='none'; return; }
+  if(tab) tab.style.display='inline-flex';
+
+  // ── headline callout ──
+  const nextKey=nextMonthKey(), nextNum=+nextKey.split('-')[1];
+  const of=forecastSeries((RAW.meta.monthly||[]).map(x=>x.totalOut));
+  const sIdx=calMonthIndex()[nextNum]||1, pct=Math.round((sIdx-1)*100);
+  const peak=sIdx>=1.12, calm=sIdx<=0.9;
+  document.getElementById('fc-callout').innerHTML=`
+    <div>
+      <div class="sub" style="font-size:11px;color:#6b6a64;text-transform:uppercase;letter-spacing:.5px">Forecast · ${fmtMon(nextKey)}</div>
+      <div class="fc-fnum">${fmt(of.forecast)} <span style="font-size:15px;font-weight:500;color:#6b6a64">units</span></div>
+      <div class="sub" style="font-size:12.5px;color:#6b6a64">recent run-rate ${fmt(of.recent)}/mo${of.nextLY!=null?` · ${fmtMon(nextKey)} last year ${fmt(of.nextLY)}`:''}</div>
+    </div>
+    <div style="text-align:right">
+      <span class="fc-pill ${peak?'peak':calm?'calm':''}">${peak?'▲ Peak season approaching':calm?'▼ Quieter month ahead':'→ Typical month'}</span>
+      <div class="sub" style="font-size:12px;color:#6b6a64;margin-top:6px">${fmtMon(nextKey)} historically runs ${pct>=0?'+':''}${pct}% vs an average month</div>
+    </div>`;
+
+  // ── seasonal reorder ──
+  const list=seasonalReorderList().slice(0,40);
+  document.getElementById('fc-reorder-sub').textContent =
+    `Order-up-to ~6 weeks of forecast demand · top ${list.length} by shortfall`;
+  document.getElementById('fc-reorder-body').innerHTML = list.length ? list.map(it=>{
+    const sig = it.fRising
+      ? '<span class="badge badge-amber">▲ Rising</span>'
+      : (it.daysLeft<=7 ? '<span class="badge badge-red">Urgent</span>' : '<span class="badge badge-gray">Steady</span>');
+    return `<tr>
+      <td class="clickable" data-n="${attr(it.name)}" onclick="openItem(this.dataset.n)" style="max-width:230px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${attr(it.name)}">${it.name}</td>
+      <td>${it.cat}</td>
+      <td style="text-align:right">${fmt(it.currentStock)}</td>
+      <td style="text-align:right">${fmt(it.fRecent)}</td>
+      <td style="text-align:right;font-weight:600;color:#3b38b8">${fmt(it.fForecast)}</td>
+      <td style="text-align:right;font-weight:600">${fmt(it.fOrder)} ${it.unit}</td>
+      <td>${sig}</td>
+    </tr>`;
+  }).join('') : '<tr><td colspan="7" style="text-align:center;color:#888780;padding:20px">No seasonal shortfalls — stock covers the forecast.</td></tr>';
+
+  // ── growth (YoY) ──
+  const g=growthList();
+  const lastFullKey=monthsArr()[monthsArr().length-2];
+  document.getElementById('fc-grow-sub').textContent=`Same month this year vs last year (${fmtMon(lastFullKey)}).`;
+  // require a real prior base so % is meaningful (0→N "new products" aren't "growth").
+  const up=[...g].filter(x=>x.cur>x.prev && x.prev>=30).sort((a,b)=>b.pct-a.pct).slice(0,8);
+  const down=[...g].filter(x=>x.cur<x.prev && x.prev>=30).sort((a,b)=>a.pct-b.pct).slice(0,8);
+  const grow=(x,dir)=>{
+    const col=dir==='up'?'#1c7c33':'#a32d2d';
+    const p=Math.round(x.pct*100), disp=(p>0?'+':'')+(Math.abs(p)>999?'>999':p)+'%';
+    return `<div class="grow-row">
+      <span class="grow-pct" style="color:${col}">${disp}</span>
+      <div style="flex:1;min-width:0">
+        <div class="clickable" data-n="${attr(x.it.name)}" onclick="openItem(this.dataset.n)" style="font-size:13px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${attr(x.it.name)}">${cleanName(x.it.name)}</div>
+        <div style="font-size:11.5px;color:#888780">${fmt(x.prev)} → ${fmt(x.cur)} · ${x.it.cat}</div>
+      </div>
+      ${sparklineSVG(x.it.monthlyOut, col)}
+    </div>`;
+  };
+  document.getElementById('fc-growth-up').innerHTML   = up.length   ? up.map(x=>grow(x,'up')).join('')     : '<p style="font-size:12px;color:#888780;padding:8px 0">Not enough year-over-year data yet.</p>';
+  document.getElementById('fc-growth-down').innerHTML = down.length ? down.map(x=>grow(x,'down')).join('') : '<p style="font-size:12px;color:#888780;padding:8px 0">Nothing declining year-over-year.</p>';
+
+  // ── dead / discontinued ──
+  const dead=deadStockList();
+  document.getElementById('fc-dead-body').innerHTML = dead.length ? dead.slice(0,30).map(it=>`
+    <div class="alert-row">
+      <div class="alert-icon" style="background:#f1efe8;color:#5f5e5a"><i class="ti ti-moon"></i></div>
+      <div class="alert-body">
+        <div class="alert-name clickable" data-n="${attr(it.name)}" onclick="openItem(this.dataset.n)">${it.name}</div>
+        <div class="alert-meta">${it.cat} · sold <strong>${fmt(it.histOut)}</strong> earlier · last active <strong>${fmtMon(it.lastActive)}</strong> · ${fmt(it.currentStock)} ${it.unit} on hand</div>
+      </div>
+      <span class="badge badge-gray">0 in 3 mo</span>
+    </div>`).join('') + (dead.length>30?`<p class="sub" style="font-size:12px;color:#888780;padding:8px 0">+${dead.length-30} more — download the CSV for the full list.</p>`:'')
+    : '<p style="font-size:13px;color:#3b6d11;padding:8px 0">✅ Nothing has gone silent — every product that sold before is still moving.</p>';
+}
+
+function exportSeasonalReorder(){
+  downloadCSV(`seasonal_reorder_${dateStamp()}.csv`,
+    ['Product','Category','Location','Current Stock','Recent Monthly','Forecast Next Month','Suggested Order','Unit'],
+    seasonalReorderList().map(it=>[it.name,it.cat,it.loc,it.currentStock,it.fRecent,it.fForecast,it.fOrder,it.unit]));
+}
+function exportDeadStock(){
+  downloadCSV(`dead_stock_${dateStamp()}.csv`,
+    ['Product','Category','Location','Units Sold Before','Last Active Month','Current Stock','Unit'],
+    deadStockList().map(it=>[it.name,it.cat,it.loc,it.histOut,fmtMon(it.lastActive),it.currentStock,it.unit]));
+}
+
+// ── per-item 15-month history modal ──
+let imChart=null;
+function openItem(name){
+  const it=(RAW.items||[]).find(i=>i.name===name); if(!it) return;
+  document.getElementById('im-name').textContent=it.name;
+  document.getElementById('im-meta').textContent=`${it.cat} · ${it.loc} · ${fmt(it.currentStock)} ${it.unit} in stock · ${it.daysLeft<=0?'OUT':it.daysLeft+'d left'}`;
+  const a=Array.isArray(it.monthlyOut)?it.monthlyOut:[];
+  const months=monthsArr();
+  const total=a.reduce((s,v)=>s+v,0);
+  const peakV=Math.max(...a,0), peakK=peakV>0?months[a.indexOf(peakV)]:null;
+  const f=histReady()?forecastSeries(a):null;
+  const yoy=it.yoy, yoyPct=yoy&&yoy.prev>0?Math.round((yoy.cur-yoy.prev)/yoy.prev*100):null;
+  const stats=[
+    ['Total (15 mo)', fmt(Math.round(total))],
+    ['Peak month', fmtMon(peakK)],
+    ['Forecast next mo', f?fmt(f.forecast):'—'],
+    ['YoY', yoyPct!=null?((yoyPct>=0?'+':'')+yoyPct+'%'):'—'],
+  ];
+  document.getElementById('im-stats').innerHTML=stats.map(s=>`<div class="modal-stat"><div class="l">${s[0]}</div><div class="v">${s[1]}</div></div>`).join('');
+  document.getElementById('item-modal').classList.add('open');   // show first so the canvas has a size
+  if(imChart){ imChart.destroy(); imChart=null; }
+  if(!a.length) return;
+  const liveStart=RAW.meta.liveStartMonth||'9999';
+  imChart=new Chart(document.getElementById('im-chart'),{
+    type:'bar',
+    data:{ labels:months.map(fmtMon),
+      datasets:[{ data:a, backgroundColor:months.map(k=>k<liveStart?'#c7c5bd':'#5e5ce6'), borderRadius:3, maxBarThickness:26 }] },
+    options:{ responsive:true, maintainAspectRatio:false, plugins:{ legend:{display:false} },
+      scales:{ y:{ grid:{color:'#f0efe8'}, ticks:{callback:v=>v.toLocaleString()} }, x:{ grid:{display:false}, ticks:{font:{size:10}} } } }
+  });
+}
+function closeItem(){ document.getElementById('item-modal').classList.remove('open'); if(imChart){ imChart.destroy(); imChart=null; } }
+document.addEventListener('keydown', e=>{ if(e.key==='Escape') closeItem(); });
 
 function showPanel(id, btn) {
   document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
