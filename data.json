@@ -1,11 +1,11 @@
 {
   "meta": {
-    "updatedAt": "2026-09-19T03:27:18.935Z",
-    "periodDays": 171,
+    "updatedAt": "2026-09-20T03:27:17.085Z",
+    "periodDays": 172,
     "startDate": "2026-03-31",
-    "endDate": "2026-09-19",
+    "endDate": "2026-09-20",
     "totalSkus": 567,
-    "totalUnitsOut": 457417,
+    "totalUnitsOut": 461015,
     "criticalCount": 70,
     "warningCount": 31,
     "windows": [
@@ -113,7 +113,7 @@
       },
       {
         "start": "2026-09-15",
-        "totalOut": 23626
+        "totalOut": 27265
       }
     ],
     "months": [
@@ -230,7 +230,7 @@
       },
       {
         "month": "2026-09",
-        "totalOut": 55424,
+        "totalOut": 59063,
         "isHistory": false
       }
     ],
@@ -249,33 +249,33 @@
       "loc": "Jhilmil",
       "unit": "Pcs",
       "totalIn": 54200,
-      "totalOut": 32000,
-      "currentStock": 22200,
-      "dailyRate": 187.1,
-      "monthlyRate": 5614,
-      "daysLeft": 119,
-      "reorderQty": 8421,
+      "totalOut": 32700,
+      "currentStock": 21500,
+      "dailyRate": 190.1,
+      "monthlyRate": 5703,
+      "daysLeft": 113,
+      "reorderQty": 8555,
       "periods": {
         "7": {
-          "totalOut": 9000,
-          "dailyRate": 1285.7,
-          "monthlyRate": 38571,
-          "daysLeft": 17,
-          "reorderQty": 57857
+          "totalOut": 9700,
+          "dailyRate": 1385.7,
+          "monthlyRate": 41571,
+          "daysLeft": 16,
+          "reorderQty": 62357
         },
         "30": {
-          "totalOut": 9000,
-          "dailyRate": 300,
-          "monthlyRate": 9000,
-          "daysLeft": 74,
-          "reorderQty": 13500
+          "totalOut": 9700,
+          "dailyRate": 323.3,
+          "monthlyRate": 9700,
+          "daysLeft": 66,
+          "reorderQty": 14550
         },
         "90": {
-          "totalOut": 11900,
-          "dailyRate": 132.2,
-          "monthlyRate": 3967,
-          "daysLeft": 168,
-          "reorderQty": 5950
+          "totalOut": 12200,
+          "dailyRate": 135.6,
+          "monthlyRate": 4067,
+          "daysLeft": 159,
+          "reorderQty": 6100
         }
       },
       "trend": [
@@ -303,7 +303,7 @@
         0,
         0,
         0,
-        9000
+        9700
       ],
       "monthlyOut": [
         0,
@@ -324,7 +324,7 @@
         6800,
         1800,
         100,
-        9000
+        9700
       ],
       "yoy": {
         "month": "2026-08",
@@ -338,33 +338,33 @@
       "loc": "Jhilmil",
       "unit": "Pcs",
       "totalIn": 55100,
-      "totalOut": 31500,
-      "currentStock": 23600,
-      "dailyRate": 184.2,
-      "monthlyRate": 5526,
-      "daysLeft": 128,
-      "reorderQty": 8289,
+      "totalOut": 31700,
+      "currentStock": 23400,
+      "dailyRate": 184.3,
+      "monthlyRate": 5529,
+      "daysLeft": 127,
+      "reorderQty": 8294,
       "periods": {
         "7": {
-          "totalOut": 2700,
-          "dailyRate": 385.7,
-          "monthlyRate": 11571,
-          "daysLeft": 61,
-          "reorderQty": 17357
+          "totalOut": 2900,
+          "dailyRate": 414.3,
+          "monthlyRate": 12429,
+          "daysLeft": 56,
+          "reorderQty": 18643
         },
         "30": {
-          "totalOut": 4000,
-          "dailyRate": 133.3,
-          "monthlyRate": 4000,
-          "daysLeft": 177,
-          "reorderQty": 6000
+          "totalOut": 4200,
+          "dailyRate": 140,
+          "monthlyRate": 4200,
+          "daysLeft": 167,
+          "reorderQty": 6300
         },
         "90": {
-          "totalOut": 11600,
-          "dailyRate": 128.9,
-          "monthlyRate": 3867,
-          "daysLeft": 183,
-          "reorderQty": 5800
+          "totalOut": 11800,
+          "dailyRate": 131.1,
+          "monthlyRate": 3933,
+          "daysLeft": 178,
+          "reorderQty": 5900
         }
       },
       "trend": [
@@ -392,7 +392,7 @@
         200,
         600,
         400,
-        2700
+        2900
       ],
       "monthlyOut": [
         0,
@@ -413,7 +413,7 @@
         4300,
         3300,
         4000,
-        3700
+        3900
       ],
       "yoy": {
         "month": "2026-08",
@@ -427,33 +427,33 @@
       "loc": "Jhilmil",
       "unit": "Pcs",
       "totalIn": 23700,
-      "totalOut": 15300,
-      "currentStock": 8400,
+      "totalOut": 15400,
+      "currentStock": 8300,
       "dailyRate": 89.5,
-      "monthlyRate": 2684,
-      "daysLeft": 94,
-      "reorderQty": 4026,
+      "monthlyRate": 2686,
+      "daysLeft": 93,
+      "reorderQty": 4029,
       "periods": {
         "7": {
-          "totalOut": 400,
-          "dailyRate": 57.1,
-          "monthlyRate": 1714,
-          "daysLeft": 147,
-          "reorderQty": 2571
+          "totalOut": 500,
+          "dailyRate": 71.4,
+          "monthlyRate": 2143,
+          "daysLeft": 116,
+          "reorderQty": 3214
         },
         "30": {
-          "totalOut": 2400,
-          "dailyRate": 80,
-          "monthlyRate": 2400,
-          "daysLeft": 105,
-          "reorderQty": 3600
+          "totalOut": 2500,
+          "dailyRate": 83.3,
+          "monthlyRate": 2500,
+          "daysLeft": 100,
+          "reorderQty": 3750
         },
         "90": {
-          "totalOut": 7600,
-          "dailyRate": 84.4,
-          "monthlyRate": 2533,
-          "daysLeft": 99,
-          "reorderQty": 3800
+          "totalOut": 7700,
+          "dailyRate": 85.6,
+          "monthlyRate": 2567,
+          "daysLeft": 97,
+          "reorderQty": 3850
         }
       },
       "trend": [
@@ -481,7 +481,7 @@
         600,
         200,
         0,
-        400
+        500
       ],
       "monthlyOut": [
         0,
@@ -502,7 +502,7 @@
         1100,
         4100,
         2700,
-        800
+        900
       ],
       "yoy": {
         "month": "2026-08",
@@ -518,10 +518,10 @@
       "totalIn": 17016,
       "totalOut": 11232,
       "currentStock": 5784,
-      "dailyRate": 65.7,
-      "monthlyRate": 1971,
-      "daysLeft": 88,
-      "reorderQty": 2956,
+      "dailyRate": 65.3,
+      "monthlyRate": 1959,
+      "daysLeft": 89,
+      "reorderQty": 2939,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -538,11 +538,11 @@
           "reorderQty": 18
         },
         "90": {
-          "totalOut": 2484,
-          "dailyRate": 27.6,
-          "monthlyRate": 828,
-          "daysLeft": 210,
-          "reorderQty": 1242
+          "totalOut": 2436,
+          "dailyRate": 27.1,
+          "monthlyRate": 812,
+          "daysLeft": 214,
+          "reorderQty": 1218
         }
       },
       "trend": [
@@ -605,33 +605,33 @@
       "loc": "Jhilmil",
       "unit": "Pcs",
       "totalIn": 15200,
-      "totalOut": 10600,
-      "currentStock": 4600,
-      "dailyRate": 62,
-      "monthlyRate": 1860,
-      "daysLeft": 74,
-      "reorderQty": 2789,
+      "totalOut": 10700,
+      "currentStock": 4500,
+      "dailyRate": 62.2,
+      "monthlyRate": 1866,
+      "daysLeft": 72,
+      "reorderQty": 2799,
       "periods": {
         "7": {
-          "totalOut": 200,
-          "dailyRate": 28.6,
-          "monthlyRate": 857,
-          "daysLeft": 161,
-          "reorderQty": 1286
+          "totalOut": 300,
+          "dailyRate": 42.9,
+          "monthlyRate": 1286,
+          "daysLeft": 105,
+          "reorderQty": 1929
         },
         "30": {
-          "totalOut": 1500,
-          "dailyRate": 50,
-          "monthlyRate": 1500,
-          "daysLeft": 92,
-          "reorderQty": 2250
+          "totalOut": 1600,
+          "dailyRate": 53.3,
+          "monthlyRate": 1600,
+          "daysLeft": 84,
+          "reorderQty": 2400
         },
         "90": {
-          "totalOut": 5500,
-          "dailyRate": 61.1,
-          "monthlyRate": 1833,
-          "daysLeft": 75,
-          "reorderQty": 2750
+          "totalOut": 5600,
+          "dailyRate": 62.2,
+          "monthlyRate": 1867,
+          "daysLeft": 72,
+          "reorderQty": 2800
         }
       },
       "trend": [
@@ -659,7 +659,7 @@
         200,
         500,
         200,
-        200
+        300
       ],
       "monthlyOut": [
         0,
@@ -680,7 +680,7 @@
         1600,
         2900,
         1700,
-        900
+        1000
       ],
       "yoy": {
         "month": "2026-08",
@@ -696,10 +696,10 @@
       "totalIn": 11676,
       "totalOut": 8748,
       "currentStock": 2928,
-      "dailyRate": 51.2,
-      "monthlyRate": 1535,
-      "daysLeft": 57,
-      "reorderQty": 2302,
+      "dailyRate": 50.9,
+      "monthlyRate": 1526,
+      "daysLeft": 58,
+      "reorderQty": 2289,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -716,11 +716,11 @@
           "reorderQty": 0
         },
         "90": {
-          "totalOut": 1860,
-          "dailyRate": 20.7,
-          "monthlyRate": 620,
-          "daysLeft": 142,
-          "reorderQty": 930
+          "totalOut": 1812,
+          "dailyRate": 20.1,
+          "monthlyRate": 604,
+          "daysLeft": 145,
+          "reorderQty": 906
         }
       },
       "trend": [
@@ -783,33 +783,33 @@
       "loc": "Jhilmil",
       "unit": "Pcs",
       "totalIn": 11800,
-      "totalOut": 7800,
-      "currentStock": 4000,
-      "dailyRate": 45.6,
-      "monthlyRate": 1368,
-      "daysLeft": 88,
-      "reorderQty": 2053,
+      "totalOut": 8200,
+      "currentStock": 3600,
+      "dailyRate": 47.7,
+      "monthlyRate": 1430,
+      "daysLeft": 76,
+      "reorderQty": 2145,
       "periods": {
         "7": {
-          "totalOut": 0,
-          "dailyRate": 0,
-          "monthlyRate": 0,
-          "daysLeft": 9999,
-          "reorderQty": 0
+          "totalOut": 400,
+          "dailyRate": 57.1,
+          "monthlyRate": 1714,
+          "daysLeft": 63,
+          "reorderQty": 2571
         },
         "30": {
-          "totalOut": 200,
-          "dailyRate": 6.7,
-          "monthlyRate": 200,
-          "daysLeft": 600,
-          "reorderQty": 300
+          "totalOut": 600,
+          "dailyRate": 20,
+          "monthlyRate": 600,
+          "daysLeft": 180,
+          "reorderQty": 900
         },
         "90": {
-          "totalOut": 6800,
-          "dailyRate": 75.6,
-          "monthlyRate": 2267,
-          "daysLeft": 53,
-          "reorderQty": 3400
+          "totalOut": 7200,
+          "dailyRate": 80,
+          "monthlyRate": 2400,
+          "daysLeft": 45,
+          "reorderQty": 3600
         }
       },
       "trend": [
@@ -837,7 +837,7 @@
         200,
         0,
         0,
-        0
+        400
       ],
       "monthlyOut": [
         0,
@@ -858,7 +858,7 @@
         0,
         5600,
         1200,
-        0
+        400
       ],
       "yoy": {
         "month": "2026-08",
@@ -874,10 +874,10 @@
       "totalIn": 14140,
       "totalOut": 7800,
       "currentStock": 6340,
-      "dailyRate": 45.6,
-      "monthlyRate": 1368,
-      "daysLeft": 139,
-      "reorderQty": 2053,
+      "dailyRate": 45.3,
+      "monthlyRate": 1360,
+      "daysLeft": 140,
+      "reorderQty": 2041,
       "periods": {
         "7": {
           "totalOut": 200,
@@ -894,11 +894,11 @@
           "reorderQty": 900
         },
         "90": {
-          "totalOut": 4600,
-          "dailyRate": 51.1,
-          "monthlyRate": 1533,
-          "daysLeft": 124,
-          "reorderQty": 2300
+          "totalOut": 4400,
+          "dailyRate": 48.9,
+          "monthlyRate": 1467,
+          "daysLeft": 130,
+          "reorderQty": 2200
         }
       },
       "trend": [
@@ -963,10 +963,10 @@
       "totalIn": 11470,
       "totalOut": 7732,
       "currentStock": 3738,
-      "dailyRate": 45.2,
-      "monthlyRate": 1356,
+      "dailyRate": 45,
+      "monthlyRate": 1349,
       "daysLeft": 83,
-      "reorderQty": 2035,
+      "reorderQty": 2023,
       "periods": {
         "7": {
           "totalOut": 100,
@@ -1052,10 +1052,10 @@
       "totalIn": 10584,
       "totalOut": 7721,
       "currentStock": 2863,
-      "dailyRate": 45.2,
-      "monthlyRate": 1355,
-      "daysLeft": 63,
-      "reorderQty": 2032,
+      "dailyRate": 44.9,
+      "monthlyRate": 1347,
+      "daysLeft": 64,
+      "reorderQty": 2020,
       "periods": {
         "7": {
           "totalOut": 250,
@@ -1141,10 +1141,10 @@
       "totalIn": 8000,
       "totalOut": 7600,
       "currentStock": 400,
-      "dailyRate": 44.4,
-      "monthlyRate": 1333,
+      "dailyRate": 44.2,
+      "monthlyRate": 1326,
       "daysLeft": 9,
-      "reorderQty": 2000,
+      "reorderQty": 1988,
       "periods": {
         "7": {
           "totalOut": 1800,
@@ -1230,10 +1230,10 @@
       "totalIn": 7980,
       "totalOut": 7440,
       "currentStock": 540,
-      "dailyRate": 43.5,
-      "monthlyRate": 1305,
+      "dailyRate": 43.3,
+      "monthlyRate": 1298,
       "daysLeft": 12,
-      "reorderQty": 1958,
+      "reorderQty": 1947,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -1250,11 +1250,11 @@
           "reorderQty": 0
         },
         "90": {
-          "totalOut": 2040,
-          "dailyRate": 22.7,
-          "monthlyRate": 680,
-          "daysLeft": 24,
-          "reorderQty": 1020
+          "totalOut": 1800,
+          "dailyRate": 20,
+          "monthlyRate": 600,
+          "daysLeft": 27,
+          "reorderQty": 900
         }
       },
       "trend": [
@@ -1319,10 +1319,10 @@
       "totalIn": 13260,
       "totalOut": 7380,
       "currentStock": 5880,
-      "dailyRate": 43.2,
-      "monthlyRate": 1295,
-      "daysLeft": 136,
-      "reorderQty": 1942,
+      "dailyRate": 42.9,
+      "monthlyRate": 1287,
+      "daysLeft": 137,
+      "reorderQty": 1931,
       "periods": {
         "7": {
           "totalOut": 300,
@@ -1406,33 +1406,33 @@
       "loc": "Jhilmil",
       "unit": "Pcs",
       "totalIn": 7400,
-      "totalOut": 6300,
-      "currentStock": 1100,
-      "dailyRate": 36.8,
-      "monthlyRate": 1105,
-      "daysLeft": 30,
-      "reorderQty": 1658,
+      "totalOut": 6400,
+      "currentStock": 1000,
+      "dailyRate": 37.2,
+      "monthlyRate": 1116,
+      "daysLeft": 27,
+      "reorderQty": 1674,
       "periods": {
         "7": {
-          "totalOut": 100,
-          "dailyRate": 14.3,
-          "monthlyRate": 429,
-          "daysLeft": 77,
-          "reorderQty": 643
+          "totalOut": 200,
+          "dailyRate": 28.6,
+          "monthlyRate": 857,
+          "daysLeft": 35,
+          "reorderQty": 1286
         },
         "30": {
-          "totalOut": 1100,
-          "dailyRate": 36.7,
-          "monthlyRate": 1100,
-          "daysLeft": 30,
-          "reorderQty": 1650
+          "totalOut": 1200,
+          "dailyRate": 40,
+          "monthlyRate": 1200,
+          "daysLeft": 25,
+          "reorderQty": 1800
         },
         "90": {
-          "totalOut": 2700,
-          "dailyRate": 30,
-          "monthlyRate": 900,
-          "daysLeft": 37,
-          "reorderQty": 1350
+          "totalOut": 2800,
+          "dailyRate": 31.1,
+          "monthlyRate": 933,
+          "daysLeft": 32,
+          "reorderQty": 1400
         }
       },
       "trend": [
@@ -1460,7 +1460,7 @@
         400,
         200,
         300,
-        100
+        200
       ],
       "monthlyOut": [
         0,
@@ -1481,7 +1481,7 @@
         1800,
         600,
         800,
-        700
+        800
       ],
       "yoy": {
         "month": "2026-08",
@@ -1495,33 +1495,33 @@
       "loc": "Jhilmil",
       "unit": "Pcs",
       "totalIn": 7400,
-      "totalOut": 6300,
-      "currentStock": 1100,
-      "dailyRate": 36.8,
-      "monthlyRate": 1105,
-      "daysLeft": 30,
-      "reorderQty": 1658,
+      "totalOut": 6400,
+      "currentStock": 1000,
+      "dailyRate": 37.2,
+      "monthlyRate": 1116,
+      "daysLeft": 27,
+      "reorderQty": 1674,
       "periods": {
         "7": {
-          "totalOut": 100,
-          "dailyRate": 14.3,
-          "monthlyRate": 429,
-          "daysLeft": 77,
-          "reorderQty": 643
+          "totalOut": 200,
+          "dailyRate": 28.6,
+          "monthlyRate": 857,
+          "daysLeft": 35,
+          "reorderQty": 1286
         },
         "30": {
-          "totalOut": 1100,
-          "dailyRate": 36.7,
-          "monthlyRate": 1100,
-          "daysLeft": 30,
-          "reorderQty": 1650
+          "totalOut": 1200,
+          "dailyRate": 40,
+          "monthlyRate": 1200,
+          "daysLeft": 25,
+          "reorderQty": 1800
         },
         "90": {
-          "totalOut": 2700,
-          "dailyRate": 30,
-          "monthlyRate": 900,
-          "daysLeft": 37,
-          "reorderQty": 1350
+          "totalOut": 2800,
+          "dailyRate": 31.1,
+          "monthlyRate": 933,
+          "daysLeft": 32,
+          "reorderQty": 1400
         }
       },
       "trend": [
@@ -1549,7 +1549,7 @@
         400,
         200,
         300,
-        100
+        200
       ],
       "monthlyOut": [
         0,
@@ -1570,7 +1570,7 @@
         1600,
         600,
         800,
-        700
+        800
       ],
       "yoy": {
         "month": "2026-08",
@@ -1586,10 +1586,10 @@
       "totalIn": 13800,
       "totalOut": 6300,
       "currentStock": 7500,
-      "dailyRate": 36.8,
-      "monthlyRate": 1105,
-      "daysLeft": 204,
-      "reorderQty": 1658,
+      "dailyRate": 36.6,
+      "monthlyRate": 1099,
+      "daysLeft": 205,
+      "reorderQty": 1648,
       "periods": {
         "7": {
           "totalOut": 1400,
@@ -1675,10 +1675,10 @@
       "totalIn": 7100,
       "totalOut": 6240,
       "currentStock": 860,
-      "dailyRate": 36.5,
-      "monthlyRate": 1095,
+      "dailyRate": 36.3,
+      "monthlyRate": 1088,
       "daysLeft": 24,
-      "reorderQty": 1642,
+      "reorderQty": 1633,
       "periods": {
         "7": {
           "totalOut": 300,
@@ -1762,33 +1762,33 @@
       "loc": "Jhilmil",
       "unit": "Pcs",
       "totalIn": 12600,
-      "totalOut": 6000,
-      "currentStock": 6600,
-      "dailyRate": 35.1,
-      "monthlyRate": 1053,
-      "daysLeft": 188,
-      "reorderQty": 1579,
+      "totalOut": 6100,
+      "currentStock": 6500,
+      "dailyRate": 35.5,
+      "monthlyRate": 1064,
+      "daysLeft": 183,
+      "reorderQty": 1596,
       "periods": {
         "7": {
-          "totalOut": 1100,
-          "dailyRate": 157.1,
-          "monthlyRate": 4714,
-          "daysLeft": 42,
-          "reorderQty": 7071
+          "totalOut": 1200,
+          "dailyRate": 171.4,
+          "monthlyRate": 5143,
+          "daysLeft": 38,
+          "reorderQty": 7714
         },
         "30": {
-          "totalOut": 1100,
-          "dailyRate": 36.7,
-          "monthlyRate": 1100,
-          "daysLeft": 180,
-          "reorderQty": 1650
+          "totalOut": 1200,
+          "dailyRate": 40,
+          "monthlyRate": 1200,
+          "daysLeft": 163,
+          "reorderQty": 1800
         },
         "90": {
-          "totalOut": 2100,
-          "dailyRate": 23.3,
-          "monthlyRate": 700,
-          "daysLeft": 283,
-          "reorderQty": 1050
+          "totalOut": 2200,
+          "dailyRate": 24.4,
+          "monthlyRate": 733,
+          "daysLeft": 266,
+          "reorderQty": 1100
         }
       },
       "trend": [
@@ -1816,7 +1816,7 @@
         0,
         0,
         0,
-        1100
+        1200
       ],
       "monthlyOut": [
         0,
@@ -1837,7 +1837,7 @@
         1400,
         100,
         0,
-        1100
+        1200
       ],
       "yoy": {
         "month": "2026-08",
@@ -1853,10 +1853,10 @@
       "totalIn": 21000,
       "totalOut": 6000,
       "currentStock": 15000,
-      "dailyRate": 35.1,
-      "monthlyRate": 1053,
-      "daysLeft": 427,
-      "reorderQty": 1579,
+      "dailyRate": 34.9,
+      "monthlyRate": 1047,
+      "daysLeft": 430,
+      "reorderQty": 1570,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -1937,10 +1937,10 @@
       "totalIn": 15756,
       "totalOut": 5755,
       "currentStock": 10001,
-      "dailyRate": 33.7,
-      "monthlyRate": 1010,
-      "daysLeft": 297,
-      "reorderQty": 1514,
+      "dailyRate": 33.5,
+      "monthlyRate": 1004,
+      "daysLeft": 299,
+      "reorderQty": 1506,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -2026,10 +2026,10 @@
       "totalIn": 5700,
       "totalOut": 5500,
       "currentStock": 200,
-      "dailyRate": 32.2,
-      "monthlyRate": 965,
+      "dailyRate": 32,
+      "monthlyRate": 959,
       "daysLeft": 6,
-      "reorderQty": 1447,
+      "reorderQty": 1439,
       "periods": {
         "7": {
           "totalOut": 200,
@@ -2115,10 +2115,10 @@
       "totalIn": 8000,
       "totalOut": 4880,
       "currentStock": 3120,
-      "dailyRate": 28.5,
-      "monthlyRate": 856,
-      "daysLeft": 109,
-      "reorderQty": 1284,
+      "dailyRate": 28.4,
+      "monthlyRate": 851,
+      "daysLeft": 110,
+      "reorderQty": 1277,
       "periods": {
         "7": {
           "totalOut": 240,
@@ -2202,33 +2202,33 @@
       "loc": "Jhilmil",
       "unit": "Set",
       "totalIn": 7500,
-      "totalOut": 4260,
-      "currentStock": 3240,
-      "dailyRate": 24.9,
-      "monthlyRate": 747,
-      "daysLeft": 130,
-      "reorderQty": 1121,
+      "totalOut": 4360,
+      "currentStock": 3140,
+      "dailyRate": 25.3,
+      "monthlyRate": 760,
+      "daysLeft": 124,
+      "reorderQty": 1141,
       "periods": {
         "7": {
-          "totalOut": 200,
-          "dailyRate": 28.6,
-          "monthlyRate": 857,
-          "daysLeft": 113,
-          "reorderQty": 1286
+          "totalOut": 300,
+          "dailyRate": 42.9,
+          "monthlyRate": 1286,
+          "daysLeft": 73,
+          "reorderQty": 1929
         },
         "30": {
-          "totalOut": 460,
-          "dailyRate": 15.3,
-          "monthlyRate": 460,
-          "daysLeft": 211,
-          "reorderQty": 690
+          "totalOut": 560,
+          "dailyRate": 18.7,
+          "monthlyRate": 560,
+          "daysLeft": 168,
+          "reorderQty": 840
         },
         "90": {
-          "totalOut": 1660,
-          "dailyRate": 18.4,
-          "monthlyRate": 553,
-          "daysLeft": 176,
-          "reorderQty": 830
+          "totalOut": 1760,
+          "dailyRate": 19.6,
+          "monthlyRate": 587,
+          "daysLeft": 161,
+          "reorderQty": 880
         }
       },
       "trend": [
@@ -2256,7 +2256,7 @@
         100,
         0,
         60,
-        200
+        300
       ],
       "monthlyOut": [
         0,
@@ -2277,11 +2277,100 @@
         900,
         800,
         300,
-        360
+        460
       ],
       "yoy": {
         "month": "2026-08",
         "cur": 300,
+        "prev": 0
+      }
+    },
+    {
+      "name": "Micro Fiber Cloth D/C 40*60 600 GSM (MC007)",
+      "cat": "Microfiber Cloth",
+      "loc": "Jhilmil",
+      "unit": "Pcs",
+      "totalIn": 3750,
+      "totalOut": 4250,
+      "currentStock": -500,
+      "dailyRate": 24.7,
+      "monthlyRate": 741,
+      "daysLeft": -20,
+      "reorderQty": 1112,
+      "periods": {
+        "7": {
+          "totalOut": 500,
+          "dailyRate": 71.4,
+          "monthlyRate": 2143,
+          "daysLeft": -7,
+          "reorderQty": 3214
+        },
+        "30": {
+          "totalOut": 800,
+          "dailyRate": 26.7,
+          "monthlyRate": 800,
+          "daysLeft": -19,
+          "reorderQty": 1200
+        },
+        "90": {
+          "totalOut": 4250,
+          "dailyRate": 47.2,
+          "monthlyRate": 1417,
+          "daysLeft": -11,
+          "reorderQty": 2125
+        }
+      },
+      "trend": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3450,
+        200,
+        0,
+        100,
+        0,
+        500
+      ],
+      "monthlyOut": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        300,
+        2400,
+        1500,
+        1800,
+        2250,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3650,
+        600
+      ],
+      "yoy": {
+        "month": "2026-08",
+        "cur": 3650,
         "prev": 0
       }
     },
@@ -2293,10 +2382,10 @@
       "totalIn": 4596,
       "totalOut": 4032,
       "currentStock": 564,
-      "dailyRate": 23.6,
-      "monthlyRate": 707,
+      "dailyRate": 23.4,
+      "monthlyRate": 703,
       "daysLeft": 24,
-      "reorderQty": 1061,
+      "reorderQty": 1055,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -2313,11 +2402,11 @@
           "reorderQty": 0
         },
         "90": {
-          "totalOut": 1188,
-          "dailyRate": 13.2,
-          "monthlyRate": 396,
-          "daysLeft": 43,
-          "reorderQty": 594
+          "totalOut": 588,
+          "dailyRate": 6.5,
+          "monthlyRate": 196,
+          "daysLeft": 86,
+          "reorderQty": 294
         }
       },
       "trend": [
@@ -2375,95 +2464,6 @@
       }
     },
     {
-      "name": "Micro Fiber Cloth D/C 40*60 600 GSM (MC007)",
-      "cat": "Microfiber Cloth",
-      "loc": "Jhilmil",
-      "unit": "Pcs",
-      "totalIn": 3750,
-      "totalOut": 4000,
-      "currentStock": -250,
-      "dailyRate": 23.4,
-      "monthlyRate": 702,
-      "daysLeft": -11,
-      "reorderQty": 1053,
-      "periods": {
-        "7": {
-          "totalOut": 250,
-          "dailyRate": 35.7,
-          "monthlyRate": 1071,
-          "daysLeft": -7,
-          "reorderQty": 1607
-        },
-        "30": {
-          "totalOut": 550,
-          "dailyRate": 18.3,
-          "monthlyRate": 550,
-          "daysLeft": -14,
-          "reorderQty": 825
-        },
-        "90": {
-          "totalOut": 4000,
-          "dailyRate": 44.4,
-          "monthlyRate": 1333,
-          "daysLeft": -6,
-          "reorderQty": 2000
-        }
-      },
-      "trend": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        3450,
-        200,
-        0,
-        100,
-        0,
-        250
-      ],
-      "monthlyOut": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        300,
-        2400,
-        1500,
-        1800,
-        2250,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        3650,
-        350
-      ],
-      "yoy": {
-        "month": "2026-08",
-        "cur": 3650,
-        "prev": 0
-      }
-    },
-    {
       "name": "Solar Flag India (SOL031)",
       "cat": "Solar Perfume",
       "loc": "Jhilmil",
@@ -2471,10 +2471,10 @@
       "totalIn": 4300,
       "totalOut": 3800,
       "currentStock": 500,
-      "dailyRate": 22.2,
-      "monthlyRate": 667,
+      "dailyRate": 22.1,
+      "monthlyRate": 663,
       "daysLeft": 23,
-      "reorderQty": 1000,
+      "reorderQty": 994,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -2560,10 +2560,10 @@
       "totalIn": 7092,
       "totalOut": 3780,
       "currentStock": 3312,
-      "dailyRate": 22.1,
-      "monthlyRate": 663,
-      "daysLeft": 150,
-      "reorderQty": 995,
+      "dailyRate": 22,
+      "monthlyRate": 659,
+      "daysLeft": 151,
+      "reorderQty": 989,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -2649,10 +2649,10 @@
       "totalIn": 4920,
       "totalOut": 3612,
       "currentStock": 1308,
-      "dailyRate": 21.1,
-      "monthlyRate": 634,
+      "dailyRate": 21,
+      "monthlyRate": 630,
       "daysLeft": 62,
-      "reorderQty": 951,
+      "reorderQty": 945,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -2731,6 +2731,95 @@
       }
     },
     {
+      "name": "Door Guard 3R 2170 (DG007)",
+      "cat": "Door Guard",
+      "loc": "Jhilmil",
+      "unit": "Set",
+      "totalIn": 9090,
+      "totalOut": 3600,
+      "currentStock": 5490,
+      "dailyRate": 20.9,
+      "monthlyRate": 628,
+      "daysLeft": 262,
+      "reorderQty": 942,
+      "periods": {
+        "7": {
+          "totalOut": 200,
+          "dailyRate": 28.6,
+          "monthlyRate": 857,
+          "daysLeft": 192,
+          "reorderQty": 1286
+        },
+        "30": {
+          "totalOut": 700,
+          "dailyRate": 23.3,
+          "monthlyRate": 700,
+          "daysLeft": 235,
+          "reorderQty": 1050
+        },
+        "90": {
+          "totalOut": 1700,
+          "dailyRate": 18.9,
+          "monthlyRate": 567,
+          "daysLeft": 291,
+          "reorderQty": 850
+        }
+      },
+      "trend": [
+        0,
+        300,
+        200,
+        400,
+        200,
+        0,
+        100,
+        100,
+        100,
+        100,
+        300,
+        100,
+        200,
+        100,
+        100,
+        100,
+        200,
+        100,
+        100,
+        100,
+        100,
+        400,
+        0,
+        0,
+        200
+      ],
+      "monthlyOut": [
+        0,
+        1100,
+        900,
+        1000,
+        400,
+        300,
+        0,
+        0,
+        1200,
+        1900,
+        700,
+        610,
+        700,
+        1100,
+        300,
+        700,
+        500,
+        700,
+        300
+      ],
+      "yoy": {
+        "month": "2026-08",
+        "cur": 700,
+        "prev": 300
+      }
+    },
+    {
       "name": "Bumper Clip Big (OTH018)",
       "cat": "Other",
       "loc": "Jhilmil",
@@ -2738,10 +2827,10 @@
       "totalIn": 3849,
       "totalOut": 3600,
       "currentStock": 249,
-      "dailyRate": 21.1,
-      "monthlyRate": 632,
+      "dailyRate": 20.9,
+      "monthlyRate": 628,
       "daysLeft": 12,
-      "reorderQty": 947,
+      "reorderQty": 942,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -2827,10 +2916,10 @@
       "totalIn": 4900,
       "totalOut": 3600,
       "currentStock": 1300,
-      "dailyRate": 21.1,
-      "monthlyRate": 632,
+      "dailyRate": 20.9,
+      "monthlyRate": 628,
       "daysLeft": 62,
-      "reorderQty": 947,
+      "reorderQty": 942,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -2916,10 +3005,10 @@
       "totalIn": 4000,
       "totalOut": 3500,
       "currentStock": 500,
-      "dailyRate": 20.5,
-      "monthlyRate": 614,
-      "daysLeft": 24,
-      "reorderQty": 921,
+      "dailyRate": 20.3,
+      "monthlyRate": 610,
+      "daysLeft": 25,
+      "reorderQty": 916,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -2998,95 +3087,6 @@
       }
     },
     {
-      "name": "Door Guard 3R 2170 (DG007)",
-      "cat": "Door Guard",
-      "loc": "Jhilmil",
-      "unit": "Set",
-      "totalIn": 9090,
-      "totalOut": 3500,
-      "currentStock": 5590,
-      "dailyRate": 20.5,
-      "monthlyRate": 614,
-      "daysLeft": 273,
-      "reorderQty": 921,
-      "periods": {
-        "7": {
-          "totalOut": 100,
-          "dailyRate": 14.3,
-          "monthlyRate": 429,
-          "daysLeft": 391,
-          "reorderQty": 643
-        },
-        "30": {
-          "totalOut": 600,
-          "dailyRate": 20,
-          "monthlyRate": 600,
-          "daysLeft": 280,
-          "reorderQty": 900
-        },
-        "90": {
-          "totalOut": 1600,
-          "dailyRate": 17.8,
-          "monthlyRate": 533,
-          "daysLeft": 314,
-          "reorderQty": 800
-        }
-      },
-      "trend": [
-        0,
-        300,
-        200,
-        400,
-        200,
-        0,
-        100,
-        100,
-        100,
-        100,
-        300,
-        100,
-        200,
-        100,
-        100,
-        100,
-        200,
-        100,
-        100,
-        100,
-        100,
-        400,
-        0,
-        0,
-        100
-      ],
-      "monthlyOut": [
-        0,
-        1100,
-        900,
-        1000,
-        400,
-        300,
-        0,
-        0,
-        1200,
-        1900,
-        700,
-        610,
-        700,
-        1100,
-        300,
-        700,
-        500,
-        700,
-        200
-      ],
-      "yoy": {
-        "month": "2026-08",
-        "cur": 700,
-        "prev": 300
-      }
-    },
-    {
       "name": "Antenna Shark Fin Hybrid Painted (ANT005)",
       "cat": "Antenna",
       "loc": "Jhilmil",
@@ -3094,10 +3094,10 @@
       "totalIn": 4811,
       "totalOut": 3488,
       "currentStock": 1323,
-      "dailyRate": 20.4,
-      "monthlyRate": 612,
+      "dailyRate": 20.3,
+      "monthlyRate": 608,
       "daysLeft": 65,
-      "reorderQty": 918,
+      "reorderQty": 913,
       "periods": {
         "7": {
           "totalOut": 200,
@@ -3183,10 +3183,10 @@
       "totalIn": 4005,
       "totalOut": 3305,
       "currentStock": 700,
-      "dailyRate": 19.3,
-      "monthlyRate": 580,
+      "dailyRate": 19.2,
+      "monthlyRate": 576,
       "daysLeft": 36,
-      "reorderQty": 870,
+      "reorderQty": 865,
       "periods": {
         "7": {
           "totalOut": 300,
@@ -3272,10 +3272,10 @@
       "totalIn": 7900,
       "totalOut": 3260,
       "currentStock": 4640,
-      "dailyRate": 19.1,
-      "monthlyRate": 572,
-      "daysLeft": 243,
-      "reorderQty": 858,
+      "dailyRate": 19,
+      "monthlyRate": 569,
+      "daysLeft": 245,
+      "reorderQty": 853,
       "periods": {
         "7": {
           "totalOut": 50,
@@ -3356,10 +3356,10 @@
       "totalIn": 3900,
       "totalOut": 3200,
       "currentStock": 700,
-      "dailyRate": 18.7,
-      "monthlyRate": 561,
-      "daysLeft": 37,
-      "reorderQty": 842,
+      "dailyRate": 18.6,
+      "monthlyRate": 558,
+      "daysLeft": 38,
+      "reorderQty": 837,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -3445,10 +3445,10 @@
       "totalIn": 3504,
       "totalOut": 2856,
       "currentStock": 648,
-      "dailyRate": 16.7,
-      "monthlyRate": 501,
+      "dailyRate": 16.6,
+      "monthlyRate": 498,
       "daysLeft": 39,
-      "reorderQty": 752,
+      "reorderQty": 747,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -3534,10 +3534,10 @@
       "totalIn": 250,
       "totalOut": 2740,
       "currentStock": -2490,
-      "dailyRate": 16,
-      "monthlyRate": 481,
-      "daysLeft": -155,
-      "reorderQty": 721,
+      "dailyRate": 15.9,
+      "monthlyRate": 478,
+      "daysLeft": -156,
+      "reorderQty": 717,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -3623,10 +3623,10 @@
       "totalIn": 2952,
       "totalOut": 2700,
       "currentStock": 252,
-      "dailyRate": 15.8,
-      "monthlyRate": 474,
+      "dailyRate": 15.7,
+      "monthlyRate": 471,
       "daysLeft": 16,
-      "reorderQty": 711,
+      "reorderQty": 706,
       "periods": {
         "7": {
           "totalOut": 480,
@@ -3712,10 +3712,10 @@
       "totalIn": 4146,
       "totalOut": 2600,
       "currentStock": 1546,
-      "dailyRate": 15.2,
-      "monthlyRate": 456,
+      "dailyRate": 15.1,
+      "monthlyRate": 453,
       "daysLeft": 102,
-      "reorderQty": 684,
+      "reorderQty": 680,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -3802,9 +3802,9 @@
       "totalOut": 2488,
       "currentStock": 12,
       "dailyRate": 14.5,
-      "monthlyRate": 436,
+      "monthlyRate": 434,
       "daysLeft": 1,
-      "reorderQty": 655,
+      "reorderQty": 651,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -3890,10 +3890,10 @@
       "totalIn": 5850,
       "totalOut": 2440,
       "currentStock": 3410,
-      "dailyRate": 14.3,
-      "monthlyRate": 428,
-      "daysLeft": 239,
-      "reorderQty": 642,
+      "dailyRate": 14.2,
+      "monthlyRate": 426,
+      "daysLeft": 240,
+      "reorderQty": 638,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -3979,10 +3979,10 @@
       "totalIn": 1742,
       "totalOut": 2424,
       "currentStock": -682,
-      "dailyRate": 14.2,
-      "monthlyRate": 425,
+      "dailyRate": 14.1,
+      "monthlyRate": 423,
       "daysLeft": -48,
-      "reorderQty": 638,
+      "reorderQty": 634,
       "periods": {
         "7": {
           "totalOut": 144,
@@ -4069,9 +4069,9 @@
       "totalOut": 2400,
       "currentStock": 0,
       "dailyRate": 14,
-      "monthlyRate": 421,
+      "monthlyRate": 419,
       "daysLeft": 0,
-      "reorderQty": 632,
+      "reorderQty": 628,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -4152,10 +4152,10 @@
       "totalIn": 3780,
       "totalOut": 2340,
       "currentStock": 1440,
-      "dailyRate": 13.7,
-      "monthlyRate": 411,
-      "daysLeft": 105,
-      "reorderQty": 616,
+      "dailyRate": 13.6,
+      "monthlyRate": 408,
+      "daysLeft": 106,
+      "reorderQty": 612,
       "periods": {
         "7": {
           "totalOut": 180,
@@ -4242,9 +4242,9 @@
       "totalOut": 2317,
       "currentStock": 2683,
       "dailyRate": 13.5,
-      "monthlyRate": 406,
-      "daysLeft": 198,
-      "reorderQty": 610,
+      "monthlyRate": 404,
+      "daysLeft": 199,
+      "reorderQty": 606,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -4330,10 +4330,10 @@
       "totalIn": 2655,
       "totalOut": 2295,
       "currentStock": 360,
-      "dailyRate": 13.4,
-      "monthlyRate": 403,
+      "dailyRate": 13.3,
+      "monthlyRate": 400,
       "daysLeft": 27,
-      "reorderQty": 604,
+      "reorderQty": 600,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -4419,10 +4419,10 @@
       "totalIn": 6700,
       "totalOut": 2250,
       "currentStock": 4450,
-      "dailyRate": 13.2,
-      "monthlyRate": 395,
-      "daysLeft": 338,
-      "reorderQty": 592,
+      "dailyRate": 13.1,
+      "monthlyRate": 392,
+      "daysLeft": 340,
+      "reorderQty": 589,
       "periods": {
         "7": {
           "totalOut": 300,
@@ -4508,10 +4508,10 @@
       "totalIn": 1128,
       "totalOut": 2172,
       "currentStock": -1044,
-      "dailyRate": 12.7,
-      "monthlyRate": 381,
-      "daysLeft": -82,
-      "reorderQty": 572,
+      "dailyRate": 12.6,
+      "monthlyRate": 379,
+      "daysLeft": -83,
+      "reorderQty": 568,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -4528,11 +4528,11 @@
           "reorderQty": 0
         },
         "90": {
-          "totalOut": 468,
-          "dailyRate": 5.2,
-          "monthlyRate": 156,
-          "daysLeft": -201,
-          "reorderQty": 234
+          "totalOut": 444,
+          "dailyRate": 4.9,
+          "monthlyRate": 148,
+          "daysLeft": -212,
+          "reorderQty": 222
         }
       },
       "trend": [
@@ -4597,10 +4597,10 @@
       "totalIn": 3000,
       "totalOut": 2120,
       "currentStock": 880,
-      "dailyRate": 12.4,
-      "monthlyRate": 372,
+      "dailyRate": 12.3,
+      "monthlyRate": 370,
       "daysLeft": 71,
-      "reorderQty": 558,
+      "reorderQty": 555,
       "periods": {
         "7": {
           "totalOut": 40,
@@ -4686,10 +4686,10 @@
       "totalIn": 5480,
       "totalOut": 2100,
       "currentStock": 3380,
-      "dailyRate": 12.3,
-      "monthlyRate": 368,
-      "daysLeft": 275,
-      "reorderQty": 553,
+      "dailyRate": 12.2,
+      "monthlyRate": 366,
+      "daysLeft": 277,
+      "reorderQty": 549,
       "periods": {
         "7": {
           "totalOut": 2100,
@@ -4770,10 +4770,10 @@
       "totalIn": 4530,
       "totalOut": 2100,
       "currentStock": 2430,
-      "dailyRate": 12.3,
-      "monthlyRate": 368,
-      "daysLeft": 198,
-      "reorderQty": 553,
+      "dailyRate": 12.2,
+      "monthlyRate": 366,
+      "daysLeft": 199,
+      "reorderQty": 549,
       "periods": {
         "7": {
           "totalOut": 426,
@@ -4854,10 +4854,10 @@
       "totalIn": 2400,
       "totalOut": 2080,
       "currentStock": 320,
-      "dailyRate": 12.2,
-      "monthlyRate": 365,
+      "dailyRate": 12.1,
+      "monthlyRate": 363,
       "daysLeft": 26,
-      "reorderQty": 547,
+      "reorderQty": 544,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -4938,10 +4938,10 @@
       "totalIn": 3200,
       "totalOut": 2000,
       "currentStock": 1200,
-      "dailyRate": 11.7,
-      "monthlyRate": 351,
+      "dailyRate": 11.6,
+      "monthlyRate": 349,
       "daysLeft": 103,
-      "reorderQty": 526,
+      "reorderQty": 523,
       "periods": {
         "7": {
           "totalOut": 100,
@@ -5020,6 +5020,95 @@
       }
     },
     {
+      "name": "Snoopy Mirror (VM002)",
+      "cat": "Vanity Mirror",
+      "loc": "Jhilmil",
+      "unit": "Pcs",
+      "totalIn": 4500,
+      "totalOut": 1900,
+      "currentStock": 2600,
+      "dailyRate": 11,
+      "monthlyRate": 331,
+      "daysLeft": 235,
+      "reorderQty": 497,
+      "periods": {
+        "7": {
+          "totalOut": 100,
+          "dailyRate": 14.3,
+          "monthlyRate": 429,
+          "daysLeft": 182,
+          "reorderQty": 643
+        },
+        "30": {
+          "totalOut": 700,
+          "dailyRate": 23.3,
+          "monthlyRate": 700,
+          "daysLeft": 111,
+          "reorderQty": 1050
+        },
+        "90": {
+          "totalOut": 1200,
+          "dailyRate": 13.3,
+          "monthlyRate": 400,
+          "daysLeft": 195,
+          "reorderQty": 600
+        }
+      },
+      "trend": [
+        0,
+        0,
+        200,
+        300,
+        0,
+        100,
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        200,
+        0,
+        200,
+        0,
+        0,
+        0,
+        0,
+        100,
+        0,
+        0,
+        500,
+        100,
+        100
+      ],
+      "monthlyOut": [
+        0,
+        400,
+        300,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1500,
+        1000,
+        500,
+        300,
+        200,
+        500,
+        200,
+        200,
+        200,
+        100,
+        700
+      ],
+      "yoy": {
+        "month": "2026-08",
+        "cur": 100,
+        "prev": 0
+      }
+    },
+    {
       "name": "Beading 32105 12MMX18M (BD009)",
       "cat": "Beading",
       "loc": "Jhilmil",
@@ -5027,10 +5116,10 @@
       "totalIn": 6090,
       "totalOut": 1860,
       "currentStock": 4230,
-      "dailyRate": 10.9,
-      "monthlyRate": 326,
-      "daysLeft": 389,
-      "reorderQty": 489,
+      "dailyRate": 10.8,
+      "monthlyRate": 324,
+      "daysLeft": 391,
+      "reorderQty": 487,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -5116,10 +5205,10 @@
       "totalIn": 3387,
       "totalOut": 1823,
       "currentStock": 1564,
-      "dailyRate": 10.7,
-      "monthlyRate": 320,
-      "daysLeft": 147,
-      "reorderQty": 480,
+      "dailyRate": 10.6,
+      "monthlyRate": 318,
+      "daysLeft": 148,
+      "reorderQty": 477,
       "periods": {
         "7": {
           "totalOut": 35,
@@ -5206,9 +5295,9 @@
       "totalOut": 1800,
       "currentStock": 1980,
       "dailyRate": 10.5,
-      "monthlyRate": 316,
-      "daysLeft": 188,
-      "reorderQty": 474,
+      "monthlyRate": 314,
+      "daysLeft": 189,
+      "reorderQty": 471,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -5295,9 +5384,9 @@
       "totalOut": 1800,
       "currentStock": 1480,
       "dailyRate": 10.5,
-      "monthlyRate": 316,
+      "monthlyRate": 314,
       "daysLeft": 141,
-      "reorderQty": 474,
+      "reorderQty": 471,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -5384,9 +5473,9 @@
       "totalOut": 1800,
       "currentStock": 2900,
       "dailyRate": 10.5,
-      "monthlyRate": 316,
-      "daysLeft": 276,
-      "reorderQty": 474,
+      "monthlyRate": 314,
+      "daysLeft": 277,
+      "reorderQty": 471,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -5473,9 +5562,9 @@
       "totalOut": 1800,
       "currentStock": -200,
       "dailyRate": 10.5,
-      "monthlyRate": 316,
+      "monthlyRate": 314,
       "daysLeft": -19,
-      "reorderQty": 474,
+      "reorderQty": 471,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -5554,95 +5643,6 @@
       }
     },
     {
-      "name": "Snoopy Mirror (VM002)",
-      "cat": "Vanity Mirror",
-      "loc": "Jhilmil",
-      "unit": "Pcs",
-      "totalIn": 4500,
-      "totalOut": 1800,
-      "currentStock": 2700,
-      "dailyRate": 10.5,
-      "monthlyRate": 316,
-      "daysLeft": 257,
-      "reorderQty": 474,
-      "periods": {
-        "7": {
-          "totalOut": 0,
-          "dailyRate": 0,
-          "monthlyRate": 0,
-          "daysLeft": 9999,
-          "reorderQty": 0
-        },
-        "30": {
-          "totalOut": 600,
-          "dailyRate": 20,
-          "monthlyRate": 600,
-          "daysLeft": 135,
-          "reorderQty": 900
-        },
-        "90": {
-          "totalOut": 1100,
-          "dailyRate": 12.2,
-          "monthlyRate": 367,
-          "daysLeft": 221,
-          "reorderQty": 550
-        }
-      },
-      "trend": [
-        0,
-        0,
-        200,
-        300,
-        0,
-        100,
-        100,
-        0,
-        0,
-        0,
-        0,
-        0,
-        200,
-        0,
-        200,
-        0,
-        0,
-        0,
-        0,
-        100,
-        0,
-        0,
-        500,
-        100,
-        0
-      ],
-      "monthlyOut": [
-        0,
-        400,
-        300,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1500,
-        1000,
-        500,
-        300,
-        200,
-        500,
-        200,
-        200,
-        200,
-        100,
-        600
-      ],
-      "yoy": {
-        "month": "2026-08",
-        "cur": 100,
-        "prev": 0
-      }
-    },
-    {
       "name": "D/Side Tape 12MMx10 Mtr Stick All (TP004)",
       "cat": "Tape",
       "loc": "Vivek Vihar",
@@ -5650,10 +5650,10 @@
       "totalIn": 3760,
       "totalOut": 1704,
       "currentStock": 2056,
-      "dailyRate": 10,
-      "monthlyRate": 299,
-      "daysLeft": 206,
-      "reorderQty": 448,
+      "dailyRate": 9.9,
+      "monthlyRate": 297,
+      "daysLeft": 208,
+      "reorderQty": 446,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -5735,9 +5735,9 @@
       "totalOut": 1700,
       "currentStock": 650,
       "dailyRate": 9.9,
-      "monthlyRate": 298,
-      "daysLeft": 65,
-      "reorderQty": 447,
+      "monthlyRate": 297,
+      "daysLeft": 66,
+      "reorderQty": 445,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -5824,9 +5824,9 @@
       "totalOut": 1680,
       "currentStock": 160,
       "dailyRate": 9.8,
-      "monthlyRate": 295,
+      "monthlyRate": 293,
       "daysLeft": 16,
-      "reorderQty": 442,
+      "reorderQty": 440,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -5913,9 +5913,9 @@
       "totalOut": 1680,
       "currentStock": 160,
       "dailyRate": 9.8,
-      "monthlyRate": 295,
+      "monthlyRate": 293,
       "daysLeft": 16,
-      "reorderQty": 442,
+      "reorderQty": 440,
       "periods": {
         "7": {
           "totalOut": 720,
@@ -6001,10 +6001,10 @@
       "totalIn": 4100,
       "totalOut": 1620,
       "currentStock": 2480,
-      "dailyRate": 9.5,
-      "monthlyRate": 284,
-      "daysLeft": 262,
-      "reorderQty": 426,
+      "dailyRate": 9.4,
+      "monthlyRate": 283,
+      "daysLeft": 263,
+      "reorderQty": 424,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -6088,33 +6088,33 @@
       "loc": "Vivek Vihar",
       "unit": "Pcs",
       "totalIn": 2484,
-      "totalOut": 1572,
-      "currentStock": 912,
+      "totalOut": 1584,
+      "currentStock": 900,
       "dailyRate": 9.2,
       "monthlyRate": 276,
-      "daysLeft": 99,
+      "daysLeft": 98,
       "reorderQty": 414,
       "periods": {
         "7": {
-          "totalOut": 0,
-          "dailyRate": 0,
-          "monthlyRate": 0,
-          "daysLeft": 9999,
-          "reorderQty": 0
+          "totalOut": 12,
+          "dailyRate": 1.7,
+          "monthlyRate": 51,
+          "daysLeft": 525,
+          "reorderQty": 77
         },
         "30": {
-          "totalOut": 252,
-          "dailyRate": 8.4,
-          "monthlyRate": 252,
-          "daysLeft": 109,
-          "reorderQty": 378
+          "totalOut": 264,
+          "dailyRate": 8.8,
+          "monthlyRate": 264,
+          "daysLeft": 102,
+          "reorderQty": 396
         },
         "90": {
-          "totalOut": 924,
-          "dailyRate": 10.3,
-          "monthlyRate": 308,
-          "daysLeft": 89,
-          "reorderQty": 462
+          "totalOut": 936,
+          "dailyRate": 10.4,
+          "monthlyRate": 312,
+          "daysLeft": 87,
+          "reorderQty": 468
         }
       },
       "trend": [
@@ -6142,7 +6142,7 @@
         12,
         48,
         192,
-        0
+        12
       ],
       "monthlyOut": [
         0,
@@ -6163,7 +6163,7 @@
         228,
         120,
         564,
-        240
+        252
       ],
       "yoy": {
         "month": "2026-08",
@@ -6179,10 +6179,10 @@
       "totalIn": 2000,
       "totalOut": 1550,
       "currentStock": 450,
-      "dailyRate": 9.1,
-      "monthlyRate": 272,
+      "dailyRate": 9,
+      "monthlyRate": 270,
       "daysLeft": 50,
-      "reorderQty": 408,
+      "reorderQty": 406,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -6268,10 +6268,10 @@
       "totalIn": 2520,
       "totalOut": 1548,
       "currentStock": 972,
-      "dailyRate": 9.1,
-      "monthlyRate": 272,
-      "daysLeft": 107,
-      "reorderQty": 407,
+      "dailyRate": 9,
+      "monthlyRate": 270,
+      "daysLeft": 108,
+      "reorderQty": 405,
       "periods": {
         "7": {
           "totalOut": 432,
@@ -6358,9 +6358,9 @@
       "totalOut": 1510,
       "currentStock": 6080,
       "dailyRate": 8.8,
-      "monthlyRate": 265,
-      "daysLeft": 689,
-      "reorderQty": 397,
+      "monthlyRate": 263,
+      "daysLeft": 693,
+      "reorderQty": 395,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -6446,10 +6446,10 @@
       "totalIn": 1800,
       "totalOut": 1500,
       "currentStock": 300,
-      "dailyRate": 8.8,
-      "monthlyRate": 263,
+      "dailyRate": 8.7,
+      "monthlyRate": 262,
       "daysLeft": 34,
-      "reorderQty": 395,
+      "reorderQty": 392,
       "periods": {
         "7": {
           "totalOut": 180,
@@ -6535,10 +6535,10 @@
       "totalIn": 1500,
       "totalOut": 1500,
       "currentStock": 0,
-      "dailyRate": 8.8,
-      "monthlyRate": 263,
+      "dailyRate": 8.7,
+      "monthlyRate": 262,
       "daysLeft": 0,
-      "reorderQty": 395,
+      "reorderQty": 392,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -6619,10 +6619,10 @@
       "totalIn": 2308,
       "totalOut": 1500,
       "currentStock": 808,
-      "dailyRate": 8.8,
-      "monthlyRate": 263,
-      "daysLeft": 92,
-      "reorderQty": 395,
+      "dailyRate": 8.7,
+      "monthlyRate": 262,
+      "daysLeft": 93,
+      "reorderQty": 392,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -6703,10 +6703,10 @@
       "totalIn": 1500,
       "totalOut": 1500,
       "currentStock": 0,
-      "dailyRate": 8.8,
-      "monthlyRate": 263,
+      "dailyRate": 8.7,
+      "monthlyRate": 262,
       "daysLeft": 0,
-      "reorderQty": 395,
+      "reorderQty": 392,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -6787,10 +6787,10 @@
       "totalIn": 1700,
       "totalOut": 1500,
       "currentStock": 200,
-      "dailyRate": 8.8,
-      "monthlyRate": 263,
+      "dailyRate": 8.7,
+      "monthlyRate": 262,
       "daysLeft": 23,
-      "reorderQty": 395,
+      "reorderQty": 392,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -6876,10 +6876,10 @@
       "totalIn": 3963,
       "totalOut": 1450,
       "currentStock": 2513,
-      "dailyRate": 8.5,
-      "monthlyRate": 254,
-      "daysLeft": 296,
-      "reorderQty": 382,
+      "dailyRate": 8.4,
+      "monthlyRate": 253,
+      "daysLeft": 298,
+      "reorderQty": 379,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -6966,9 +6966,9 @@
       "totalOut": 1440,
       "currentStock": 1080,
       "dailyRate": 8.4,
-      "monthlyRate": 253,
-      "daysLeft": 128,
-      "reorderQty": 379,
+      "monthlyRate": 251,
+      "daysLeft": 129,
+      "reorderQty": 377,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -7054,10 +7054,10 @@
       "totalIn": 3000,
       "totalOut": 1400,
       "currentStock": 1600,
-      "dailyRate": 8.2,
-      "monthlyRate": 246,
-      "daysLeft": 195,
-      "reorderQty": 368,
+      "dailyRate": 8.1,
+      "monthlyRate": 244,
+      "daysLeft": 197,
+      "reorderQty": 366,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -7143,10 +7143,10 @@
       "totalIn": 1800,
       "totalOut": 1400,
       "currentStock": 400,
-      "dailyRate": 8.2,
-      "monthlyRate": 246,
+      "dailyRate": 8.1,
+      "monthlyRate": 244,
       "daysLeft": 49,
-      "reorderQty": 368,
+      "reorderQty": 366,
       "periods": {
         "7": {
           "totalOut": 100,
@@ -7232,10 +7232,10 @@
       "totalIn": 2316,
       "totalOut": 1380,
       "currentStock": 936,
-      "dailyRate": 8.1,
-      "monthlyRate": 242,
-      "daysLeft": 116,
-      "reorderQty": 363,
+      "dailyRate": 8,
+      "monthlyRate": 241,
+      "daysLeft": 117,
+      "reorderQty": 361,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -7322,9 +7322,9 @@
       "totalOut": 1375,
       "currentStock": 0,
       "dailyRate": 8,
-      "monthlyRate": 241,
+      "monthlyRate": 240,
       "daysLeft": 0,
-      "reorderQty": 362,
+      "reorderQty": 360,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -7410,10 +7410,10 @@
       "totalIn": 2450,
       "totalOut": 1327,
       "currentStock": 1123,
-      "dailyRate": 7.8,
-      "monthlyRate": 233,
-      "daysLeft": 145,
-      "reorderQty": 349,
+      "dailyRate": 7.7,
+      "monthlyRate": 231,
+      "daysLeft": 146,
+      "reorderQty": 347,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -7495,9 +7495,9 @@
       "totalOut": 1300,
       "currentStock": 4100,
       "dailyRate": 7.6,
-      "monthlyRate": 228,
-      "daysLeft": 539,
-      "reorderQty": 342,
+      "monthlyRate": 227,
+      "daysLeft": 542,
+      "reorderQty": 340,
       "periods": {
         "7": {
           "totalOut": 100,
@@ -7584,9 +7584,9 @@
       "totalOut": 1300,
       "currentStock": 2700,
       "dailyRate": 7.6,
-      "monthlyRate": 228,
-      "daysLeft": 355,
-      "reorderQty": 342,
+      "monthlyRate": 227,
+      "daysLeft": 357,
+      "reorderQty": 340,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -7672,10 +7672,10 @@
       "totalIn": 2480,
       "totalOut": 1260,
       "currentStock": 1220,
-      "dailyRate": 7.4,
-      "monthlyRate": 221,
-      "daysLeft": 166,
-      "reorderQty": 332,
+      "dailyRate": 7.3,
+      "monthlyRate": 220,
+      "daysLeft": 167,
+      "reorderQty": 330,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -7761,10 +7761,10 @@
       "totalIn": 3420,
       "totalOut": 1260,
       "currentStock": 2160,
-      "dailyRate": 7.4,
-      "monthlyRate": 221,
-      "daysLeft": 293,
-      "reorderQty": 332,
+      "dailyRate": 7.3,
+      "monthlyRate": 220,
+      "daysLeft": 295,
+      "reorderQty": 330,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -7850,10 +7850,10 @@
       "totalIn": 1600,
       "totalOut": 1260,
       "currentStock": 340,
-      "dailyRate": 7.4,
-      "monthlyRate": 221,
+      "dailyRate": 7.3,
+      "monthlyRate": 220,
       "daysLeft": 46,
-      "reorderQty": 332,
+      "reorderQty": 330,
       "periods": {
         "7": {
           "totalOut": 100,
@@ -7939,10 +7939,10 @@
       "totalIn": 2000,
       "totalOut": 1245,
       "currentStock": 755,
-      "dailyRate": 7.3,
-      "monthlyRate": 218,
+      "dailyRate": 7.2,
+      "monthlyRate": 217,
       "daysLeft": 104,
-      "reorderQty": 328,
+      "reorderQty": 326,
       "periods": {
         "7": {
           "totalOut": 110,
@@ -8021,6 +8021,95 @@
       }
     },
     {
+      "name": "Wheel Brush Straight (DST006)",
+      "cat": "Duster And Brush",
+      "loc": "Jhilmil",
+      "unit": "Pcs",
+      "totalIn": 1872,
+      "totalOut": 1230,
+      "currentStock": 642,
+      "dailyRate": 7.2,
+      "monthlyRate": 215,
+      "daysLeft": 90,
+      "reorderQty": 322,
+      "periods": {
+        "7": {
+          "totalOut": 432,
+          "dailyRate": 61.7,
+          "monthlyRate": 1851,
+          "daysLeft": 10,
+          "reorderQty": 2777
+        },
+        "30": {
+          "totalOut": 482,
+          "dailyRate": 16.1,
+          "monthlyRate": 482,
+          "daysLeft": 40,
+          "reorderQty": 723
+        },
+        "90": {
+          "totalOut": 590,
+          "dailyRate": 6.6,
+          "monthlyRate": 197,
+          "daysLeft": 98,
+          "reorderQty": 295
+        }
+      },
+      "trend": [
+        0,
+        0,
+        100,
+        0,
+        108,
+        0,
+        0,
+        108,
+        216,
+        0,
+        0,
+        108,
+        0,
+        0,
+        108,
+        0,
+        0,
+        0,
+        0,
+        0,
+        50,
+        0,
+        0,
+        0,
+        432
+      ],
+      "monthlyOut": [
+        0,
+        216,
+        108,
+        432,
+        216,
+        0,
+        0,
+        0,
+        324,
+        540,
+        216,
+        216,
+        72,
+        100,
+        432,
+        108,
+        108,
+        50,
+        432
+      ],
+      "yoy": {
+        "month": "2026-08",
+        "cur": 50,
+        "prev": 0
+      }
+    },
+    {
       "name": "Antifog Sticker (AS001)",
       "cat": "Antifog Sticker",
       "loc": "Jhilmil",
@@ -8028,10 +8117,10 @@
       "totalIn": 5100,
       "totalOut": 1226,
       "currentStock": 3874,
-      "dailyRate": 7.2,
-      "monthlyRate": 215,
-      "daysLeft": 540,
-      "reorderQty": 323,
+      "dailyRate": 7.1,
+      "monthlyRate": 214,
+      "daysLeft": 543,
+      "reorderQty": 321,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -8110,6 +8199,95 @@
       }
     },
     {
+      "name": "Door Guard 3R-2184 (DG038)",
+      "cat": "Door Guard",
+      "loc": "Jhilmil",
+      "unit": "Pcs",
+      "totalIn": 3100,
+      "totalOut": 1160,
+      "currentStock": 1940,
+      "dailyRate": 6.7,
+      "monthlyRate": 202,
+      "daysLeft": 288,
+      "reorderQty": 303,
+      "periods": {
+        "7": {
+          "totalOut": 100,
+          "dailyRate": 14.3,
+          "monthlyRate": 429,
+          "daysLeft": 136,
+          "reorderQty": 643
+        },
+        "30": {
+          "totalOut": 260,
+          "dailyRate": 8.7,
+          "monthlyRate": 260,
+          "daysLeft": 224,
+          "reorderQty": 390
+        },
+        "90": {
+          "totalOut": 360,
+          "dailyRate": 4,
+          "monthlyRate": 120,
+          "daysLeft": 485,
+          "reorderQty": 180
+        }
+      },
+      "trend": [
+        0,
+        100,
+        200,
+        0,
+        0,
+        100,
+        0,
+        200,
+        0,
+        200,
+        0,
+        0,
+        0,
+        0,
+        0,
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        100,
+        0,
+        60,
+        100
+      ],
+      "monthlyOut": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        460,
+        300,
+        520,
+        100,
+        0,
+        300,
+        300,
+        200,
+        100,
+        100,
+        160
+      ],
+      "yoy": {
+        "month": "2026-08",
+        "cur": 100,
+        "prev": 0
+      }
+    },
+    {
       "name": "Saugwender (OTH012)",
       "cat": "Other",
       "loc": "Jhilmil",
@@ -8118,9 +8296,9 @@
       "totalOut": 1130,
       "currentStock": 4447,
       "dailyRate": 6.6,
-      "monthlyRate": 198,
-      "daysLeft": 673,
-      "reorderQty": 297,
+      "monthlyRate": 197,
+      "daysLeft": 677,
+      "reorderQty": 296,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -8194,6 +8372,95 @@
       ]
     },
     {
+      "name": "Door Pocket Big (HLD002)",
+      "cat": "Holder",
+      "loc": "Jhilmil",
+      "unit": "Pcs",
+      "totalIn": 2208,
+      "totalOut": 1119,
+      "currentStock": 1089,
+      "dailyRate": 6.5,
+      "monthlyRate": 195,
+      "daysLeft": 167,
+      "reorderQty": 293,
+      "periods": {
+        "7": {
+          "totalOut": 50,
+          "dailyRate": 7.1,
+          "monthlyRate": 214,
+          "daysLeft": 152,
+          "reorderQty": 321
+        },
+        "30": {
+          "totalOut": 100,
+          "dailyRate": 3.3,
+          "monthlyRate": 100,
+          "daysLeft": 327,
+          "reorderQty": 150
+        },
+        "90": {
+          "totalOut": 800,
+          "dailyRate": 8.9,
+          "monthlyRate": 267,
+          "daysLeft": 123,
+          "reorderQty": 400
+        }
+      },
+      "trend": [
+        100,
+        108,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        111,
+        100,
+        0,
+        100,
+        500,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        50,
+        50
+      ],
+      "monthlyOut": [
+        0,
+        246,
+        50,
+        200,
+        560,
+        83,
+        0,
+        0,
+        0,
+        0,
+        127,
+        502,
+        163,
+        208,
+        0,
+        211,
+        600,
+        0,
+        100
+      ],
+      "yoy": {
+        "month": "2026-08",
+        "cur": 0,
+        "prev": 83
+      }
+    },
+    {
       "name": "Lighter Indica (CL002)",
       "cat": "Cigarette Lighter",
       "loc": "Jhilmil",
@@ -8202,9 +8469,9 @@
       "totalOut": 1100,
       "currentStock": -150,
       "dailyRate": 6.4,
-      "monthlyRate": 193,
+      "monthlyRate": 192,
       "daysLeft": -23,
-      "reorderQty": 289,
+      "reorderQty": 288,
       "periods": {
         "7": {
           "totalOut": 300,
@@ -8286,9 +8553,9 @@
       "totalOut": 1100,
       "currentStock": 900,
       "dailyRate": 6.4,
-      "monthlyRate": 193,
-      "daysLeft": 140,
-      "reorderQty": 289,
+      "monthlyRate": 192,
+      "daysLeft": 141,
+      "reorderQty": 288,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -8367,184 +8634,6 @@
       }
     },
     {
-      "name": "Door Pocket Big (HLD002)",
-      "cat": "Holder",
-      "loc": "Jhilmil",
-      "unit": "Pcs",
-      "totalIn": 2208,
-      "totalOut": 1069,
-      "currentStock": 1139,
-      "dailyRate": 6.3,
-      "monthlyRate": 188,
-      "daysLeft": 182,
-      "reorderQty": 281,
-      "periods": {
-        "7": {
-          "totalOut": 0,
-          "dailyRate": 0,
-          "monthlyRate": 0,
-          "daysLeft": 9999,
-          "reorderQty": 0
-        },
-        "30": {
-          "totalOut": 50,
-          "dailyRate": 1.7,
-          "monthlyRate": 50,
-          "daysLeft": 683,
-          "reorderQty": 75
-        },
-        "90": {
-          "totalOut": 750,
-          "dailyRate": 8.3,
-          "monthlyRate": 250,
-          "daysLeft": 137,
-          "reorderQty": 375
-        }
-      },
-      "trend": [
-        100,
-        108,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        111,
-        100,
-        0,
-        100,
-        500,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        50,
-        0
-      ],
-      "monthlyOut": [
-        0,
-        246,
-        50,
-        200,
-        560,
-        83,
-        0,
-        0,
-        0,
-        0,
-        127,
-        502,
-        163,
-        208,
-        0,
-        211,
-        600,
-        0,
-        50
-      ],
-      "yoy": {
-        "month": "2026-08",
-        "cur": 0,
-        "prev": 83
-      }
-    },
-    {
-      "name": "Door Guard 3R-2184 (DG038)",
-      "cat": "Door Guard",
-      "loc": "Jhilmil",
-      "unit": "Pcs",
-      "totalIn": 3100,
-      "totalOut": 1060,
-      "currentStock": 2040,
-      "dailyRate": 6.2,
-      "monthlyRate": 186,
-      "daysLeft": 329,
-      "reorderQty": 279,
-      "periods": {
-        "7": {
-          "totalOut": 0,
-          "dailyRate": 0,
-          "monthlyRate": 0,
-          "daysLeft": 9999,
-          "reorderQty": 0
-        },
-        "30": {
-          "totalOut": 160,
-          "dailyRate": 5.3,
-          "monthlyRate": 160,
-          "daysLeft": 383,
-          "reorderQty": 240
-        },
-        "90": {
-          "totalOut": 260,
-          "dailyRate": 2.9,
-          "monthlyRate": 87,
-          "daysLeft": 706,
-          "reorderQty": 130
-        }
-      },
-      "trend": [
-        0,
-        100,
-        200,
-        0,
-        0,
-        100,
-        0,
-        200,
-        0,
-        200,
-        0,
-        0,
-        0,
-        0,
-        0,
-        100,
-        0,
-        0,
-        0,
-        0,
-        0,
-        100,
-        0,
-        60,
-        0
-      ],
-      "monthlyOut": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        460,
-        300,
-        520,
-        100,
-        0,
-        300,
-        300,
-        200,
-        100,
-        100,
-        60
-      ],
-      "yoy": {
-        "month": "2026-08",
-        "cur": 100,
-        "prev": 0
-      }
-    },
-    {
       "name": "Seat Side Gap Filler (OTH040)",
       "cat": "Other",
       "loc": "Jhilmil",
@@ -8553,9 +8642,9 @@
       "totalOut": 1058,
       "currentStock": 472,
       "dailyRate": 6.2,
-      "monthlyRate": 186,
-      "daysLeft": 76,
-      "reorderQty": 278,
+      "monthlyRate": 185,
+      "daysLeft": 77,
+      "reorderQty": 277,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -8641,10 +8730,10 @@
       "totalIn": 2400,
       "totalOut": 1056,
       "currentStock": 1344,
-      "dailyRate": 6.2,
-      "monthlyRate": 185,
-      "daysLeft": 218,
-      "reorderQty": 278,
+      "dailyRate": 6.1,
+      "monthlyRate": 184,
+      "daysLeft": 219,
+      "reorderQty": 276,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -8731,9 +8820,9 @@
       "totalOut": 1050,
       "currentStock": 500,
       "dailyRate": 6.1,
-      "monthlyRate": 184,
-      "daysLeft": 81,
-      "reorderQty": 276,
+      "monthlyRate": 183,
+      "daysLeft": 82,
+      "reorderQty": 275,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -8819,10 +8908,10 @@
       "totalIn": 1980,
       "totalOut": 1040,
       "currentStock": 940,
-      "dailyRate": 6.1,
-      "monthlyRate": 182,
+      "dailyRate": 6,
+      "monthlyRate": 181,
       "daysLeft": 155,
-      "reorderQty": 274,
+      "reorderQty": 272,
       "periods": {
         "7": {
           "totalOut": 180,
@@ -8909,9 +8998,9 @@
       "totalOut": 1000,
       "currentStock": 100,
       "dailyRate": 5.8,
-      "monthlyRate": 175,
+      "monthlyRate": 174,
       "daysLeft": 17,
-      "reorderQty": 263,
+      "reorderQty": 262,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -8998,9 +9087,9 @@
       "totalOut": 1000,
       "currentStock": 1000,
       "dailyRate": 5.8,
-      "monthlyRate": 175,
-      "daysLeft": 171,
-      "reorderQty": 263,
+      "monthlyRate": 174,
+      "daysLeft": 172,
+      "reorderQty": 262,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -9087,9 +9176,9 @@
       "totalOut": 1000,
       "currentStock": 600,
       "dailyRate": 5.8,
-      "monthlyRate": 175,
+      "monthlyRate": 174,
       "daysLeft": 103,
-      "reorderQty": 263,
+      "reorderQty": 262,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -9176,9 +9265,9 @@
       "totalOut": 996,
       "currentStock": 420,
       "dailyRate": 5.8,
-      "monthlyRate": 175,
-      "daysLeft": 72,
-      "reorderQty": 262,
+      "monthlyRate": 174,
+      "daysLeft": 73,
+      "reorderQty": 261,
       "periods": {
         "7": {
           "totalOut": 24,
@@ -9265,9 +9354,9 @@
       "totalOut": 965,
       "currentStock": 535,
       "dailyRate": 5.6,
-      "monthlyRate": 169,
+      "monthlyRate": 168,
       "daysLeft": 95,
-      "reorderQty": 254,
+      "reorderQty": 252,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -9346,6 +9435,95 @@
       }
     },
     {
+      "name": "Armrest Pad With Glass Holder (OTH060)",
+      "cat": "Other",
+      "loc": "Jhilmil",
+      "unit": "Pcs",
+      "totalIn": 2000,
+      "totalOut": 960,
+      "currentStock": 1040,
+      "dailyRate": 5.6,
+      "monthlyRate": 167,
+      "daysLeft": 186,
+      "reorderQty": 251,
+      "periods": {
+        "7": {
+          "totalOut": 26,
+          "dailyRate": 3.7,
+          "monthlyRate": 111,
+          "daysLeft": 280,
+          "reorderQty": 167
+        },
+        "30": {
+          "totalOut": 96,
+          "dailyRate": 3.2,
+          "monthlyRate": 96,
+          "daysLeft": 325,
+          "reorderQty": 144
+        },
+        "90": {
+          "totalOut": 585,
+          "dailyRate": 6.5,
+          "monthlyRate": 195,
+          "daysLeft": 160,
+          "reorderQty": 293
+        }
+      },
+      "trend": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        238,
+        537,
+        20,
+        50,
+        10,
+        0,
+        4,
+        0,
+        0,
+        5,
+        0,
+        0,
+        60,
+        25,
+        11
+      ],
+      "monthlyOut": [
+        0,
+        0,
+        0,
+        0,
+        31,
+        34,
+        207,
+        29,
+        6,
+        18,
+        10,
+        601,
+        0,
+        0,
+        0,
+        795,
+        64,
+        5,
+        96
+      ],
+      "yoy": {
+        "month": "2026-08",
+        "cur": 5,
+        "prev": 34
+      }
+    },
+    {
       "name": "Dashboard Show Flag (DS004)",
       "cat": "Dashboard Show",
       "loc": "Jhilmil",
@@ -9353,10 +9531,10 @@
       "totalIn": 3000,
       "totalOut": 950,
       "currentStock": 2050,
-      "dailyRate": 5.6,
-      "monthlyRate": 167,
-      "daysLeft": 369,
-      "reorderQty": 250,
+      "dailyRate": 5.5,
+      "monthlyRate": 166,
+      "daysLeft": 371,
+      "reorderQty": 249,
       "periods": {
         "7": {
           "totalOut": 50,
@@ -9435,95 +9613,6 @@
       }
     },
     {
-      "name": "Armrest Pad With Glass Holder (OTH060)",
-      "cat": "Other",
-      "loc": "Jhilmil",
-      "unit": "Pcs",
-      "totalIn": 2000,
-      "totalOut": 949,
-      "currentStock": 1051,
-      "dailyRate": 5.5,
-      "monthlyRate": 166,
-      "daysLeft": 189,
-      "reorderQty": 250,
-      "periods": {
-        "7": {
-          "totalOut": 15,
-          "dailyRate": 2.1,
-          "monthlyRate": 64,
-          "daysLeft": 490,
-          "reorderQty": 96
-        },
-        "30": {
-          "totalOut": 85,
-          "dailyRate": 2.8,
-          "monthlyRate": 85,
-          "daysLeft": 371,
-          "reorderQty": 128
-        },
-        "90": {
-          "totalOut": 574,
-          "dailyRate": 6.4,
-          "monthlyRate": 191,
-          "daysLeft": 165,
-          "reorderQty": 287
-        }
-      },
-      "trend": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        238,
-        537,
-        20,
-        50,
-        10,
-        0,
-        4,
-        0,
-        0,
-        5,
-        0,
-        0,
-        60,
-        25,
-        0
-      ],
-      "monthlyOut": [
-        0,
-        0,
-        0,
-        0,
-        31,
-        34,
-        207,
-        29,
-        6,
-        18,
-        10,
-        601,
-        0,
-        0,
-        0,
-        795,
-        64,
-        5,
-        85
-      ],
-      "yoy": {
-        "month": "2026-08",
-        "cur": 5,
-        "prev": 34
-      }
-    },
-    {
       "name": "32107 Creation (BD002)",
       "cat": "Beading",
       "loc": "Jhilmil",
@@ -9532,9 +9621,9 @@
       "totalOut": 930,
       "currentStock": 3445,
       "dailyRate": 5.4,
-      "monthlyRate": 163,
-      "daysLeft": 633,
-      "reorderQty": 245,
+      "monthlyRate": 162,
+      "daysLeft": 637,
+      "reorderQty": 243,
       "periods": {
         "7": {
           "totalOut": 50,
@@ -9621,9 +9710,9 @@
       "totalOut": 924,
       "currentStock": -924,
       "dailyRate": 5.4,
-      "monthlyRate": 162,
-      "daysLeft": -171,
-      "reorderQty": 243,
+      "monthlyRate": 161,
+      "daysLeft": -172,
+      "reorderQty": 242,
       "periods": {
         "7": {
           "totalOut": 500,
@@ -9710,9 +9799,9 @@
       "totalOut": 910,
       "currentStock": 1034,
       "dailyRate": 5.3,
-      "monthlyRate": 160,
-      "daysLeft": 194,
-      "reorderQty": 239,
+      "monthlyRate": 159,
+      "daysLeft": 195,
+      "reorderQty": 238,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -9799,9 +9888,9 @@
       "totalOut": 910,
       "currentStock": 1188,
       "dailyRate": 5.3,
-      "monthlyRate": 160,
-      "daysLeft": 223,
-      "reorderQty": 239,
+      "monthlyRate": 159,
+      "daysLeft": 225,
+      "reorderQty": 238,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -9887,10 +9976,10 @@
       "totalIn": 1100,
       "totalOut": 900,
       "currentStock": 200,
-      "dailyRate": 5.3,
-      "monthlyRate": 158,
+      "dailyRate": 5.2,
+      "monthlyRate": 157,
       "daysLeft": 38,
-      "reorderQty": 237,
+      "reorderQty": 235,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -9969,6 +10058,95 @@
       }
     },
     {
+      "name": "Neck Rest Sparco (OTH066)",
+      "cat": "Other",
+      "loc": "Jhilmil",
+      "unit": "Pcs",
+      "totalIn": 1161,
+      "totalOut": 900,
+      "currentStock": 261,
+      "dailyRate": 5.2,
+      "monthlyRate": 157,
+      "daysLeft": 50,
+      "reorderQty": 235,
+      "periods": {
+        "7": {
+          "totalOut": 339,
+          "dailyRate": 48.4,
+          "monthlyRate": 1453,
+          "daysLeft": 5,
+          "reorderQty": 2179
+        },
+        "30": {
+          "totalOut": 343,
+          "dailyRate": 11.4,
+          "monthlyRate": 343,
+          "daysLeft": 23,
+          "reorderQty": 515
+        },
+        "90": {
+          "totalOut": 839,
+          "dailyRate": 9.3,
+          "monthlyRate": 280,
+          "daysLeft": 28,
+          "reorderQty": 420
+        }
+      },
+      "trend": [
+        0,
+        5,
+        0,
+        12,
+        10,
+        0,
+        0,
+        34,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        100,
+        366,
+        0,
+        20,
+        10,
+        0,
+        4,
+        0,
+        0,
+        15,
+        324
+      ],
+      "monthlyOut": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        70,
+        61,
+        112,
+        80,
+        16,
+        17,
+        44,
+        0,
+        476,
+        24,
+        339
+      ],
+      "yoy": {
+        "month": "2026-08",
+        "cur": 24,
+        "prev": 0
+      }
+    },
+    {
       "name": "Show Antenna 5413 (SA004)",
       "cat": "Show Antenna",
       "loc": "Jhilmil",
@@ -9976,10 +10154,10 @@
       "totalIn": 0,
       "totalOut": 900,
       "currentStock": -900,
-      "dailyRate": 5.3,
-      "monthlyRate": 158,
-      "daysLeft": -171,
-      "reorderQty": 237,
+      "dailyRate": 5.2,
+      "monthlyRate": 157,
+      "daysLeft": -172,
+      "reorderQty": 235,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -10065,10 +10243,10 @@
       "totalIn": 2100,
       "totalOut": 900,
       "currentStock": 1200,
-      "dailyRate": 5.3,
-      "monthlyRate": 158,
-      "daysLeft": 228,
-      "reorderQty": 237,
+      "dailyRate": 5.2,
+      "monthlyRate": 157,
+      "daysLeft": 229,
+      "reorderQty": 235,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -10155,9 +10333,9 @@
       "totalOut": 880,
       "currentStock": 448,
       "dailyRate": 5.1,
-      "monthlyRate": 154,
-      "daysLeft": 87,
-      "reorderQty": 232,
+      "monthlyRate": 153,
+      "daysLeft": 88,
+      "reorderQty": 230,
       "periods": {
         "7": {
           "totalOut": 20,
@@ -10236,6 +10414,95 @@
       }
     },
     {
+      "name": "Door Pocket Small (HLD003)",
+      "cat": "Holder",
+      "loc": "Jhilmil",
+      "unit": "Pcs",
+      "totalIn": 2040,
+      "totalOut": 878,
+      "currentStock": 1162,
+      "dailyRate": 5.1,
+      "monthlyRate": 153,
+      "daysLeft": 228,
+      "reorderQty": 230,
+      "periods": {
+        "7": {
+          "totalOut": 50,
+          "dailyRate": 7.1,
+          "monthlyRate": 214,
+          "daysLeft": 163,
+          "reorderQty": 321
+        },
+        "30": {
+          "totalOut": 198,
+          "dailyRate": 6.6,
+          "monthlyRate": 198,
+          "daysLeft": 176,
+          "reorderQty": 297
+        },
+        "90": {
+          "totalOut": 688,
+          "dailyRate": 7.6,
+          "monthlyRate": 229,
+          "daysLeft": 152,
+          "reorderQty": 344
+        }
+      },
+      "trend": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        180,
+        10,
+        0,
+        0,
+        490,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        148,
+        50
+      ],
+      "monthlyOut": [
+        0,
+        1844,
+        1080,
+        360,
+        768,
+        200,
+        0,
+        0,
+        72,
+        237,
+        718,
+        909,
+        0,
+        0,
+        0,
+        190,
+        490,
+        0,
+        198
+      ],
+      "yoy": {
+        "month": "2026-08",
+        "cur": 0,
+        "prev": 200
+      }
+    },
+    {
       "name": "Dbs 3N (CP001)",
       "cat": "Car Polish",
       "loc": "Vivek Vihar",
@@ -10243,10 +10510,10 @@
       "totalIn": 6232,
       "totalOut": 864,
       "currentStock": 5368,
-      "dailyRate": 5.1,
-      "monthlyRate": 152,
-      "daysLeft": 1062,
-      "reorderQty": 227,
+      "dailyRate": 5,
+      "monthlyRate": 151,
+      "daysLeft": 1069,
+      "reorderQty": 226,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -10333,9 +10600,9 @@
       "totalOut": 860,
       "currentStock": 90,
       "dailyRate": 5,
-      "monthlyRate": 151,
+      "monthlyRate": 150,
       "daysLeft": 18,
-      "reorderQty": 226,
+      "reorderQty": 225,
       "periods": {
         "7": {
           "totalOut": 100,
@@ -10421,10 +10688,10 @@
       "totalIn": 990,
       "totalOut": 850,
       "currentStock": 140,
-      "dailyRate": 5,
-      "monthlyRate": 149,
+      "dailyRate": 4.9,
+      "monthlyRate": 148,
       "daysLeft": 28,
-      "reorderQty": 224,
+      "reorderQty": 222,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -10510,10 +10777,10 @@
       "totalIn": 896,
       "totalOut": 834,
       "currentStock": 62,
-      "dailyRate": 4.9,
-      "monthlyRate": 146,
+      "dailyRate": 4.8,
+      "monthlyRate": 145,
       "daysLeft": 13,
-      "reorderQty": 219,
+      "reorderQty": 218,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -10594,10 +10861,10 @@
       "totalIn": 6100,
       "totalOut": 830,
       "currentStock": 5270,
-      "dailyRate": 4.9,
-      "monthlyRate": 146,
-      "daysLeft": 1086,
-      "reorderQty": 218,
+      "dailyRate": 4.8,
+      "monthlyRate": 145,
+      "daysLeft": 1092,
+      "reorderQty": 217,
       "periods": {
         "7": {
           "totalOut": 248,
@@ -10676,95 +10943,6 @@
       }
     },
     {
-      "name": "Door Pocket Small (HLD003)",
-      "cat": "Holder",
-      "loc": "Jhilmil",
-      "unit": "Pcs",
-      "totalIn": 2040,
-      "totalOut": 828,
-      "currentStock": 1212,
-      "dailyRate": 4.8,
-      "monthlyRate": 145,
-      "daysLeft": 250,
-      "reorderQty": 218,
-      "periods": {
-        "7": {
-          "totalOut": 0,
-          "dailyRate": 0,
-          "monthlyRate": 0,
-          "daysLeft": 9999,
-          "reorderQty": 0
-        },
-        "30": {
-          "totalOut": 148,
-          "dailyRate": 4.9,
-          "monthlyRate": 148,
-          "daysLeft": 246,
-          "reorderQty": 222
-        },
-        "90": {
-          "totalOut": 648,
-          "dailyRate": 7.2,
-          "monthlyRate": 216,
-          "daysLeft": 168,
-          "reorderQty": 324
-        }
-      },
-      "trend": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        180,
-        10,
-        0,
-        0,
-        490,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        148,
-        0
-      ],
-      "monthlyOut": [
-        0,
-        1844,
-        1080,
-        360,
-        768,
-        200,
-        0,
-        0,
-        72,
-        237,
-        718,
-        909,
-        0,
-        0,
-        0,
-        190,
-        490,
-        0,
-        148
-      ],
-      "yoy": {
-        "month": "2026-08",
-        "cur": 0,
-        "prev": 200
-      }
-    },
-    {
       "name": "Solar Helicoptor Square Base (SOL010)",
       "cat": "Solar Perfume",
       "loc": "Jhilmil",
@@ -10773,9 +10951,9 @@
       "totalOut": 825,
       "currentStock": -98,
       "dailyRate": 4.8,
-      "monthlyRate": 145,
+      "monthlyRate": 144,
       "daysLeft": -20,
-      "reorderQty": 217,
+      "reorderQty": 216,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -10864,7 +11042,7 @@
       "dailyRate": 4.7,
       "monthlyRate": 140,
       "daysLeft": 86,
-      "reorderQty": 211,
+      "reorderQty": 209,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -10953,7 +11131,7 @@
       "dailyRate": 4.7,
       "monthlyRate": 140,
       "daysLeft": 0,
-      "reorderQty": 211,
+      "reorderQty": 209,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -11027,95 +11205,6 @@
       ]
     },
     {
-      "name": "Wheel Brush Straight (DST006)",
-      "cat": "Duster And Brush",
-      "loc": "Jhilmil",
-      "unit": "Pcs",
-      "totalIn": 1872,
-      "totalOut": 798,
-      "currentStock": 1074,
-      "dailyRate": 4.7,
-      "monthlyRate": 140,
-      "daysLeft": 230,
-      "reorderQty": 210,
-      "periods": {
-        "7": {
-          "totalOut": 0,
-          "dailyRate": 0,
-          "monthlyRate": 0,
-          "daysLeft": 9999,
-          "reorderQty": 0
-        },
-        "30": {
-          "totalOut": 50,
-          "dailyRate": 1.7,
-          "monthlyRate": 50,
-          "daysLeft": 644,
-          "reorderQty": 75
-        },
-        "90": {
-          "totalOut": 266,
-          "dailyRate": 3,
-          "monthlyRate": 89,
-          "daysLeft": 363,
-          "reorderQty": 133
-        }
-      },
-      "trend": [
-        0,
-        0,
-        100,
-        0,
-        108,
-        0,
-        0,
-        108,
-        216,
-        0,
-        0,
-        108,
-        0,
-        0,
-        108,
-        0,
-        0,
-        0,
-        0,
-        0,
-        50,
-        0,
-        0,
-        0,
-        0
-      ],
-      "monthlyOut": [
-        0,
-        216,
-        108,
-        432,
-        216,
-        0,
-        0,
-        0,
-        324,
-        540,
-        216,
-        216,
-        72,
-        100,
-        432,
-        108,
-        108,
-        50,
-        0
-      ],
-      "yoy": {
-        "month": "2026-08",
-        "cur": 50,
-        "prev": 0
-      }
-    },
-    {
       "name": "Perfume Eagle (PRF018)",
       "cat": "Perfume",
       "loc": "Jhilmil",
@@ -11124,9 +11213,9 @@
       "totalOut": 770,
       "currentStock": 430,
       "dailyRate": 4.5,
-      "monthlyRate": 135,
-      "daysLeft": 95,
-      "reorderQty": 203,
+      "monthlyRate": 134,
+      "daysLeft": 96,
+      "reorderQty": 201,
       "periods": {
         "7": {
           "totalOut": 120,
@@ -11214,8 +11303,8 @@
       "currentStock": 410,
       "dailyRate": 4.4,
       "monthlyRate": 133,
-      "daysLeft": 92,
-      "reorderQty": 200,
+      "daysLeft": 93,
+      "reorderQty": 199,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -11294,95 +11383,6 @@
       }
     },
     {
-      "name": "Neck Rest Sparco (OTH066)",
-      "cat": "Other",
-      "loc": "Jhilmil",
-      "unit": "Pcs",
-      "totalIn": 1161,
-      "totalOut": 738,
-      "currentStock": 423,
-      "dailyRate": 4.3,
-      "monthlyRate": 129,
-      "daysLeft": 98,
-      "reorderQty": 194,
-      "periods": {
-        "7": {
-          "totalOut": 177,
-          "dailyRate": 25.3,
-          "monthlyRate": 759,
-          "daysLeft": 17,
-          "reorderQty": 1138
-        },
-        "30": {
-          "totalOut": 181,
-          "dailyRate": 6,
-          "monthlyRate": 181,
-          "daysLeft": 70,
-          "reorderQty": 272
-        },
-        "90": {
-          "totalOut": 677,
-          "dailyRate": 7.5,
-          "monthlyRate": 226,
-          "daysLeft": 56,
-          "reorderQty": 339
-        }
-      },
-      "trend": [
-        0,
-        5,
-        0,
-        12,
-        10,
-        0,
-        0,
-        34,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        100,
-        366,
-        0,
-        20,
-        10,
-        0,
-        4,
-        0,
-        0,
-        15,
-        162
-      ],
-      "monthlyOut": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        70,
-        61,
-        112,
-        80,
-        16,
-        17,
-        44,
-        0,
-        476,
-        24,
-        177
-      ],
-      "yoy": {
-        "month": "2026-08",
-        "cur": 24,
-        "prev": 0
-      }
-    },
-    {
       "name": "Gear Knob Round Ring - 0537 (GK012)",
       "cat": "Gear Knob",
       "loc": "Jhilmil",
@@ -11393,7 +11393,7 @@
       "dailyRate": 4.2,
       "monthlyRate": 126,
       "daysLeft": 86,
-      "reorderQty": 189,
+      "reorderQty": 188,
       "periods": {
         "7": {
           "totalOut": 50,
@@ -11480,9 +11480,9 @@
       "totalOut": 708,
       "currentStock": 6456,
       "dailyRate": 4.1,
-      "monthlyRate": 124,
-      "daysLeft": 1559,
-      "reorderQty": 186,
+      "monthlyRate": 123,
+      "daysLeft": 1568,
+      "reorderQty": 185,
       "periods": {
         "7": {
           "totalOut": 116,
@@ -11564,9 +11564,9 @@
       "totalOut": 700,
       "currentStock": 955,
       "dailyRate": 4.1,
-      "monthlyRate": 123,
-      "daysLeft": 233,
-      "reorderQty": 184,
+      "monthlyRate": 122,
+      "daysLeft": 235,
+      "reorderQty": 183,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -11653,9 +11653,9 @@
       "totalOut": 700,
       "currentStock": 700,
       "dailyRate": 4.1,
-      "monthlyRate": 123,
-      "daysLeft": 171,
-      "reorderQty": 184,
+      "monthlyRate": 122,
+      "daysLeft": 172,
+      "reorderQty": 183,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -11742,9 +11742,9 @@
       "totalOut": 670,
       "currentStock": 515,
       "dailyRate": 3.9,
-      "monthlyRate": 118,
-      "daysLeft": 131,
-      "reorderQty": 176,
+      "monthlyRate": 117,
+      "daysLeft": 132,
+      "reorderQty": 175,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -11832,8 +11832,8 @@
       "currentStock": 1060,
       "dailyRate": 3.9,
       "monthlyRate": 116,
-      "daysLeft": 273,
-      "reorderQty": 175,
+      "daysLeft": 275,
+      "reorderQty": 174,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -11920,9 +11920,9 @@
       "totalOut": 655,
       "currentStock": 245,
       "dailyRate": 3.8,
-      "monthlyRate": 115,
+      "monthlyRate": 114,
       "daysLeft": 64,
-      "reorderQty": 172,
+      "reorderQty": 171,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -12010,8 +12010,8 @@
       "currentStock": 590,
       "dailyRate": 3.7,
       "monthlyRate": 112,
-      "daysLeft": 158,
-      "reorderQty": 168,
+      "daysLeft": 159,
+      "reorderQty": 167,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -12099,8 +12099,8 @@
       "currentStock": 550,
       "dailyRate": 3.7,
       "monthlyRate": 112,
-      "daysLeft": 147,
-      "reorderQty": 168,
+      "daysLeft": 148,
+      "reorderQty": 167,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -12187,9 +12187,9 @@
       "totalOut": 636,
       "currentStock": 1476,
       "dailyRate": 3.7,
-      "monthlyRate": 112,
-      "daysLeft": 397,
-      "reorderQty": 167,
+      "monthlyRate": 111,
+      "daysLeft": 399,
+      "reorderQty": 166,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -12276,9 +12276,9 @@
       "totalOut": 630,
       "currentStock": 425,
       "dailyRate": 3.7,
-      "monthlyRate": 111,
-      "daysLeft": 115,
-      "reorderQty": 166,
+      "monthlyRate": 110,
+      "daysLeft": 116,
+      "reorderQty": 165,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -12364,9 +12364,9 @@
       "totalIn": 4300,
       "totalOut": 625,
       "currentStock": 3675,
-      "dailyRate": 3.7,
-      "monthlyRate": 110,
-      "daysLeft": 1005,
+      "dailyRate": 3.6,
+      "monthlyRate": 109,
+      "daysLeft": 1011,
       "reorderQty": 164,
       "periods": {
         "7": {
@@ -12454,9 +12454,9 @@
       "totalOut": 620,
       "currentStock": 790,
       "dailyRate": 3.6,
-      "monthlyRate": 109,
-      "daysLeft": 218,
-      "reorderQty": 163,
+      "monthlyRate": 108,
+      "daysLeft": 219,
+      "reorderQty": 162,
       "periods": {
         "7": {
           "totalOut": 40,
@@ -12543,9 +12543,9 @@
       "totalOut": 615,
       "currentStock": 2536,
       "dailyRate": 3.6,
-      "monthlyRate": 108,
-      "daysLeft": 705,
-      "reorderQty": 162,
+      "monthlyRate": 107,
+      "daysLeft": 709,
+      "reorderQty": 161,
       "periods": {
         "7": {
           "totalOut": 35,
@@ -12631,10 +12631,10 @@
       "totalIn": 743,
       "totalOut": 608,
       "currentStock": 135,
-      "dailyRate": 3.6,
-      "monthlyRate": 107,
+      "dailyRate": 3.5,
+      "monthlyRate": 106,
       "daysLeft": 38,
-      "reorderQty": 160,
+      "reorderQty": 159,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -12722,8 +12722,8 @@
       "currentStock": 400,
       "dailyRate": 3.5,
       "monthlyRate": 105,
-      "daysLeft": 114,
-      "reorderQty": 158,
+      "daysLeft": 115,
+      "reorderQty": 157,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -12809,10 +12809,10 @@
       "totalIn": 2632,
       "totalOut": 590,
       "currentStock": 2042,
-      "dailyRate": 3.5,
-      "monthlyRate": 104,
-      "daysLeft": 592,
-      "reorderQty": 155,
+      "dailyRate": 3.4,
+      "monthlyRate": 103,
+      "daysLeft": 595,
+      "reorderQty": 154,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -12899,7 +12899,7 @@
       "totalOut": 587,
       "currentStock": -31,
       "dailyRate": 3.4,
-      "monthlyRate": 103,
+      "monthlyRate": 102,
       "daysLeft": -9,
       "reorderQty": 154,
       "periods": {
@@ -12988,9 +12988,9 @@
       "totalOut": 580,
       "currentStock": 90,
       "dailyRate": 3.4,
-      "monthlyRate": 102,
+      "monthlyRate": 101,
       "daysLeft": 27,
-      "reorderQty": 153,
+      "reorderQty": 152,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -13077,9 +13077,9 @@
       "totalOut": 580,
       "currentStock": 380,
       "dailyRate": 3.4,
-      "monthlyRate": 102,
-      "daysLeft": 112,
-      "reorderQty": 153,
+      "monthlyRate": 101,
+      "daysLeft": 113,
+      "reorderQty": 152,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -13165,10 +13165,10 @@
       "totalIn": 1440,
       "totalOut": 576,
       "currentStock": 864,
-      "dailyRate": 3.4,
-      "monthlyRate": 101,
-      "daysLeft": 257,
-      "reorderQty": 152,
+      "dailyRate": 3.3,
+      "monthlyRate": 100,
+      "daysLeft": 258,
+      "reorderQty": 151,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -13254,10 +13254,10 @@
       "totalIn": 864,
       "totalOut": 576,
       "currentStock": 288,
-      "dailyRate": 3.4,
-      "monthlyRate": 101,
+      "dailyRate": 3.3,
+      "monthlyRate": 100,
       "daysLeft": 86,
-      "reorderQty": 152,
+      "reorderQty": 151,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -13523,7 +13523,7 @@
       "currentStock": 410,
       "dailyRate": 3.3,
       "monthlyRate": 98,
-      "daysLeft": 125,
+      "daysLeft": 126,
       "reorderQty": 147,
       "periods": {
         "7": {
@@ -13695,8 +13695,8 @@
       "totalOut": 545,
       "currentStock": 835,
       "dailyRate": 3.2,
-      "monthlyRate": 96,
-      "daysLeft": 262,
+      "monthlyRate": 95,
+      "daysLeft": 264,
       "reorderQty": 143,
       "periods": {
         "7": {
@@ -13783,10 +13783,10 @@
       "totalIn": 1260,
       "totalOut": 540,
       "currentStock": 720,
-      "dailyRate": 3.2,
-      "monthlyRate": 95,
-      "daysLeft": 228,
-      "reorderQty": 142,
+      "dailyRate": 3.1,
+      "monthlyRate": 94,
+      "daysLeft": 229,
+      "reorderQty": 141,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -13865,6 +13865,184 @@
       }
     },
     {
+      "name": "Steering Hub (SK001)",
+      "cat": "Steering Knob",
+      "loc": "Jhilmil",
+      "unit": "Pcs",
+      "totalIn": 1150,
+      "totalOut": 534,
+      "currentStock": 616,
+      "dailyRate": 3.1,
+      "monthlyRate": 93,
+      "daysLeft": 198,
+      "reorderQty": 140,
+      "periods": {
+        "7": {
+          "totalOut": 72,
+          "dailyRate": 10.3,
+          "monthlyRate": 309,
+          "daysLeft": 60,
+          "reorderQty": 463
+        },
+        "30": {
+          "totalOut": 108,
+          "dailyRate": 3.6,
+          "monthlyRate": 108,
+          "daysLeft": 171,
+          "reorderQty": 162
+        },
+        "90": {
+          "totalOut": 288,
+          "dailyRate": 3.2,
+          "monthlyRate": 96,
+          "daysLeft": 193,
+          "reorderQty": 144
+        }
+      },
+      "trend": [
+        70,
+        0,
+        0,
+        0,
+        0,
+        0,
+        36,
+        68,
+        0,
+        36,
+        36,
+        0,
+        0,
+        0,
+        72,
+        36,
+        0,
+        36,
+        36,
+        0,
+        0,
+        36,
+        0,
+        36,
+        36
+      ],
+      "monthlyOut": [
+        0,
+        108,
+        0,
+        0,
+        108,
+        280,
+        72,
+        36,
+        180,
+        108,
+        36,
+        118,
+        72,
+        70,
+        104,
+        72,
+        144,
+        72,
+        72
+      ],
+      "yoy": {
+        "month": "2026-08",
+        "cur": 72,
+        "prev": 280
+      }
+    },
+    {
+      "name": "Air Flow Xsl 001 (AF017)",
+      "cat": "Air Flow",
+      "loc": "Jhilmil",
+      "unit": "Pcs",
+      "totalIn": 1000,
+      "totalOut": 500,
+      "currentStock": 500,
+      "dailyRate": 2.9,
+      "monthlyRate": 87,
+      "daysLeft": 172,
+      "reorderQty": 131,
+      "periods": {
+        "7": {
+          "totalOut": 100,
+          "dailyRate": 14.3,
+          "monthlyRate": 429,
+          "daysLeft": 35,
+          "reorderQty": 643
+        },
+        "30": {
+          "totalOut": 300,
+          "dailyRate": 10,
+          "monthlyRate": 300,
+          "daysLeft": 50,
+          "reorderQty": 450
+        },
+        "90": {
+          "totalOut": 400,
+          "dailyRate": 4.4,
+          "monthlyRate": 133,
+          "daysLeft": 113,
+          "reorderQty": 200
+        }
+      },
+      "trend": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        100,
+        0,
+        0,
+        0,
+        0,
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        100,
+        100,
+        0,
+        100
+      ],
+      "monthlyOut": [
+        0,
+        31,
+        0,
+        40,
+        190,
+        0,
+        100,
+        70,
+        200,
+        100,
+        200,
+        100,
+        0,
+        0,
+        0,
+        100,
+        100,
+        100,
+        200
+      ],
+      "yoy": {
+        "month": "2026-08",
+        "cur": 100,
+        "prev": 0
+      }
+    },
+    {
       "name": "Dashboard Joker Big (DS005)",
       "cat": "Dashboard Show",
       "loc": "Jhilmil",
@@ -13873,9 +14051,9 @@
       "totalOut": 500,
       "currentStock": 400,
       "dailyRate": 2.9,
-      "monthlyRate": 88,
-      "daysLeft": 137,
-      "reorderQty": 132,
+      "monthlyRate": 87,
+      "daysLeft": 138,
+      "reorderQty": 131,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -13957,9 +14135,9 @@
       "totalOut": 500,
       "currentStock": 0,
       "dailyRate": 2.9,
-      "monthlyRate": 88,
+      "monthlyRate": 87,
       "daysLeft": 0,
-      "reorderQty": 132,
+      "reorderQty": 131,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -14038,95 +14216,6 @@
       }
     },
     {
-      "name": "Steering Hub (SK001)",
-      "cat": "Steering Knob",
-      "loc": "Jhilmil",
-      "unit": "Pcs",
-      "totalIn": 1150,
-      "totalOut": 498,
-      "currentStock": 652,
-      "dailyRate": 2.9,
-      "monthlyRate": 87,
-      "daysLeft": 224,
-      "reorderQty": 131,
-      "periods": {
-        "7": {
-          "totalOut": 36,
-          "dailyRate": 5.1,
-          "monthlyRate": 154,
-          "daysLeft": 127,
-          "reorderQty": 231
-        },
-        "30": {
-          "totalOut": 72,
-          "dailyRate": 2.4,
-          "monthlyRate": 72,
-          "daysLeft": 272,
-          "reorderQty": 108
-        },
-        "90": {
-          "totalOut": 252,
-          "dailyRate": 2.8,
-          "monthlyRate": 84,
-          "daysLeft": 233,
-          "reorderQty": 126
-        }
-      },
-      "trend": [
-        70,
-        0,
-        0,
-        0,
-        0,
-        0,
-        36,
-        68,
-        0,
-        36,
-        36,
-        0,
-        0,
-        0,
-        72,
-        36,
-        0,
-        36,
-        36,
-        0,
-        0,
-        36,
-        0,
-        36,
-        0
-      ],
-      "monthlyOut": [
-        0,
-        108,
-        0,
-        0,
-        108,
-        280,
-        72,
-        36,
-        180,
-        108,
-        36,
-        118,
-        72,
-        70,
-        104,
-        72,
-        144,
-        72,
-        36
-      ],
-      "yoy": {
-        "month": "2026-08",
-        "cur": 72,
-        "prev": 280
-      }
-    },
-    {
       "name": "Seat Belt Roll (OTH081)",
       "cat": "Other",
       "loc": "A9",
@@ -14135,9 +14224,9 @@
       "totalOut": 482,
       "currentStock": 418,
       "dailyRate": 2.8,
-      "monthlyRate": 85,
-      "daysLeft": 148,
-      "reorderQty": 127,
+      "monthlyRate": 84,
+      "daysLeft": 149,
+      "reorderQty": 126,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -14224,7 +14313,7 @@
       "totalOut": 476,
       "currentStock": 74,
       "dailyRate": 2.8,
-      "monthlyRate": 84,
+      "monthlyRate": 83,
       "daysLeft": 27,
       "reorderQty": 125,
       "periods": {
@@ -14243,11 +14332,11 @@
           "reorderQty": 0
         },
         "90": {
-          "totalOut": 246,
-          "dailyRate": 2.7,
-          "monthlyRate": 82,
-          "daysLeft": 27,
-          "reorderQty": 123
+          "totalOut": 196,
+          "dailyRate": 2.2,
+          "monthlyRate": 65,
+          "daysLeft": 34,
+          "reorderQty": 98
         }
       },
       "trend": [
@@ -14315,7 +14404,7 @@
       "dailyRate": 2.7,
       "monthlyRate": 82,
       "daysLeft": 11,
-      "reorderQty": 124,
+      "reorderQty": 123,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -14398,7 +14487,7 @@
       "currentStock": 620,
       "dailyRate": 2.7,
       "monthlyRate": 82,
-      "daysLeft": 226,
+      "daysLeft": 227,
       "reorderQty": 123,
       "periods": {
         "7": {
@@ -14487,8 +14576,8 @@
       "currentStock": 756,
       "dailyRate": 2.7,
       "monthlyRate": 80,
-      "daysLeft": 284,
-      "reorderQty": 120,
+      "daysLeft": 285,
+      "reorderQty": 119,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -14575,8 +14664,8 @@
       "totalOut": 450,
       "currentStock": 550,
       "dailyRate": 2.6,
-      "monthlyRate": 79,
-      "daysLeft": 209,
+      "monthlyRate": 78,
+      "daysLeft": 210,
       "reorderQty": 118,
       "periods": {
         "7": {
@@ -14660,8 +14749,8 @@
       "currentStock": 2555,
       "dailyRate": 2.6,
       "monthlyRate": 78,
-      "daysLeft": 982,
-      "reorderQty": 117,
+      "daysLeft": 988,
+      "reorderQty": 116,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -14744,7 +14833,7 @@
       "currentStock": 230,
       "dailyRate": 2.5,
       "monthlyRate": 75,
-      "daysLeft": 91,
+      "daysLeft": 92,
       "reorderQty": 113,
       "periods": {
         "7": {
@@ -14831,10 +14920,10 @@
       "totalIn": 1319,
       "totalOut": 421,
       "currentStock": 898,
-      "dailyRate": 2.5,
-      "monthlyRate": 74,
-      "daysLeft": 365,
-      "reorderQty": 111,
+      "dailyRate": 2.4,
+      "monthlyRate": 73,
+      "daysLeft": 367,
+      "reorderQty": 110,
       "periods": {
         "7": {
           "totalOut": 10,
@@ -14851,11 +14940,11 @@
           "reorderQty": 120
         },
         "90": {
-          "totalOut": 143,
-          "dailyRate": 1.6,
-          "monthlyRate": 48,
-          "daysLeft": 565,
-          "reorderQty": 72
+          "totalOut": 123,
+          "dailyRate": 1.4,
+          "monthlyRate": 41,
+          "daysLeft": 657,
+          "reorderQty": 62
         }
       },
       "trend": [
@@ -14922,7 +15011,7 @@
       "currentStock": 959,
       "dailyRate": 2.4,
       "monthlyRate": 73,
-      "daysLeft": 394,
+      "daysLeft": 397,
       "reorderQty": 109,
       "periods": {
         "7": {
@@ -14999,95 +15088,6 @@
         "month": "2026-08",
         "cur": 250,
         "prev": 70
-      }
-    },
-    {
-      "name": "Air Flow Xsl 001 (AF017)",
-      "cat": "Air Flow",
-      "loc": "Jhilmil",
-      "unit": "Pcs",
-      "totalIn": 1000,
-      "totalOut": 400,
-      "currentStock": 600,
-      "dailyRate": 2.3,
-      "monthlyRate": 70,
-      "daysLeft": 257,
-      "reorderQty": 105,
-      "periods": {
-        "7": {
-          "totalOut": 0,
-          "dailyRate": 0,
-          "monthlyRate": 0,
-          "daysLeft": 9999,
-          "reorderQty": 0
-        },
-        "30": {
-          "totalOut": 200,
-          "dailyRate": 6.7,
-          "monthlyRate": 200,
-          "daysLeft": 90,
-          "reorderQty": 300
-        },
-        "90": {
-          "totalOut": 300,
-          "dailyRate": 3.3,
-          "monthlyRate": 100,
-          "daysLeft": 180,
-          "reorderQty": 150
-        }
-      },
-      "trend": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        100,
-        0,
-        0,
-        0,
-        0,
-        100,
-        0,
-        0,
-        0,
-        0,
-        0,
-        100,
-        100,
-        0,
-        0
-      ],
-      "monthlyOut": [
-        0,
-        31,
-        0,
-        40,
-        190,
-        0,
-        100,
-        70,
-        200,
-        100,
-        200,
-        100,
-        0,
-        0,
-        0,
-        100,
-        100,
-        100,
-        100
-      ],
-      "yoy": {
-        "month": "2026-08",
-        "cur": 100,
-        "prev": 0
       }
     },
     {
@@ -15184,7 +15184,7 @@
       "currentStock": 500,
       "dailyRate": 2.3,
       "monthlyRate": 70,
-      "daysLeft": 214,
+      "daysLeft": 215,
       "reorderQty": 105,
       "periods": {
         "7": {
@@ -15268,7 +15268,7 @@
       "currentStock": 1100,
       "dailyRate": 2.3,
       "monthlyRate": 70,
-      "daysLeft": 470,
+      "daysLeft": 473,
       "reorderQty": 105,
       "periods": {
         "7": {
@@ -15446,7 +15446,7 @@
       "currentStock": 400,
       "dailyRate": 2.3,
       "monthlyRate": 70,
-      "daysLeft": 171,
+      "daysLeft": 172,
       "reorderQty": 105,
       "periods": {
         "7": {
@@ -15708,7 +15708,7 @@
       "currentStock": 800,
       "dailyRate": 2.3,
       "monthlyRate": 70,
-      "daysLeft": 342,
+      "daysLeft": 344,
       "reorderQty": 105,
       "periods": {
         "7": {
@@ -15792,7 +15792,7 @@
       "currentStock": 1600,
       "dailyRate": 2.3,
       "monthlyRate": 70,
-      "daysLeft": 684,
+      "daysLeft": 688,
       "reorderQty": 105,
       "periods": {
         "7": {
@@ -15867,6 +15867,95 @@
       ]
     },
     {
+      "name": "Touchup Paint Cream White (PNT018)",
+      "cat": "Paint",
+      "loc": "Vivek Vihar",
+      "unit": "Pcs",
+      "totalIn": 648,
+      "totalOut": 396,
+      "currentStock": 252,
+      "dailyRate": 2.3,
+      "monthlyRate": 69,
+      "daysLeft": 109,
+      "reorderQty": 104,
+      "periods": {
+        "7": {
+          "totalOut": 24,
+          "dailyRate": 3.4,
+          "monthlyRate": 103,
+          "daysLeft": 74,
+          "reorderQty": 154
+        },
+        "30": {
+          "totalOut": 36,
+          "dailyRate": 1.2,
+          "monthlyRate": 36,
+          "daysLeft": 210,
+          "reorderQty": 54
+        },
+        "90": {
+          "totalOut": 108,
+          "dailyRate": 1.2,
+          "monthlyRate": 36,
+          "daysLeft": 210,
+          "reorderQty": 54
+        }
+      },
+      "trend": [
+        0,
+        24,
+        36,
+        24,
+        96,
+        24,
+        0,
+        12,
+        48,
+        24,
+        0,
+        0,
+        0,
+        12,
+        0,
+        12,
+        0,
+        0,
+        0,
+        48,
+        12,
+        0,
+        0,
+        0,
+        24
+      ],
+      "monthlyOut": [
+        0,
+        60,
+        240,
+        0,
+        240,
+        48,
+        60,
+        36,
+        96,
+        72,
+        48,
+        96,
+        60,
+        132,
+        132,
+        24,
+        24,
+        60,
+        24
+      ],
+      "yoy": {
+        "month": "2026-08",
+        "cur": 60,
+        "prev": 48
+      }
+    },
+    {
       "name": "Solar Perfume Tenish (SOL052)",
       "cat": "Solar Perfume",
       "loc": "Jhilmil",
@@ -15876,8 +15965,8 @@
       "currentStock": 210,
       "dailyRate": 2.3,
       "monthlyRate": 68,
-      "daysLeft": 92,
-      "reorderQty": 103,
+      "daysLeft": 93,
+      "reorderQty": 102,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -15966,7 +16055,7 @@
       "dailyRate": 2.3,
       "monthlyRate": 68,
       "daysLeft": -4,
-      "reorderQty": 103,
+      "reorderQty": 102,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -16052,9 +16141,9 @@
       "totalIn": 1200,
       "totalOut": 385,
       "currentStock": 815,
-      "dailyRate": 2.3,
-      "monthlyRate": 68,
-      "daysLeft": 362,
+      "dailyRate": 2.2,
+      "monthlyRate": 67,
+      "daysLeft": 364,
       "reorderQty": 101,
       "periods": {
         "7": {
@@ -16142,9 +16231,9 @@
       "totalOut": 375,
       "currentStock": 1129,
       "dailyRate": 2.2,
-      "monthlyRate": 66,
-      "daysLeft": 515,
-      "reorderQty": 99,
+      "monthlyRate": 65,
+      "daysLeft": 518,
+      "reorderQty": 98,
       "periods": {
         "7": {
           "totalOut": 100,
@@ -16220,95 +16309,6 @@
         "month": "2026-08",
         "cur": 0,
         "prev": 10
-      }
-    },
-    {
-      "name": "Touchup Paint Cream White (PNT018)",
-      "cat": "Paint",
-      "loc": "Vivek Vihar",
-      "unit": "Pcs",
-      "totalIn": 648,
-      "totalOut": 372,
-      "currentStock": 276,
-      "dailyRate": 2.2,
-      "monthlyRate": 65,
-      "daysLeft": 127,
-      "reorderQty": 98,
-      "periods": {
-        "7": {
-          "totalOut": 0,
-          "dailyRate": 0,
-          "monthlyRate": 0,
-          "daysLeft": 9999,
-          "reorderQty": 0
-        },
-        "30": {
-          "totalOut": 12,
-          "dailyRate": 0.4,
-          "monthlyRate": 12,
-          "daysLeft": 690,
-          "reorderQty": 18
-        },
-        "90": {
-          "totalOut": 84,
-          "dailyRate": 0.9,
-          "monthlyRate": 28,
-          "daysLeft": 296,
-          "reorderQty": 42
-        }
-      },
-      "trend": [
-        0,
-        24,
-        36,
-        24,
-        96,
-        24,
-        0,
-        12,
-        48,
-        24,
-        0,
-        0,
-        0,
-        12,
-        0,
-        12,
-        0,
-        0,
-        0,
-        48,
-        12,
-        0,
-        0,
-        0,
-        0
-      ],
-      "monthlyOut": [
-        0,
-        60,
-        240,
-        0,
-        240,
-        48,
-        60,
-        36,
-        96,
-        72,
-        48,
-        96,
-        60,
-        132,
-        132,
-        24,
-        24,
-        60,
-        0
-      ],
-      "yoy": {
-        "month": "2026-08",
-        "cur": 60,
-        "prev": 48
       }
     },
     {
@@ -16409,8 +16409,8 @@
       "totalOut": 362,
       "currentStock": 58,
       "dailyRate": 2.1,
-      "monthlyRate": 64,
-      "daysLeft": 27,
+      "monthlyRate": 63,
+      "daysLeft": 28,
       "reorderQty": 95,
       "periods": {
         "7": {
@@ -16494,8 +16494,8 @@
       "currentStock": 540,
       "dailyRate": 2.1,
       "monthlyRate": 63,
-      "daysLeft": 257,
-      "reorderQty": 95,
+      "daysLeft": 258,
+      "reorderQty": 94,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -16583,8 +16583,8 @@
       "currentStock": 240,
       "dailyRate": 2.1,
       "monthlyRate": 63,
-      "daysLeft": 114,
-      "reorderQty": 95,
+      "daysLeft": 115,
+      "reorderQty": 94,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -16667,8 +16667,8 @@
       "currentStock": 272,
       "dailyRate": 2.1,
       "monthlyRate": 62,
-      "daysLeft": 132,
-      "reorderQty": 93,
+      "daysLeft": 133,
+      "reorderQty": 92,
       "periods": {
         "7": {
           "totalOut": 30,
@@ -16747,6 +16747,179 @@
       }
     },
     {
+      "name": "Sunshade Umbrella (OTH039)",
+      "cat": "Other",
+      "loc": "Jhilmil",
+      "unit": "Pcs",
+      "totalIn": 1200,
+      "totalOut": 350,
+      "currentStock": 850,
+      "dailyRate": 2,
+      "monthlyRate": 61,
+      "daysLeft": 418,
+      "reorderQty": 92,
+      "periods": {
+        "7": {
+          "totalOut": 200,
+          "dailyRate": 28.6,
+          "monthlyRate": 857,
+          "daysLeft": 30,
+          "reorderQty": 1286
+        },
+        "30": {
+          "totalOut": 300,
+          "dailyRate": 10,
+          "monthlyRate": 300,
+          "daysLeft": 85,
+          "reorderQty": 450
+        },
+        "90": {
+          "totalOut": 350,
+          "dailyRate": 3.9,
+          "monthlyRate": 117,
+          "daysLeft": 219,
+          "reorderQty": 175
+        }
+      },
+      "trend": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        50,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        100,
+        0,
+        200
+      ],
+      "monthlyOut": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        50,
+        0,
+        300
+      ]
+    },
+    {
+      "name": "Steering Knob G-POP Mini Korea (SK019)",
+      "cat": "Steering Knob",
+      "loc": "Vivek Vihar",
+      "unit": "Pcs",
+      "totalIn": 1080,
+      "totalOut": 346,
+      "currentStock": 734,
+      "dailyRate": 2,
+      "monthlyRate": 60,
+      "daysLeft": 365,
+      "reorderQty": 91,
+      "periods": {
+        "7": {
+          "totalOut": 54,
+          "dailyRate": 7.7,
+          "monthlyRate": 231,
+          "daysLeft": 95,
+          "reorderQty": 347
+        },
+        "30": {
+          "totalOut": 116,
+          "dailyRate": 3.9,
+          "monthlyRate": 116,
+          "daysLeft": 190,
+          "reorderQty": 174
+        },
+        "90": {
+          "totalOut": 116,
+          "dailyRate": 1.3,
+          "monthlyRate": 39,
+          "daysLeft": 569,
+          "reorderQty": 58
+        }
+      },
+      "trend": [
+        0,
+        0,
+        114,
+        0,
+        54,
+        62,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        62,
+        0,
+        0,
+        54
+      ],
+      "monthlyOut": [
+        0,
+        54,
+        54,
+        54,
+        54,
+        54,
+        54,
+        0,
+        0,
+        0,
+        108,
+        162,
+        0,
+        114,
+        116,
+        0,
+        0,
+        62,
+        54
+      ],
+      "yoy": {
+        "month": "2026-08",
+        "cur": 62,
+        "prev": 54
+      }
+    },
+    {
       "name": "Steering Knob Blacksuit (SK004)",
       "cat": "Steering Knob",
       "loc": "Vivek Vihar",
@@ -16755,8 +16928,8 @@
       "totalOut": 340,
       "currentStock": 660,
       "dailyRate": 2,
-      "monthlyRate": 60,
-      "daysLeft": 332,
+      "monthlyRate": 59,
+      "daysLeft": 334,
       "reorderQty": 89,
       "periods": {
         "7": {
@@ -16846,7 +17019,7 @@
       "dailyRate": 2,
       "monthlyRate": 59,
       "daysLeft": 56,
-      "reorderQty": 89,
+      "reorderQty": 88,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -16934,7 +17107,7 @@
       "currentStock": 532,
       "dailyRate": 1.9,
       "monthlyRate": 58,
-      "daysLeft": 274,
+      "daysLeft": 276,
       "reorderQty": 87,
       "periods": {
         "7": {
@@ -17023,7 +17196,7 @@
       "currentStock": 468,
       "dailyRate": 1.9,
       "monthlyRate": 57,
-      "daysLeft": 247,
+      "daysLeft": 248,
       "reorderQty": 85,
       "periods": {
         "7": {
@@ -17111,8 +17284,8 @@
       "totalOut": 312,
       "currentStock": 697,
       "dailyRate": 1.8,
-      "monthlyRate": 55,
-      "daysLeft": 382,
+      "monthlyRate": 54,
+      "daysLeft": 384,
       "reorderQty": 82,
       "periods": {
         "7": {
@@ -17196,8 +17369,8 @@
       "currentStock": 440,
       "dailyRate": 1.8,
       "monthlyRate": 54,
-      "daysLeft": 243,
-      "reorderQty": 82,
+      "daysLeft": 244,
+      "reorderQty": 81,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -17285,8 +17458,8 @@
       "currentStock": 435,
       "dailyRate": 1.8,
       "monthlyRate": 54,
-      "daysLeft": 240,
-      "reorderQty": 82,
+      "daysLeft": 241,
+      "reorderQty": 81,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -17372,10 +17545,10 @@
       "totalIn": 300,
       "totalOut": 300,
       "currentStock": 0,
-      "dailyRate": 1.8,
-      "monthlyRate": 53,
+      "dailyRate": 1.7,
+      "monthlyRate": 52,
       "daysLeft": 0,
-      "reorderQty": 79,
+      "reorderQty": 78,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -17461,10 +17634,10 @@
       "totalIn": 300,
       "totalOut": 300,
       "currentStock": 0,
-      "dailyRate": 1.8,
-      "monthlyRate": 53,
+      "dailyRate": 1.7,
+      "monthlyRate": 52,
       "daysLeft": 0,
-      "reorderQty": 79,
+      "reorderQty": 78,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -17545,10 +17718,10 @@
       "totalIn": 1800,
       "totalOut": 300,
       "currentStock": 1500,
-      "dailyRate": 1.8,
-      "monthlyRate": 53,
-      "daysLeft": 855,
-      "reorderQty": 79,
+      "dailyRate": 1.7,
+      "monthlyRate": 52,
+      "daysLeft": 860,
+      "reorderQty": 78,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -17629,10 +17802,10 @@
       "totalIn": 400,
       "totalOut": 300,
       "currentStock": 100,
-      "dailyRate": 1.8,
-      "monthlyRate": 53,
+      "dailyRate": 1.7,
+      "monthlyRate": 52,
       "daysLeft": 57,
-      "reorderQty": 79,
+      "reorderQty": 78,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -17713,10 +17886,10 @@
       "totalIn": 300,
       "totalOut": 300,
       "currentStock": 0,
-      "dailyRate": 1.8,
-      "monthlyRate": 53,
+      "dailyRate": 1.7,
+      "monthlyRate": 52,
       "daysLeft": 0,
-      "reorderQty": 79,
+      "reorderQty": 78,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -17802,10 +17975,10 @@
       "totalIn": 200,
       "totalOut": 300,
       "currentStock": -100,
-      "dailyRate": 1.8,
-      "monthlyRate": 53,
+      "dailyRate": 1.7,
+      "monthlyRate": 52,
       "daysLeft": -57,
-      "reorderQty": 79,
+      "reorderQty": 78,
       "periods": {
         "7": {
           "totalOut": 100,
@@ -17886,10 +18059,10 @@
       "totalIn": 500,
       "totalOut": 300,
       "currentStock": 200,
-      "dailyRate": 1.8,
-      "monthlyRate": 53,
-      "daysLeft": 114,
-      "reorderQty": 79,
+      "dailyRate": 1.7,
+      "monthlyRate": 52,
+      "daysLeft": 115,
+      "reorderQty": 78,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -17963,95 +18136,6 @@
       ]
     },
     {
-      "name": "Steering Knob G-POP Mini Korea (SK019)",
-      "cat": "Steering Knob",
-      "loc": "Vivek Vihar",
-      "unit": "Pcs",
-      "totalIn": 1080,
-      "totalOut": 292,
-      "currentStock": 788,
-      "dailyRate": 1.7,
-      "monthlyRate": 51,
-      "daysLeft": 461,
-      "reorderQty": 77,
-      "periods": {
-        "7": {
-          "totalOut": 0,
-          "dailyRate": 0,
-          "monthlyRate": 0,
-          "daysLeft": 9999,
-          "reorderQty": 0
-        },
-        "30": {
-          "totalOut": 62,
-          "dailyRate": 2.1,
-          "monthlyRate": 62,
-          "daysLeft": 381,
-          "reorderQty": 93
-        },
-        "90": {
-          "totalOut": 62,
-          "dailyRate": 0.7,
-          "monthlyRate": 21,
-          "daysLeft": 1144,
-          "reorderQty": 31
-        }
-      },
-      "trend": [
-        0,
-        0,
-        114,
-        0,
-        54,
-        62,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        62,
-        0,
-        0,
-        0
-      ],
-      "monthlyOut": [
-        0,
-        54,
-        54,
-        54,
-        54,
-        54,
-        54,
-        0,
-        0,
-        0,
-        108,
-        162,
-        0,
-        114,
-        116,
-        0,
-        0,
-        62,
-        0
-      ],
-      "yoy": {
-        "month": "2026-08",
-        "cur": 62,
-        "prev": 54
-      }
-    },
-    {
       "name": "Piller Mirror 3R 089 (BSM027)",
       "cat": "Blind Spot Mirror",
       "loc": "Jhilmil",
@@ -18061,7 +18145,7 @@
       "currentStock": 310,
       "dailyRate": 1.7,
       "monthlyRate": 51,
-      "daysLeft": 183,
+      "daysLeft": 184,
       "reorderQty": 76,
       "periods": {
         "7": {
@@ -18150,7 +18234,7 @@
       "currentStock": -200,
       "dailyRate": 1.7,
       "monthlyRate": 51,
-      "daysLeft": -118,
+      "daysLeft": -119,
       "reorderQty": 76,
       "periods": {
         "7": {
@@ -18233,9 +18317,9 @@
       "totalOut": 288,
       "currentStock": 708,
       "dailyRate": 1.7,
-      "monthlyRate": 51,
-      "daysLeft": 420,
-      "reorderQty": 76,
+      "monthlyRate": 50,
+      "daysLeft": 423,
+      "reorderQty": 75,
       "periods": {
         "7": {
           "totalOut": 96,
@@ -18316,8 +18400,8 @@
       "totalIn": 287,
       "totalOut": 283,
       "currentStock": 4,
-      "dailyRate": 1.7,
-      "monthlyRate": 50,
+      "dailyRate": 1.6,
+      "monthlyRate": 49,
       "daysLeft": 2,
       "reorderQty": 74,
       "periods": {
@@ -18336,11 +18420,11 @@
           "reorderQty": 60
         },
         "90": {
-          "totalOut": 223,
-          "dailyRate": 2.5,
-          "monthlyRate": 74,
+          "totalOut": 211,
+          "dailyRate": 2.3,
+          "monthlyRate": 70,
           "daysLeft": 2,
-          "reorderQty": 112
+          "reorderQty": 106
         }
       },
       "trend": [
@@ -18407,8 +18491,8 @@
       "currentStock": 580,
       "dailyRate": 1.6,
       "monthlyRate": 49,
-      "daysLeft": 354,
-      "reorderQty": 74,
+      "daysLeft": 356,
+      "reorderQty": 73,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -18491,8 +18575,8 @@
       "currentStock": -120,
       "dailyRate": 1.6,
       "monthlyRate": 49,
-      "daysLeft": -73,
-      "reorderQty": 74,
+      "daysLeft": -74,
+      "reorderQty": 73,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -18664,7 +18748,7 @@
       "currentStock": 710,
       "dailyRate": 1.6,
       "monthlyRate": 47,
-      "daysLeft": 450,
+      "daysLeft": 452,
       "reorderQty": 71,
       "periods": {
         "7": {
@@ -18753,7 +18837,7 @@
       "currentStock": -130,
       "dailyRate": 1.6,
       "monthlyRate": 47,
-      "daysLeft": -82,
+      "daysLeft": -83,
       "reorderQty": 71,
       "periods": {
         "7": {
@@ -18841,8 +18925,8 @@
       "totalOut": 260,
       "currentStock": 220,
       "dailyRate": 1.5,
-      "monthlyRate": 46,
-      "daysLeft": 145,
+      "monthlyRate": 45,
+      "daysLeft": 146,
       "reorderQty": 68,
       "periods": {
         "7": {
@@ -18931,7 +19015,7 @@
       "currentStock": 581,
       "dailyRate": 1.5,
       "monthlyRate": 45,
-      "daysLeft": 384,
+      "daysLeft": 386,
       "reorderQty": 68,
       "periods": {
         "7": {
@@ -19021,7 +19105,7 @@
       "dailyRate": 1.5,
       "monthlyRate": 44,
       "daysLeft": 73,
-      "reorderQty": 66,
+      "reorderQty": 65,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -19109,7 +19193,7 @@
       "currentStock": 876,
       "dailyRate": 1.4,
       "monthlyRate": 42,
-      "daysLeft": 624,
+      "daysLeft": 628,
       "reorderQty": 63,
       "periods": {
         "7": {
@@ -19198,7 +19282,7 @@
       "currentStock": 2488,
       "dailyRate": 1.4,
       "monthlyRate": 42,
-      "daysLeft": 1773,
+      "daysLeft": 1783,
       "reorderQty": 63,
       "periods": {
         "7": {
@@ -19287,7 +19371,7 @@
       "currentStock": 300,
       "dailyRate": 1.4,
       "monthlyRate": 42,
-      "daysLeft": 214,
+      "daysLeft": 215,
       "reorderQty": 63,
       "periods": {
         "7": {
@@ -19377,7 +19461,7 @@
       "dailyRate": 1.3,
       "monthlyRate": 40,
       "daysLeft": -67,
-      "reorderQty": 61,
+      "reorderQty": 60,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -19465,7 +19549,7 @@
       "currentStock": 126,
       "dailyRate": 1.3,
       "monthlyRate": 40,
-      "daysLeft": 94,
+      "daysLeft": 95,
       "reorderQty": 60,
       "periods": {
         "7": {
@@ -19553,7 +19637,7 @@
       "totalOut": 226,
       "currentStock": 36,
       "dailyRate": 1.3,
-      "monthlyRate": 40,
+      "monthlyRate": 39,
       "daysLeft": 27,
       "reorderQty": 59,
       "periods": {
@@ -19643,7 +19727,7 @@
       "currentStock": 240,
       "dailyRate": 1.3,
       "monthlyRate": 39,
-      "daysLeft": 182,
+      "daysLeft": 183,
       "reorderQty": 59,
       "periods": {
         "7": {
@@ -19732,7 +19816,7 @@
       "currentStock": 186,
       "dailyRate": 1.3,
       "monthlyRate": 39,
-      "daysLeft": 142,
+      "daysLeft": 143,
       "reorderQty": 59,
       "periods": {
         "7": {
@@ -19816,7 +19900,7 @@
       "currentStock": 500,
       "dailyRate": 1.2,
       "monthlyRate": 37,
-      "daysLeft": 407,
+      "daysLeft": 410,
       "reorderQty": 55,
       "periods": {
         "7": {
@@ -19896,6 +19980,95 @@
       }
     },
     {
+      "name": "Air Flow 701 (AF010)",
+      "cat": "Air Flow",
+      "loc": "Jhilmil",
+      "unit": "Pcs",
+      "totalIn": 290,
+      "totalOut": 208,
+      "currentStock": 82,
+      "dailyRate": 1.2,
+      "monthlyRate": 36,
+      "daysLeft": 68,
+      "reorderQty": 54,
+      "periods": {
+        "7": {
+          "totalOut": 20,
+          "dailyRate": 2.9,
+          "monthlyRate": 86,
+          "daysLeft": 29,
+          "reorderQty": 129
+        },
+        "30": {
+          "totalOut": 50,
+          "dailyRate": 1.7,
+          "monthlyRate": 50,
+          "daysLeft": 49,
+          "reorderQty": 75
+        },
+        "90": {
+          "totalOut": 118,
+          "dailyRate": 1.3,
+          "monthlyRate": 39,
+          "daysLeft": 63,
+          "reorderQty": 59
+        }
+      },
+      "trend": [
+        20,
+        0,
+        0,
+        10,
+        0,
+        0,
+        0,
+        50,
+        0,
+        10,
+        0,
+        0,
+        10,
+        0,
+        10,
+        0,
+        0,
+        40,
+        3,
+        5,
+        20,
+        0,
+        0,
+        10,
+        20
+      ],
+      "monthlyOut": [
+        0,
+        11,
+        35,
+        50,
+        5,
+        50,
+        63,
+        0,
+        0,
+        0,
+        0,
+        0,
+        10,
+        30,
+        50,
+        20,
+        20,
+        58,
+        30
+      ],
+      "yoy": {
+        "month": "2026-08",
+        "cur": 58,
+        "prev": 50
+      }
+    },
+    {
       "name": "Lion Mirror Imported (BM005)",
       "cat": "Bonnet Mirror",
       "loc": "Jhilmil",
@@ -19905,8 +20078,8 @@
       "currentStock": 228,
       "dailyRate": 1.2,
       "monthlyRate": 36,
-      "daysLeft": 191,
-      "reorderQty": 54,
+      "daysLeft": 192,
+      "reorderQty": 53,
       "periods": {
         "7": {
           "totalOut": 48,
@@ -19994,8 +20167,8 @@
       "currentStock": 516,
       "dailyRate": 1.2,
       "monthlyRate": 36,
-      "daysLeft": 433,
-      "reorderQty": 54,
+      "daysLeft": 435,
+      "reorderQty": 53,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -20083,7 +20256,7 @@
       "currentStock": 1464,
       "dailyRate": 1.2,
       "monthlyRate": 35,
-      "daysLeft": 1239,
+      "daysLeft": 1247,
       "reorderQty": 53,
       "periods": {
         "7": {
@@ -20172,8 +20345,8 @@
       "currentStock": 670,
       "dailyRate": 1.2,
       "monthlyRate": 35,
-      "daysLeft": 573,
-      "reorderQty": 53,
+      "daysLeft": 576,
+      "reorderQty": 52,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -20261,8 +20434,8 @@
       "currentStock": 600,
       "dailyRate": 1.2,
       "monthlyRate": 35,
-      "daysLeft": 513,
-      "reorderQty": 53,
+      "daysLeft": 516,
+      "reorderQty": 52,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -20350,8 +20523,8 @@
       "currentStock": 800,
       "dailyRate": 1.2,
       "monthlyRate": 35,
-      "daysLeft": 684,
-      "reorderQty": 53,
+      "daysLeft": 688,
+      "reorderQty": 52,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -20440,7 +20613,7 @@
       "dailyRate": 1.2,
       "monthlyRate": 35,
       "daysLeft": 0,
-      "reorderQty": 53,
+      "reorderQty": 52,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -20528,8 +20701,8 @@
       "currentStock": 300,
       "dailyRate": 1.2,
       "monthlyRate": 35,
-      "daysLeft": 257,
-      "reorderQty": 53,
+      "daysLeft": 258,
+      "reorderQty": 52,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -20618,7 +20791,7 @@
       "dailyRate": 1.2,
       "monthlyRate": 35,
       "daysLeft": 0,
-      "reorderQty": 53,
+      "reorderQty": 52,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -20701,8 +20874,8 @@
       "currentStock": 500,
       "dailyRate": 1.2,
       "monthlyRate": 35,
-      "daysLeft": 428,
-      "reorderQty": 53,
+      "daysLeft": 430,
+      "reorderQty": 52,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -20790,8 +20963,8 @@
       "currentStock": 685,
       "dailyRate": 1.2,
       "monthlyRate": 35,
-      "daysLeft": 586,
-      "reorderQty": 53,
+      "daysLeft": 589,
+      "reorderQty": 52,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -20879,8 +21052,8 @@
       "currentStock": 590,
       "dailyRate": 1.2,
       "monthlyRate": 35,
-      "daysLeft": 504,
-      "reorderQty": 53,
+      "daysLeft": 507,
+      "reorderQty": 52,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -20969,7 +21142,7 @@
       "dailyRate": 1.2,
       "monthlyRate": 35,
       "daysLeft": 0,
-      "reorderQty": 53,
+      "reorderQty": 52,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -21053,7 +21226,7 @@
       "dailyRate": 1.2,
       "monthlyRate": 35,
       "daysLeft": 0,
-      "reorderQty": 53,
+      "reorderQty": 52,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -21136,8 +21309,8 @@
       "currentStock": 300,
       "dailyRate": 1.2,
       "monthlyRate": 35,
-      "daysLeft": 257,
-      "reorderQty": 53,
+      "daysLeft": 258,
+      "reorderQty": 52,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -21225,8 +21398,8 @@
       "currentStock": -60,
       "dailyRate": 1.2,
       "monthlyRate": 35,
-      "daysLeft": -51,
-      "reorderQty": 53,
+      "daysLeft": -52,
+      "reorderQty": 52,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -21315,7 +21488,7 @@
       "dailyRate": 1.2,
       "monthlyRate": 35,
       "daysLeft": -60,
-      "reorderQty": 53,
+      "reorderQty": 52,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -21485,9 +21658,9 @@
       "totalIn": 815,
       "totalOut": 197,
       "currentStock": 618,
-      "dailyRate": 1.2,
-      "monthlyRate": 35,
-      "daysLeft": 536,
+      "dailyRate": 1.1,
+      "monthlyRate": 34,
+      "daysLeft": 540,
       "reorderQty": 52,
       "periods": {
         "7": {
@@ -21567,95 +21740,6 @@
       }
     },
     {
-      "name": "Air Flow 701 (AF010)",
-      "cat": "Air Flow",
-      "loc": "Jhilmil",
-      "unit": "Pcs",
-      "totalIn": 290,
-      "totalOut": 193,
-      "currentStock": 97,
-      "dailyRate": 1.1,
-      "monthlyRate": 34,
-      "daysLeft": 86,
-      "reorderQty": 51,
-      "periods": {
-        "7": {
-          "totalOut": 5,
-          "dailyRate": 0.7,
-          "monthlyRate": 21,
-          "daysLeft": 136,
-          "reorderQty": 32
-        },
-        "30": {
-          "totalOut": 35,
-          "dailyRate": 1.2,
-          "monthlyRate": 35,
-          "daysLeft": 83,
-          "reorderQty": 53
-        },
-        "90": {
-          "totalOut": 103,
-          "dailyRate": 1.1,
-          "monthlyRate": 34,
-          "daysLeft": 85,
-          "reorderQty": 52
-        }
-      },
-      "trend": [
-        20,
-        0,
-        0,
-        10,
-        0,
-        0,
-        0,
-        50,
-        0,
-        10,
-        0,
-        0,
-        10,
-        0,
-        10,
-        0,
-        0,
-        40,
-        3,
-        5,
-        20,
-        0,
-        0,
-        10,
-        5
-      ],
-      "monthlyOut": [
-        0,
-        11,
-        35,
-        50,
-        5,
-        50,
-        63,
-        0,
-        0,
-        0,
-        0,
-        0,
-        10,
-        30,
-        50,
-        20,
-        20,
-        58,
-        15
-      ],
-      "yoy": {
-        "month": "2026-08",
-        "cur": 58,
-        "prev": 50
-      }
-    },
-    {
       "name": "Flamingo Paint Green (PNT003)",
       "cat": "Paint",
       "loc": "Vivek Vihar",
@@ -21664,9 +21748,9 @@
       "totalOut": 192,
       "currentStock": 264,
       "dailyRate": 1.1,
-      "monthlyRate": 34,
-      "daysLeft": 235,
-      "reorderQty": 51,
+      "monthlyRate": 33,
+      "daysLeft": 237,
+      "reorderQty": 50,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -21754,7 +21838,7 @@
       "currentStock": 310,
       "dailyRate": 1.1,
       "monthlyRate": 33,
-      "daysLeft": 279,
+      "daysLeft": 281,
       "reorderQty": 50,
       "periods": {
         "7": {
@@ -21842,8 +21926,8 @@
       "totalOut": 186,
       "currentStock": 57,
       "dailyRate": 1.1,
-      "monthlyRate": 33,
-      "daysLeft": 52,
+      "monthlyRate": 32,
+      "daysLeft": 53,
       "reorderQty": 49,
       "periods": {
         "7": {
@@ -21933,7 +22017,7 @@
       "dailyRate": 1.1,
       "monthlyRate": 32,
       "daysLeft": 79,
-      "reorderQty": 49,
+      "reorderQty": 48,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -22110,8 +22194,8 @@
       "currentStock": 659,
       "dailyRate": 1.1,
       "monthlyRate": 32,
-      "daysLeft": 623,
-      "reorderQty": 48,
+      "daysLeft": 626,
+      "reorderQty": 47,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -22197,9 +22281,9 @@
       "totalIn": 379,
       "totalOut": 180,
       "currentStock": 199,
-      "dailyRate": 1.1,
-      "monthlyRate": 32,
-      "daysLeft": 189,
+      "dailyRate": 1,
+      "monthlyRate": 31,
+      "daysLeft": 190,
       "reorderQty": 47,
       "periods": {
         "7": {
@@ -22286,9 +22370,9 @@
       "totalIn": 810,
       "totalOut": 180,
       "currentStock": 630,
-      "dailyRate": 1.1,
-      "monthlyRate": 32,
-      "daysLeft": 599,
+      "dailyRate": 1,
+      "monthlyRate": 31,
+      "daysLeft": 602,
       "reorderQty": 47,
       "periods": {
         "7": {
@@ -22370,9 +22454,9 @@
       "totalIn": 480,
       "totalOut": 180,
       "currentStock": 300,
-      "dailyRate": 1.1,
-      "monthlyRate": 32,
-      "daysLeft": 285,
+      "dailyRate": 1,
+      "monthlyRate": 31,
+      "daysLeft": 287,
       "reorderQty": 47,
       "periods": {
         "7": {
@@ -22459,9 +22543,9 @@
       "totalIn": 720,
       "totalOut": 180,
       "currentStock": 540,
-      "dailyRate": 1.1,
-      "monthlyRate": 32,
-      "daysLeft": 513,
+      "dailyRate": 1,
+      "monthlyRate": 31,
+      "daysLeft": 516,
       "reorderQty": 47,
       "periods": {
         "7": {
@@ -22543,9 +22627,9 @@
       "totalIn": 360,
       "totalOut": 180,
       "currentStock": 180,
-      "dailyRate": 1.1,
-      "monthlyRate": 32,
-      "daysLeft": 171,
+      "dailyRate": 1,
+      "monthlyRate": 31,
+      "daysLeft": 172,
       "reorderQty": 47,
       "periods": {
         "7": {
@@ -22632,9 +22716,9 @@
       "totalIn": 890,
       "totalOut": 180,
       "currentStock": 710,
-      "dailyRate": 1.1,
-      "monthlyRate": 32,
-      "daysLeft": 675,
+      "dailyRate": 1,
+      "monthlyRate": 31,
+      "daysLeft": 678,
       "reorderQty": 47,
       "periods": {
         "7": {
@@ -22721,9 +22805,9 @@
       "totalIn": 3800,
       "totalOut": 180,
       "currentStock": 3620,
-      "dailyRate": 1.1,
-      "monthlyRate": 32,
-      "daysLeft": 3439,
+      "dailyRate": 1,
+      "monthlyRate": 31,
+      "daysLeft": 3459,
       "reorderQty": 47,
       "periods": {
         "7": {
@@ -22805,9 +22889,9 @@
       "totalIn": 500,
       "totalOut": 180,
       "currentStock": 320,
-      "dailyRate": 1.1,
-      "monthlyRate": 32,
-      "daysLeft": 304,
+      "dailyRate": 1,
+      "monthlyRate": 31,
+      "daysLeft": 306,
       "reorderQty": 47,
       "periods": {
         "7": {
@@ -22985,8 +23069,8 @@
       "currentStock": 83,
       "dailyRate": 1,
       "monthlyRate": 30,
-      "daysLeft": 83,
-      "reorderQty": 45,
+      "daysLeft": 84,
+      "reorderQty": 44,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -23074,8 +23158,8 @@
       "currentStock": 186,
       "dailyRate": 1,
       "monthlyRate": 30,
-      "daysLeft": 187,
-      "reorderQty": 45,
+      "daysLeft": 188,
+      "reorderQty": 44,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -23163,7 +23247,7 @@
       "currentStock": 855,
       "dailyRate": 1,
       "monthlyRate": 29,
-      "daysLeft": 886,
+      "daysLeft": 891,
       "reorderQty": 43,
       "periods": {
         "7": {
@@ -23252,7 +23336,7 @@
       "currentStock": 668,
       "dailyRate": 0.9,
       "monthlyRate": 28,
-      "daysLeft": 714,
+      "daysLeft": 718,
       "reorderQty": 42,
       "periods": {
         "7": {
@@ -23341,7 +23425,7 @@
       "currentStock": 341,
       "dailyRate": 0.9,
       "monthlyRate": 28,
-      "daysLeft": 364,
+      "daysLeft": 367,
       "reorderQty": 42,
       "periods": {
         "7": {
@@ -23608,8 +23692,8 @@
       "currentStock": 88,
       "dailyRate": 0.9,
       "monthlyRate": 28,
-      "daysLeft": 95,
-      "reorderQty": 42,
+      "daysLeft": 96,
+      "reorderQty": 41,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -23696,8 +23780,8 @@
       "totalOut": 157,
       "currentStock": 1725,
       "dailyRate": 0.9,
-      "monthlyRate": 28,
-      "daysLeft": 1879,
+      "monthlyRate": 27,
+      "daysLeft": 1890,
       "reorderQty": 41,
       "periods": {
         "7": {
@@ -23876,7 +23960,7 @@
       "dailyRate": 0.9,
       "monthlyRate": 27,
       "daysLeft": 61,
-      "reorderQty": 41,
+      "reorderQty": 40,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -23964,7 +24048,7 @@
       "currentStock": 870,
       "dailyRate": 0.9,
       "monthlyRate": 26,
-      "daysLeft": 992,
+      "daysLeft": 998,
       "reorderQty": 39,
       "periods": {
         "7": {
@@ -24044,90 +24128,6 @@
       }
     },
     {
-      "name": "Sunshade Umbrella (OTH039)",
-      "cat": "Other",
-      "loc": "Jhilmil",
-      "unit": "Pcs",
-      "totalIn": 1200,
-      "totalOut": 150,
-      "currentStock": 1050,
-      "dailyRate": 0.9,
-      "monthlyRate": 26,
-      "daysLeft": 1197,
-      "reorderQty": 39,
-      "periods": {
-        "7": {
-          "totalOut": 0,
-          "dailyRate": 0,
-          "monthlyRate": 0,
-          "daysLeft": 9999,
-          "reorderQty": 0
-        },
-        "30": {
-          "totalOut": 100,
-          "dailyRate": 3.3,
-          "monthlyRate": 100,
-          "daysLeft": 315,
-          "reorderQty": 150
-        },
-        "90": {
-          "totalOut": 150,
-          "dailyRate": 1.7,
-          "monthlyRate": 50,
-          "daysLeft": 630,
-          "reorderQty": 75
-        }
-      },
-      "trend": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        50,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        100,
-        0,
-        0
-      ],
-      "monthlyOut": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        50,
-        0,
-        100
-      ]
-    },
-    {
       "name": "Samurai Belt Front (OD003)",
       "cat": "Outer Decor",
       "loc": "Jhilmil",
@@ -24137,7 +24137,7 @@
       "currentStock": 420,
       "dailyRate": 0.9,
       "monthlyRate": 26,
-      "daysLeft": 479,
+      "daysLeft": 482,
       "reorderQty": 39,
       "periods": {
         "7": {
@@ -24226,7 +24226,7 @@
       "currentStock": 500,
       "dailyRate": 0.9,
       "monthlyRate": 26,
-      "daysLeft": 570,
+      "daysLeft": 573,
       "reorderQty": 39,
       "periods": {
         "7": {
@@ -24310,7 +24310,7 @@
       "currentStock": 383,
       "dailyRate": 0.9,
       "monthlyRate": 26,
-      "daysLeft": 440,
+      "daysLeft": 442,
       "reorderQty": 39,
       "periods": {
         "7": {
@@ -24397,9 +24397,9 @@
       "totalIn": 316,
       "totalOut": 146,
       "currentStock": 170,
-      "dailyRate": 0.9,
-      "monthlyRate": 26,
-      "daysLeft": 199,
+      "dailyRate": 0.8,
+      "monthlyRate": 25,
+      "daysLeft": 200,
       "reorderQty": 38,
       "periods": {
         "7": {
@@ -24488,7 +24488,7 @@
       "currentStock": 155,
       "dailyRate": 0.8,
       "monthlyRate": 25,
-      "daysLeft": 183,
+      "daysLeft": 184,
       "reorderQty": 38,
       "periods": {
         "7": {
@@ -24571,8 +24571,8 @@
       "totalOut": 140,
       "currentStock": 260,
       "dailyRate": 0.8,
-      "monthlyRate": 25,
-      "daysLeft": 318,
+      "monthlyRate": 24,
+      "daysLeft": 319,
       "reorderQty": 37,
       "periods": {
         "7": {
@@ -24656,8 +24656,8 @@
       "currentStock": 244,
       "dailyRate": 0.8,
       "monthlyRate": 24,
-      "daysLeft": 300,
-      "reorderQty": 37,
+      "daysLeft": 302,
+      "reorderQty": 36,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -24745,7 +24745,7 @@
       "currentStock": 385,
       "dailyRate": 0.8,
       "monthlyRate": 24,
-      "daysLeft": 481,
+      "daysLeft": 483,
       "reorderQty": 36,
       "periods": {
         "7": {
@@ -24834,7 +24834,7 @@
       "currentStock": 170,
       "dailyRate": 0.8,
       "monthlyRate": 23,
-      "daysLeft": 224,
+      "daysLeft": 225,
       "reorderQty": 34,
       "periods": {
         "7": {
@@ -25002,8 +25002,8 @@
       "currentStock": 472,
       "dailyRate": 0.7,
       "monthlyRate": 22,
-      "daysLeft": 631,
-      "reorderQty": 34,
+      "daysLeft": 634,
+      "reorderQty": 33,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -25086,7 +25086,7 @@
       "currentStock": 1875,
       "dailyRate": 0.7,
       "monthlyRate": 22,
-      "daysLeft": 2565,
+      "daysLeft": 2580,
       "reorderQty": 33,
       "periods": {
         "7": {
@@ -25170,8 +25170,8 @@
       "currentStock": 1392,
       "dailyRate": 0.7,
       "monthlyRate": 21,
-      "daysLeft": 1984,
-      "reorderQty": 32,
+      "daysLeft": 1995,
+      "reorderQty": 31,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -25259,8 +25259,8 @@
       "currentStock": 156,
       "dailyRate": 0.7,
       "monthlyRate": 21,
-      "daysLeft": 222,
-      "reorderQty": 32,
+      "daysLeft": 224,
+      "reorderQty": 31,
       "periods": {
         "7": {
           "totalOut": 96,
@@ -25348,8 +25348,8 @@
       "currentStock": 83,
       "dailyRate": 0.7,
       "monthlyRate": 21,
-      "daysLeft": 118,
-      "reorderQty": 32,
+      "daysLeft": 119,
+      "reorderQty": 31,
       "periods": {
         "7": {
           "totalOut": 5,
@@ -25437,8 +25437,8 @@
       "currentStock": 80,
       "dailyRate": 0.7,
       "monthlyRate": 21,
-      "daysLeft": 114,
-      "reorderQty": 32,
+      "daysLeft": 115,
+      "reorderQty": 31,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -25526,7 +25526,7 @@
       "currentStock": -112,
       "dailyRate": 0.7,
       "monthlyRate": 20,
-      "daysLeft": -171,
+      "daysLeft": -172,
       "reorderQty": 29,
       "periods": {
         "7": {
@@ -25615,7 +25615,7 @@
       "currentStock": 1536,
       "dailyRate": 0.6,
       "monthlyRate": 19,
-      "daysLeft": 2432,
+      "daysLeft": 2446,
       "reorderQty": 28,
       "periods": {
         "7": {
@@ -25704,8 +25704,8 @@
       "currentStock": 445,
       "dailyRate": 0.6,
       "monthlyRate": 18,
-      "daysLeft": 725,
-      "reorderQty": 28,
+      "daysLeft": 729,
+      "reorderQty": 27,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -25787,8 +25787,8 @@
       "totalOut": 100,
       "currentStock": 700,
       "dailyRate": 0.6,
-      "monthlyRate": 18,
-      "daysLeft": 1197,
+      "monthlyRate": 17,
+      "daysLeft": 1204,
       "reorderQty": 26,
       "periods": {
         "7": {
@@ -25871,8 +25871,8 @@
       "totalOut": 100,
       "currentStock": 40,
       "dailyRate": 0.6,
-      "monthlyRate": 18,
-      "daysLeft": 68,
+      "monthlyRate": 17,
+      "daysLeft": 69,
       "reorderQty": 26,
       "periods": {
         "7": {
@@ -25960,8 +25960,8 @@
       "totalOut": 100,
       "currentStock": 700,
       "dailyRate": 0.6,
-      "monthlyRate": 18,
-      "daysLeft": 1197,
+      "monthlyRate": 17,
+      "daysLeft": 1204,
       "reorderQty": 26,
       "periods": {
         "7": {
@@ -26049,8 +26049,8 @@
       "totalOut": 100,
       "currentStock": 1200,
       "dailyRate": 0.6,
-      "monthlyRate": 18,
-      "daysLeft": 2052,
+      "monthlyRate": 17,
+      "daysLeft": 2064,
       "reorderQty": 26,
       "periods": {
         "7": {
@@ -26138,7 +26138,7 @@
       "totalOut": 100,
       "currentStock": 0,
       "dailyRate": 0.6,
-      "monthlyRate": 18,
+      "monthlyRate": 17,
       "daysLeft": 0,
       "reorderQty": 26,
       "periods": {
@@ -26222,8 +26222,8 @@
       "totalOut": 100,
       "currentStock": 100,
       "dailyRate": 0.6,
-      "monthlyRate": 18,
-      "daysLeft": 171,
+      "monthlyRate": 17,
+      "daysLeft": 172,
       "reorderQty": 26,
       "periods": {
         "7": {
@@ -26306,8 +26306,8 @@
       "totalOut": 100,
       "currentStock": 400,
       "dailyRate": 0.6,
-      "monthlyRate": 18,
-      "daysLeft": 684,
+      "monthlyRate": 17,
+      "daysLeft": 688,
       "reorderQty": 26,
       "periods": {
         "7": {
@@ -26390,7 +26390,7 @@
       "totalOut": 100,
       "currentStock": 0,
       "dailyRate": 0.6,
-      "monthlyRate": 18,
+      "monthlyRate": 17,
       "daysLeft": 0,
       "reorderQty": 26,
       "periods": {
@@ -26474,8 +26474,8 @@
       "totalOut": 100,
       "currentStock": 200,
       "dailyRate": 0.6,
-      "monthlyRate": 18,
-      "daysLeft": 342,
+      "monthlyRate": 17,
+      "daysLeft": 344,
       "reorderQty": 26,
       "periods": {
         "7": {
@@ -26558,8 +26558,8 @@
       "totalOut": 100,
       "currentStock": 100,
       "dailyRate": 0.6,
-      "monthlyRate": 18,
-      "daysLeft": 171,
+      "monthlyRate": 17,
+      "daysLeft": 172,
       "reorderQty": 26,
       "periods": {
         "7": {
@@ -26647,8 +26647,8 @@
       "totalOut": 100,
       "currentStock": -100,
       "dailyRate": 0.6,
-      "monthlyRate": 18,
-      "daysLeft": -171,
+      "monthlyRate": 17,
+      "daysLeft": -172,
       "reorderQty": 26,
       "periods": {
         "7": {
@@ -26736,8 +26736,8 @@
       "totalOut": 100,
       "currentStock": 900,
       "dailyRate": 0.6,
-      "monthlyRate": 18,
-      "daysLeft": 1539,
+      "monthlyRate": 17,
+      "daysLeft": 1548,
       "reorderQty": 26,
       "periods": {
         "7": {
@@ -26820,8 +26820,8 @@
       "totalOut": 100,
       "currentStock": 700,
       "dailyRate": 0.6,
-      "monthlyRate": 18,
-      "daysLeft": 1197,
+      "monthlyRate": 17,
+      "daysLeft": 1204,
       "reorderQty": 26,
       "periods": {
         "7": {
@@ -26904,8 +26904,8 @@
       "totalOut": 100,
       "currentStock": 900,
       "dailyRate": 0.6,
-      "monthlyRate": 18,
-      "daysLeft": 1539,
+      "monthlyRate": 17,
+      "daysLeft": 1548,
       "reorderQty": 26,
       "periods": {
         "7": {
@@ -26988,8 +26988,8 @@
       "totalOut": 100,
       "currentStock": 80,
       "dailyRate": 0.6,
-      "monthlyRate": 18,
-      "daysLeft": 137,
+      "monthlyRate": 17,
+      "daysLeft": 138,
       "reorderQty": 26,
       "periods": {
         "7": {
@@ -27077,8 +27077,8 @@
       "totalOut": 100,
       "currentStock": 152,
       "dailyRate": 0.6,
-      "monthlyRate": 18,
-      "daysLeft": 260,
+      "monthlyRate": 17,
+      "daysLeft": 261,
       "reorderQty": 26,
       "periods": {
         "7": {
@@ -27185,11 +27185,11 @@
           "reorderQty": 42
         },
         "90": {
-          "totalOut": 38,
-          "dailyRate": 0.4,
-          "monthlyRate": 13,
-          "daysLeft": 45,
-          "reorderQty": 19
+          "totalOut": 28,
+          "dailyRate": 0.3,
+          "monthlyRate": 9,
+          "daysLeft": 61,
+          "reorderQty": 14
         }
       },
       "trend": [
@@ -27256,8 +27256,8 @@
       "currentStock": 445,
       "dailyRate": 0.6,
       "monthlyRate": 17,
-      "daysLeft": 784,
-      "reorderQty": 26,
+      "daysLeft": 789,
+      "reorderQty": 25,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -27434,7 +27434,7 @@
       "currentStock": 192,
       "dailyRate": 0.6,
       "monthlyRate": 17,
-      "daysLeft": 342,
+      "daysLeft": 344,
       "reorderQty": 25,
       "periods": {
         "7": {
@@ -27518,7 +27518,7 @@
       "currentStock": 252,
       "dailyRate": 0.6,
       "monthlyRate": 17,
-      "daysLeft": 449,
+      "daysLeft": 452,
       "reorderQty": 25,
       "periods": {
         "7": {
@@ -27602,7 +27602,7 @@
       "currentStock": 132,
       "dailyRate": 0.6,
       "monthlyRate": 17,
-      "daysLeft": 235,
+      "daysLeft": 237,
       "reorderQty": 25,
       "periods": {
         "7": {
@@ -27869,7 +27869,7 @@
       "currentStock": 215,
       "dailyRate": 0.5,
       "monthlyRate": 16,
-      "daysLeft": 409,
+      "daysLeft": 411,
       "reorderQty": 24,
       "periods": {
         "7": {
@@ -27958,7 +27958,7 @@
       "currentStock": 194,
       "dailyRate": 0.5,
       "monthlyRate": 16,
-      "daysLeft": 369,
+      "daysLeft": 371,
       "reorderQty": 24,
       "periods": {
         "7": {
@@ -28047,7 +28047,7 @@
       "currentStock": 110,
       "dailyRate": 0.5,
       "monthlyRate": 16,
-      "daysLeft": 209,
+      "daysLeft": 210,
       "reorderQty": 24,
       "periods": {
         "7": {
@@ -28225,7 +28225,7 @@
       "currentStock": 649,
       "dailyRate": 0.5,
       "monthlyRate": 15,
-      "daysLeft": 1261,
+      "daysLeft": 1269,
       "reorderQty": 23,
       "periods": {
         "7": {
@@ -28486,8 +28486,8 @@
       "totalOut": 83,
       "currentStock": 417,
       "dailyRate": 0.5,
-      "monthlyRate": 15,
-      "daysLeft": 859,
+      "monthlyRate": 14,
+      "daysLeft": 864,
       "reorderQty": 22,
       "periods": {
         "7": {
@@ -28739,7 +28739,7 @@
       "currentStock": 330,
       "dailyRate": 0.5,
       "monthlyRate": 14,
-      "daysLeft": 705,
+      "daysLeft": 710,
       "reorderQty": 21,
       "periods": {
         "7": {
@@ -28828,7 +28828,7 @@
       "currentStock": 60,
       "dailyRate": 0.5,
       "monthlyRate": 14,
-      "daysLeft": 128,
+      "daysLeft": 129,
       "reorderQty": 21,
       "periods": {
         "7": {
@@ -28912,7 +28912,7 @@
       "currentStock": 320,
       "dailyRate": 0.5,
       "monthlyRate": 14,
-      "daysLeft": 684,
+      "daysLeft": 688,
       "reorderQty": 21,
       "periods": {
         "7": {
@@ -29001,7 +29001,7 @@
       "currentStock": 90,
       "dailyRate": 0.5,
       "monthlyRate": 14,
-      "daysLeft": 192,
+      "daysLeft": 194,
       "reorderQty": 21,
       "periods": {
         "7": {
@@ -29090,7 +29090,7 @@
       "currentStock": 30,
       "dailyRate": 0.5,
       "monthlyRate": 14,
-      "daysLeft": 64,
+      "daysLeft": 65,
       "reorderQty": 21,
       "periods": {
         "7": {
@@ -29174,7 +29174,7 @@
       "currentStock": 356,
       "dailyRate": 0.5,
       "monthlyRate": 14,
-      "daysLeft": 761,
+      "daysLeft": 765,
       "reorderQty": 21,
       "periods": {
         "7": {
@@ -29347,7 +29347,7 @@
       "currentStock": 240,
       "dailyRate": 0.5,
       "monthlyRate": 14,
-      "daysLeft": 513,
+      "daysLeft": 516,
       "reorderQty": 21,
       "periods": {
         "7": {
@@ -29431,7 +29431,7 @@
       "currentStock": 720,
       "dailyRate": 0.5,
       "monthlyRate": 14,
-      "daysLeft": 1539,
+      "daysLeft": 1548,
       "reorderQty": 21,
       "periods": {
         "7": {
@@ -29520,7 +29520,7 @@
       "currentStock": 120,
       "dailyRate": 0.4,
       "monthlyRate": 13,
-      "daysLeft": 274,
+      "daysLeft": 275,
       "reorderQty": 20,
       "periods": {
         "7": {
@@ -29609,7 +29609,7 @@
       "currentStock": 175,
       "dailyRate": 0.4,
       "monthlyRate": 13,
-      "daysLeft": 399,
+      "daysLeft": 401,
       "reorderQty": 20,
       "periods": {
         "7": {
@@ -29698,7 +29698,7 @@
       "currentStock": 588,
       "dailyRate": 0.4,
       "monthlyRate": 13,
-      "daysLeft": 1397,
+      "daysLeft": 1405,
       "reorderQty": 19,
       "periods": {
         "7": {
@@ -29782,7 +29782,7 @@
       "currentStock": 132,
       "dailyRate": 0.4,
       "monthlyRate": 13,
-      "daysLeft": 314,
+      "daysLeft": 315,
       "reorderQty": 19,
       "periods": {
         "7": {
@@ -29871,7 +29871,7 @@
       "currentStock": 40,
       "dailyRate": 0.4,
       "monthlyRate": 13,
-      "daysLeft": 95,
+      "daysLeft": 96,
       "reorderQty": 19,
       "periods": {
         "7": {
@@ -29960,7 +29960,7 @@
       "currentStock": 283,
       "dailyRate": 0.4,
       "monthlyRate": 13,
-      "daysLeft": 672,
+      "daysLeft": 676,
       "reorderQty": 19,
       "periods": {
         "7": {
@@ -29978,11 +29978,11 @@
           "reorderQty": 30
         },
         "90": {
-          "totalOut": 42,
-          "dailyRate": 0.5,
-          "monthlyRate": 14,
-          "daysLeft": 606,
-          "reorderQty": 21
+          "totalOut": 32,
+          "dailyRate": 0.4,
+          "monthlyRate": 11,
+          "daysLeft": 796,
+          "reorderQty": 16
         }
       },
       "trend": [
@@ -30040,6 +30040,95 @@
       }
     },
     {
+      "name": "Hanging Tree Chart (PRF027)",
+      "cat": "Perfume",
+      "loc": "Jhilmil",
+      "unit": "CHART",
+      "totalIn": 121,
+      "totalOut": 71,
+      "currentStock": 50,
+      "dailyRate": 0.4,
+      "monthlyRate": 12,
+      "daysLeft": 121,
+      "reorderQty": 19,
+      "periods": {
+        "7": {
+          "totalOut": 6,
+          "dailyRate": 0.9,
+          "monthlyRate": 26,
+          "daysLeft": 58,
+          "reorderQty": 39
+        },
+        "30": {
+          "totalOut": 10,
+          "dailyRate": 0.3,
+          "monthlyRate": 10,
+          "daysLeft": 150,
+          "reorderQty": 15
+        },
+        "90": {
+          "totalOut": 31,
+          "dailyRate": 0.3,
+          "monthlyRate": 10,
+          "daysLeft": 145,
+          "reorderQty": 16
+        }
+      },
+      "trend": [
+        0,
+        0,
+        4,
+        5,
+        6,
+        3,
+        0,
+        16,
+        0,
+        2,
+        0,
+        4,
+        2,
+        16,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        4,
+        2
+      ],
+      "monthlyOut": [
+        0,
+        58,
+        12,
+        41,
+        2,
+        29,
+        5,
+        21,
+        30,
+        23,
+        12,
+        20,
+        3,
+        9,
+        25,
+        8,
+        19,
+        4,
+        6
+      ],
+      "yoy": {
+        "month": "2026-08",
+        "cur": 4,
+        "prev": 29
+      }
+    },
+    {
       "name": "Silencer Show 6019 Hks (SS002)",
       "cat": "Silencer Show",
       "loc": "Jhilmil",
@@ -30049,7 +30138,7 @@
       "currentStock": 80,
       "dailyRate": 0.4,
       "monthlyRate": 12,
-      "daysLeft": 195,
+      "daysLeft": 197,
       "reorderQty": 18,
       "periods": {
         "7": {
@@ -30138,7 +30227,7 @@
       "currentStock": 230,
       "dailyRate": 0.4,
       "monthlyRate": 12,
-      "daysLeft": 562,
+      "daysLeft": 565,
       "reorderQty": 18,
       "periods": {
         "7": {
@@ -30304,95 +30393,6 @@
         "month": "2026-08",
         "cur": 0,
         "prev": 10
-      }
-    },
-    {
-      "name": "Hanging Tree Chart (PRF027)",
-      "cat": "Perfume",
-      "loc": "Jhilmil",
-      "unit": "CHART",
-      "totalIn": 121,
-      "totalOut": 69,
-      "currentStock": 52,
-      "dailyRate": 0.4,
-      "monthlyRate": 12,
-      "daysLeft": 129,
-      "reorderQty": 18,
-      "periods": {
-        "7": {
-          "totalOut": 4,
-          "dailyRate": 0.6,
-          "monthlyRate": 17,
-          "daysLeft": 91,
-          "reorderQty": 26
-        },
-        "30": {
-          "totalOut": 8,
-          "dailyRate": 0.3,
-          "monthlyRate": 8,
-          "daysLeft": 195,
-          "reorderQty": 12
-        },
-        "90": {
-          "totalOut": 33,
-          "dailyRate": 0.4,
-          "monthlyRate": 11,
-          "daysLeft": 142,
-          "reorderQty": 17
-        }
-      },
-      "trend": [
-        0,
-        0,
-        4,
-        5,
-        6,
-        3,
-        0,
-        16,
-        0,
-        2,
-        0,
-        4,
-        2,
-        16,
-        0,
-        3,
-        0,
-        0,
-        0,
-        0,
-        4,
-        0,
-        0,
-        4,
-        0
-      ],
-      "monthlyOut": [
-        0,
-        58,
-        12,
-        41,
-        2,
-        29,
-        5,
-        21,
-        30,
-        23,
-        12,
-        20,
-        3,
-        9,
-        25,
-        8,
-        19,
-        4,
-        4
-      ],
-      "yoy": {
-        "month": "2026-08",
-        "cur": 4,
-        "prev": 29
       }
     },
     {
@@ -30571,9 +30571,9 @@
       "totalIn": 120,
       "totalOut": 60,
       "currentStock": 60,
-      "dailyRate": 0.4,
-      "monthlyRate": 11,
-      "daysLeft": 171,
+      "dailyRate": 0.3,
+      "monthlyRate": 10,
+      "daysLeft": 172,
       "reorderQty": 16,
       "periods": {
         "7": {
@@ -30655,8 +30655,8 @@
       "totalIn": 60,
       "totalOut": 60,
       "currentStock": 0,
-      "dailyRate": 0.4,
-      "monthlyRate": 11,
+      "dailyRate": 0.3,
+      "monthlyRate": 10,
       "daysLeft": 0,
       "reorderQty": 16,
       "periods": {
@@ -30739,9 +30739,9 @@
       "totalIn": 588,
       "totalOut": 60,
       "currentStock": 528,
-      "dailyRate": 0.4,
-      "monthlyRate": 11,
-      "daysLeft": 1505,
+      "dailyRate": 0.3,
+      "monthlyRate": 10,
+      "daysLeft": 1514,
       "reorderQty": 16,
       "periods": {
         "7": {
@@ -30828,8 +30828,8 @@
       "totalIn": 67,
       "totalOut": 60,
       "currentStock": 7,
-      "dailyRate": 0.4,
-      "monthlyRate": 11,
+      "dailyRate": 0.3,
+      "monthlyRate": 10,
       "daysLeft": 20,
       "reorderQty": 16,
       "periods": {
@@ -30848,11 +30848,11 @@
           "reorderQty": 0
         },
         "90": {
-          "totalOut": 25,
-          "dailyRate": 0.3,
-          "monthlyRate": 8,
-          "daysLeft": 25,
-          "reorderQty": 13
+          "totalOut": 19,
+          "dailyRate": 0.2,
+          "monthlyRate": 6,
+          "daysLeft": 33,
+          "reorderQty": 10
         }
       },
       "trend": [
@@ -30912,9 +30912,9 @@
       "totalIn": 118,
       "totalOut": 60,
       "currentStock": 58,
-      "dailyRate": 0.4,
-      "monthlyRate": 11,
-      "daysLeft": 165,
+      "dailyRate": 0.3,
+      "monthlyRate": 10,
+      "daysLeft": 166,
       "reorderQty": 16,
       "periods": {
         "7": {
@@ -31003,7 +31003,7 @@
       "currentStock": 30,
       "dailyRate": 0.3,
       "monthlyRate": 10,
-      "daysLeft": 88,
+      "daysLeft": 89,
       "reorderQty": 15,
       "periods": {
         "7": {
@@ -31021,11 +31021,11 @@
           "reorderQty": 5
         },
         "90": {
-          "totalOut": 18,
-          "dailyRate": 0.2,
-          "monthlyRate": 6,
-          "daysLeft": 150,
-          "reorderQty": 9
+          "totalOut": 3,
+          "dailyRate": 0,
+          "monthlyRate": 1,
+          "daysLeft": 900,
+          "reorderQty": 2
         }
       },
       "trend": [
@@ -31092,7 +31092,7 @@
       "currentStock": 401,
       "dailyRate": 0.3,
       "monthlyRate": 10,
-      "daysLeft": 1247,
+      "daysLeft": 1254,
       "reorderQty": 14,
       "periods": {
         "7": {
@@ -31181,7 +31181,7 @@
       "currentStock": 254,
       "dailyRate": 0.3,
       "monthlyRate": 10,
-      "daysLeft": 790,
+      "daysLeft": 794,
       "reorderQty": 14,
       "periods": {
         "7": {
@@ -31270,7 +31270,7 @@
       "currentStock": -55,
       "dailyRate": 0.3,
       "monthlyRate": 10,
-      "daysLeft": -171,
+      "daysLeft": -172,
       "reorderQty": 14,
       "periods": {
         "7": {
@@ -31532,7 +31532,7 @@
       "currentStock": 86,
       "dailyRate": 0.3,
       "monthlyRate": 9,
-      "daysLeft": 288,
+      "daysLeft": 290,
       "reorderQty": 13,
       "periods": {
         "7": {
@@ -31621,7 +31621,7 @@
       "currentStock": 200,
       "dailyRate": 0.3,
       "monthlyRate": 9,
-      "daysLeft": 684,
+      "daysLeft": 688,
       "reorderQty": 13,
       "periods": {
         "7": {
@@ -31705,7 +31705,7 @@
       "currentStock": 220,
       "dailyRate": 0.3,
       "monthlyRate": 9,
-      "daysLeft": 752,
+      "daysLeft": 757,
       "reorderQty": 13,
       "periods": {
         "7": {
@@ -31794,7 +31794,7 @@
       "currentStock": 290,
       "dailyRate": 0.3,
       "monthlyRate": 9,
-      "daysLeft": 992,
+      "daysLeft": 998,
       "reorderQty": 13,
       "periods": {
         "7": {
@@ -31812,11 +31812,11 @@
           "reorderQty": 15
         },
         "90": {
-          "totalOut": 40,
-          "dailyRate": 0.4,
-          "monthlyRate": 13,
-          "daysLeft": 653,
-          "reorderQty": 20
+          "totalOut": 20,
+          "dailyRate": 0.2,
+          "monthlyRate": 7,
+          "daysLeft": 1305,
+          "reorderQty": 10
         }
       },
       "trend": [
@@ -31883,7 +31883,7 @@
       "currentStock": 50,
       "dailyRate": 0.3,
       "monthlyRate": 9,
-      "daysLeft": 171,
+      "daysLeft": 172,
       "reorderQty": 13,
       "periods": {
         "7": {
@@ -31972,7 +31972,7 @@
       "currentStock": 50,
       "dailyRate": 0.3,
       "monthlyRate": 9,
-      "daysLeft": 171,
+      "daysLeft": 172,
       "reorderQty": 13,
       "periods": {
         "7": {
@@ -32061,7 +32061,7 @@
       "currentStock": 115,
       "dailyRate": 0.3,
       "monthlyRate": 9,
-      "daysLeft": 393,
+      "daysLeft": 396,
       "reorderQty": 13,
       "periods": {
         "7": {
@@ -32318,7 +32318,7 @@
       "currentStock": 65,
       "dailyRate": 0.3,
       "monthlyRate": 9,
-      "daysLeft": 227,
+      "daysLeft": 228,
       "reorderQty": 13,
       "periods": {
         "7": {
@@ -32407,7 +32407,7 @@
       "currentStock": -48,
       "dailyRate": 0.3,
       "monthlyRate": 8,
-      "daysLeft": -171,
+      "daysLeft": -172,
       "reorderQty": 13,
       "periods": {
         "7": {
@@ -32496,7 +32496,7 @@
       "currentStock": 237,
       "dailyRate": 0.3,
       "monthlyRate": 8,
-      "daysLeft": 881,
+      "daysLeft": 886,
       "reorderQty": 12,
       "periods": {
         "7": {
@@ -32669,7 +32669,7 @@
       "currentStock": 255,
       "dailyRate": 0.3,
       "monthlyRate": 8,
-      "daysLeft": 969,
+      "daysLeft": 975,
       "reorderQty": 12,
       "periods": {
         "7": {
@@ -32758,7 +32758,7 @@
       "currentStock": 476,
       "dailyRate": 0.3,
       "monthlyRate": 8,
-      "daysLeft": 1809,
+      "daysLeft": 1819,
       "reorderQty": 12,
       "periods": {
         "7": {
@@ -32842,7 +32842,7 @@
       "currentStock": 121,
       "dailyRate": 0.3,
       "monthlyRate": 8,
-      "daysLeft": 460,
+      "daysLeft": 462,
       "reorderQty": 12,
       "periods": {
         "7": {
@@ -32926,7 +32926,7 @@
       "currentStock": 34,
       "dailyRate": 0.2,
       "monthlyRate": 7,
-      "daysLeft": 142,
+      "daysLeft": 143,
       "reorderQty": 11,
       "periods": {
         "7": {
@@ -33033,11 +33033,11 @@
           "reorderQty": 0
         },
         "90": {
-          "totalOut": 16,
-          "dailyRate": 0.2,
-          "monthlyRate": 5,
-          "daysLeft": -118,
-          "reorderQty": 8
+          "totalOut": 11,
+          "dailyRate": 0.1,
+          "monthlyRate": 4,
+          "daysLeft": -172,
+          "reorderQty": 6
         }
       },
       "trend": [
@@ -33104,8 +33104,8 @@
       "currentStock": 80,
       "dailyRate": 0.2,
       "monthlyRate": 7,
-      "daysLeft": 342,
-      "reorderQty": 11,
+      "daysLeft": 344,
+      "reorderQty": 10,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -33193,8 +33193,8 @@
       "currentStock": 45,
       "dailyRate": 0.2,
       "monthlyRate": 7,
-      "daysLeft": 192,
-      "reorderQty": 11,
+      "daysLeft": 194,
+      "reorderQty": 10,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -33277,8 +33277,8 @@
       "currentStock": 60,
       "dailyRate": 0.2,
       "monthlyRate": 7,
-      "daysLeft": 257,
-      "reorderQty": 11,
+      "daysLeft": 258,
+      "reorderQty": 10,
       "periods": {
         "7": {
           "totalOut": 5,
@@ -33366,8 +33366,8 @@
       "currentStock": -20,
       "dailyRate": 0.2,
       "monthlyRate": 7,
-      "daysLeft": -85,
-      "reorderQty": 11,
+      "daysLeft": -86,
+      "reorderQty": 10,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -33384,11 +33384,11 @@
           "reorderQty": 0
         },
         "90": {
-          "totalOut": 20,
-          "dailyRate": 0.2,
-          "monthlyRate": 7,
-          "daysLeft": -90,
-          "reorderQty": 10
+          "totalOut": 0,
+          "dailyRate": 0,
+          "monthlyRate": 0,
+          "daysLeft": 9999,
+          "reorderQty": 0
         }
       },
       "trend": [
@@ -33450,8 +33450,8 @@
       "currentStock": 560,
       "dailyRate": 0.2,
       "monthlyRate": 7,
-      "daysLeft": 2394,
-      "reorderQty": 11,
+      "daysLeft": 2408,
+      "reorderQty": 10,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -33628,7 +33628,7 @@
       "currentStock": 372,
       "dailyRate": 0.2,
       "monthlyRate": 6,
-      "daysLeft": 1767,
+      "daysLeft": 1777,
       "reorderQty": 9,
       "periods": {
         "7": {
@@ -33717,7 +33717,7 @@
       "currentStock": 365,
       "dailyRate": 0.2,
       "monthlyRate": 6,
-      "daysLeft": 1783,
+      "daysLeft": 1794,
       "reorderQty": 9,
       "periods": {
         "7": {
@@ -33806,7 +33806,7 @@
       "currentStock": 165,
       "dailyRate": 0.2,
       "monthlyRate": 6,
-      "daysLeft": 806,
+      "daysLeft": 811,
       "reorderQty": 9,
       "periods": {
         "7": {
@@ -33895,7 +33895,7 @@
       "currentStock": 70,
       "dailyRate": 0.2,
       "monthlyRate": 6,
-      "daysLeft": 352,
+      "daysLeft": 354,
       "reorderQty": 9,
       "periods": {
         "7": {
@@ -33984,7 +33984,7 @@
       "currentStock": 173,
       "dailyRate": 0.2,
       "monthlyRate": 6,
-      "daysLeft": 924,
+      "daysLeft": 930,
       "reorderQty": 8,
       "periods": {
         "7": {
@@ -34068,7 +34068,7 @@
       "currentStock": 89,
       "dailyRate": 0.2,
       "monthlyRate": 5,
-      "daysLeft": 491,
+      "daysLeft": 494,
       "reorderQty": 8,
       "periods": {
         "7": {
@@ -34152,7 +34152,7 @@
       "currentStock": 50,
       "dailyRate": 0.2,
       "monthlyRate": 5,
-      "daysLeft": 285,
+      "daysLeft": 287,
       "reorderQty": 8,
       "periods": {
         "7": {
@@ -34236,7 +34236,7 @@
       "currentStock": 310,
       "dailyRate": 0.2,
       "monthlyRate": 5,
-      "daysLeft": 1767,
+      "daysLeft": 1777,
       "reorderQty": 8,
       "periods": {
         "7": {
@@ -34409,7 +34409,7 @@
       "currentStock": 362,
       "dailyRate": 0.2,
       "monthlyRate": 5,
-      "daysLeft": 2063,
+      "daysLeft": 2075,
       "reorderQty": 8,
       "periods": {
         "7": {
@@ -34493,7 +34493,7 @@
       "currentStock": -30,
       "dailyRate": 0.2,
       "monthlyRate": 5,
-      "daysLeft": -171,
+      "daysLeft": -172,
       "reorderQty": 8,
       "periods": {
         "7": {
@@ -34666,7 +34666,7 @@
       "currentStock": 75,
       "dailyRate": 0.2,
       "monthlyRate": 5,
-      "daysLeft": 428,
+      "daysLeft": 430,
       "reorderQty": 8,
       "periods": {
         "7": {
@@ -34750,7 +34750,7 @@
       "currentStock": 119,
       "dailyRate": 0.2,
       "monthlyRate": 5,
-      "daysLeft": 727,
+      "daysLeft": 731,
       "reorderQty": 7,
       "periods": {
         "7": {
@@ -34928,7 +34928,7 @@
       "currentStock": 263,
       "dailyRate": 0.2,
       "monthlyRate": 5,
-      "daysLeft": 1666,
+      "daysLeft": 1675,
       "reorderQty": 7,
       "periods": {
         "7": {
@@ -35012,7 +35012,7 @@
       "currentStock": 45,
       "dailyRate": 0.1,
       "monthlyRate": 4,
-      "daysLeft": 308,
+      "daysLeft": 310,
       "reorderQty": 7,
       "periods": {
         "7": {
@@ -35096,7 +35096,7 @@
       "currentStock": 100,
       "dailyRate": 0.1,
       "monthlyRate": 4,
-      "daysLeft": 684,
+      "daysLeft": 688,
       "reorderQty": 7,
       "periods": {
         "7": {
@@ -35180,7 +35180,7 @@
       "currentStock": 432,
       "dailyRate": 0.1,
       "monthlyRate": 4,
-      "daysLeft": 2955,
+      "daysLeft": 2972,
       "reorderQty": 7,
       "periods": {
         "7": {
@@ -35264,7 +35264,7 @@
       "currentStock": 26,
       "dailyRate": 0.1,
       "monthlyRate": 4,
-      "daysLeft": 185,
+      "daysLeft": 186,
       "reorderQty": 6,
       "periods": {
         "7": {
@@ -35442,7 +35442,7 @@
       "currentStock": 420,
       "dailyRate": 0.1,
       "monthlyRate": 4,
-      "daysLeft": 2993,
+      "daysLeft": 3010,
       "reorderQty": 6,
       "periods": {
         "7": {
@@ -35531,7 +35531,7 @@
       "currentStock": 45,
       "dailyRate": 0.1,
       "monthlyRate": 4,
-      "daysLeft": 335,
+      "daysLeft": 337,
       "reorderQty": 6,
       "periods": {
         "7": {
@@ -35615,7 +35615,7 @@
       "currentStock": 84,
       "dailyRate": 0.1,
       "monthlyRate": 4,
-      "daysLeft": 653,
+      "daysLeft": 657,
       "reorderQty": 6,
       "periods": {
         "7": {
@@ -35705,7 +35705,7 @@
       "dailyRate": 0.1,
       "monthlyRate": 4,
       "daysLeft": 0,
-      "reorderQty": 6,
+      "reorderQty": 5,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -35787,8 +35787,8 @@
       "totalOut": 20,
       "currentStock": 18,
       "dailyRate": 0.1,
-      "monthlyRate": 4,
-      "daysLeft": 154,
+      "monthlyRate": 3,
+      "daysLeft": 155,
       "reorderQty": 5,
       "periods": {
         "7": {
@@ -35871,7 +35871,7 @@
       "totalOut": 20,
       "currentStock": 10,
       "dailyRate": 0.1,
-      "monthlyRate": 4,
+      "monthlyRate": 3,
       "daysLeft": 86,
       "reorderQty": 5,
       "periods": {
@@ -35960,8 +35960,8 @@
       "totalOut": 20,
       "currentStock": -10,
       "dailyRate": 0.1,
-      "monthlyRate": 4,
-      "daysLeft": -85,
+      "monthlyRate": 3,
+      "daysLeft": -86,
       "reorderQty": 5,
       "periods": {
         "7": {
@@ -36049,8 +36049,8 @@
       "totalOut": 20,
       "currentStock": 280,
       "dailyRate": 0.1,
-      "monthlyRate": 4,
-      "daysLeft": 2394,
+      "monthlyRate": 3,
+      "daysLeft": 2408,
       "reorderQty": 5,
       "periods": {
         "7": {
@@ -36133,8 +36133,8 @@
       "totalOut": 20,
       "currentStock": 60,
       "dailyRate": 0.1,
-      "monthlyRate": 4,
-      "daysLeft": 513,
+      "monthlyRate": 3,
+      "daysLeft": 516,
       "reorderQty": 5,
       "periods": {
         "7": {
@@ -36217,8 +36217,8 @@
       "totalOut": 20,
       "currentStock": 60,
       "dailyRate": 0.1,
-      "monthlyRate": 4,
-      "daysLeft": 513,
+      "monthlyRate": 3,
+      "daysLeft": 516,
       "reorderQty": 5,
       "periods": {
         "7": {
@@ -36301,8 +36301,8 @@
       "totalOut": 20,
       "currentStock": 53,
       "dailyRate": 0.1,
-      "monthlyRate": 4,
-      "daysLeft": 453,
+      "monthlyRate": 3,
+      "daysLeft": 456,
       "reorderQty": 5,
       "periods": {
         "7": {
@@ -36390,8 +36390,8 @@
       "totalOut": 20,
       "currentStock": 200,
       "dailyRate": 0.1,
-      "monthlyRate": 4,
-      "daysLeft": 1710,
+      "monthlyRate": 3,
+      "daysLeft": 1720,
       "reorderQty": 5,
       "periods": {
         "7": {
@@ -36474,8 +36474,8 @@
       "totalOut": 20,
       "currentStock": 287,
       "dailyRate": 0.1,
-      "monthlyRate": 4,
-      "daysLeft": 2454,
+      "monthlyRate": 3,
+      "daysLeft": 2468,
       "reorderQty": 5,
       "periods": {
         "7": {
@@ -36558,7 +36558,7 @@
       "totalOut": 20,
       "currentStock": 0,
       "dailyRate": 0.1,
-      "monthlyRate": 4,
+      "monthlyRate": 3,
       "daysLeft": 0,
       "reorderQty": 5,
       "periods": {
@@ -36647,8 +36647,8 @@
       "totalOut": 20,
       "currentStock": 138,
       "dailyRate": 0.1,
-      "monthlyRate": 4,
-      "daysLeft": 1180,
+      "monthlyRate": 3,
+      "daysLeft": 1187,
       "reorderQty": 5,
       "periods": {
         "7": {
@@ -36736,7 +36736,7 @@
       "totalOut": 20,
       "currentStock": 0,
       "dailyRate": 0.1,
-      "monthlyRate": 4,
+      "monthlyRate": 3,
       "daysLeft": 0,
       "reorderQty": 5,
       "periods": {
@@ -36820,8 +36820,8 @@
       "totalOut": 20,
       "currentStock": -20,
       "dailyRate": 0.1,
-      "monthlyRate": 4,
-      "daysLeft": -171,
+      "monthlyRate": 3,
+      "daysLeft": -172,
       "reorderQty": 5,
       "periods": {
         "7": {
@@ -36904,8 +36904,8 @@
       "totalOut": 20,
       "currentStock": 1073,
       "dailyRate": 0.1,
-      "monthlyRate": 4,
-      "daysLeft": 9174,
+      "monthlyRate": 3,
+      "daysLeft": 9228,
       "reorderQty": 5,
       "periods": {
         "7": {
@@ -36988,8 +36988,8 @@
       "totalOut": 20,
       "currentStock": 625,
       "dailyRate": 0.1,
-      "monthlyRate": 4,
-      "daysLeft": 5344,
+      "monthlyRate": 3,
+      "daysLeft": 5375,
       "reorderQty": 5,
       "periods": {
         "7": {
@@ -37077,8 +37077,8 @@
       "totalOut": 20,
       "currentStock": 280,
       "dailyRate": 0.1,
-      "monthlyRate": 4,
-      "daysLeft": 2394,
+      "monthlyRate": 3,
+      "daysLeft": 2408,
       "reorderQty": 5,
       "periods": {
         "7": {
@@ -37161,8 +37161,8 @@
       "totalOut": 20,
       "currentStock": 34,
       "dailyRate": 0.1,
-      "monthlyRate": 4,
-      "daysLeft": 291,
+      "monthlyRate": 3,
+      "daysLeft": 292,
       "reorderQty": 5,
       "periods": {
         "7": {
@@ -37246,7 +37246,7 @@
       "currentStock": 82,
       "dailyRate": 0.1,
       "monthlyRate": 3,
-      "daysLeft": 779,
+      "daysLeft": 784,
       "reorderQty": 5,
       "periods": {
         "7": {
@@ -37419,7 +37419,7 @@
       "currentStock": 132,
       "dailyRate": 0.1,
       "monthlyRate": 3,
-      "daysLeft": 1505,
+      "daysLeft": 1514,
       "reorderQty": 4,
       "periods": {
         "7": {
@@ -37503,7 +37503,7 @@
       "currentStock": 65,
       "dailyRate": 0.1,
       "monthlyRate": 3,
-      "daysLeft": 741,
+      "daysLeft": 745,
       "reorderQty": 4,
       "periods": {
         "7": {
@@ -37592,7 +37592,7 @@
       "currentStock": 116,
       "dailyRate": 0.1,
       "monthlyRate": 2,
-      "daysLeft": 1417,
+      "daysLeft": 1425,
       "reorderQty": 4,
       "periods": {
         "7": {
@@ -37849,7 +37849,7 @@
       "currentStock": 11,
       "dailyRate": 0.1,
       "monthlyRate": 2,
-      "daysLeft": 157,
+      "daysLeft": 158,
       "reorderQty": 3,
       "periods": {
         "7": {
@@ -37933,7 +37933,7 @@
       "currentStock": 190,
       "dailyRate": 0.1,
       "monthlyRate": 2,
-      "daysLeft": 2708,
+      "daysLeft": 2723,
       "reorderQty": 3,
       "periods": {
         "7": {
@@ -38111,7 +38111,7 @@
       "currentStock": 345,
       "dailyRate": 0.1,
       "monthlyRate": 2,
-      "daysLeft": 5900,
+      "daysLeft": 5934,
       "reorderQty": 3,
       "periods": {
         "7": {
@@ -38195,7 +38195,7 @@
       "currentStock": 170,
       "dailyRate": 0.1,
       "monthlyRate": 2,
-      "daysLeft": 2907,
+      "daysLeft": 2924,
       "reorderQty": 3,
       "periods": {
         "7": {
@@ -38279,7 +38279,7 @@
       "currentStock": 131,
       "dailyRate": 0.1,
       "monthlyRate": 2,
-      "daysLeft": 2240,
+      "daysLeft": 2253,
       "reorderQty": 3,
       "periods": {
         "7": {
@@ -38363,7 +38363,7 @@
       "currentStock": 153,
       "dailyRate": 0.1,
       "monthlyRate": 2,
-      "daysLeft": 2616,
+      "daysLeft": 2632,
       "reorderQty": 3,
       "periods": {
         "7": {
@@ -38447,7 +38447,7 @@
       "currentStock": 295,
       "dailyRate": 0.1,
       "monthlyRate": 2,
-      "daysLeft": 5045,
+      "daysLeft": 5074,
       "reorderQty": 3,
       "periods": {
         "7": {
@@ -38531,7 +38531,7 @@
       "currentStock": 490,
       "dailyRate": 0.1,
       "monthlyRate": 2,
-      "daysLeft": 8379,
+      "daysLeft": 8428,
       "reorderQty": 3,
       "periods": {
         "7": {
@@ -38615,7 +38615,7 @@
       "currentStock": 185,
       "dailyRate": 0.1,
       "monthlyRate": 2,
-      "daysLeft": 3164,
+      "daysLeft": 3182,
       "reorderQty": 3,
       "periods": {
         "7": {
@@ -38699,7 +38699,7 @@
       "currentStock": 14,
       "dailyRate": 0.1,
       "monthlyRate": 2,
-      "daysLeft": 239,
+      "daysLeft": 241,
       "reorderQty": 3,
       "periods": {
         "7": {
@@ -38783,7 +38783,7 @@
       "currentStock": 215,
       "dailyRate": 0.1,
       "monthlyRate": 2,
-      "daysLeft": 3677,
+      "daysLeft": 3698,
       "reorderQty": 3,
       "periods": {
         "7": {
@@ -38867,7 +38867,7 @@
       "currentStock": 11,
       "dailyRate": 0.1,
       "monthlyRate": 2,
-      "daysLeft": 188,
+      "daysLeft": 189,
       "reorderQty": 3,
       "periods": {
         "7": {
@@ -38951,7 +38951,7 @@
       "currentStock": 870,
       "dailyRate": 0.1,
       "monthlyRate": 2,
-      "daysLeft": 14877,
+      "daysLeft": 14964,
       "reorderQty": 3,
       "periods": {
         "7": {
@@ -39035,7 +39035,7 @@
       "currentStock": 240,
       "dailyRate": 0.1,
       "monthlyRate": 2,
-      "daysLeft": 4104,
+      "daysLeft": 4128,
       "reorderQty": 3,
       "periods": {
         "7": {
@@ -39119,7 +39119,7 @@
       "currentStock": -10,
       "dailyRate": 0.1,
       "monthlyRate": 2,
-      "daysLeft": -171,
+      "daysLeft": -172,
       "reorderQty": 3,
       "periods": {
         "7": {
@@ -39208,7 +39208,7 @@
       "currentStock": 58,
       "dailyRate": 0.1,
       "monthlyRate": 2,
-      "daysLeft": 992,
+      "daysLeft": 998,
       "reorderQty": 3,
       "periods": {
         "7": {
@@ -39292,7 +39292,7 @@
       "currentStock": 120,
       "dailyRate": 0.1,
       "monthlyRate": 2,
-      "daysLeft": 2052,
+      "daysLeft": 2064,
       "reorderQty": 3,
       "periods": {
         "7": {
@@ -39381,7 +39381,7 @@
       "currentStock": 70,
       "dailyRate": 0.1,
       "monthlyRate": 2,
-      "daysLeft": 1197,
+      "daysLeft": 1204,
       "reorderQty": 3,
       "periods": {
         "7": {
@@ -39465,7 +39465,7 @@
       "currentStock": 46,
       "dailyRate": 0.1,
       "monthlyRate": 2,
-      "daysLeft": 787,
+      "daysLeft": 791,
       "reorderQty": 3,
       "periods": {
         "7": {
@@ -39549,7 +39549,7 @@
       "currentStock": -10,
       "dailyRate": 0.1,
       "monthlyRate": 2,
-      "daysLeft": -171,
+      "daysLeft": -172,
       "reorderQty": 3,
       "periods": {
         "7": {
@@ -39633,7 +39633,7 @@
       "currentStock": 290,
       "dailyRate": 0.1,
       "monthlyRate": 2,
-      "daysLeft": 4959,
+      "daysLeft": 4988,
       "reorderQty": 3,
       "periods": {
         "7": {
@@ -39717,7 +39717,7 @@
       "currentStock": 290,
       "dailyRate": 0.1,
       "monthlyRate": 2,
-      "daysLeft": 4959,
+      "daysLeft": 4988,
       "reorderQty": 3,
       "periods": {
         "7": {
@@ -39801,7 +39801,7 @@
       "currentStock": 190,
       "dailyRate": 0.1,
       "monthlyRate": 2,
-      "daysLeft": 3249,
+      "daysLeft": 3268,
       "reorderQty": 3,
       "periods": {
         "7": {
@@ -39969,7 +39969,7 @@
       "currentStock": 198,
       "dailyRate": 0,
       "monthlyRate": 1,
-      "daysLeft": 4232,
+      "daysLeft": 4257,
       "reorderQty": 2,
       "periods": {
         "7": {
@@ -40053,7 +40053,7 @@
       "currentStock": 62,
       "dailyRate": 0,
       "monthlyRate": 1,
-      "daysLeft": 1767,
+      "daysLeft": 1777,
       "reorderQty": 2,
       "periods": {
         "7": {
@@ -40137,7 +40137,7 @@
       "currentStock": 109,
       "dailyRate": 0,
       "monthlyRate": 1,
-      "daysLeft": 3728,
+      "daysLeft": 3750,
       "reorderQty": 1,
       "periods": {
         "7": {
@@ -40221,7 +40221,7 @@
       "currentStock": 322,
       "dailyRate": 0,
       "monthlyRate": 1,
-      "daysLeft": 11012,
+      "daysLeft": 11077,
       "reorderQty": 1,
       "periods": {
         "7": {
@@ -40305,7 +40305,7 @@
       "currentStock": 54,
       "dailyRate": 0,
       "monthlyRate": 1,
-      "daysLeft": 1847,
+      "daysLeft": 1858,
       "reorderQty": 1,
       "periods": {
         "7": {
@@ -40389,7 +40389,7 @@
       "currentStock": 33,
       "dailyRate": 0,
       "monthlyRate": 1,
-      "daysLeft": 1129,
+      "daysLeft": 1135,
       "reorderQty": 1,
       "periods": {
         "7": {
@@ -40473,7 +40473,7 @@
       "currentStock": -4,
       "dailyRate": 0,
       "monthlyRate": 1,
-      "daysLeft": -171,
+      "daysLeft": -172,
       "reorderQty": 1,
       "periods": {
         "7": {
@@ -40557,7 +40557,7 @@
       "currentStock": 2,
       "dailyRate": 0,
       "monthlyRate": 0,
-      "daysLeft": 171,
+      "daysLeft": 172,
       "reorderQty": 1,
       "periods": {
         "7": {
@@ -49545,23 +49545,23 @@
   "categories": [
     {
       "name": "Chamois Cloth",
-      "totalOut": 78400
+      "totalOut": 79400
     },
     {
       "name": "Blind Spot Mirror",
-      "totalOut": 59239
+      "totalOut": 60039
     },
     {
       "name": "Door Guard",
-      "totalOut": 50066
+      "totalOut": 50366
     },
     {
       "name": "Other",
-      "totalOut": 44955
+      "totalOut": 45328
     },
     {
       "name": "Paint",
-      "totalOut": 36024
+      "totalOut": 36060
     },
     {
       "name": "Solar Perfume",
@@ -49569,7 +49569,7 @@
     },
     {
       "name": "Steering Knob",
-      "totalOut": 17467
+      "totalOut": 17557
     },
     {
       "name": "Gear Knob",
@@ -49581,7 +49581,7 @@
     },
     {
       "name": "Duster And Brush",
-      "totalOut": 10078
+      "totalOut": 10510
     },
     {
       "name": "Car Polish",
@@ -49597,15 +49597,15 @@
     },
     {
       "name": "Microfiber Cloth",
-      "totalOut": 8050
+      "totalOut": 8300
     },
     {
       "name": "Perfume",
-      "totalOut": 7832
+      "totalOut": 7834
     },
     {
       "name": "Air Flow",
-      "totalOut": 6288
+      "totalOut": 6403
     },
     {
       "name": "Steering Cover",
@@ -49645,7 +49645,7 @@
     },
     {
       "name": "Holder",
-      "totalOut": 2658
+      "totalOut": 2758
     },
     {
       "name": "Charger",
@@ -49653,7 +49653,7 @@
     },
     {
       "name": "Vanity Mirror",
-      "totalOut": 2175
+      "totalOut": 2275
     },
     {
       "name": "Dashboard Show",
