@@ -1,9 +1,9 @@
 {
   "meta": {
-    "updatedAt": "2026-11-22T03:27:16.002Z",
-    "periodDays": 235,
+    "updatedAt": "2026-11-23T03:27:16.033Z",
+    "periodDays": 236,
     "startDate": "2026-03-31",
-    "endDate": "2026-11-22",
+    "endDate": "2026-11-23",
     "totalSkus": 570,
     "totalUnitsOut": 729087,
     "criticalCount": 212,
@@ -299,17 +299,17 @@
       "totalIn": 54200,
       "totalOut": 48899,
       "currentStock": 5301,
-      "dailyRate": 208.1,
-      "monthlyRate": 6242,
-      "daysLeft": 25,
-      "reorderQty": 9364,
+      "dailyRate": 207.2,
+      "monthlyRate": 6216,
+      "daysLeft": 26,
+      "reorderQty": 9324,
       "periods": {
         "7": {
-          "totalOut": 1200,
-          "dailyRate": 171.4,
-          "monthlyRate": 5143,
-          "daysLeft": 31,
-          "reorderQty": 7714
+          "totalOut": 600,
+          "dailyRate": 85.7,
+          "monthlyRate": 2571,
+          "daysLeft": 62,
+          "reorderQty": 3857
         },
         "30": {
           "totalOut": 4599,
@@ -399,10 +399,10 @@
       "totalIn": 55100,
       "totalOut": 44300,
       "currentStock": 10800,
-      "dailyRate": 188.5,
-      "monthlyRate": 5655,
-      "daysLeft": 57,
-      "reorderQty": 8483,
+      "dailyRate": 187.7,
+      "monthlyRate": 5631,
+      "daysLeft": 58,
+      "reorderQty": 8447,
       "periods": {
         "7": {
           "totalOut": 400,
@@ -419,11 +419,11 @@
           "reorderQty": 3150
         },
         "90": {
-          "totalOut": 16800,
-          "dailyRate": 186.7,
-          "monthlyRate": 5600,
+          "totalOut": 16700,
+          "dailyRate": 185.6,
+          "monthlyRate": 5567,
           "daysLeft": 58,
-          "reorderQty": 8400
+          "reorderQty": 8350
         }
       },
       "trend": [
@@ -499,10 +499,10 @@
       "totalIn": 30696,
       "totalOut": 24456,
       "currentStock": 6240,
-      "dailyRate": 104.1,
-      "monthlyRate": 3122,
+      "dailyRate": 103.6,
+      "monthlyRate": 3109,
       "daysLeft": 60,
-      "reorderQty": 4683,
+      "reorderQty": 4663,
       "periods": {
         "7": {
           "totalOut": 288,
@@ -599,17 +599,17 @@
       "totalIn": 23700,
       "totalOut": 20700,
       "currentStock": 3000,
-      "dailyRate": 88.1,
-      "monthlyRate": 2643,
+      "dailyRate": 87.7,
+      "monthlyRate": 2631,
       "daysLeft": 34,
-      "reorderQty": 3964,
+      "reorderQty": 3947,
       "periods": {
         "7": {
-          "totalOut": 400,
-          "dailyRate": 57.1,
-          "monthlyRate": 1714,
-          "daysLeft": 53,
-          "reorderQty": 2571
+          "totalOut": 300,
+          "dailyRate": 42.9,
+          "monthlyRate": 1286,
+          "daysLeft": 70,
+          "reorderQty": 1929
         },
         "30": {
           "totalOut": 1600,
@@ -619,11 +619,11 @@
           "reorderQty": 2400
         },
         "90": {
-          "totalOut": 6800,
-          "dailyRate": 75.6,
-          "monthlyRate": 2267,
-          "daysLeft": 40,
-          "reorderQty": 3400
+          "totalOut": 6600,
+          "dailyRate": 73.3,
+          "monthlyRate": 2200,
+          "daysLeft": 41,
+          "reorderQty": 3300
         }
       },
       "trend": [
@@ -699,10 +699,10 @@
       "totalIn": 23676,
       "totalOut": 18600,
       "currentStock": 5076,
-      "dailyRate": 79.1,
-      "monthlyRate": 2374,
+      "dailyRate": 78.8,
+      "monthlyRate": 2364,
       "daysLeft": 64,
-      "reorderQty": 3562,
+      "reorderQty": 3547,
       "periods": {
         "7": {
           "totalOut": 144,
@@ -799,17 +799,17 @@
       "totalIn": 15300,
       "totalOut": 14600,
       "currentStock": 700,
-      "dailyRate": 62.1,
-      "monthlyRate": 1864,
+      "dailyRate": 61.9,
+      "monthlyRate": 1856,
       "daysLeft": 11,
-      "reorderQty": 2796,
+      "reorderQty": 2784,
       "periods": {
         "7": {
-          "totalOut": 400,
-          "dailyRate": 57.1,
-          "monthlyRate": 1714,
-          "daysLeft": 12,
-          "reorderQty": 2571
+          "totalOut": 300,
+          "dailyRate": 42.9,
+          "monthlyRate": 1286,
+          "daysLeft": 16,
+          "reorderQty": 1929
         },
         "30": {
           "totalOut": 1100,
@@ -819,11 +819,11 @@
           "reorderQty": 1650
         },
         "90": {
-          "totalOut": 5500,
-          "dailyRate": 61.1,
-          "monthlyRate": 1833,
-          "daysLeft": 11,
-          "reorderQty": 2750
+          "totalOut": 5100,
+          "dailyRate": 56.7,
+          "monthlyRate": 1700,
+          "daysLeft": 12,
+          "reorderQty": 2550
         }
       },
       "trend": [
@@ -899,10 +899,10 @@
       "totalIn": 20756,
       "totalOut": 13856,
       "currentStock": 6900,
-      "dailyRate": 59,
-      "monthlyRate": 1769,
-      "daysLeft": 117,
-      "reorderQty": 2653,
+      "dailyRate": 58.7,
+      "monthlyRate": 1761,
+      "daysLeft": 118,
+      "reorderQty": 2642,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -999,10 +999,10 @@
       "totalIn": 17470,
       "totalOut": 13370,
       "currentStock": 4100,
-      "dailyRate": 56.9,
-      "monthlyRate": 1707,
+      "dailyRate": 56.7,
+      "monthlyRate": 1700,
       "daysLeft": 72,
-      "reorderQty": 2560,
+      "reorderQty": 2549,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -1099,10 +1099,10 @@
       "totalIn": 14140,
       "totalOut": 12740,
       "currentStock": 1400,
-      "dailyRate": 54.2,
-      "monthlyRate": 1626,
+      "dailyRate": 54,
+      "monthlyRate": 1619,
       "daysLeft": 26,
-      "reorderQty": 2440,
+      "reorderQty": 2429,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -1199,17 +1199,17 @@
       "totalIn": 15384,
       "totalOut": 10903,
       "currentStock": 4481,
-      "dailyRate": 46.4,
-      "monthlyRate": 1392,
+      "dailyRate": 46.2,
+      "monthlyRate": 1386,
       "daysLeft": 97,
-      "reorderQty": 2088,
+      "reorderQty": 2079,
       "periods": {
         "7": {
-          "totalOut": 620,
-          "dailyRate": 88.6,
-          "monthlyRate": 2657,
-          "daysLeft": 51,
-          "reorderQty": 3986
+          "totalOut": 230,
+          "dailyRate": 32.9,
+          "monthlyRate": 986,
+          "daysLeft": 136,
+          "reorderQty": 1479
         },
         "30": {
           "totalOut": 670,
@@ -1299,10 +1299,10 @@
       "totalIn": 11800,
       "totalOut": 10800,
       "currentStock": 1000,
-      "dailyRate": 46,
-      "monthlyRate": 1379,
+      "dailyRate": 45.8,
+      "monthlyRate": 1373,
       "daysLeft": 22,
-      "reorderQty": 2068,
+      "reorderQty": 2059,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -1399,10 +1399,10 @@
       "totalIn": 13260,
       "totalOut": 10740,
       "currentStock": 2520,
-      "dailyRate": 45.7,
-      "monthlyRate": 1371,
+      "dailyRate": 45.5,
+      "monthlyRate": 1365,
       "daysLeft": 55,
-      "reorderQty": 2057,
+      "reorderQty": 2048,
       "periods": {
         "7": {
           "totalOut": 240,
@@ -1499,10 +1499,10 @@
       "totalIn": 8000,
       "totalOut": 8900,
       "currentStock": -900,
-      "dailyRate": 37.9,
-      "monthlyRate": 1136,
+      "dailyRate": 37.7,
+      "monthlyRate": 1131,
       "daysLeft": -24,
-      "reorderQty": 1704,
+      "reorderQty": 1697,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -1519,11 +1519,11 @@
           "reorderQty": 0
         },
         "90": {
-          "totalOut": 4900,
-          "dailyRate": 54.4,
-          "monthlyRate": 1633,
-          "daysLeft": -17,
-          "reorderQty": 2450
+          "totalOut": 4500,
+          "dailyRate": 50,
+          "monthlyRate": 1500,
+          "daysLeft": -18,
+          "reorderQty": 2250
         }
       },
       "trend": [
@@ -1594,10 +1594,10 @@
       "totalIn": 13800,
       "totalOut": 8552,
       "currentStock": 5248,
-      "dailyRate": 36.4,
-      "monthlyRate": 1092,
-      "daysLeft": 144,
-      "reorderQty": 1638,
+      "dailyRate": 36.2,
+      "monthlyRate": 1087,
+      "daysLeft": 145,
+      "reorderQty": 1631,
       "periods": {
         "7": {
           "totalOut": 100,
@@ -1614,11 +1614,11 @@
           "reorderQty": 1278
         },
         "90": {
-          "totalOut": 4452,
-          "dailyRate": 49.5,
-          "monthlyRate": 1484,
-          "daysLeft": 106,
-          "reorderQty": 2226
+          "totalOut": 4352,
+          "dailyRate": 48.4,
+          "monthlyRate": 1451,
+          "daysLeft": 109,
+          "reorderQty": 2176
         }
       },
       "trend": [
@@ -1694,10 +1694,10 @@
       "totalIn": 7100,
       "totalOut": 8100,
       "currentStock": -1000,
-      "dailyRate": 34.5,
-      "monthlyRate": 1034,
+      "dailyRate": 34.3,
+      "monthlyRate": 1030,
       "daysLeft": -29,
-      "reorderQty": 1551,
+      "reorderQty": 1544,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -1714,11 +1714,11 @@
           "reorderQty": 0
         },
         "90": {
-          "totalOut": 2660,
-          "dailyRate": 29.6,
-          "monthlyRate": 887,
-          "daysLeft": -34,
-          "reorderQty": 1330
+          "totalOut": 2560,
+          "dailyRate": 28.4,
+          "monthlyRate": 853,
+          "daysLeft": -35,
+          "reorderQty": 1280
         }
       },
       "trend": [
@@ -1794,10 +1794,10 @@
       "totalIn": 13092,
       "totalOut": 7894,
       "currentStock": 5198,
-      "dailyRate": 33.6,
-      "monthlyRate": 1008,
+      "dailyRate": 33.4,
+      "monthlyRate": 1003,
       "daysLeft": 155,
-      "reorderQty": 1512,
+      "reorderQty": 1505,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -1894,10 +1894,10 @@
       "totalIn": 12600,
       "totalOut": 7700,
       "currentStock": 4900,
-      "dailyRate": 32.8,
-      "monthlyRate": 983,
+      "dailyRate": 32.6,
+      "monthlyRate": 979,
       "daysLeft": 150,
-      "reorderQty": 1474,
+      "reorderQty": 1468,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -1994,10 +1994,10 @@
       "totalIn": 7590,
       "totalOut": 7590,
       "currentStock": 0,
-      "dailyRate": 32.3,
-      "monthlyRate": 969,
+      "dailyRate": 32.2,
+      "monthlyRate": 965,
       "daysLeft": 0,
-      "reorderQty": 1453,
+      "reorderQty": 1447,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -2094,10 +2094,10 @@
       "totalIn": 8890,
       "totalOut": 7440,
       "currentStock": 1450,
-      "dailyRate": 31.7,
-      "monthlyRate": 950,
+      "dailyRate": 31.5,
+      "monthlyRate": 946,
       "daysLeft": 46,
-      "reorderQty": 1425,
+      "reorderQty": 1419,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -2194,10 +2194,10 @@
       "totalIn": 7400,
       "totalOut": 7400,
       "currentStock": 0,
-      "dailyRate": 31.5,
-      "monthlyRate": 945,
+      "dailyRate": 31.4,
+      "monthlyRate": 941,
       "daysLeft": 0,
-      "reorderQty": 1417,
+      "reorderQty": 1411,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -2214,11 +2214,11 @@
           "reorderQty": 0
         },
         "90": {
-          "totalOut": 2200,
-          "dailyRate": 24.4,
-          "monthlyRate": 733,
+          "totalOut": 2100,
+          "dailyRate": 23.3,
+          "monthlyRate": 700,
           "daysLeft": 0,
-          "reorderQty": 1100
+          "reorderQty": 1050
         }
       },
       "trend": [
@@ -2294,10 +2294,10 @@
       "totalIn": 7400,
       "totalOut": 7400,
       "currentStock": 0,
-      "dailyRate": 31.5,
-      "monthlyRate": 945,
+      "dailyRate": 31.4,
+      "monthlyRate": 941,
       "daysLeft": 0,
-      "reorderQty": 1417,
+      "reorderQty": 1411,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -2314,11 +2314,11 @@
           "reorderQty": 0
         },
         "90": {
-          "totalOut": 2200,
-          "dailyRate": 24.4,
-          "monthlyRate": 733,
+          "totalOut": 2100,
+          "dailyRate": 23.3,
+          "monthlyRate": 700,
           "daysLeft": 0,
-          "reorderQty": 1100
+          "reorderQty": 1050
         }
       },
       "trend": [
@@ -2394,10 +2394,10 @@
       "totalIn": 12232,
       "totalOut": 6952,
       "currentStock": 5280,
-      "dailyRate": 29.6,
-      "monthlyRate": 887,
-      "daysLeft": 178,
-      "reorderQty": 1331,
+      "dailyRate": 29.5,
+      "monthlyRate": 884,
+      "daysLeft": 179,
+      "reorderQty": 1326,
       "periods": {
         "7": {
           "totalOut": 192,
@@ -2494,10 +2494,10 @@
       "totalIn": 9048,
       "totalOut": 6840,
       "currentStock": 2208,
-      "dailyRate": 29.1,
-      "monthlyRate": 873,
+      "dailyRate": 29,
+      "monthlyRate": 869,
       "daysLeft": 76,
-      "reorderQty": 1310,
+      "reorderQty": 1304,
       "periods": {
         "7": {
           "totalOut": 576,
@@ -2594,10 +2594,10 @@
       "totalIn": 8520,
       "totalOut": 6792,
       "currentStock": 1728,
-      "dailyRate": 28.9,
-      "monthlyRate": 867,
+      "dailyRate": 28.8,
+      "monthlyRate": 863,
       "daysLeft": 60,
-      "reorderQty": 1301,
+      "reorderQty": 1295,
       "periods": {
         "7": {
           "totalOut": 48,
@@ -2694,10 +2694,10 @@
       "totalIn": 8000,
       "totalOut": 6400,
       "currentStock": 1600,
-      "dailyRate": 27.2,
-      "monthlyRate": 817,
+      "dailyRate": 27.1,
+      "monthlyRate": 814,
       "daysLeft": 59,
-      "reorderQty": 1226,
+      "reorderQty": 1220,
       "periods": {
         "7": {
           "totalOut": 80,
@@ -2794,10 +2794,10 @@
       "totalIn": 21000,
       "totalOut": 6000,
       "currentStock": 15000,
-      "dailyRate": 25.5,
-      "monthlyRate": 766,
-      "daysLeft": 588,
-      "reorderQty": 1149,
+      "dailyRate": 25.4,
+      "monthlyRate": 763,
+      "daysLeft": 590,
+      "reorderQty": 1144,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -2894,10 +2894,10 @@
       "totalIn": 6700,
       "totalOut": 5800,
       "currentStock": 900,
-      "dailyRate": 24.7,
-      "monthlyRate": 740,
-      "daysLeft": 36,
-      "reorderQty": 1111,
+      "dailyRate": 24.6,
+      "monthlyRate": 737,
+      "daysLeft": 37,
+      "reorderQty": 1106,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -2994,10 +2994,10 @@
       "totalIn": 5800,
       "totalOut": 5700,
       "currentStock": 100,
-      "dailyRate": 24.3,
-      "monthlyRate": 728,
+      "dailyRate": 24.2,
+      "monthlyRate": 725,
       "daysLeft": 4,
-      "reorderQty": 1091,
+      "reorderQty": 1087,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -3094,10 +3094,10 @@
       "totalIn": 5480,
       "totalOut": 5492,
       "currentStock": -12,
-      "dailyRate": 23.4,
-      "monthlyRate": 701,
+      "dailyRate": 23.3,
+      "monthlyRate": 698,
       "daysLeft": -1,
-      "reorderQty": 1052,
+      "reorderQty": 1047,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -3194,10 +3194,10 @@
       "totalIn": 5484,
       "totalOut": 5488,
       "currentStock": -4,
-      "dailyRate": 23.4,
-      "monthlyRate": 701,
+      "dailyRate": 23.3,
+      "monthlyRate": 698,
       "daysLeft": 0,
-      "reorderQty": 1051,
+      "reorderQty": 1046,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -3289,10 +3289,10 @@
       "totalIn": 7500,
       "totalOut": 5260,
       "currentStock": 2240,
-      "dailyRate": 22.4,
-      "monthlyRate": 671,
-      "daysLeft": 100,
-      "reorderQty": 1007,
+      "dailyRate": 22.3,
+      "monthlyRate": 669,
+      "daysLeft": 101,
+      "reorderQty": 1003,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -3309,11 +3309,11 @@
           "reorderQty": 150
         },
         "90": {
-          "totalOut": 1460,
-          "dailyRate": 16.2,
-          "monthlyRate": 487,
-          "daysLeft": 138,
-          "reorderQty": 730
+          "totalOut": 1360,
+          "dailyRate": 15.1,
+          "monthlyRate": 453,
+          "daysLeft": 148,
+          "reorderQty": 680
         }
       },
       "trend": [
@@ -3389,10 +3389,10 @@
       "totalIn": 6000,
       "totalOut": 4860,
       "currentStock": 1140,
-      "dailyRate": 20.7,
-      "monthlyRate": 620,
+      "dailyRate": 20.6,
+      "monthlyRate": 618,
       "daysLeft": 55,
-      "reorderQty": 931,
+      "reorderQty": 927,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -3409,11 +3409,11 @@
           "reorderQty": 300
         },
         "90": {
-          "totalOut": 2060,
-          "dailyRate": 22.9,
-          "monthlyRate": 687,
-          "daysLeft": 50,
-          "reorderQty": 1030
+          "totalOut": 1660,
+          "dailyRate": 18.4,
+          "monthlyRate": 553,
+          "daysLeft": 62,
+          "reorderQty": 830
         }
       },
       "trend": [
@@ -3489,17 +3489,17 @@
       "totalIn": 7811,
       "totalOut": 4802,
       "currentStock": 3009,
-      "dailyRate": 20.4,
-      "monthlyRate": 613,
-      "daysLeft": 147,
-      "reorderQty": 920,
+      "dailyRate": 20.3,
+      "monthlyRate": 610,
+      "daysLeft": 148,
+      "reorderQty": 916,
       "periods": {
         "7": {
-          "totalOut": 85,
-          "dailyRate": 12.1,
-          "monthlyRate": 364,
-          "daysLeft": 248,
-          "reorderQty": 546
+          "totalOut": 70,
+          "dailyRate": 10,
+          "monthlyRate": 300,
+          "daysLeft": 301,
+          "reorderQty": 450
         },
         "30": {
           "totalOut": 461,
@@ -3589,10 +3589,10 @@
       "totalIn": 5577,
       "totalOut": 4727,
       "currentStock": 850,
-      "dailyRate": 20.1,
-      "monthlyRate": 603,
+      "dailyRate": 20,
+      "monthlyRate": 601,
       "daysLeft": 42,
-      "reorderQty": 905,
+      "reorderQty": 901,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -3689,10 +3689,10 @@
       "totalIn": 6480,
       "totalOut": 4512,
       "currentStock": 1968,
-      "dailyRate": 19.2,
-      "monthlyRate": 576,
+      "dailyRate": 19.1,
+      "monthlyRate": 574,
       "daysLeft": 103,
-      "reorderQty": 864,
+      "reorderQty": 860,
       "periods": {
         "7": {
           "totalOut": 288,
@@ -3790,9 +3790,9 @@
       "totalOut": 4500,
       "currentStock": 400,
       "dailyRate": 19.1,
-      "monthlyRate": 574,
+      "monthlyRate": 572,
       "daysLeft": 21,
-      "reorderQty": 862,
+      "reorderQty": 858,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -3889,10 +3889,10 @@
       "totalIn": 9090,
       "totalOut": 4400,
       "currentStock": 4690,
-      "dailyRate": 18.7,
-      "monthlyRate": 562,
-      "daysLeft": 250,
-      "reorderQty": 843,
+      "dailyRate": 18.6,
+      "monthlyRate": 559,
+      "daysLeft": 252,
+      "reorderQty": 839,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -3909,11 +3909,11 @@
           "reorderQty": 0
         },
         "90": {
-          "totalOut": 1500,
-          "dailyRate": 16.7,
-          "monthlyRate": 500,
-          "daysLeft": 281,
-          "reorderQty": 750
+          "totalOut": 1400,
+          "dailyRate": 15.6,
+          "monthlyRate": 467,
+          "daysLeft": 302,
+          "reorderQty": 700
         }
       },
       "trend": [
@@ -3989,10 +3989,10 @@
       "totalIn": 4375,
       "totalOut": 4330,
       "currentStock": 45,
-      "dailyRate": 18.4,
-      "monthlyRate": 553,
+      "dailyRate": 18.3,
+      "monthlyRate": 550,
       "daysLeft": 2,
-      "reorderQty": 829,
+      "reorderQty": 826,
       "periods": {
         "7": {
           "totalOut": 25,
@@ -4089,10 +4089,10 @@
       "totalIn": 5850,
       "totalOut": 4320,
       "currentStock": 1530,
-      "dailyRate": 18.4,
-      "monthlyRate": 551,
-      "daysLeft": 83,
-      "reorderQty": 827,
+      "dailyRate": 18.3,
+      "monthlyRate": 549,
+      "daysLeft": 84,
+      "reorderQty": 824,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -4189,10 +4189,10 @@
       "totalIn": 4300,
       "totalOut": 4300,
       "currentStock": 0,
-      "dailyRate": 18.3,
-      "monthlyRate": 549,
+      "dailyRate": 18.2,
+      "monthlyRate": 547,
       "daysLeft": 0,
-      "reorderQty": 823,
+      "reorderQty": 820,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -4209,11 +4209,11 @@
           "reorderQty": 0
         },
         "90": {
-          "totalOut": 1300,
-          "dailyRate": 14.4,
-          "monthlyRate": 433,
+          "totalOut": 1100,
+          "dailyRate": 12.2,
+          "monthlyRate": 367,
           "daysLeft": 0,
-          "reorderQty": 650
+          "reorderQty": 550
         }
       },
       "trend": [
@@ -4289,10 +4289,10 @@
       "totalIn": 4200,
       "totalOut": 4200,
       "currentStock": 0,
-      "dailyRate": 17.9,
-      "monthlyRate": 536,
+      "dailyRate": 17.8,
+      "monthlyRate": 534,
       "daysLeft": 0,
-      "reorderQty": 804,
+      "reorderQty": 801,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -4309,11 +4309,11 @@
           "reorderQty": 300
         },
         "90": {
-          "totalOut": 1500,
-          "dailyRate": 16.7,
-          "monthlyRate": 500,
+          "totalOut": 1300,
+          "dailyRate": 14.4,
+          "monthlyRate": 433,
           "daysLeft": 0,
-          "reorderQty": 750
+          "reorderQty": 650
         }
       },
       "trend": [
@@ -4390,9 +4390,9 @@
       "totalOut": 4146,
       "currentStock": 0,
       "dailyRate": 17.6,
-      "monthlyRate": 529,
+      "monthlyRate": 527,
       "daysLeft": 0,
-      "reorderQty": 794,
+      "reorderQty": 791,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -4489,10 +4489,10 @@
       "totalIn": 6105,
       "totalOut": 4105,
       "currentStock": 2000,
-      "dailyRate": 17.5,
-      "monthlyRate": 524,
-      "daysLeft": 114,
-      "reorderQty": 786,
+      "dailyRate": 17.4,
+      "monthlyRate": 522,
+      "daysLeft": 115,
+      "reorderQty": 783,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -4589,10 +4589,10 @@
       "totalIn": 6340,
       "totalOut": 3940,
       "currentStock": 2400,
-      "dailyRate": 16.8,
-      "monthlyRate": 503,
-      "daysLeft": 143,
-      "reorderQty": 754,
+      "dailyRate": 16.7,
+      "monthlyRate": 501,
+      "daysLeft": 144,
+      "reorderQty": 751,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -4690,9 +4690,9 @@
       "totalOut": 3864,
       "currentStock": 1136,
       "dailyRate": 16.4,
-      "monthlyRate": 493,
+      "monthlyRate": 491,
       "daysLeft": 69,
-      "reorderQty": 740,
+      "reorderQty": 737,
       "periods": {
         "7": {
           "totalOut": 569,
@@ -4789,10 +4789,10 @@
       "totalIn": 3750,
       "totalOut": 3850,
       "currentStock": -100,
-      "dailyRate": 16.4,
-      "monthlyRate": 491,
+      "dailyRate": 16.3,
+      "monthlyRate": 489,
       "daysLeft": -6,
-      "reorderQty": 737,
+      "reorderQty": 734,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -4890,9 +4890,9 @@
       "totalOut": 3836,
       "currentStock": 3302,
       "dailyRate": 16.3,
-      "monthlyRate": 490,
-      "daysLeft": 202,
-      "reorderQty": 735,
+      "monthlyRate": 488,
+      "daysLeft": 203,
+      "reorderQty": 731,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -4990,9 +4990,9 @@
       "totalOut": 3700,
       "currentStock": 200,
       "dailyRate": 15.7,
-      "monthlyRate": 472,
+      "monthlyRate": 470,
       "daysLeft": 13,
-      "reorderQty": 709,
+      "reorderQty": 706,
       "periods": {
         "7": {
           "totalOut": 100,
@@ -5090,9 +5090,9 @@
       "totalOut": 3696,
       "currentStock": 552,
       "dailyRate": 15.7,
-      "monthlyRate": 472,
+      "monthlyRate": 470,
       "daysLeft": 35,
-      "reorderQty": 708,
+      "reorderQty": 705,
       "periods": {
         "7": {
           "totalOut": 336,
@@ -5190,9 +5190,9 @@
       "totalOut": 3560,
       "currentStock": 4950,
       "dailyRate": 15.1,
-      "monthlyRate": 454,
-      "daysLeft": 327,
-      "reorderQty": 682,
+      "monthlyRate": 453,
+      "daysLeft": 328,
+      "reorderQty": 679,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -5289,10 +5289,10 @@
       "totalIn": 4728,
       "totalOut": 3432,
       "currentStock": 1296,
-      "dailyRate": 14.6,
-      "monthlyRate": 438,
+      "dailyRate": 14.5,
+      "monthlyRate": 436,
       "daysLeft": 89,
-      "reorderQty": 657,
+      "reorderQty": 654,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -5389,10 +5389,10 @@
       "totalIn": 4404,
       "totalOut": 3396,
       "currentStock": 1008,
-      "dailyRate": 14.5,
-      "monthlyRate": 434,
+      "dailyRate": 14.4,
+      "monthlyRate": 432,
       "daysLeft": 70,
-      "reorderQty": 650,
+      "reorderQty": 648,
       "periods": {
         "7": {
           "totalOut": 48,
@@ -5489,17 +5489,17 @@
       "totalIn": 3960,
       "totalOut": 3240,
       "currentStock": 720,
-      "dailyRate": 13.8,
-      "monthlyRate": 414,
+      "dailyRate": 13.7,
+      "monthlyRate": 412,
       "daysLeft": 52,
-      "reorderQty": 620,
+      "reorderQty": 618,
       "periods": {
         "7": {
-          "totalOut": 252,
-          "dailyRate": 36,
-          "monthlyRate": 1080,
-          "daysLeft": 20,
-          "reorderQty": 1620
+          "totalOut": 0,
+          "dailyRate": 0,
+          "monthlyRate": 0,
+          "daysLeft": 9999,
+          "reorderQty": 0
         },
         "30": {
           "totalOut": 252,
@@ -5589,10 +5589,10 @@
       "totalIn": 4100,
       "totalOut": 3240,
       "currentStock": 860,
-      "dailyRate": 13.8,
-      "monthlyRate": 414,
-      "daysLeft": 62,
-      "reorderQty": 620,
+      "dailyRate": 13.7,
+      "monthlyRate": 412,
+      "daysLeft": 63,
+      "reorderQty": 618,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -5690,9 +5690,9 @@
       "totalOut": 3200,
       "currentStock": 1300,
       "dailyRate": 13.6,
-      "monthlyRate": 409,
-      "daysLeft": 95,
-      "reorderQty": 613,
+      "monthlyRate": 407,
+      "daysLeft": 96,
+      "reorderQty": 610,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -5790,9 +5790,9 @@
       "totalOut": 3060,
       "currentStock": 720,
       "dailyRate": 13,
-      "monthlyRate": 391,
-      "daysLeft": 55,
-      "reorderQty": 586,
+      "monthlyRate": 389,
+      "daysLeft": 56,
+      "reorderQty": 583,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -5889,10 +5889,10 @@
       "totalIn": 4155,
       "totalOut": 3044,
       "currentStock": 1111,
-      "dailyRate": 13,
-      "monthlyRate": 389,
+      "dailyRate": 12.9,
+      "monthlyRate": 387,
       "daysLeft": 86,
-      "reorderQty": 583,
+      "reorderQty": 580,
       "periods": {
         "7": {
           "totalOut": 20,
@@ -5989,10 +5989,10 @@
       "totalIn": 3000,
       "totalOut": 3000,
       "currentStock": 0,
-      "dailyRate": 12.8,
-      "monthlyRate": 383,
+      "dailyRate": 12.7,
+      "monthlyRate": 381,
       "daysLeft": 0,
-      "reorderQty": 574,
+      "reorderQty": 572,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -6084,10 +6084,10 @@
       "totalIn": 4700,
       "totalOut": 3000,
       "currentStock": 1700,
-      "dailyRate": 12.8,
-      "monthlyRate": 383,
-      "daysLeft": 133,
-      "reorderQty": 574,
+      "dailyRate": 12.7,
+      "monthlyRate": 381,
+      "daysLeft": 134,
+      "reorderQty": 572,
       "periods": {
         "7": {
           "totalOut": 100,
@@ -6184,10 +6184,10 @@
       "totalIn": 3200,
       "totalOut": 3000,
       "currentStock": 200,
-      "dailyRate": 12.8,
-      "monthlyRate": 383,
+      "dailyRate": 12.7,
+      "monthlyRate": 381,
       "daysLeft": 16,
-      "reorderQty": 574,
+      "reorderQty": 572,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -6284,17 +6284,17 @@
       "totalIn": 4000,
       "totalOut": 2933,
       "currentStock": 1067,
-      "dailyRate": 12.5,
-      "monthlyRate": 374,
-      "daysLeft": 85,
-      "reorderQty": 562,
+      "dailyRate": 12.4,
+      "monthlyRate": 373,
+      "daysLeft": 86,
+      "reorderQty": 559,
       "periods": {
         "7": {
-          "totalOut": 200,
-          "dailyRate": 28.6,
-          "monthlyRate": 857,
-          "daysLeft": 37,
-          "reorderQty": 1286
+          "totalOut": 140,
+          "dailyRate": 20,
+          "monthlyRate": 600,
+          "daysLeft": 53,
+          "reorderQty": 900
         },
         "30": {
           "totalOut": 345,
@@ -6304,11 +6304,11 @@
           "reorderQty": 518
         },
         "90": {
-          "totalOut": 1243,
-          "dailyRate": 13.8,
-          "monthlyRate": 414,
-          "daysLeft": 77,
-          "reorderQty": 622
+          "totalOut": 1213,
+          "dailyRate": 13.5,
+          "monthlyRate": 404,
+          "daysLeft": 79,
+          "reorderQty": 607
         }
       },
       "trend": [
@@ -6384,10 +6384,10 @@
       "totalIn": 3780,
       "totalOut": 2880,
       "currentStock": 900,
-      "dailyRate": 12.3,
-      "monthlyRate": 368,
-      "daysLeft": 73,
-      "reorderQty": 551,
+      "dailyRate": 12.2,
+      "monthlyRate": 366,
+      "daysLeft": 74,
+      "reorderQty": 549,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -6485,9 +6485,9 @@
       "totalOut": 2640,
       "currentStock": 360,
       "dailyRate": 11.2,
-      "monthlyRate": 337,
+      "monthlyRate": 336,
       "daysLeft": 32,
-      "reorderQty": 506,
+      "reorderQty": 503,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -6504,11 +6504,11 @@
           "reorderQty": 240
         },
         "90": {
-          "totalOut": 800,
-          "dailyRate": 8.9,
-          "monthlyRate": 267,
-          "daysLeft": 41,
-          "reorderQty": 400
+          "totalOut": 760,
+          "dailyRate": 8.4,
+          "monthlyRate": 253,
+          "daysLeft": 43,
+          "reorderQty": 380
         }
       },
       "trend": [
@@ -6585,9 +6585,9 @@
       "totalOut": 2595,
       "currentStock": 3495,
       "dailyRate": 11,
-      "monthlyRate": 331,
-      "daysLeft": 317,
-      "reorderQty": 497,
+      "monthlyRate": 330,
+      "daysLeft": 318,
+      "reorderQty": 495,
       "periods": {
         "7": {
           "totalOut": 30,
@@ -6604,11 +6604,11 @@
           "reorderQty": 270
         },
         "90": {
-          "totalOut": 855,
-          "dailyRate": 9.5,
-          "monthlyRate": 285,
-          "daysLeft": 368,
-          "reorderQty": 428
+          "totalOut": 825,
+          "dailyRate": 9.2,
+          "monthlyRate": 275,
+          "daysLeft": 381,
+          "reorderQty": 413
         }
       },
       "trend": [
@@ -6685,9 +6685,9 @@
       "totalOut": 2500,
       "currentStock": 1463,
       "dailyRate": 10.6,
-      "monthlyRate": 319,
+      "monthlyRate": 318,
       "daysLeft": 138,
-      "reorderQty": 479,
+      "reorderQty": 477,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -6785,9 +6785,9 @@
       "totalOut": 2500,
       "currentStock": 1000,
       "dailyRate": 10.6,
-      "monthlyRate": 319,
+      "monthlyRate": 318,
       "daysLeft": 94,
-      "reorderQty": 479,
+      "reorderQty": 477,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -6885,9 +6885,9 @@
       "totalOut": 2470,
       "currentStock": -20,
       "dailyRate": 10.5,
-      "monthlyRate": 315,
+      "monthlyRate": 314,
       "daysLeft": -2,
-      "reorderQty": 473,
+      "reorderQty": 471,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -6980,9 +6980,9 @@
       "totalOut": 2400,
       "currentStock": 0,
       "dailyRate": 10.2,
-      "monthlyRate": 306,
+      "monthlyRate": 305,
       "daysLeft": 0,
-      "reorderQty": 460,
+      "reorderQty": 458,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -7075,9 +7075,9 @@
       "totalOut": 2400,
       "currentStock": 0,
       "dailyRate": 10.2,
-      "monthlyRate": 306,
+      "monthlyRate": 305,
       "daysLeft": 0,
-      "reorderQty": 460,
+      "reorderQty": 458,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -7169,10 +7169,10 @@
       "totalIn": 6062,
       "totalOut": 2390,
       "currentStock": 3672,
-      "dailyRate": 10.2,
-      "monthlyRate": 305,
-      "daysLeft": 361,
-      "reorderQty": 458,
+      "dailyRate": 10.1,
+      "monthlyRate": 304,
+      "daysLeft": 363,
+      "reorderQty": 456,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -7270,9 +7270,9 @@
       "totalOut": 2352,
       "currentStock": 48,
       "dailyRate": 10,
-      "monthlyRate": 300,
+      "monthlyRate": 299,
       "daysLeft": 5,
-      "reorderQty": 450,
+      "reorderQty": 448,
       "periods": {
         "7": {
           "totalOut": 864,
@@ -7370,9 +7370,9 @@
       "totalOut": 2350,
       "currentStock": 0,
       "dailyRate": 10,
-      "monthlyRate": 300,
+      "monthlyRate": 299,
       "daysLeft": 0,
-      "reorderQty": 450,
+      "reorderQty": 448,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -7389,11 +7389,11 @@
           "reorderQty": 0
         },
         "90": {
-          "totalOut": 850,
-          "dailyRate": 9.4,
-          "monthlyRate": 283,
+          "totalOut": 650,
+          "dailyRate": 7.2,
+          "monthlyRate": 217,
           "daysLeft": 0,
-          "reorderQty": 425
+          "reorderQty": 325
         }
       },
       "trend": [
@@ -7464,17 +7464,17 @@
       "totalIn": 9840,
       "totalOut": 2320,
       "currentStock": 7520,
-      "dailyRate": 9.9,
-      "monthlyRate": 296,
-      "daysLeft": 762,
-      "reorderQty": 444,
+      "dailyRate": 9.8,
+      "monthlyRate": 295,
+      "daysLeft": 765,
+      "reorderQty": 442,
       "periods": {
         "7": {
-          "totalOut": 160,
-          "dailyRate": 22.9,
-          "monthlyRate": 686,
-          "daysLeft": 329,
-          "reorderQty": 1029
+          "totalOut": 0,
+          "dailyRate": 0,
+          "monthlyRate": 0,
+          "daysLeft": 9999,
+          "reorderQty": 0
         },
         "30": {
           "totalOut": 480,
@@ -7564,10 +7564,10 @@
       "totalIn": 2316,
       "totalOut": 2316,
       "currentStock": 0,
-      "dailyRate": 9.9,
-      "monthlyRate": 296,
+      "dailyRate": 9.8,
+      "monthlyRate": 294,
       "daysLeft": 0,
-      "reorderQty": 443,
+      "reorderQty": 442,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -7665,9 +7665,9 @@
       "totalOut": 2308,
       "currentStock": 0,
       "dailyRate": 9.8,
-      "monthlyRate": 295,
+      "monthlyRate": 293,
       "daysLeft": 0,
-      "reorderQty": 442,
+      "reorderQty": 440,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -7759,10 +7759,10 @@
       "totalIn": 5100,
       "totalOut": 2300,
       "currentStock": 2800,
-      "dailyRate": 9.8,
-      "monthlyRate": 294,
-      "daysLeft": 286,
-      "reorderQty": 440,
+      "dailyRate": 9.7,
+      "monthlyRate": 292,
+      "daysLeft": 287,
+      "reorderQty": 439,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -7860,9 +7860,9 @@
       "totalOut": 2220,
       "currentStock": 4944,
       "dailyRate": 9.4,
-      "monthlyRate": 283,
-      "daysLeft": 523,
-      "reorderQty": 425,
+      "monthlyRate": 282,
+      "daysLeft": 526,
+      "reorderQty": 423,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -7959,10 +7959,10 @@
       "totalIn": 3280,
       "totalOut": 2200,
       "currentStock": 1080,
-      "dailyRate": 9.4,
-      "monthlyRate": 281,
-      "daysLeft": 115,
-      "reorderQty": 421,
+      "dailyRate": 9.3,
+      "monthlyRate": 280,
+      "daysLeft": 116,
+      "reorderQty": 419,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -8055,9 +8055,9 @@
       "totalOut": 2196,
       "currentStock": 324,
       "dailyRate": 9.3,
-      "monthlyRate": 280,
+      "monthlyRate": 279,
       "daysLeft": 35,
-      "reorderQty": 421,
+      "reorderQty": 419,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -8155,9 +8155,9 @@
       "totalOut": 2160,
       "currentStock": 360,
       "dailyRate": 9.2,
-      "monthlyRate": 276,
+      "monthlyRate": 275,
       "daysLeft": 39,
-      "reorderQty": 414,
+      "reorderQty": 412,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -8255,9 +8255,9 @@
       "totalOut": 2120,
       "currentStock": 760,
       "dailyRate": 9,
-      "monthlyRate": 271,
-      "daysLeft": 84,
-      "reorderQty": 406,
+      "monthlyRate": 269,
+      "daysLeft": 85,
+      "reorderQty": 404,
       "periods": {
         "7": {
           "totalOut": 360,
@@ -8355,9 +8355,9 @@
       "totalOut": 2100,
       "currentStock": 1900,
       "dailyRate": 8.9,
-      "monthlyRate": 268,
-      "daysLeft": 213,
-      "reorderQty": 402,
+      "monthlyRate": 267,
+      "daysLeft": 214,
+      "reorderQty": 400,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -8455,9 +8455,9 @@
       "totalOut": 2000,
       "currentStock": 0,
       "dailyRate": 8.5,
-      "monthlyRate": 255,
+      "monthlyRate": 254,
       "daysLeft": 0,
-      "reorderQty": 383,
+      "reorderQty": 381,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -8550,16 +8550,16 @@
       "totalOut": 1983,
       "currentStock": 1726,
       "dailyRate": 8.4,
-      "monthlyRate": 253,
+      "monthlyRate": 252,
       "daysLeft": 205,
-      "reorderQty": 380,
+      "reorderQty": 378,
       "periods": {
         "7": {
-          "totalOut": 30,
-          "dailyRate": 4.3,
-          "monthlyRate": 129,
-          "daysLeft": 403,
-          "reorderQty": 193
+          "totalOut": 0,
+          "dailyRate": 0,
+          "monthlyRate": 0,
+          "daysLeft": 9999,
+          "reorderQty": 0
         },
         "30": {
           "totalOut": 80,
@@ -8649,10 +8649,10 @@
       "totalIn": 1882,
       "totalOut": 1963,
       "currentStock": -81,
-      "dailyRate": 8.4,
-      "monthlyRate": 251,
+      "dailyRate": 8.3,
+      "monthlyRate": 250,
       "daysLeft": -10,
-      "reorderQty": 376,
+      "reorderQty": 374,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -8750,9 +8750,9 @@
       "totalOut": 1950,
       "currentStock": 50,
       "dailyRate": 8.3,
-      "monthlyRate": 249,
+      "monthlyRate": 248,
       "daysLeft": 6,
-      "reorderQty": 373,
+      "reorderQty": 372,
       "periods": {
         "7": {
           "totalOut": 10,
@@ -8850,9 +8850,9 @@
       "totalOut": 1858,
       "currentStock": 542,
       "dailyRate": 7.9,
-      "monthlyRate": 237,
+      "monthlyRate": 236,
       "daysLeft": 69,
-      "reorderQty": 356,
+      "reorderQty": 354,
       "periods": {
         "7": {
           "totalOut": 100,
@@ -8869,11 +8869,11 @@
           "reorderQty": 1062
         },
         "90": {
-          "totalOut": 958,
-          "dailyRate": 10.6,
-          "monthlyRate": 319,
-          "daysLeft": 51,
-          "reorderQty": 479
+          "totalOut": 908,
+          "dailyRate": 10.1,
+          "monthlyRate": 303,
+          "daysLeft": 54,
+          "reorderQty": 454
         }
       },
       "trend": [
@@ -8950,9 +8950,9 @@
       "totalOut": 1815,
       "currentStock": 185,
       "dailyRate": 7.7,
-      "monthlyRate": 232,
+      "monthlyRate": 231,
       "daysLeft": 24,
-      "reorderQty": 348,
+      "reorderQty": 346,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -9044,10 +9044,10 @@
       "totalIn": 3000,
       "totalOut": 1800,
       "currentStock": 1200,
-      "dailyRate": 7.7,
-      "monthlyRate": 230,
+      "dailyRate": 7.6,
+      "monthlyRate": 229,
       "daysLeft": 157,
-      "reorderQty": 345,
+      "reorderQty": 343,
       "periods": {
         "7": {
           "totalOut": 100,
@@ -9144,10 +9144,10 @@
       "totalIn": 1800,
       "totalOut": 1800,
       "currentStock": 0,
-      "dailyRate": 7.7,
-      "monthlyRate": 230,
+      "dailyRate": 7.6,
+      "monthlyRate": 229,
       "daysLeft": 0,
-      "reorderQty": 345,
+      "reorderQty": 343,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -9244,10 +9244,10 @@
       "totalIn": 3100,
       "totalOut": 1800,
       "currentStock": 1300,
-      "dailyRate": 7.7,
-      "monthlyRate": 230,
+      "dailyRate": 7.6,
+      "monthlyRate": 229,
       "daysLeft": 170,
-      "reorderQty": 345,
+      "reorderQty": 343,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -9344,10 +9344,10 @@
       "totalIn": 1800,
       "totalOut": 1800,
       "currentStock": 0,
-      "dailyRate": 7.7,
-      "monthlyRate": 230,
+      "dailyRate": 7.6,
+      "monthlyRate": 229,
       "daysLeft": 0,
-      "reorderQty": 345,
+      "reorderQty": 343,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -9364,11 +9364,11 @@
           "reorderQty": 0
         },
         "90": {
-          "totalOut": 200,
-          "dailyRate": 2.2,
-          "monthlyRate": 67,
+          "totalOut": 180,
+          "dailyRate": 2,
+          "monthlyRate": 60,
           "daysLeft": 0,
-          "reorderQty": 100
+          "reorderQty": 90
         }
       },
       "trend": [
@@ -9445,9 +9445,9 @@
       "totalOut": 1750,
       "currentStock": 0,
       "dailyRate": 7.4,
-      "monthlyRate": 223,
+      "monthlyRate": 222,
       "daysLeft": 0,
-      "reorderQty": 335,
+      "reorderQty": 334,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -9542,7 +9542,7 @@
       "dailyRate": 7.3,
       "monthlyRate": 219,
       "daysLeft": 67,
-      "reorderQty": 329,
+      "reorderQty": 328,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -9639,10 +9639,10 @@
       "totalIn": 2520,
       "totalOut": 1710,
       "currentStock": 810,
-      "dailyRate": 7.3,
-      "monthlyRate": 218,
-      "daysLeft": 111,
-      "reorderQty": 327,
+      "dailyRate": 7.2,
+      "monthlyRate": 217,
+      "daysLeft": 112,
+      "reorderQty": 326,
       "periods": {
         "7": {
           "totalOut": 180,
@@ -9739,10 +9739,10 @@
       "totalIn": 2040,
       "totalOut": 1708,
       "currentStock": 332,
-      "dailyRate": 7.3,
-      "monthlyRate": 218,
+      "dailyRate": 7.2,
+      "monthlyRate": 217,
       "daysLeft": 46,
-      "reorderQty": 327,
+      "reorderQty": 326,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -9839,17 +9839,17 @@
       "totalIn": 1944,
       "totalOut": 1704,
       "currentStock": 240,
-      "dailyRate": 7.3,
-      "monthlyRate": 218,
+      "dailyRate": 7.2,
+      "monthlyRate": 217,
       "daysLeft": 33,
-      "reorderQty": 326,
+      "reorderQty": 325,
       "periods": {
         "7": {
-          "totalOut": 60,
-          "dailyRate": 8.6,
-          "monthlyRate": 257,
-          "daysLeft": 28,
-          "reorderQty": 386
+          "totalOut": 0,
+          "dailyRate": 0,
+          "monthlyRate": 0,
+          "daysLeft": 9999,
+          "reorderQty": 0
         },
         "30": {
           "totalOut": 108,
@@ -9939,10 +9939,10 @@
       "totalIn": 7224,
       "totalOut": 1704,
       "currentStock": 5520,
-      "dailyRate": 7.3,
-      "monthlyRate": 218,
-      "daysLeft": 761,
-      "reorderQty": 326,
+      "dailyRate": 7.2,
+      "monthlyRate": 217,
+      "daysLeft": 765,
+      "reorderQty": 325,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -10035,9 +10035,9 @@
       "totalOut": 1700,
       "currentStock": 0,
       "dailyRate": 7.2,
-      "monthlyRate": 217,
+      "monthlyRate": 216,
       "daysLeft": 0,
-      "reorderQty": 326,
+      "reorderQty": 324,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -10135,9 +10135,9 @@
       "totalOut": 1689,
       "currentStock": 311,
       "dailyRate": 7.2,
-      "monthlyRate": 216,
+      "monthlyRate": 215,
       "daysLeft": 43,
-      "reorderQty": 323,
+      "reorderQty": 322,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -10237,7 +10237,7 @@
       "dailyRate": 7.1,
       "monthlyRate": 214,
       "daysLeft": 118,
-      "reorderQty": 322,
+      "reorderQty": 320,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -10335,16 +10335,16 @@
       "totalOut": 1630,
       "currentStock": 1790,
       "dailyRate": 6.9,
-      "monthlyRate": 208,
-      "daysLeft": 258,
-      "reorderQty": 312,
+      "monthlyRate": 207,
+      "daysLeft": 259,
+      "reorderQty": 311,
       "periods": {
         "7": {
-          "totalOut": 10,
-          "dailyRate": 1.4,
-          "monthlyRate": 43,
-          "daysLeft": 1253,
-          "reorderQty": 64
+          "totalOut": 0,
+          "dailyRate": 0,
+          "monthlyRate": 0,
+          "daysLeft": 9999,
+          "reorderQty": 0
         },
         "30": {
           "totalOut": 10,
@@ -10435,9 +10435,9 @@
       "totalOut": 1604,
       "currentStock": -100,
       "dailyRate": 6.8,
-      "monthlyRate": 205,
+      "monthlyRate": 204,
       "daysLeft": -15,
-      "reorderQty": 307,
+      "reorderQty": 306,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -10535,9 +10535,9 @@
       "totalOut": 1548,
       "currentStock": 324,
       "dailyRate": 6.6,
-      "monthlyRate": 198,
+      "monthlyRate": 197,
       "daysLeft": 49,
-      "reorderQty": 296,
+      "reorderQty": 295,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -10554,11 +10554,11 @@
           "reorderQty": 0
         },
         "90": {
-          "totalOut": 800,
-          "dailyRate": 8.9,
-          "monthlyRate": 267,
-          "daysLeft": 36,
-          "reorderQty": 400
+          "totalOut": 750,
+          "dailyRate": 8.3,
+          "monthlyRate": 250,
+          "daysLeft": 39,
+          "reorderQty": 375
         }
       },
       "trend": [
@@ -10635,9 +10635,9 @@
       "totalOut": 1536,
       "currentStock": 1104,
       "dailyRate": 6.5,
-      "monthlyRate": 196,
-      "daysLeft": 169,
-      "reorderQty": 294,
+      "monthlyRate": 195,
+      "daysLeft": 170,
+      "reorderQty": 293,
       "periods": {
         "7": {
           "totalOut": 48,
@@ -10735,9 +10735,9 @@
       "totalOut": 1512,
       "currentStock": 0,
       "dailyRate": 6.4,
-      "monthlyRate": 193,
+      "monthlyRate": 192,
       "daysLeft": 0,
-      "reorderQty": 290,
+      "reorderQty": 288,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -10836,8 +10836,8 @@
       "currentStock": 3900,
       "dailyRate": 6.4,
       "monthlyRate": 191,
-      "daysLeft": 611,
-      "reorderQty": 287,
+      "daysLeft": 614,
+      "reorderQty": 286,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -10937,7 +10937,7 @@
       "dailyRate": 6.4,
       "monthlyRate": 191,
       "daysLeft": 0,
-      "reorderQty": 287,
+      "reorderQty": 286,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -11032,7 +11032,7 @@
       "dailyRate": 6.4,
       "monthlyRate": 191,
       "daysLeft": 0,
-      "reorderQty": 287,
+      "reorderQty": 286,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -11131,8 +11131,8 @@
       "currentStock": 500,
       "dailyRate": 6.4,
       "monthlyRate": 191,
-      "daysLeft": 78,
-      "reorderQty": 287,
+      "daysLeft": 79,
+      "reorderQty": 286,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -11230,9 +11230,9 @@
       "totalOut": 1482,
       "currentStock": 630,
       "dailyRate": 6.3,
-      "monthlyRate": 189,
+      "monthlyRate": 188,
       "daysLeft": 100,
-      "reorderQty": 284,
+      "reorderQty": 283,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -11329,10 +11329,10 @@
       "totalIn": 11494,
       "totalOut": 1450,
       "currentStock": 10044,
-      "dailyRate": 6.2,
-      "monthlyRate": 185,
-      "daysLeft": 1628,
-      "reorderQty": 278,
+      "dailyRate": 6.1,
+      "monthlyRate": 184,
+      "daysLeft": 1635,
+      "reorderQty": 276,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -11430,9 +11430,9 @@
       "totalOut": 1431,
       "currentStock": 69,
       "dailyRate": 6.1,
-      "monthlyRate": 183,
+      "monthlyRate": 182,
       "daysLeft": 11,
-      "reorderQty": 274,
+      "reorderQty": 273,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -11449,11 +11449,11 @@
           "reorderQty": 120
         },
         "90": {
-          "totalOut": 686,
-          "dailyRate": 7.6,
-          "monthlyRate": 229,
+          "totalOut": 666,
+          "dailyRate": 7.4,
+          "monthlyRate": 222,
           "daysLeft": 9,
-          "reorderQty": 343
+          "reorderQty": 333
         }
       },
       "trend": [
@@ -11529,10 +11529,10 @@
       "totalIn": 1224,
       "totalOut": 1424,
       "currentStock": -200,
-      "dailyRate": 6.1,
-      "monthlyRate": 182,
+      "dailyRate": 6,
+      "monthlyRate": 181,
       "daysLeft": -33,
-      "reorderQty": 273,
+      "reorderQty": 272,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -11629,10 +11629,10 @@
       "totalIn": 1200,
       "totalOut": 1400,
       "currentStock": -200,
-      "dailyRate": 6,
-      "monthlyRate": 179,
+      "dailyRate": 5.9,
+      "monthlyRate": 178,
       "daysLeft": -34,
-      "reorderQty": 268,
+      "reorderQty": 267,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -11730,9 +11730,9 @@
       "totalOut": 1393,
       "currentStock": 0,
       "dailyRate": 5.9,
-      "monthlyRate": 178,
+      "monthlyRate": 177,
       "daysLeft": 0,
-      "reorderQty": 267,
+      "reorderQty": 266,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -11824,10 +11824,10 @@
       "totalIn": 1375,
       "totalOut": 1375,
       "currentStock": 0,
-      "dailyRate": 5.9,
-      "monthlyRate": 176,
+      "dailyRate": 5.8,
+      "monthlyRate": 175,
       "daysLeft": 0,
-      "reorderQty": 263,
+      "reorderQty": 262,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -11925,9 +11925,9 @@
       "totalOut": 1360,
       "currentStock": 240,
       "dailyRate": 5.8,
-      "monthlyRate": 174,
-      "daysLeft": 41,
-      "reorderQty": 260,
+      "monthlyRate": 173,
+      "daysLeft": 42,
+      "reorderQty": 259,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -12025,9 +12025,9 @@
       "totalOut": 1345,
       "currentStock": 185,
       "dailyRate": 5.7,
-      "monthlyRate": 172,
+      "monthlyRate": 171,
       "daysLeft": 32,
-      "reorderQty": 258,
+      "reorderQty": 256,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -12044,11 +12044,11 @@
           "reorderQty": 75
         },
         "90": {
-          "totalOut": 921,
-          "dailyRate": 10.2,
-          "monthlyRate": 307,
-          "daysLeft": 18,
-          "reorderQty": 460
+          "totalOut": 321,
+          "dailyRate": 3.6,
+          "monthlyRate": 107,
+          "daysLeft": 52,
+          "reorderQty": 161
         }
       },
       "trend": [
@@ -12125,9 +12125,9 @@
       "totalOut": 1340,
       "currentStock": 720,
       "dailyRate": 5.7,
-      "monthlyRate": 171,
-      "daysLeft": 126,
-      "reorderQty": 257,
+      "monthlyRate": 170,
+      "daysLeft": 127,
+      "reorderQty": 256,
       "periods": {
         "7": {
           "totalOut": 60,
@@ -12225,9 +12225,9 @@
       "totalOut": 1300,
       "currentStock": 700,
       "dailyRate": 5.5,
-      "monthlyRate": 166,
+      "monthlyRate": 165,
       "daysLeft": 127,
-      "reorderQty": 249,
+      "reorderQty": 248,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -12320,9 +12320,9 @@
       "totalOut": 1270,
       "currentStock": 80,
       "dailyRate": 5.4,
-      "monthlyRate": 162,
+      "monthlyRate": 161,
       "daysLeft": 15,
-      "reorderQty": 243,
+      "reorderQty": 242,
       "periods": {
         "7": {
           "totalOut": 300,
@@ -12419,10 +12419,10 @@
       "totalIn": 1260,
       "totalOut": 1260,
       "currentStock": 0,
-      "dailyRate": 5.4,
-      "monthlyRate": 161,
+      "dailyRate": 5.3,
+      "monthlyRate": 160,
       "daysLeft": 0,
-      "reorderQty": 241,
+      "reorderQty": 240,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -12519,10 +12519,10 @@
       "totalIn": 1835,
       "totalOut": 1260,
       "currentStock": 575,
-      "dailyRate": 5.4,
-      "monthlyRate": 161,
-      "daysLeft": 107,
-      "reorderQty": 241,
+      "dailyRate": 5.3,
+      "monthlyRate": 160,
+      "daysLeft": 108,
+      "reorderQty": 240,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -12614,10 +12614,10 @@
       "totalIn": 1920,
       "totalOut": 1260,
       "currentStock": 660,
-      "dailyRate": 5.4,
-      "monthlyRate": 161,
-      "daysLeft": 123,
-      "reorderQty": 241,
+      "dailyRate": 5.3,
+      "monthlyRate": 160,
+      "daysLeft": 124,
+      "reorderQty": 240,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -12712,7 +12712,7 @@
       "dailyRate": 5.3,
       "monthlyRate": 160,
       "daysLeft": 75,
-      "reorderQty": 240,
+      "reorderQty": 239,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -12810,9 +12810,9 @@
       "totalOut": 1250,
       "currentStock": 340,
       "dailyRate": 5.3,
-      "monthlyRate": 160,
+      "monthlyRate": 159,
       "daysLeft": 64,
-      "reorderQty": 239,
+      "reorderQty": 238,
       "periods": {
         "7": {
           "totalOut": 60,
@@ -12829,11 +12829,11 @@
           "reorderQty": 240
         },
         "90": {
-          "totalOut": 790,
-          "dailyRate": 8.8,
-          "monthlyRate": 263,
-          "daysLeft": 39,
-          "reorderQty": 395
+          "totalOut": 760,
+          "dailyRate": 8.4,
+          "monthlyRate": 253,
+          "daysLeft": 40,
+          "reorderQty": 380
         }
       },
       "trend": [
@@ -12910,9 +12910,9 @@
       "totalOut": 1246,
       "currentStock": 852,
       "dailyRate": 5.3,
-      "monthlyRate": 159,
+      "monthlyRate": 158,
       "daysLeft": 161,
-      "reorderQty": 239,
+      "reorderQty": 238,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -13011,8 +13011,8 @@
       "currentStock": 5264,
       "dailyRate": 5.2,
       "monthlyRate": 157,
-      "daysLeft": 1004,
-      "reorderQty": 236,
+      "daysLeft": 1008,
+      "reorderQty": 235,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -13111,8 +13111,8 @@
       "currentStock": 675,
       "dailyRate": 5.2,
       "monthlyRate": 156,
-      "daysLeft": 129,
-      "reorderQty": 235,
+      "daysLeft": 130,
+      "reorderQty": 234,
       "periods": {
         "7": {
           "totalOut": 100,
@@ -13211,8 +13211,8 @@
       "currentStock": 900,
       "dailyRate": 5.1,
       "monthlyRate": 153,
-      "daysLeft": 176,
-      "reorderQty": 230,
+      "daysLeft": 177,
+      "reorderQty": 229,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -13310,9 +13310,9 @@
       "totalOut": 1176,
       "currentStock": 240,
       "dailyRate": 5,
-      "monthlyRate": 150,
+      "monthlyRate": 149,
       "daysLeft": 48,
-      "reorderQty": 225,
+      "reorderQty": 224,
       "periods": {
         "7": {
           "totalOut": 24,
@@ -13411,8 +13411,8 @@
       "currentStock": 3670,
       "dailyRate": 4.8,
       "monthlyRate": 144,
-      "daysLeft": 763,
-      "reorderQty": 216,
+      "daysLeft": 766,
+      "reorderQty": 215,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -13512,7 +13512,7 @@
       "dailyRate": 4.8,
       "monthlyRate": 144,
       "daysLeft": 8,
-      "reorderQty": 216,
+      "reorderQty": 215,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -13612,7 +13612,7 @@
       "dailyRate": 4.7,
       "monthlyRate": 140,
       "daysLeft": 0,
-      "reorderQty": 211,
+      "reorderQty": 210,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -13712,7 +13712,7 @@
       "dailyRate": 4.7,
       "monthlyRate": 140,
       "daysLeft": -21,
-      "reorderQty": 211,
+      "reorderQty": 210,
       "periods": {
         "7": {
           "totalOut": 400,
@@ -13812,7 +13812,7 @@
       "dailyRate": 4.7,
       "monthlyRate": 140,
       "daysLeft": 0,
-      "reorderQty": 211,
+      "reorderQty": 210,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -13906,8 +13906,8 @@
       "currentStock": 1900,
       "dailyRate": 4.7,
       "monthlyRate": 140,
-      "daysLeft": 406,
-      "reorderQty": 211,
+      "daysLeft": 408,
+      "reorderQty": 210,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -14007,7 +14007,7 @@
       "dailyRate": 4.7,
       "monthlyRate": 140,
       "daysLeft": -21,
-      "reorderQty": 211,
+      "reorderQty": 210,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -14100,9 +14100,9 @@
       "totalOut": 1087,
       "currentStock": 74,
       "dailyRate": 4.6,
-      "monthlyRate": 139,
+      "monthlyRate": 138,
       "daysLeft": 16,
-      "reorderQty": 208,
+      "reorderQty": 207,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -14219,11 +14219,11 @@
           "reorderQty": 0
         },
         "90": {
-          "totalOut": 263,
-          "dailyRate": 2.9,
-          "monthlyRate": 88,
-          "daysLeft": 84,
-          "reorderQty": 132
+          "totalOut": 243,
+          "dailyRate": 2.7,
+          "monthlyRate": 81,
+          "daysLeft": 91,
+          "reorderQty": 122
         }
       },
       "trend": [
@@ -14300,9 +14300,9 @@
       "totalOut": 1080,
       "currentStock": -25,
       "dailyRate": 4.6,
-      "monthlyRate": 138,
+      "monthlyRate": 137,
       "daysLeft": -5,
-      "reorderQty": 207,
+      "reorderQty": 206,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -14400,9 +14400,9 @@
       "totalOut": 1080,
       "currentStock": 384,
       "dailyRate": 4.6,
-      "monthlyRate": 138,
+      "monthlyRate": 137,
       "daysLeft": 84,
-      "reorderQty": 207,
+      "reorderQty": 206,
       "periods": {
         "7": {
           "totalOut": 48,
@@ -14500,9 +14500,9 @@
       "totalOut": 1080,
       "currentStock": 0,
       "dailyRate": 4.6,
-      "monthlyRate": 138,
+      "monthlyRate": 137,
       "daysLeft": 0,
-      "reorderQty": 207,
+      "reorderQty": 206,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -14599,10 +14599,10 @@
       "totalIn": 3000,
       "totalOut": 1050,
       "currentStock": 1950,
-      "dailyRate": 4.5,
-      "monthlyRate": 134,
-      "daysLeft": 436,
-      "reorderQty": 201,
+      "dailyRate": 4.4,
+      "monthlyRate": 133,
+      "daysLeft": 438,
+      "reorderQty": 200,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -14695,16 +14695,16 @@
       "totalOut": 1039,
       "currentStock": 2112,
       "dailyRate": 4.4,
-      "monthlyRate": 133,
-      "daysLeft": 478,
-      "reorderQty": 199,
+      "monthlyRate": 132,
+      "daysLeft": 480,
+      "reorderQty": 198,
       "periods": {
         "7": {
-          "totalOut": 60,
-          "dailyRate": 8.6,
-          "monthlyRate": 257,
-          "daysLeft": 246,
-          "reorderQty": 386
+          "totalOut": 30,
+          "dailyRate": 4.3,
+          "monthlyRate": 129,
+          "daysLeft": 493,
+          "reorderQty": 193
         },
         "30": {
           "totalOut": 122,
@@ -14797,7 +14797,7 @@
       "dailyRate": 4.4,
       "monthlyRate": 132,
       "daysLeft": 34,
-      "reorderQty": 198,
+      "reorderQty": 197,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -14814,11 +14814,11 @@
           "reorderQty": 105
         },
         "90": {
-          "totalOut": 485,
-          "dailyRate": 5.4,
-          "monthlyRate": 162,
-          "daysLeft": 28,
-          "reorderQty": 243
+          "totalOut": 465,
+          "dailyRate": 5.2,
+          "monthlyRate": 155,
+          "daysLeft": 29,
+          "reorderQty": 233
         }
       },
       "trend": [
@@ -14894,8 +14894,8 @@
       "totalIn": 1200,
       "totalOut": 1000,
       "currentStock": 200,
-      "dailyRate": 4.3,
-      "monthlyRate": 128,
+      "dailyRate": 4.2,
+      "monthlyRate": 127,
       "daysLeft": 47,
       "reorderQty": 191,
       "periods": {
@@ -14989,9 +14989,9 @@
       "totalIn": 1600,
       "totalOut": 1000,
       "currentStock": 600,
-      "dailyRate": 4.3,
-      "monthlyRate": 128,
-      "daysLeft": 141,
+      "dailyRate": 4.2,
+      "monthlyRate": 127,
+      "daysLeft": 142,
       "reorderQty": 191,
       "periods": {
         "7": {
@@ -15089,8 +15089,8 @@
       "totalIn": 1400,
       "totalOut": 1000,
       "currentStock": 400,
-      "dailyRate": 4.3,
-      "monthlyRate": 128,
+      "dailyRate": 4.2,
+      "monthlyRate": 127,
       "daysLeft": 94,
       "reorderQty": 191,
       "periods": {
@@ -15185,9 +15185,9 @@
       "totalOut": 960,
       "currentStock": 320,
       "dailyRate": 4.1,
-      "monthlyRate": 123,
-      "daysLeft": 78,
-      "reorderQty": 184,
+      "monthlyRate": 122,
+      "daysLeft": 79,
+      "reorderQty": 183,
       "periods": {
         "7": {
           "totalOut": 20,
@@ -15287,7 +15287,7 @@
       "dailyRate": 4.1,
       "monthlyRate": 122,
       "daysLeft": 33,
-      "reorderQty": 183,
+      "reorderQty": 182,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -15384,10 +15384,10 @@
       "totalIn": 1410,
       "totalOut": 930,
       "currentStock": 480,
-      "dailyRate": 4,
-      "monthlyRate": 119,
-      "daysLeft": 121,
-      "reorderQty": 178,
+      "dailyRate": 3.9,
+      "monthlyRate": 118,
+      "daysLeft": 122,
+      "reorderQty": 177,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -15484,10 +15484,10 @@
       "totalIn": 1200,
       "totalOut": 930,
       "currentStock": 270,
-      "dailyRate": 4,
-      "monthlyRate": 119,
-      "daysLeft": 68,
-      "reorderQty": 178,
+      "dailyRate": 3.9,
+      "monthlyRate": 118,
+      "daysLeft": 69,
+      "reorderQty": 177,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -15504,11 +15504,11 @@
           "reorderQty": 30
         },
         "90": {
-          "totalOut": 350,
-          "dailyRate": 3.9,
-          "monthlyRate": 117,
-          "daysLeft": 69,
-          "reorderQty": 175
+          "totalOut": 340,
+          "dailyRate": 3.8,
+          "monthlyRate": 113,
+          "daysLeft": 71,
+          "reorderQty": 170
         }
       },
       "trend": [
@@ -15685,7 +15685,7 @@
       "totalOut": 900,
       "currentStock": 500,
       "dailyRate": 3.8,
-      "monthlyRate": 115,
+      "monthlyRate": 114,
       "daysLeft": 131,
       "reorderQty": 172,
       "periods": {
@@ -15785,7 +15785,7 @@
       "totalOut": 900,
       "currentStock": 157,
       "dailyRate": 3.8,
-      "monthlyRate": 115,
+      "monthlyRate": 114,
       "daysLeft": 41,
       "reorderQty": 172,
       "periods": {
@@ -15804,11 +15804,11 @@
           "reorderQty": 0
         },
         "90": {
-          "totalOut": 100,
-          "dailyRate": 1.1,
-          "monthlyRate": 33,
-          "daysLeft": 141,
-          "reorderQty": 50
+          "totalOut": 50,
+          "dailyRate": 0.6,
+          "monthlyRate": 17,
+          "daysLeft": 283,
+          "reorderQty": 25
         }
       },
       "trend": [
@@ -15885,7 +15885,7 @@
       "totalOut": 900,
       "currentStock": 0,
       "dailyRate": 3.8,
-      "monthlyRate": 115,
+      "monthlyRate": 114,
       "daysLeft": 0,
       "reorderQty": 172,
       "periods": {
@@ -16084,10 +16084,10 @@
       "totalIn": 952,
       "totalOut": 882,
       "currentStock": 70,
-      "dailyRate": 3.8,
-      "monthlyRate": 113,
+      "dailyRate": 3.7,
+      "monthlyRate": 112,
       "daysLeft": 19,
-      "reorderQty": 169,
+      "reorderQty": 168,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -16180,8 +16180,8 @@
       "totalOut": 869,
       "currentStock": 540,
       "dailyRate": 3.7,
-      "monthlyRate": 111,
-      "daysLeft": 146,
+      "monthlyRate": 110,
+      "daysLeft": 147,
       "reorderQty": 166,
       "periods": {
         "7": {
@@ -16276,15 +16276,15 @@
       "currentStock": 811,
       "dailyRate": 3.6,
       "monthlyRate": 109,
-      "daysLeft": 223,
-      "reorderQty": 164,
+      "daysLeft": 224,
+      "reorderQty": 163,
       "periods": {
         "7": {
-          "totalOut": 188,
-          "dailyRate": 26.9,
-          "monthlyRate": 806,
-          "daysLeft": 30,
-          "reorderQty": 1209
+          "totalOut": 158,
+          "dailyRate": 22.6,
+          "monthlyRate": 677,
+          "daysLeft": 36,
+          "reorderQty": 1016
         },
         "30": {
           "totalOut": 228,
@@ -16375,9 +16375,9 @@
       "totalOut": 845,
       "currentStock": 1787,
       "dailyRate": 3.6,
-      "monthlyRate": 108,
-      "daysLeft": 497,
-      "reorderQty": 162,
+      "monthlyRate": 107,
+      "daysLeft": 499,
+      "reorderQty": 161,
       "periods": {
         "7": {
           "totalOut": 20,
@@ -16477,7 +16477,7 @@
       "dailyRate": 3.6,
       "monthlyRate": 107,
       "daysLeft": 0,
-      "reorderQty": 161,
+      "reorderQty": 160,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -16572,7 +16572,7 @@
       "dailyRate": 3.5,
       "monthlyRate": 105,
       "daysLeft": 0,
-      "reorderQty": 158,
+      "reorderQty": 157,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -16589,11 +16589,11 @@
           "reorderQty": 0
         },
         "90": {
-          "totalOut": 61,
-          "dailyRate": 0.7,
-          "monthlyRate": 20,
+          "totalOut": 51,
+          "dailyRate": 0.6,
+          "monthlyRate": 17,
           "daysLeft": 0,
-          "reorderQty": 31
+          "reorderQty": 26
         }
       },
       "trend": [
@@ -16670,9 +16670,9 @@
       "totalOut": 820,
       "currentStock": 860,
       "dailyRate": 3.5,
-      "monthlyRate": 105,
-      "daysLeft": 246,
-      "reorderQty": 157,
+      "monthlyRate": 104,
+      "daysLeft": 248,
+      "reorderQty": 156,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -16772,7 +16772,7 @@
       "dailyRate": 3.5,
       "monthlyRate": 104,
       "daysLeft": 138,
-      "reorderQty": 156,
+      "reorderQty": 155,
       "periods": {
         "7": {
           "totalOut": 10,
@@ -16871,8 +16871,8 @@
       "currentStock": 270,
       "dailyRate": 3.4,
       "monthlyRate": 103,
-      "daysLeft": 78,
-      "reorderQty": 155,
+      "daysLeft": 79,
+      "reorderQty": 154,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -17356,8 +17356,8 @@
       "currentStock": 1392,
       "dailyRate": 3.4,
       "monthlyRate": 101,
-      "daysLeft": 413,
-      "reorderQty": 152,
+      "daysLeft": 415,
+      "reorderQty": 151,
       "periods": {
         "7": {
           "totalOut": 96,
@@ -17454,8 +17454,8 @@
       "totalIn": 790,
       "totalOut": 790,
       "currentStock": 0,
-      "dailyRate": 3.4,
-      "monthlyRate": 101,
+      "dailyRate": 3.3,
+      "monthlyRate": 100,
       "daysLeft": 0,
       "reorderQty": 151,
       "periods": {
@@ -17550,7 +17550,7 @@
       "totalOut": 780,
       "currentStock": 12,
       "dailyRate": 3.3,
-      "monthlyRate": 100,
+      "monthlyRate": 99,
       "daysLeft": 4,
       "reorderQty": 149,
       "periods": {
@@ -17651,7 +17651,7 @@
       "currentStock": 970,
       "dailyRate": 3.2,
       "monthlyRate": 96,
-      "daysLeft": 302,
+      "daysLeft": 304,
       "reorderQty": 144,
       "periods": {
         "7": {
@@ -17750,9 +17750,9 @@
       "totalOut": 750,
       "currentStock": 510,
       "dailyRate": 3.2,
-      "monthlyRate": 96,
+      "monthlyRate": 95,
       "daysLeft": 160,
-      "reorderQty": 144,
+      "reorderQty": 143,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -17851,8 +17851,8 @@
       "currentStock": 370,
       "dailyRate": 3.1,
       "monthlyRate": 93,
-      "daysLeft": 119,
-      "reorderQty": 140,
+      "daysLeft": 120,
+      "reorderQty": 139,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -17952,7 +17952,7 @@
       "dailyRate": 3.1,
       "monthlyRate": 92,
       "daysLeft": 0,
-      "reorderQty": 138,
+      "reorderQty": 137,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -18050,9 +18050,9 @@
       "totalOut": 704,
       "currentStock": 671,
       "dailyRate": 3,
-      "monthlyRate": 90,
-      "daysLeft": 224,
-      "reorderQty": 135,
+      "monthlyRate": 89,
+      "daysLeft": 225,
+      "reorderQty": 134,
       "periods": {
         "7": {
           "totalOut": 50,
@@ -18151,7 +18151,7 @@
       "currentStock": 500,
       "dailyRate": 2.9,
       "monthlyRate": 88,
-      "daysLeft": 170,
+      "daysLeft": 171,
       "reorderQty": 132,
       "periods": {
         "7": {
@@ -18250,7 +18250,7 @@
       "totalOut": 680,
       "currentStock": -180,
       "dailyRate": 2.9,
-      "monthlyRate": 87,
+      "monthlyRate": 86,
       "daysLeft": -62,
       "reorderQty": 130,
       "periods": {
@@ -18269,11 +18269,11 @@
           "reorderQty": 150
         },
         "90": {
-          "totalOut": 580,
-          "dailyRate": 6.4,
-          "monthlyRate": 193,
-          "daysLeft": -28,
-          "reorderQty": 290
+          "totalOut": 530,
+          "dailyRate": 5.9,
+          "monthlyRate": 177,
+          "daysLeft": -31,
+          "reorderQty": 265
         }
       },
       "trend": [
@@ -18349,10 +18349,10 @@
       "totalIn": 1212,
       "totalOut": 672,
       "currentStock": 540,
-      "dailyRate": 2.9,
-      "monthlyRate": 86,
-      "daysLeft": 189,
-      "reorderQty": 129,
+      "dailyRate": 2.8,
+      "monthlyRate": 85,
+      "daysLeft": 190,
+      "reorderQty": 128,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -18449,10 +18449,10 @@
       "totalIn": 864,
       "totalOut": 672,
       "currentStock": 192,
-      "dailyRate": 2.9,
-      "monthlyRate": 86,
+      "dailyRate": 2.8,
+      "monthlyRate": 85,
       "daysLeft": 67,
-      "reorderQty": 129,
+      "reorderQty": 128,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -18469,11 +18469,11 @@
           "reorderQty": 144
         },
         "90": {
-          "totalOut": 288,
-          "dailyRate": 3.2,
-          "monthlyRate": 96,
-          "daysLeft": 60,
-          "reorderQty": 144
+          "totalOut": 192,
+          "dailyRate": 2.1,
+          "monthlyRate": 64,
+          "daysLeft": 90,
+          "reorderQty": 96
         }
       },
       "trend": [
@@ -18644,8 +18644,8 @@
       "totalIn": 648,
       "totalOut": 648,
       "currentStock": 0,
-      "dailyRate": 2.8,
-      "monthlyRate": 83,
+      "dailyRate": 2.7,
+      "monthlyRate": 82,
       "daysLeft": 0,
       "reorderQty": 124,
       "periods": {
@@ -18745,9 +18745,9 @@
       "totalOut": 640,
       "currentStock": 30,
       "dailyRate": 2.7,
-      "monthlyRate": 82,
+      "monthlyRate": 81,
       "daysLeft": 11,
-      "reorderQty": 123,
+      "reorderQty": 122,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -18764,11 +18764,11 @@
           "reorderQty": 0
         },
         "90": {
-          "totalOut": 210,
-          "dailyRate": 2.3,
-          "monthlyRate": 70,
-          "daysLeft": 13,
-          "reorderQty": 105
+          "totalOut": 180,
+          "dailyRate": 2,
+          "monthlyRate": 60,
+          "daysLeft": 15,
+          "reorderQty": 90
         }
       },
       "trend": [
@@ -18841,8 +18841,8 @@
       "currentStock": 1058,
       "dailyRate": 2.7,
       "monthlyRate": 81,
-      "daysLeft": 390,
-      "reorderQty": 122,
+      "daysLeft": 392,
+      "reorderQty": 121,
       "periods": {
         "7": {
           "totalOut": 20,
@@ -18859,11 +18859,11 @@
           "reorderQty": 75
         },
         "90": {
-          "totalOut": 178,
-          "dailyRate": 2,
-          "monthlyRate": 59,
-          "daysLeft": 535,
-          "reorderQty": 89
+          "totalOut": 168,
+          "dailyRate": 1.9,
+          "monthlyRate": 56,
+          "daysLeft": 567,
+          "reorderQty": 84
         }
       },
       "trend": [
@@ -18941,8 +18941,8 @@
       "currentStock": 768,
       "dailyRate": 2.7,
       "monthlyRate": 81,
-      "daysLeft": 284,
-      "reorderQty": 122,
+      "daysLeft": 285,
+      "reorderQty": 121,
       "periods": {
         "7": {
           "totalOut": 48,
@@ -19042,7 +19042,7 @@
       "dailyRate": 2.7,
       "monthlyRate": 80,
       "daysLeft": 101,
-      "reorderQty": 121,
+      "reorderQty": 120,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -19159,11 +19159,11 @@
           "reorderQty": 0
         },
         "90": {
-          "totalOut": 110,
-          "dailyRate": 1.2,
-          "monthlyRate": 37,
-          "daysLeft": 215,
-          "reorderQty": 55
+          "totalOut": 85,
+          "dailyRate": 0.9,
+          "monthlyRate": 28,
+          "daysLeft": 278,
+          "reorderQty": 43
         }
       },
       "trend": [
@@ -19239,10 +19239,10 @@
       "totalIn": 600,
       "totalOut": 600,
       "currentStock": 0,
-      "dailyRate": 2.6,
-      "monthlyRate": 77,
+      "dailyRate": 2.5,
+      "monthlyRate": 76,
       "daysLeft": 0,
-      "reorderQty": 115,
+      "reorderQty": 114,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -19334,10 +19334,10 @@
       "totalIn": 1200,
       "totalOut": 600,
       "currentStock": 600,
-      "dailyRate": 2.6,
-      "monthlyRate": 77,
-      "daysLeft": 235,
-      "reorderQty": 115,
+      "dailyRate": 2.5,
+      "monthlyRate": 76,
+      "daysLeft": 236,
+      "reorderQty": 114,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -19429,10 +19429,10 @@
       "totalIn": 1380,
       "totalOut": 600,
       "currentStock": 780,
-      "dailyRate": 2.6,
-      "monthlyRate": 77,
-      "daysLeft": 306,
-      "reorderQty": 115,
+      "dailyRate": 2.5,
+      "monthlyRate": 76,
+      "daysLeft": 307,
+      "reorderQty": 114,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -19449,11 +19449,11 @@
           "reorderQty": 0
         },
         "90": {
-          "totalOut": 85,
-          "dailyRate": 0.9,
-          "monthlyRate": 28,
-          "daysLeft": 826,
-          "reorderQty": 43
+          "totalOut": 55,
+          "dailyRate": 0.6,
+          "monthlyRate": 18,
+          "daysLeft": 1276,
+          "reorderQty": 28
         }
       },
       "trend": [
@@ -19529,10 +19529,10 @@
       "totalIn": 970,
       "totalOut": 600,
       "currentStock": 370,
-      "dailyRate": 2.6,
-      "monthlyRate": 77,
-      "daysLeft": 145,
-      "reorderQty": 115,
+      "dailyRate": 2.5,
+      "monthlyRate": 76,
+      "daysLeft": 146,
+      "reorderQty": 114,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -19549,11 +19549,11 @@
           "reorderQty": 0
         },
         "90": {
-          "totalOut": 100,
-          "dailyRate": 1.1,
-          "monthlyRate": 33,
-          "daysLeft": 333,
-          "reorderQty": 50
+          "totalOut": 90,
+          "dailyRate": 1,
+          "monthlyRate": 30,
+          "daysLeft": 370,
+          "reorderQty": 45
         }
       },
       "trend": [
@@ -19732,7 +19732,7 @@
       "dailyRate": 2.5,
       "monthlyRate": 75,
       "daysLeft": -53,
-      "reorderQty": 113,
+      "reorderQty": 112,
       "periods": {
         "7": {
           "totalOut": 12,
@@ -19830,8 +19830,8 @@
       "totalOut": 585,
       "currentStock": 660,
       "dailyRate": 2.5,
-      "monthlyRate": 75,
-      "daysLeft": 265,
+      "monthlyRate": 74,
+      "daysLeft": 266,
       "reorderQty": 112,
       "periods": {
         "7": {
@@ -19930,16 +19930,16 @@
       "totalOut": 584,
       "currentStock": 735,
       "dailyRate": 2.5,
-      "monthlyRate": 75,
-      "daysLeft": 296,
-      "reorderQty": 112,
+      "monthlyRate": 74,
+      "daysLeft": 297,
+      "reorderQty": 111,
       "periods": {
         "7": {
-          "totalOut": 10,
-          "dailyRate": 1.4,
-          "monthlyRate": 43,
-          "daysLeft": 515,
-          "reorderQty": 64
+          "totalOut": 0,
+          "dailyRate": 0,
+          "monthlyRate": 0,
+          "daysLeft": 9999,
+          "reorderQty": 0
         },
         "30": {
           "totalOut": 35,
@@ -19949,11 +19949,11 @@
           "reorderQty": 53
         },
         "90": {
-          "totalOut": 243,
-          "dailyRate": 2.7,
-          "monthlyRate": 81,
-          "daysLeft": 272,
-          "reorderQty": 122
+          "totalOut": 213,
+          "dailyRate": 2.4,
+          "monthlyRate": 71,
+          "daysLeft": 311,
+          "reorderQty": 107
         }
       },
       "trend": [
@@ -20031,8 +20031,8 @@
       "currentStock": 576,
       "dailyRate": 2.4,
       "monthlyRate": 73,
-      "daysLeft": 236,
-      "reorderQty": 110,
+      "daysLeft": 237,
+      "reorderQty": 109,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -20130,7 +20130,7 @@
       "totalOut": 570,
       "currentStock": 0,
       "dailyRate": 2.4,
-      "monthlyRate": 73,
+      "monthlyRate": 72,
       "daysLeft": 0,
       "reorderQty": 109,
       "periods": {
@@ -20327,7 +20327,7 @@
       "dailyRate": 2.2,
       "monthlyRate": 67,
       "daysLeft": 101,
-      "reorderQty": 101,
+      "reorderQty": 100,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -20426,8 +20426,8 @@
       "currentStock": 612,
       "dailyRate": 2.1,
       "monthlyRate": 64,
-      "daysLeft": 285,
-      "reorderQty": 97,
+      "daysLeft": 287,
+      "reorderQty": 96,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -20626,8 +20626,8 @@
       "currentStock": 300,
       "dailyRate": 2.1,
       "monthlyRate": 64,
-      "daysLeft": 141,
-      "reorderQty": 96,
+      "daysLeft": 142,
+      "reorderQty": 95,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -20722,7 +20722,7 @@
       "dailyRate": 2.1,
       "monthlyRate": 64,
       "daysLeft": 0,
-      "reorderQty": 96,
+      "reorderQty": 95,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -20817,7 +20817,7 @@
       "dailyRate": 2.1,
       "monthlyRate": 64,
       "daysLeft": 0,
-      "reorderQty": 96,
+      "reorderQty": 95,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -20911,8 +20911,8 @@
       "currentStock": 400,
       "dailyRate": 2.1,
       "monthlyRate": 64,
-      "daysLeft": 188,
-      "reorderQty": 96,
+      "daysLeft": 189,
+      "reorderQty": 95,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -21007,7 +21007,7 @@
       "dailyRate": 2.1,
       "monthlyRate": 64,
       "daysLeft": 0,
-      "reorderQty": 96,
+      "reorderQty": 95,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -21107,7 +21107,7 @@
       "dailyRate": 2.1,
       "monthlyRate": 64,
       "daysLeft": 0,
-      "reorderQty": 96,
+      "reorderQty": 95,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -21201,8 +21201,8 @@
       "currentStock": 700,
       "dailyRate": 2.1,
       "monthlyRate": 64,
-      "daysLeft": 329,
-      "reorderQty": 96,
+      "daysLeft": 330,
+      "reorderQty": 95,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -21297,7 +21297,7 @@
       "dailyRate": 2.1,
       "monthlyRate": 64,
       "daysLeft": 0,
-      "reorderQty": 96,
+      "reorderQty": 95,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -21392,7 +21392,7 @@
       "dailyRate": 2.1,
       "monthlyRate": 64,
       "daysLeft": 0,
-      "reorderQty": 96,
+      "reorderQty": 95,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -21486,8 +21486,8 @@
       "currentStock": 500,
       "dailyRate": 2.1,
       "monthlyRate": 64,
-      "daysLeft": 235,
-      "reorderQty": 96,
+      "daysLeft": 236,
+      "reorderQty": 95,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -21587,7 +21587,7 @@
       "dailyRate": 2.1,
       "monthlyRate": 64,
       "daysLeft": 0,
-      "reorderQty": 96,
+      "reorderQty": 95,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -21682,7 +21682,7 @@
       "dailyRate": 2.1,
       "monthlyRate": 64,
       "daysLeft": 0,
-      "reorderQty": 96,
+      "reorderQty": 95,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -21874,8 +21874,8 @@
       "totalIn": 710,
       "totalOut": 460,
       "currentStock": 250,
-      "dailyRate": 2,
-      "monthlyRate": 59,
+      "dailyRate": 1.9,
+      "monthlyRate": 58,
       "daysLeft": 128,
       "reorderQty": 88,
       "periods": {
@@ -21894,11 +21894,11 @@
           "reorderQty": 30
         },
         "90": {
-          "totalOut": 300,
-          "dailyRate": 3.3,
-          "monthlyRate": 100,
-          "daysLeft": 75,
-          "reorderQty": 150
+          "totalOut": 290,
+          "dailyRate": 3.2,
+          "monthlyRate": 97,
+          "daysLeft": 78,
+          "reorderQty": 145
         }
       },
       "trend": [
@@ -21976,7 +21976,7 @@
       "currentStock": 150,
       "dailyRate": 1.9,
       "monthlyRate": 57,
-      "daysLeft": 78,
+      "daysLeft": 79,
       "reorderQty": 86,
       "periods": {
         "7": {
@@ -22470,11 +22470,11 @@
       "reorderQty": 82,
       "periods": {
         "7": {
-          "totalOut": 20,
-          "dailyRate": 2.9,
-          "monthlyRate": 86,
-          "daysLeft": 42,
-          "reorderQty": 129
+          "totalOut": 0,
+          "dailyRate": 0,
+          "monthlyRate": 0,
+          "daysLeft": 9999,
+          "reorderQty": 0
         },
         "30": {
           "totalOut": 40,
@@ -22579,11 +22579,11 @@
           "reorderQty": 0
         },
         "90": {
-          "totalOut": 347,
-          "dailyRate": 3.9,
-          "monthlyRate": 116,
-          "daysLeft": 29,
-          "reorderQty": 174
+          "totalOut": 337,
+          "dailyRate": 3.7,
+          "monthlyRate": 112,
+          "daysLeft": 30,
+          "reorderQty": 169
         }
       },
       "trend": [
@@ -22661,7 +22661,7 @@
       "currentStock": 242,
       "dailyRate": 1.8,
       "monthlyRate": 54,
-      "daysLeft": 134,
+      "daysLeft": 135,
       "reorderQty": 81,
       "periods": {
         "7": {
@@ -22760,7 +22760,7 @@
       "totalOut": 420,
       "currentStock": 60,
       "dailyRate": 1.8,
-      "monthlyRate": 54,
+      "monthlyRate": 53,
       "daysLeft": 34,
       "reorderQty": 80,
       "periods": {
@@ -22855,8 +22855,8 @@
       "totalOut": 420,
       "currentStock": 610,
       "dailyRate": 1.8,
-      "monthlyRate": 54,
-      "daysLeft": 341,
+      "monthlyRate": 53,
+      "daysLeft": 343,
       "reorderQty": 80,
       "periods": {
         "7": {
@@ -22955,7 +22955,7 @@
       "totalOut": 420,
       "currentStock": -20,
       "dailyRate": 1.8,
-      "monthlyRate": 54,
+      "monthlyRate": 53,
       "daysLeft": -11,
       "reorderQty": 80,
       "periods": {
@@ -23055,7 +23055,7 @@
       "totalOut": 420,
       "currentStock": 230,
       "dailyRate": 1.8,
-      "monthlyRate": 54,
+      "monthlyRate": 53,
       "daysLeft": 129,
       "reorderQty": 80,
       "periods": {
@@ -23155,7 +23155,7 @@
       "totalOut": 420,
       "currentStock": 0,
       "dailyRate": 1.8,
-      "monthlyRate": 54,
+      "monthlyRate": 53,
       "daysLeft": 0,
       "reorderQty": 80,
       "periods": {
@@ -23250,9 +23250,9 @@
       "totalOut": 405,
       "currentStock": 240,
       "dailyRate": 1.7,
-      "monthlyRate": 52,
-      "daysLeft": 139,
-      "reorderQty": 78,
+      "monthlyRate": 51,
+      "daysLeft": 140,
+      "reorderQty": 77,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -23447,7 +23447,7 @@
       "dailyRate": 1.7,
       "monthlyRate": 51,
       "daysLeft": -26,
-      "reorderQty": 77,
+      "reorderQty": 76,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -23547,7 +23547,7 @@
       "dailyRate": 1.7,
       "monthlyRate": 51,
       "daysLeft": 0,
-      "reorderQty": 77,
+      "reorderQty": 76,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -23642,7 +23642,7 @@
       "dailyRate": 1.7,
       "monthlyRate": 51,
       "daysLeft": -59,
-      "reorderQty": 77,
+      "reorderQty": 76,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -23741,8 +23741,8 @@
       "currentStock": 1400,
       "dailyRate": 1.7,
       "monthlyRate": 51,
-      "daysLeft": 823,
-      "reorderQty": 77,
+      "daysLeft": 826,
+      "reorderQty": 76,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -23842,7 +23842,7 @@
       "dailyRate": 1.7,
       "monthlyRate": 51,
       "daysLeft": 59,
-      "reorderQty": 77,
+      "reorderQty": 76,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -23937,7 +23937,7 @@
       "dailyRate": 1.7,
       "monthlyRate": 51,
       "daysLeft": 0,
-      "reorderQty": 77,
+      "reorderQty": 76,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -24031,8 +24031,8 @@
       "currentStock": 350,
       "dailyRate": 1.7,
       "monthlyRate": 50,
-      "daysLeft": 208,
-      "reorderQty": 76,
+      "daysLeft": 209,
+      "reorderQty": 75,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -24227,7 +24227,7 @@
       "dailyRate": 1.6,
       "monthlyRate": 49,
       "daysLeft": 0,
-      "reorderQty": 74,
+      "reorderQty": 73,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -24320,9 +24320,9 @@
       "totalOut": 380,
       "currentStock": 220,
       "dailyRate": 1.6,
-      "monthlyRate": 49,
-      "daysLeft": 136,
-      "reorderQty": 73,
+      "monthlyRate": 48,
+      "daysLeft": 137,
+      "reorderQty": 72,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -24421,8 +24421,8 @@
       "currentStock": 74,
       "dailyRate": 1.6,
       "monthlyRate": 48,
-      "daysLeft": 46,
-      "reorderQty": 72,
+      "daysLeft": 47,
+      "reorderQty": 71,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -24439,11 +24439,11 @@
           "reorderQty": 50
         },
         "90": {
-          "totalOut": 46,
-          "dailyRate": 0.5,
-          "monthlyRate": 15,
-          "daysLeft": 145,
-          "reorderQty": 23
+          "totalOut": 36,
+          "dailyRate": 0.4,
+          "monthlyRate": 12,
+          "daysLeft": 185,
+          "reorderQty": 18
         }
       },
       "trend": [
@@ -24521,7 +24521,7 @@
       "currentStock": 624,
       "dailyRate": 1.6,
       "monthlyRate": 47,
-      "daysLeft": 394,
+      "daysLeft": 396,
       "reorderQty": 71,
       "periods": {
         "7": {
@@ -24621,7 +24621,7 @@
       "currentStock": 230,
       "dailyRate": 1.6,
       "monthlyRate": 47,
-      "daysLeft": 146,
+      "daysLeft": 147,
       "reorderQty": 71,
       "periods": {
         "7": {
@@ -24821,7 +24821,7 @@
       "currentStock": 360,
       "dailyRate": 1.5,
       "monthlyRate": 46,
-      "daysLeft": 235,
+      "daysLeft": 236,
       "reorderQty": 69,
       "periods": {
         "7": {
@@ -24922,7 +24922,7 @@
       "dailyRate": 1.5,
       "monthlyRate": 44,
       "daysLeft": 76,
-      "reorderQty": 67,
+      "reorderQty": 66,
       "periods": {
         "7": {
           "totalOut": 4,
@@ -25022,7 +25022,7 @@
       "dailyRate": 1.4,
       "monthlyRate": 43,
       "daysLeft": -21,
-      "reorderQty": 65,
+      "reorderQty": 64,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -25116,7 +25116,7 @@
       "currentStock": 1308,
       "dailyRate": 1.4,
       "monthlyRate": 43,
-      "daysLeft": 915,
+      "daysLeft": 919,
       "reorderQty": 64,
       "periods": {
         "7": {
@@ -25410,8 +25410,8 @@
       "totalOut": 310,
       "currentStock": 600,
       "dailyRate": 1.3,
-      "monthlyRate": 40,
-      "daysLeft": 455,
+      "monthlyRate": 39,
+      "daysLeft": 457,
       "reorderQty": 59,
       "periods": {
         "7": {
@@ -25510,8 +25510,8 @@
       "totalOut": 310,
       "currentStock": 190,
       "dailyRate": 1.3,
-      "monthlyRate": 40,
-      "daysLeft": 144,
+      "monthlyRate": 39,
+      "daysLeft": 145,
       "reorderQty": 59,
       "periods": {
         "7": {
@@ -25824,11 +25824,11 @@
           "reorderQty": 8
         },
         "90": {
-          "totalOut": 145,
-          "dailyRate": 1.6,
-          "monthlyRate": 48,
+          "totalOut": 125,
+          "dailyRate": 1.4,
+          "monthlyRate": 42,
           "daysLeft": 0,
-          "reorderQty": 73
+          "reorderQty": 63
         }
       },
       "trend": [
@@ -26001,7 +26001,7 @@
       "currentStock": 700,
       "dailyRate": 1.3,
       "monthlyRate": 38,
-      "daysLeft": 548,
+      "daysLeft": 551,
       "reorderQty": 57,
       "periods": {
         "7": {
@@ -26291,7 +26291,7 @@
       "currentStock": 2676,
       "dailyRate": 1.3,
       "monthlyRate": 38,
-      "daysLeft": 2096,
+      "daysLeft": 2105,
       "reorderQty": 57,
       "periods": {
         "7": {
@@ -26309,11 +26309,11 @@
           "reorderQty": 36
         },
         "90": {
-          "totalOut": 108,
-          "dailyRate": 1.2,
-          "monthlyRate": 36,
-          "daysLeft": 2230,
-          "reorderQty": 54
+          "totalOut": 84,
+          "dailyRate": 0.9,
+          "monthlyRate": 28,
+          "daysLeft": 2867,
+          "reorderQty": 42
         }
       },
       "trend": [
@@ -26391,7 +26391,7 @@
       "currentStock": 1000,
       "dailyRate": 1.3,
       "monthlyRate": 38,
-      "daysLeft": 783,
+      "daysLeft": 787,
       "reorderQty": 57,
       "periods": {
         "7": {
@@ -26581,7 +26581,7 @@
       "currentStock": -100,
       "dailyRate": 1.3,
       "monthlyRate": 38,
-      "daysLeft": -78,
+      "daysLeft": -79,
       "reorderQty": 57,
       "periods": {
         "7": {
@@ -26966,7 +26966,7 @@
       "currentStock": 780,
       "dailyRate": 1.3,
       "monthlyRate": 38,
-      "daysLeft": 613,
+      "daysLeft": 616,
       "reorderQty": 57,
       "periods": {
         "7": {
@@ -26984,11 +26984,11 @@
           "reorderQty": 30
         },
         "90": {
-          "totalOut": 55,
+          "totalOut": 50,
           "dailyRate": 0.6,
-          "monthlyRate": 18,
-          "daysLeft": 1276,
-          "reorderQty": 28
+          "monthlyRate": 17,
+          "daysLeft": 1404,
+          "reorderQty": 25
         }
       },
       "trend": [
@@ -27067,7 +27067,7 @@
       "dailyRate": 1.2,
       "monthlyRate": 37,
       "daysLeft": 170,
-      "reorderQty": 56,
+      "reorderQty": 55,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -27166,8 +27166,8 @@
       "currentStock": 690,
       "dailyRate": 1.2,
       "monthlyRate": 37,
-      "daysLeft": 559,
-      "reorderQty": 56,
+      "daysLeft": 562,
+      "reorderQty": 55,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -27267,7 +27267,7 @@
       "dailyRate": 1.2,
       "monthlyRate": 37,
       "daysLeft": 0,
-      "reorderQty": 56,
+      "reorderQty": 55,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -27557,7 +27557,7 @@
       "dailyRate": 1.2,
       "monthlyRate": 36,
       "daysLeft": 161,
-      "reorderQty": 55,
+      "reorderQty": 54,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -27656,8 +27656,8 @@
       "currentStock": 130,
       "dailyRate": 1.2,
       "monthlyRate": 36,
-      "daysLeft": 109,
-      "reorderQty": 54,
+      "daysLeft": 110,
+      "reorderQty": 53,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -27757,7 +27757,7 @@
       "dailyRate": 1.2,
       "monthlyRate": 36,
       "daysLeft": 0,
-      "reorderQty": 54,
+      "reorderQty": 53,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -27851,8 +27851,8 @@
       "currentStock": 540,
       "dailyRate": 1.1,
       "monthlyRate": 34,
-      "daysLeft": 470,
-      "reorderQty": 52,
+      "daysLeft": 472,
+      "reorderQty": 51,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -27951,7 +27951,7 @@
       "currentStock": 515,
       "dailyRate": 1.1,
       "monthlyRate": 34,
-      "daysLeft": 457,
+      "daysLeft": 459,
       "reorderQty": 51,
       "periods": {
         "7": {
@@ -28246,7 +28246,7 @@
       "currentStock": 500,
       "dailyRate": 1.1,
       "monthlyRate": 32,
-      "daysLeft": 470,
+      "daysLeft": 472,
       "reorderQty": 48,
       "periods": {
         "7": {
@@ -28364,11 +28364,11 @@
           "reorderQty": 6
         },
         "90": {
-          "totalOut": 164,
-          "dailyRate": 1.8,
-          "monthlyRate": 55,
-          "daysLeft": 75,
-          "reorderQty": 82
+          "totalOut": 155,
+          "dailyRate": 1.7,
+          "monthlyRate": 52,
+          "daysLeft": 80,
+          "reorderQty": 78
         }
       },
       "trend": [
@@ -28447,7 +28447,7 @@
       "dailyRate": 1,
       "monthlyRate": 31,
       "daysLeft": 0,
-      "reorderQty": 47,
+      "reorderQty": 46,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -28546,7 +28546,7 @@
       "currentStock": 670,
       "dailyRate": 1,
       "monthlyRate": 31,
-      "daysLeft": 656,
+      "daysLeft": 659,
       "reorderQty": 46,
       "periods": {
         "7": {
@@ -28646,7 +28646,7 @@
       "currentStock": 192,
       "dailyRate": 1,
       "monthlyRate": 31,
-      "daysLeft": 188,
+      "daysLeft": 189,
       "reorderQty": 46,
       "periods": {
         "7": {
@@ -28741,7 +28741,7 @@
       "currentStock": 780,
       "dailyRate": 1,
       "monthlyRate": 31,
-      "daysLeft": 764,
+      "daysLeft": 767,
       "reorderQty": 46,
       "periods": {
         "7": {
@@ -28936,7 +28936,7 @@
       "currentStock": 300,
       "dailyRate": 1,
       "monthlyRate": 31,
-      "daysLeft": 294,
+      "daysLeft": 295,
       "reorderQty": 46,
       "periods": {
         "7": {
@@ -29126,7 +29126,7 @@
       "currentStock": 508,
       "dailyRate": 1,
       "monthlyRate": 29,
-      "daysLeft": 521,
+      "daysLeft": 524,
       "reorderQty": 44,
       "periods": {
         "7": {
@@ -29316,7 +29316,7 @@
       "currentStock": 82,
       "dailyRate": 0.9,
       "monthlyRate": 28,
-      "daysLeft": 88,
+      "daysLeft": 89,
       "reorderQty": 42,
       "periods": {
         "7": {
@@ -29517,7 +29517,7 @@
       "dailyRate": 0.9,
       "monthlyRate": 27,
       "daysLeft": -7,
-      "reorderQty": 41,
+      "reorderQty": 40,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -29616,7 +29616,7 @@
       "currentStock": 280,
       "dailyRate": 0.9,
       "monthlyRate": 27,
-      "daysLeft": 313,
+      "daysLeft": 315,
       "reorderQty": 40,
       "periods": {
         "7": {
@@ -29814,9 +29814,9 @@
       "totalIn": 800,
       "totalOut": 200,
       "currentStock": 600,
-      "dailyRate": 0.9,
-      "monthlyRate": 26,
-      "daysLeft": 705,
+      "dailyRate": 0.8,
+      "monthlyRate": 25,
+      "daysLeft": 708,
       "reorderQty": 38,
       "periods": {
         "7": {
@@ -29914,9 +29914,9 @@
       "totalIn": 870,
       "totalOut": 200,
       "currentStock": 670,
-      "dailyRate": 0.9,
-      "monthlyRate": 26,
-      "daysLeft": 787,
+      "dailyRate": 0.8,
+      "monthlyRate": 25,
+      "daysLeft": 791,
       "reorderQty": 38,
       "periods": {
         "7": {
@@ -30009,9 +30009,9 @@
       "totalIn": 1400,
       "totalOut": 200,
       "currentStock": 1200,
-      "dailyRate": 0.9,
-      "monthlyRate": 26,
-      "daysLeft": 1410,
+      "dailyRate": 0.8,
+      "monthlyRate": 25,
+      "daysLeft": 1416,
       "reorderQty": 38,
       "periods": {
         "7": {
@@ -30104,8 +30104,8 @@
       "totalIn": 200,
       "totalOut": 200,
       "currentStock": 0,
-      "dailyRate": 0.9,
-      "monthlyRate": 26,
+      "dailyRate": 0.8,
+      "monthlyRate": 25,
       "daysLeft": 0,
       "reorderQty": 38,
       "periods": {
@@ -30204,9 +30204,9 @@
       "totalIn": 2000,
       "totalOut": 200,
       "currentStock": 1800,
-      "dailyRate": 0.9,
-      "monthlyRate": 26,
-      "daysLeft": 2115,
+      "dailyRate": 0.8,
+      "monthlyRate": 25,
+      "daysLeft": 2124,
       "reorderQty": 38,
       "periods": {
         "7": {
@@ -30299,8 +30299,8 @@
       "totalIn": 200,
       "totalOut": 200,
       "currentStock": 0,
-      "dailyRate": 0.9,
-      "monthlyRate": 26,
+      "dailyRate": 0.8,
+      "monthlyRate": 25,
       "daysLeft": 0,
       "reorderQty": 38,
       "periods": {
@@ -30399,8 +30399,8 @@
       "totalIn": 300,
       "totalOut": 200,
       "currentStock": 100,
-      "dailyRate": 0.9,
-      "monthlyRate": 26,
+      "dailyRate": 0.8,
+      "monthlyRate": 25,
       "daysLeft": 118,
       "reorderQty": 38,
       "periods": {
@@ -30499,9 +30499,9 @@
       "totalIn": 1000,
       "totalOut": 200,
       "currentStock": 800,
-      "dailyRate": 0.9,
-      "monthlyRate": 26,
-      "daysLeft": 940,
+      "dailyRate": 0.8,
+      "monthlyRate": 25,
+      "daysLeft": 944,
       "reorderQty": 38,
       "periods": {
         "7": {
@@ -30599,8 +30599,8 @@
       "totalIn": 200,
       "totalOut": 200,
       "currentStock": 0,
-      "dailyRate": 0.9,
-      "monthlyRate": 26,
+      "dailyRate": 0.8,
+      "monthlyRate": 25,
       "daysLeft": 0,
       "reorderQty": 38,
       "periods": {
@@ -30694,8 +30694,8 @@
       "totalIn": 200,
       "totalOut": 200,
       "currentStock": 0,
-      "dailyRate": 0.9,
-      "monthlyRate": 26,
+      "dailyRate": 0.8,
+      "monthlyRate": 25,
       "daysLeft": 0,
       "reorderQty": 38,
       "periods": {
@@ -30789,8 +30789,8 @@
       "totalIn": 200,
       "totalOut": 200,
       "currentStock": 0,
-      "dailyRate": 0.9,
-      "monthlyRate": 26,
+      "dailyRate": 0.8,
+      "monthlyRate": 25,
       "daysLeft": 0,
       "reorderQty": 38,
       "periods": {
@@ -30889,8 +30889,8 @@
       "totalIn": 280,
       "totalOut": 200,
       "currentStock": 80,
-      "dailyRate": 0.9,
-      "monthlyRate": 26,
+      "dailyRate": 0.8,
+      "monthlyRate": 25,
       "daysLeft": 94,
       "reorderQty": 38,
       "periods": {
@@ -30984,8 +30984,8 @@
       "totalIn": 200,
       "totalOut": 200,
       "currentStock": 0,
-      "dailyRate": 0.9,
-      "monthlyRate": 26,
+      "dailyRate": 0.8,
+      "monthlyRate": 25,
       "daysLeft": 0,
       "reorderQty": 38,
       "periods": {
@@ -31081,8 +31081,8 @@
       "currentStock": 160,
       "dailyRate": 0.8,
       "monthlyRate": 25,
-      "daysLeft": 192,
-      "reorderQty": 38,
+      "daysLeft": 193,
+      "reorderQty": 37,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -31180,8 +31180,8 @@
       "totalOut": 192,
       "currentStock": 276,
       "dailyRate": 0.8,
-      "monthlyRate": 25,
-      "daysLeft": 338,
+      "monthlyRate": 24,
+      "daysLeft": 339,
       "reorderQty": 37,
       "periods": {
         "7": {
@@ -31275,7 +31275,7 @@
       "totalOut": 192,
       "currentStock": 0,
       "dailyRate": 0.8,
-      "monthlyRate": 25,
+      "monthlyRate": 24,
       "daysLeft": 0,
       "reorderQty": 37,
       "periods": {
@@ -31489,11 +31489,11 @@
           "reorderQty": 15
         },
         "90": {
-          "totalOut": 46,
-          "dailyRate": 0.5,
-          "monthlyRate": 15,
-          "daysLeft": 270,
-          "reorderQty": 23
+          "totalOut": 30,
+          "dailyRate": 0.3,
+          "monthlyRate": 10,
+          "daysLeft": 414,
+          "reorderQty": 15
         }
       },
       "trend": [
@@ -31571,7 +31571,7 @@
       "currentStock": 845,
       "dailyRate": 0.8,
       "monthlyRate": 24,
-      "daysLeft": 1073,
+      "daysLeft": 1078,
       "reorderQty": 35,
       "periods": {
         "7": {
@@ -31671,7 +31671,7 @@
       "currentStock": 415,
       "dailyRate": 0.8,
       "monthlyRate": 24,
-      "daysLeft": 527,
+      "daysLeft": 529,
       "reorderQty": 35,
       "periods": {
         "7": {
@@ -31771,7 +31771,7 @@
       "currentStock": 158,
       "dailyRate": 0.8,
       "monthlyRate": 23,
-      "daysLeft": 204,
+      "daysLeft": 205,
       "reorderQty": 35,
       "periods": {
         "7": {
@@ -31866,7 +31866,7 @@
       "currentStock": 93,
       "dailyRate": 0.8,
       "monthlyRate": 23,
-      "daysLeft": 121,
+      "daysLeft": 122,
       "reorderQty": 34,
       "periods": {
         "7": {
@@ -31966,7 +31966,7 @@
       "currentStock": 180,
       "dailyRate": 0.8,
       "monthlyRate": 23,
-      "daysLeft": 235,
+      "daysLeft": 236,
       "reorderQty": 34,
       "periods": {
         "7": {
@@ -32061,7 +32061,7 @@
       "currentStock": 264,
       "dailyRate": 0.8,
       "monthlyRate": 23,
-      "daysLeft": 345,
+      "daysLeft": 346,
       "reorderQty": 34,
       "periods": {
         "7": {
@@ -32079,11 +32079,11 @@
           "reorderQty": 36
         },
         "90": {
-          "totalOut": 180,
-          "dailyRate": 2,
-          "monthlyRate": 60,
-          "daysLeft": 132,
-          "reorderQty": 90
+          "totalOut": 156,
+          "dailyRate": 1.7,
+          "monthlyRate": 52,
+          "daysLeft": 152,
+          "reorderQty": 78
         }
       },
       "trend": [
@@ -32256,7 +32256,7 @@
       "currentStock": 3710,
       "dailyRate": 0.8,
       "monthlyRate": 23,
-      "daysLeft": 4844,
+      "daysLeft": 4864,
       "reorderQty": 34,
       "periods": {
         "7": {
@@ -32447,7 +32447,7 @@
       "dailyRate": 0.7,
       "monthlyRate": 22,
       "daysLeft": 101,
-      "reorderQty": 34,
+      "reorderQty": 33,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -32564,11 +32564,11 @@
           "reorderQty": 15
         },
         "90": {
-          "totalOut": 78,
-          "dailyRate": 0.9,
-          "monthlyRate": 26,
-          "daysLeft": 35,
-          "reorderQty": 39
+          "totalOut": 73,
+          "dailyRate": 0.8,
+          "monthlyRate": 24,
+          "daysLeft": 37,
+          "reorderQty": 37
         }
       },
       "trend": [
@@ -32646,7 +32646,7 @@
       "currentStock": 185,
       "dailyRate": 0.7,
       "monthlyRate": 22,
-      "daysLeft": 254,
+      "daysLeft": 255,
       "reorderQty": 33,
       "periods": {
         "7": {
@@ -32747,7 +32747,7 @@
       "dailyRate": 0.7,
       "monthlyRate": 22,
       "daysLeft": 0,
-      "reorderQty": 33,
+      "reorderQty": 32,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -32841,7 +32841,7 @@
       "currentStock": 492,
       "dailyRate": 0.7,
       "monthlyRate": 21,
-      "daysLeft": 688,
+      "daysLeft": 691,
       "reorderQty": 32,
       "periods": {
         "7": {
@@ -32937,7 +32937,7 @@
       "dailyRate": 0.7,
       "monthlyRate": 21,
       "daysLeft": 0,
-      "reorderQty": 32,
+      "reorderQty": 31,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -33036,8 +33036,8 @@
       "currentStock": 356,
       "dailyRate": 0.7,
       "monthlyRate": 21,
-      "daysLeft": 507,
-      "reorderQty": 32,
+      "daysLeft": 509,
+      "reorderQty": 31,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -33421,7 +33421,7 @@
       "currentStock": 70,
       "dailyRate": 0.7,
       "monthlyRate": 20,
-      "daysLeft": 104,
+      "daysLeft": 105,
       "reorderQty": 30,
       "periods": {
         "7": {
@@ -33516,7 +33516,7 @@
       "currentStock": 435,
       "dailyRate": 0.7,
       "monthlyRate": 20,
-      "daysLeft": 651,
+      "daysLeft": 654,
       "reorderQty": 30,
       "periods": {
         "7": {
@@ -33716,7 +33716,7 @@
       "currentStock": 189,
       "dailyRate": 0.6,
       "monthlyRate": 19,
-      "daysLeft": 296,
+      "daysLeft": 297,
       "reorderQty": 29,
       "periods": {
         "7": {
@@ -33816,7 +33816,7 @@
       "currentStock": 120,
       "dailyRate": 0.6,
       "monthlyRate": 19,
-      "daysLeft": 188,
+      "daysLeft": 189,
       "reorderQty": 29,
       "periods": {
         "7": {
@@ -33911,7 +33911,7 @@
       "currentStock": 155,
       "dailyRate": 0.6,
       "monthlyRate": 19,
-      "daysLeft": 243,
+      "daysLeft": 244,
       "reorderQty": 29,
       "periods": {
         "7": {
@@ -34011,7 +34011,7 @@
       "currentStock": 500,
       "dailyRate": 0.6,
       "monthlyRate": 19,
-      "daysLeft": 783,
+      "daysLeft": 787,
       "reorderQty": 29,
       "periods": {
         "7": {
@@ -34106,7 +34106,7 @@
       "currentStock": 50,
       "dailyRate": 0.6,
       "monthlyRate": 19,
-      "daysLeft": 78,
+      "daysLeft": 79,
       "reorderQty": 29,
       "periods": {
         "7": {
@@ -34207,7 +34207,7 @@
       "dailyRate": 0.6,
       "monthlyRate": 18,
       "daysLeft": 0,
-      "reorderQty": 28,
+      "reorderQty": 27,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -34302,7 +34302,7 @@
       "dailyRate": 0.6,
       "monthlyRate": 18,
       "daysLeft": 20,
-      "reorderQty": 28,
+      "reorderQty": 27,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -34586,7 +34586,7 @@
       "currentStock": 270,
       "dailyRate": 0.6,
       "monthlyRate": 18,
-      "daysLeft": 453,
+      "daysLeft": 455,
       "reorderQty": 27,
       "periods": {
         "7": {
@@ -34686,7 +34686,7 @@
       "currentStock": 320,
       "dailyRate": 0.6,
       "monthlyRate": 18,
-      "daysLeft": 537,
+      "daysLeft": 539,
       "reorderQty": 27,
       "periods": {
         "7": {
@@ -34781,7 +34781,7 @@
       "currentStock": 144,
       "dailyRate": 0.6,
       "monthlyRate": 17,
-      "daysLeft": 256,
+      "daysLeft": 257,
       "reorderQty": 25,
       "periods": {
         "7": {
@@ -35071,7 +35071,7 @@
       "currentStock": 170,
       "dailyRate": 0.6,
       "monthlyRate": 17,
-      "daysLeft": 307,
+      "daysLeft": 309,
       "reorderQty": 25,
       "periods": {
         "7": {
@@ -35171,7 +35171,7 @@
       "currentStock": 120,
       "dailyRate": 0.5,
       "monthlyRate": 16,
-      "daysLeft": 219,
+      "daysLeft": 220,
       "reorderQty": 25,
       "periods": {
         "7": {
@@ -35461,7 +35461,7 @@
       "currentStock": 320,
       "dailyRate": 0.5,
       "monthlyRate": 16,
-      "daysLeft": 602,
+      "daysLeft": 604,
       "reorderQty": 24,
       "periods": {
         "7": {
@@ -35561,15 +35561,15 @@
       "currentStock": 96,
       "dailyRate": 0.5,
       "monthlyRate": 15,
-      "daysLeft": 188,
+      "daysLeft": 189,
       "reorderQty": 23,
       "periods": {
         "7": {
-          "totalOut": 24,
-          "dailyRate": 3.4,
-          "monthlyRate": 103,
-          "daysLeft": 28,
-          "reorderQty": 154
+          "totalOut": 0,
+          "dailyRate": 0,
+          "monthlyRate": 0,
+          "daysLeft": 9999,
+          "reorderQty": 0
         },
         "30": {
           "totalOut": 24,
@@ -35761,7 +35761,7 @@
       "currentStock": 380,
       "dailyRate": 0.5,
       "monthlyRate": 15,
-      "daysLeft": 744,
+      "daysLeft": 747,
       "reorderQty": 23,
       "periods": {
         "7": {
@@ -36245,8 +36245,8 @@
       "totalOut": 114,
       "currentStock": 234,
       "dailyRate": 0.5,
-      "monthlyRate": 15,
-      "daysLeft": 482,
+      "monthlyRate": 14,
+      "daysLeft": 484,
       "reorderQty": 22,
       "periods": {
         "7": {
@@ -36345,7 +36345,7 @@
       "totalOut": 114,
       "currentStock": 0,
       "dailyRate": 0.5,
-      "monthlyRate": 15,
+      "monthlyRate": 14,
       "daysLeft": 0,
       "reorderQty": 22,
       "periods": {
@@ -36364,11 +36364,11 @@
           "reorderQty": 0
         },
         "90": {
-          "totalOut": 89,
-          "dailyRate": 1,
-          "monthlyRate": 30,
+          "totalOut": 84,
+          "dailyRate": 0.9,
+          "monthlyRate": 28,
           "daysLeft": 0,
-          "reorderQty": 45
+          "reorderQty": 42
         }
       },
       "trend": [
@@ -36736,7 +36736,7 @@
       "currentStock": 243,
       "dailyRate": 0.5,
       "monthlyRate": 14,
-      "daysLeft": 510,
+      "daysLeft": 512,
       "reorderQty": 21,
       "periods": {
         "7": {
@@ -36754,11 +36754,11 @@
           "reorderQty": 0
         },
         "90": {
-          "totalOut": 60,
-          "dailyRate": 0.7,
-          "monthlyRate": 20,
-          "daysLeft": 365,
-          "reorderQty": 30
+          "totalOut": 50,
+          "dailyRate": 0.6,
+          "monthlyRate": 17,
+          "daysLeft": 437,
+          "reorderQty": 25
         }
       },
       "trend": [
@@ -36931,7 +36931,7 @@
       "currentStock": 40,
       "dailyRate": 0.5,
       "monthlyRate": 14,
-      "daysLeft": 85,
+      "daysLeft": 86,
       "reorderQty": 21,
       "periods": {
         "7": {
@@ -36949,11 +36949,11 @@
           "reorderQty": 15
         },
         "90": {
-          "totalOut": 60,
-          "dailyRate": 0.7,
-          "monthlyRate": 20,
-          "daysLeft": 60,
-          "reorderQty": 30
+          "totalOut": 55,
+          "dailyRate": 0.6,
+          "monthlyRate": 18,
+          "daysLeft": 65,
+          "reorderQty": 28
         }
       },
       "trend": [
@@ -37126,7 +37126,7 @@
       "currentStock": 177,
       "dailyRate": 0.5,
       "monthlyRate": 14,
-      "daysLeft": 389,
+      "daysLeft": 390,
       "reorderQty": 20,
       "periods": {
         "7": {
@@ -37144,11 +37144,11 @@
           "reorderQty": 0
         },
         "90": {
-          "totalOut": 42,
-          "dailyRate": 0.5,
-          "monthlyRate": 14,
-          "daysLeft": 379,
-          "reorderQty": 21
+          "totalOut": 32,
+          "dailyRate": 0.4,
+          "monthlyRate": 11,
+          "daysLeft": 498,
+          "reorderQty": 16
         }
       },
       "trend": [
@@ -37421,7 +37421,7 @@
       "currentStock": 122,
       "dailyRate": 0.4,
       "monthlyRate": 13,
-      "daysLeft": 278,
+      "daysLeft": 280,
       "reorderQty": 20,
       "periods": {
         "7": {
@@ -37716,7 +37716,7 @@
       "currentStock": 100,
       "dailyRate": 0.4,
       "monthlyRate": 13,
-      "daysLeft": 235,
+      "daysLeft": 236,
       "reorderQty": 19,
       "periods": {
         "7": {
@@ -37816,7 +37816,7 @@
       "currentStock": 400,
       "dailyRate": 0.4,
       "monthlyRate": 13,
-      "daysLeft": 940,
+      "daysLeft": 944,
       "reorderQty": 19,
       "periods": {
         "7": {
@@ -38011,7 +38011,7 @@
       "currentStock": 200,
       "dailyRate": 0.4,
       "monthlyRate": 13,
-      "daysLeft": 470,
+      "daysLeft": 472,
       "reorderQty": 19,
       "periods": {
         "7": {
@@ -38301,7 +38301,7 @@
       "currentStock": 200,
       "dailyRate": 0.4,
       "monthlyRate": 13,
-      "daysLeft": 470,
+      "daysLeft": 472,
       "reorderQty": 19,
       "periods": {
         "7": {
@@ -38591,7 +38591,7 @@
       "currentStock": 700,
       "dailyRate": 0.4,
       "monthlyRate": 13,
-      "daysLeft": 1645,
+      "daysLeft": 1652,
       "reorderQty": 19,
       "periods": {
         "7": {
@@ -38881,7 +38881,7 @@
       "currentStock": 400,
       "dailyRate": 0.4,
       "monthlyRate": 13,
-      "daysLeft": 940,
+      "daysLeft": 944,
       "reorderQty": 19,
       "periods": {
         "7": {
@@ -38975,7 +38975,7 @@
       "totalOut": 98,
       "currentStock": 0,
       "dailyRate": 0.4,
-      "monthlyRate": 13,
+      "monthlyRate": 12,
       "daysLeft": 0,
       "reorderQty": 19,
       "periods": {
@@ -39261,7 +39261,7 @@
       "currentStock": 26,
       "dailyRate": 0.4,
       "monthlyRate": 12,
-      "daysLeft": 64,
+      "daysLeft": 65,
       "reorderQty": 18,
       "periods": {
         "7": {
@@ -39361,7 +39361,7 @@
       "currentStock": 305,
       "dailyRate": 0.4,
       "monthlyRate": 12,
-      "daysLeft": 754,
+      "daysLeft": 758,
       "reorderQty": 18,
       "periods": {
         "7": {
@@ -39456,7 +39456,7 @@
       "currentStock": 113,
       "dailyRate": 0.4,
       "monthlyRate": 12,
-      "daysLeft": 289,
+      "daysLeft": 290,
       "reorderQty": 18,
       "periods": {
         "7": {
@@ -39746,15 +39746,15 @@
       "currentStock": 140,
       "dailyRate": 0.4,
       "monthlyRate": 11,
-      "daysLeft": 366,
+      "daysLeft": 367,
       "reorderQty": 17,
       "periods": {
         "7": {
-          "totalOut": 20,
-          "dailyRate": 2.9,
-          "monthlyRate": 86,
-          "daysLeft": 49,
-          "reorderQty": 129
+          "totalOut": 0,
+          "dailyRate": 0,
+          "monthlyRate": 0,
+          "daysLeft": 9999,
+          "reorderQty": 0
         },
         "30": {
           "totalOut": 20,
@@ -39936,7 +39936,7 @@
       "currentStock": 415,
       "dailyRate": 0.4,
       "monthlyRate": 11,
-      "daysLeft": 1147,
+      "daysLeft": 1152,
       "reorderQty": 16,
       "periods": {
         "7": {
@@ -40131,7 +40131,7 @@
       "currentStock": 15,
       "dailyRate": 0.4,
       "monthlyRate": 11,
-      "daysLeft": 41,
+      "daysLeft": 42,
       "reorderQty": 16,
       "periods": {
         "7": {
@@ -40149,11 +40149,11 @@
           "reorderQty": 30
         },
         "90": {
-          "totalOut": 65,
+          "totalOut": 60,
           "dailyRate": 0.7,
-          "monthlyRate": 22,
-          "daysLeft": 21,
-          "reorderQty": 33
+          "monthlyRate": 20,
+          "daysLeft": 23,
+          "reorderQty": 30
         }
       },
       "trend": [
@@ -40231,7 +40231,7 @@
       "currentStock": 85,
       "dailyRate": 0.4,
       "monthlyRate": 11,
-      "daysLeft": 235,
+      "daysLeft": 236,
       "reorderQty": 16,
       "periods": {
         "7": {
@@ -40326,7 +40326,7 @@
       "currentStock": 516,
       "dailyRate": 0.4,
       "monthlyRate": 11,
-      "daysLeft": 1444,
+      "daysLeft": 1450,
       "reorderQty": 16,
       "periods": {
         "7": {
@@ -40426,7 +40426,7 @@
       "currentStock": 28,
       "dailyRate": 0.4,
       "monthlyRate": 11,
-      "daysLeft": 78,
+      "daysLeft": 79,
       "reorderQty": 16,
       "periods": {
         "7": {
@@ -40716,7 +40716,7 @@
       "currentStock": 140,
       "dailyRate": 0.3,
       "monthlyRate": 10,
-      "daysLeft": 411,
+      "daysLeft": 413,
       "reorderQty": 15,
       "periods": {
         "7": {
@@ -40816,7 +40816,7 @@
       "currentStock": 820,
       "dailyRate": 0.3,
       "monthlyRate": 10,
-      "daysLeft": 2409,
+      "daysLeft": 2419,
       "reorderQty": 15,
       "periods": {
         "7": {
@@ -40916,7 +40916,7 @@
       "currentStock": 360,
       "dailyRate": 0.3,
       "monthlyRate": 10,
-      "daysLeft": 1058,
+      "daysLeft": 1062,
       "reorderQty": 15,
       "periods": {
         "7": {
@@ -41201,7 +41201,7 @@
       "currentStock": 245,
       "dailyRate": 0.3,
       "monthlyRate": 10,
-      "daysLeft": 720,
+      "daysLeft": 723,
       "reorderQty": 15,
       "periods": {
         "7": {
@@ -41491,7 +41491,7 @@
       "currentStock": 320,
       "dailyRate": 0.3,
       "monthlyRate": 10,
-      "daysLeft": 940,
+      "daysLeft": 944,
       "reorderQty": 15,
       "periods": {
         "7": {
@@ -41509,11 +41509,11 @@
           "reorderQty": 0
         },
         "90": {
-          "totalOut": 65,
+          "totalOut": 60,
           "dailyRate": 0.7,
-          "monthlyRate": 22,
-          "daysLeft": 443,
-          "reorderQty": 33
+          "monthlyRate": 20,
+          "daysLeft": 480,
+          "reorderQty": 30
         }
       },
       "trend": [
@@ -41591,7 +41591,7 @@
       "currentStock": 39,
       "dailyRate": 0.3,
       "monthlyRate": 10,
-      "daysLeft": 116,
+      "daysLeft": 117,
       "reorderQty": 15,
       "periods": {
         "7": {
@@ -41609,11 +41609,11 @@
           "reorderQty": 0
         },
         "90": {
-          "totalOut": 39,
+          "totalOut": 34,
           "dailyRate": 0.4,
-          "monthlyRate": 13,
-          "daysLeft": 90,
-          "reorderQty": 20
+          "monthlyRate": 11,
+          "daysLeft": 103,
+          "reorderQty": 17
         }
       },
       "trend": [
@@ -41881,7 +41881,7 @@
       "currentStock": 66,
       "dailyRate": 0.3,
       "monthlyRate": 9,
-      "daysLeft": 218,
+      "daysLeft": 219,
       "reorderQty": 14,
       "periods": {
         "7": {
@@ -42266,7 +42266,7 @@
       "currentStock": 328,
       "dailyRate": 0.3,
       "monthlyRate": 9,
-      "daysLeft": 1101,
+      "daysLeft": 1106,
       "reorderQty": 13,
       "periods": {
         "7": {
@@ -42465,11 +42465,11 @@
       "reorderQty": 13,
       "periods": {
         "7": {
-          "totalOut": 10,
-          "dailyRate": 1.4,
-          "monthlyRate": 43,
-          "daysLeft": 7,
-          "reorderQty": 64
+          "totalOut": 0,
+          "dailyRate": 0,
+          "monthlyRate": 0,
+          "daysLeft": 9999,
+          "reorderQty": 0
         },
         "30": {
           "totalOut": 15,
@@ -42479,11 +42479,11 @@
           "reorderQty": 23
         },
         "90": {
-          "totalOut": 30,
+          "totalOut": 25,
           "dailyRate": 0.3,
-          "monthlyRate": 10,
-          "daysLeft": 30,
-          "reorderQty": 15
+          "monthlyRate": 8,
+          "daysLeft": 36,
+          "reorderQty": 13
         }
       },
       "trend": [
@@ -42661,7 +42661,7 @@
       "currentStock": 100,
       "dailyRate": 0.3,
       "monthlyRate": 8,
-      "daysLeft": 356,
+      "daysLeft": 358,
       "reorderQty": 13,
       "periods": {
         "7": {
@@ -42856,7 +42856,7 @@
       "currentStock": 40,
       "dailyRate": 0.3,
       "monthlyRate": 8,
-      "daysLeft": 147,
+      "daysLeft": 148,
       "reorderQty": 12,
       "periods": {
         "7": {
@@ -42956,7 +42956,7 @@
       "currentStock": 280,
       "dailyRate": 0.3,
       "monthlyRate": 8,
-      "daysLeft": 1097,
+      "daysLeft": 1101,
       "reorderQty": 11,
       "periods": {
         "7": {
@@ -43151,7 +43151,7 @@
       "currentStock": 820,
       "dailyRate": 0.3,
       "monthlyRate": 8,
-      "daysLeft": 3212,
+      "daysLeft": 3225,
       "reorderQty": 11,
       "periods": {
         "7": {
@@ -43251,7 +43251,7 @@
       "currentStock": 265,
       "dailyRate": 0.3,
       "monthlyRate": 8,
-      "daysLeft": 1038,
+      "daysLeft": 1042,
       "reorderQty": 11,
       "periods": {
         "7": {
@@ -43346,7 +43346,7 @@
       "currentStock": 683,
       "dailyRate": 0.3,
       "monthlyRate": 8,
-      "daysLeft": 2675,
+      "daysLeft": 2686,
       "reorderQty": 11,
       "periods": {
         "7": {
@@ -43446,7 +43446,7 @@
       "currentStock": 240,
       "dailyRate": 0.3,
       "monthlyRate": 8,
-      "daysLeft": 940,
+      "daysLeft": 944,
       "reorderQty": 11,
       "periods": {
         "7": {
@@ -43641,7 +43641,7 @@
       "currentStock": 1034,
       "dailyRate": 0.3,
       "monthlyRate": 8,
-      "daysLeft": 4118,
+      "daysLeft": 4136,
       "reorderQty": 11,
       "periods": {
         "7": {
@@ -43736,8 +43736,8 @@
       "currentStock": 26,
       "dailyRate": 0.2,
       "monthlyRate": 7,
-      "daysLeft": 111,
-      "reorderQty": 11,
+      "daysLeft": 112,
+      "reorderQty": 10,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -43832,7 +43832,7 @@
       "dailyRate": 0.2,
       "monthlyRate": 7,
       "daysLeft": 0,
-      "reorderQty": 11,
+      "reorderQty": 10,
       "periods": {
         "7": {
           "totalOut": 0,
@@ -44025,16 +44025,16 @@
       "totalOut": 51,
       "currentStock": 69,
       "dailyRate": 0.2,
-      "monthlyRate": 7,
-      "daysLeft": 318,
+      "monthlyRate": 6,
+      "daysLeft": 319,
       "reorderQty": 10,
       "periods": {
         "7": {
-          "totalOut": 10,
-          "dailyRate": 1.4,
-          "monthlyRate": 43,
-          "daysLeft": 48,
-          "reorderQty": 64
+          "totalOut": 0,
+          "dailyRate": 0,
+          "monthlyRate": 0,
+          "daysLeft": 9999,
+          "reorderQty": 0
         },
         "30": {
           "totalOut": 10,
@@ -44221,7 +44221,7 @@
       "currentStock": 300,
       "dailyRate": 0.2,
       "monthlyRate": 6,
-      "daysLeft": 1410,
+      "daysLeft": 1416,
       "reorderQty": 10,
       "periods": {
         "7": {
@@ -44316,7 +44316,7 @@
       "currentStock": 50,
       "dailyRate": 0.2,
       "monthlyRate": 6,
-      "daysLeft": 235,
+      "daysLeft": 236,
       "reorderQty": 10,
       "periods": {
         "7": {
@@ -44411,7 +44411,7 @@
       "currentStock": 50,
       "dailyRate": 0.2,
       "monthlyRate": 6,
-      "daysLeft": 235,
+      "daysLeft": 236,
       "reorderQty": 10,
       "periods": {
         "7": {
@@ -44701,7 +44701,7 @@
       "currentStock": 92,
       "dailyRate": 0.2,
       "monthlyRate": 6,
-      "daysLeft": 432,
+      "daysLeft": 434,
       "reorderQty": 10,
       "periods": {
         "7": {
@@ -44796,7 +44796,7 @@
       "currentStock": 265,
       "dailyRate": 0.2,
       "monthlyRate": 6,
-      "daysLeft": 1246,
+      "daysLeft": 1251,
       "reorderQty": 10,
       "periods": {
         "7": {
@@ -44891,7 +44891,7 @@
       "currentStock": -30,
       "dailyRate": 0.2,
       "monthlyRate": 6,
-      "daysLeft": -141,
+      "daysLeft": -142,
       "reorderQty": 10,
       "periods": {
         "7": {
@@ -44991,7 +44991,7 @@
       "currentStock": 250,
       "dailyRate": 0.2,
       "monthlyRate": 6,
-      "daysLeft": 1175,
+      "daysLeft": 1180,
       "reorderQty": 10,
       "periods": {
         "7": {
@@ -45091,7 +45091,7 @@
       "currentStock": 150,
       "dailyRate": 0.2,
       "monthlyRate": 6,
-      "daysLeft": 705,
+      "daysLeft": 708,
       "reorderQty": 10,
       "periods": {
         "7": {
@@ -45109,11 +45109,11 @@
           "reorderQty": 23
         },
         "90": {
-          "totalOut": 30,
+          "totalOut": 25,
           "dailyRate": 0.3,
-          "monthlyRate": 10,
-          "daysLeft": 450,
-          "reorderQty": 15
+          "monthlyRate": 8,
+          "daysLeft": 540,
+          "reorderQty": 13
         }
       },
       "trend": [
@@ -45286,7 +45286,7 @@
       "currentStock": 192,
       "dailyRate": 0.2,
       "monthlyRate": 6,
-      "daysLeft": 940,
+      "daysLeft": 944,
       "reorderQty": 9,
       "periods": {
         "7": {
@@ -45476,7 +45476,7 @@
       "currentStock": 237,
       "dailyRate": 0.2,
       "monthlyRate": 6,
-      "daysLeft": 1211,
+      "daysLeft": 1216,
       "reorderQty": 9,
       "periods": {
         "7": {
@@ -45571,7 +45571,7 @@
       "currentStock": 720,
       "dailyRate": 0.2,
       "monthlyRate": 6,
-      "daysLeft": 3760,
+      "daysLeft": 3776,
       "reorderQty": 9,
       "periods": {
         "7": {
@@ -45961,7 +45961,7 @@
       "currentStock": 45,
       "dailyRate": 0.2,
       "monthlyRate": 5,
-      "daysLeft": 252,
+      "daysLeft": 253,
       "reorderQty": 8,
       "periods": {
         "7": {
@@ -46161,7 +46161,7 @@
       "currentStock": 45,
       "dailyRate": 0.2,
       "monthlyRate": 5,
-      "daysLeft": 264,
+      "daysLeft": 266,
       "reorderQty": 8,
       "periods": {
         "7": {
@@ -46846,7 +46846,7 @@
       "currentStock": 109,
       "dailyRate": 0.2,
       "monthlyRate": 5,
-      "daysLeft": 674,
+      "daysLeft": 677,
       "reorderQty": 7,
       "periods": {
         "7": {
@@ -46864,11 +46864,11 @@
           "reorderQty": 0
         },
         "90": {
-          "totalOut": 18,
-          "dailyRate": 0.2,
-          "monthlyRate": 6,
-          "daysLeft": 545,
-          "reorderQty": 9
+          "totalOut": 10,
+          "dailyRate": 0.1,
+          "monthlyRate": 3,
+          "daysLeft": 981,
+          "reorderQty": 5
         }
       },
       "trend": [
@@ -46946,7 +46946,7 @@
       "currentStock": 112,
       "dailyRate": 0.1,
       "monthlyRate": 4,
-      "daysLeft": 752,
+      "daysLeft": 755,
       "reorderQty": 7,
       "periods": {
         "7": {
@@ -47046,7 +47046,7 @@
       "currentStock": -35,
       "dailyRate": 0.1,
       "monthlyRate": 4,
-      "daysLeft": -235,
+      "daysLeft": -236,
       "reorderQty": 7,
       "periods": {
         "7": {
@@ -47146,7 +47146,7 @@
       "currentStock": 275,
       "dailyRate": 0.1,
       "monthlyRate": 4,
-      "daysLeft": 2154,
+      "daysLeft": 2163,
       "reorderQty": 6,
       "periods": {
         "7": {
@@ -47246,7 +47246,7 @@
       "currentStock": 40,
       "dailyRate": 0.1,
       "monthlyRate": 4,
-      "daysLeft": 313,
+      "daysLeft": 315,
       "reorderQty": 6,
       "periods": {
         "7": {
@@ -47346,7 +47346,7 @@
       "currentStock": 230,
       "dailyRate": 0.1,
       "monthlyRate": 4,
-      "daysLeft": 1802,
+      "daysLeft": 1809,
       "reorderQty": 6,
       "periods": {
         "7": {
@@ -47441,7 +47441,7 @@
       "currentStock": 310,
       "dailyRate": 0.1,
       "monthlyRate": 4,
-      "daysLeft": 2428,
+      "daysLeft": 2439,
       "reorderQty": 6,
       "periods": {
         "7": {
@@ -47631,7 +47631,7 @@
       "currentStock": 75,
       "dailyRate": 0.1,
       "monthlyRate": 4,
-      "daysLeft": 588,
+      "daysLeft": 590,
       "reorderQty": 6,
       "periods": {
         "7": {
@@ -47726,7 +47726,7 @@
       "currentStock": 173,
       "dailyRate": 0.1,
       "monthlyRate": 4,
-      "daysLeft": 1402,
+      "daysLeft": 1408,
       "reorderQty": 6,
       "periods": {
         "7": {
@@ -47826,7 +47826,7 @@
       "currentStock": 72,
       "dailyRate": 0.1,
       "monthlyRate": 4,
-      "daysLeft": 604,
+      "daysLeft": 607,
       "reorderQty": 5,
       "periods": {
         "7": {
@@ -47921,7 +47921,7 @@
       "currentStock": 418,
       "dailyRate": 0.1,
       "monthlyRate": 3,
-      "daysLeft": 3638,
+      "daysLeft": 3654,
       "reorderQty": 5,
       "periods": {
         "7": {
@@ -48016,7 +48016,7 @@
       "currentStock": -20,
       "dailyRate": 0.1,
       "monthlyRate": 3,
-      "daysLeft": -174,
+      "daysLeft": -175,
       "reorderQty": 5,
       "periods": {
         "7": {
@@ -48206,7 +48206,7 @@
       "currentStock": 89,
       "dailyRate": 0.1,
       "monthlyRate": 3,
-      "daysLeft": 837,
+      "daysLeft": 840,
       "reorderQty": 5,
       "periods": {
         "7": {
@@ -48301,7 +48301,7 @@
       "currentStock": 120,
       "dailyRate": 0.1,
       "monthlyRate": 3,
-      "daysLeft": 1128,
+      "daysLeft": 1133,
       "reorderQty": 5,
       "periods": {
         "7": {
@@ -48401,7 +48401,7 @@
       "currentStock": 107,
       "dailyRate": 0.1,
       "monthlyRate": 3,
-      "daysLeft": 1006,
+      "daysLeft": 1010,
       "reorderQty": 5,
       "periods": {
         "7": {
@@ -48791,7 +48791,7 @@
       "currentStock": 120,
       "dailyRate": 0.1,
       "monthlyRate": 3,
-      "daysLeft": 1343,
+      "daysLeft": 1349,
       "reorderQty": 4,
       "periods": {
         "7": {
@@ -48891,7 +48891,7 @@
       "currentStock": 174,
       "dailyRate": 0.1,
       "monthlyRate": 3,
-      "daysLeft": 1947,
+      "daysLeft": 1955,
       "reorderQty": 4,
       "periods": {
         "7": {
@@ -49086,7 +49086,7 @@
       "currentStock": 160,
       "dailyRate": 0.1,
       "monthlyRate": 3,
-      "daysLeft": 1880,
+      "daysLeft": 1888,
       "reorderQty": 4,
       "periods": {
         "7": {
@@ -49281,7 +49281,7 @@
       "currentStock": 300,
       "dailyRate": 0.1,
       "monthlyRate": 3,
-      "daysLeft": 3525,
+      "daysLeft": 3540,
       "reorderQty": 4,
       "periods": {
         "7": {
@@ -49376,7 +49376,7 @@
       "currentStock": 60,
       "dailyRate": 0.1,
       "monthlyRate": 3,
-      "daysLeft": 705,
+      "daysLeft": 708,
       "reorderQty": 4,
       "periods": {
         "7": {
@@ -49471,7 +49471,7 @@
       "currentStock": 60,
       "dailyRate": 0.1,
       "monthlyRate": 3,
-      "daysLeft": 705,
+      "daysLeft": 708,
       "reorderQty": 4,
       "periods": {
         "7": {
@@ -49851,7 +49851,7 @@
       "currentStock": 34,
       "dailyRate": 0.1,
       "monthlyRate": 3,
-      "daysLeft": 400,
+      "daysLeft": 401,
       "reorderQty": 4,
       "periods": {
         "7": {
@@ -49946,7 +49946,7 @@
       "currentStock": 400,
       "dailyRate": 0.1,
       "monthlyRate": 2,
-      "daysLeft": 4947,
+      "daysLeft": 4968,
       "reorderQty": 4,
       "periods": {
         "7": {
@@ -50249,11 +50249,11 @@
           "reorderQty": 0
         },
         "90": {
-          "totalOut": 16,
-          "dailyRate": 0.2,
-          "monthlyRate": 5,
+          "totalOut": 5,
+          "dailyRate": 0.1,
+          "monthlyRate": 2,
           "daysLeft": 0,
-          "reorderQty": 8
+          "reorderQty": 3
         }
       },
       "trend": [
@@ -50421,7 +50421,7 @@
       "currentStock": 765,
       "dailyRate": 0.1,
       "monthlyRate": 2,
-      "daysLeft": 11985,
+      "daysLeft": 12036,
       "reorderQty": 3,
       "periods": {
         "7": {
@@ -50516,7 +50516,7 @@
       "currentStock": 329,
       "dailyRate": 0.1,
       "monthlyRate": 2,
-      "daysLeft": 5154,
+      "daysLeft": 5176,
       "reorderQty": 3,
       "periods": {
         "7": {
@@ -50534,11 +50534,11 @@
           "reorderQty": 0
         },
         "90": {
-          "totalOut": 15,
-          "dailyRate": 0.2,
-          "monthlyRate": 5,
-          "daysLeft": 1974,
-          "reorderQty": 8
+          "totalOut": 5,
+          "dailyRate": 0.1,
+          "monthlyRate": 2,
+          "daysLeft": 5922,
+          "reorderQty": 3
         }
       },
       "trend": [
@@ -50620,11 +50620,11 @@
       "reorderQty": 3,
       "periods": {
         "7": {
-          "totalOut": 5,
-          "dailyRate": 0.7,
-          "monthlyRate": 21,
-          "daysLeft": 0,
-          "reorderQty": 32
+          "totalOut": 0,
+          "dailyRate": 0,
+          "monthlyRate": 0,
+          "daysLeft": 9999,
+          "reorderQty": 0
         },
         "30": {
           "totalOut": 5,
@@ -50716,7 +50716,7 @@
       "currentStock": 204,
       "dailyRate": 0.1,
       "monthlyRate": 2,
-      "daysLeft": 3196,
+      "daysLeft": 3210,
       "reorderQty": 3,
       "periods": {
         "7": {
@@ -51011,15 +51011,15 @@
       "currentStock": 343,
       "dailyRate": 0.1,
       "monthlyRate": 2,
-      "daysLeft": 6717,
+      "daysLeft": 6746,
       "reorderQty": 2,
       "periods": {
         "7": {
-          "totalOut": 2,
-          "dailyRate": 0.3,
-          "monthlyRate": 9,
-          "daysLeft": 1201,
-          "reorderQty": 13
+          "totalOut": 0,
+          "dailyRate": 0,
+          "monthlyRate": 0,
+          "daysLeft": 9999,
+          "reorderQty": 0
         },
         "30": {
           "totalOut": 2,
@@ -51296,7 +51296,7 @@
       "currentStock": 10,
       "dailyRate": 0,
       "monthlyRate": 1,
-      "daysLeft": 214,
+      "daysLeft": 215,
       "reorderQty": 2,
       "periods": {
         "7": {
@@ -51396,7 +51396,7 @@
       "currentStock": 154,
       "dailyRate": 0,
       "monthlyRate": 1,
-      "daysLeft": 3619,
+      "daysLeft": 3634,
       "reorderQty": 2,
       "periods": {
         "7": {
@@ -51491,7 +51491,7 @@
       "currentStock": 35,
       "dailyRate": 0,
       "monthlyRate": 1,
-      "daysLeft": 823,
+      "daysLeft": 826,
       "reorderQty": 2,
       "periods": {
         "7": {
@@ -51791,7 +51791,7 @@
       "currentStock": 241,
       "dailyRate": 0,
       "monthlyRate": 1,
-      "daysLeft": 5664,
+      "daysLeft": 5688,
       "reorderQty": 2,
       "periods": {
         "7": {
@@ -51886,7 +51886,7 @@
       "currentStock": 120,
       "dailyRate": 0,
       "monthlyRate": 1,
-      "daysLeft": 2820,
+      "daysLeft": 2832,
       "reorderQty": 2,
       "periods": {
         "7": {
@@ -51986,7 +51986,7 @@
       "currentStock": 28,
       "dailyRate": 0,
       "monthlyRate": 1,
-      "daysLeft": 658,
+      "daysLeft": 661,
       "reorderQty": 2,
       "periods": {
         "7": {
@@ -52081,7 +52081,7 @@
       "currentStock": 46,
       "dailyRate": 0,
       "monthlyRate": 1,
-      "daysLeft": 1081,
+      "daysLeft": 1086,
       "reorderQty": 2,
       "periods": {
         "7": {
@@ -52846,7 +52846,7 @@
       "currentStock": 66,
       "dailyRate": 0,
       "monthlyRate": 1,
-      "daysLeft": 2585,
+      "daysLeft": 2596,
       "reorderQty": 1,
       "periods": {
         "7": {
@@ -53036,7 +53036,7 @@
       "currentStock": 322,
       "dailyRate": 0,
       "monthlyRate": 1,
-      "daysLeft": 15134,
+      "daysLeft": 15198,
       "reorderQty": 1,
       "periods": {
         "7": {
